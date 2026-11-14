@@ -1,0 +1,676 @@
+{
+  "lastUpdated": "2026-11-14T08:50:00.000Z",
+  "products": [
+    {
+      "id": "poco-m8x-5g",
+      "slug": "poco-m8x-5g",
+      "name": "Poco M8x 5G",
+      "brand": "Poco",
+      "category": "smartphones",
+      "tags": ["5g", "battery", "gaming"],
+      "status": "In Stock",
+      "score": 85,
+      "launchedOn": "21 Aug 2026",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 21999,
+      "specs": {
+        "processor": "Snapdragon 4 Gen 5 (4nm)",
+        "display": "6.78\" FHD+ AMOLED | 120Hz",
+        "camera": "50MP OIS Main | 8MP Ultrawide | 16MP Front",
+        "battery": "6500mAh | 45W Fast Charging | Charger in box",
+        "memory": "8GB LPDDR4X | 128GB UFS 2.2"
+      },
+      "pros": [
+        "Bright 120Hz AMOLED panel in this price range",
+        "Massive 6500mAh battery easily lasts 2 days",
+        "Clean 50MP OIS daylight camera performance"
+      ],
+      "cons": [
+        "Hybrid SIM slot only",
+        "Average low-light ultrawide shots"
+      ],
+      "expertVerdict": "One of the strongest all-rounder 5G smartphones under ₹20,000 thanks to its AMOLED display, big battery, and OIS camera.",
+      "stores": [
+        {
+          "store": "Flipkart",
+          "price": 17999,
+          "offer": "₹1,000 off with Axis/HDFC Credit Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Poco+M8x+5G"
+        },
+        {
+          "store": "Amazon",
+          "price": 18499,
+          "offer": "5% cashback on Amazon Pay ICICI Card",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Poco+M8x+5G"
+        },
+        {
+          "store": "Croma",
+          "price": 18999,
+          "offer": "No-Cost EMI up to 6 months",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Poco%20M8x%205G%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 18690,
+          "offer": "₹750 instant UPI discount",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Poco%20M8x%205G"
+        }
+      ]
+    },
+    {
+      "id": "realme-narzo-100x-5g",
+      "slug": "realme-narzo-100x-5g",
+      "name": "Realme Narzo 100x 5G",
+      "brand": "Realme",
+      "category": "smartphones",
+      "tags": ["5g", "battery", "display"],
+      "status": "In Stock",
+      "score": 82,
+      "launchedOn": "15 Jul 2026",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 21999,
+      "specs": {
+        "processor": "MediaTek Dimensity 7300",
+        "display": "6.72\" FHD+ IPS | 144Hz",
+        "camera": "50MP Primary | 2MP Depth | 16MP Front",
+        "battery": "6000mAh | 45W SuperVOOC",
+        "memory": "6GB RAM | 128GB UFS 2.2"
+      },
+      "pros": [
+        "Smooth 144Hz display and reliable thermal control",
+        "Fast 45W charging included in the box",
+        "Strong 5G band coverage across Jio & Airtel"
+      ],
+      "cons": [
+        "IPS LCD panel instead of AMOLED",
+        "Pre-installed apps need disabling on first boot"
+      ],
+      "expertVerdict": "Ideal for smooth high-refresh gaming and battery endurance under ₹20,000, especially when stacked with Amazon coupon discounts.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 18499,
+          "offer": "₹1,000 coupon on product page + SBI Card discount",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Realme+Narzo+100x+5G"
+        },
+        {
+          "store": "Flipkart",
+          "price": 19299,
+          "offer": "5% cashback on Flipkart Axis Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Realme+Narzo+100x+5G"
+        },
+        {
+          "store": "Croma",
+          "price": 19499,
+          "offer": "Store pickup available",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Realme%20Narzo%20100x%205G%3Arelevance"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-f70-5g",
+      "slug": "samsung-galaxy-f70-5g",
+      "name": "Samsung Galaxy F70 5G",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "tags": ["5g", "amoled", "camera"],
+      "status": "In Stock",
+      "score": 80,
+      "launchedOn": "18 Oct 2026",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 22999,
+      "specs": {
+        "processor": "Samsung Exynos 1380",
+        "display": "6.7\" FHD+ Super AMOLED | 120Hz",
+        "camera": "50MP OIS | 8MP Ultrawide | 13MP Front",
+        "battery": "5000mAh | 25W Fast Charging",
+        "memory": "6GB RAM | 128GB Storage"
+      },
+      "pros": [
+        "Vivid Super AMOLED display with Knox Security",
+        "4 years of guaranteed OS updates",
+        "Consistent daylight & portrait camera tuning"
+      ],
+      "cons": [
+        "No charger included in the retail box",
+        "25W charging is slower than rivals"
+      ],
+      "expertVerdict": "Best choice under ₹20,000 if long-term software updates, Samsung Pay/Knox, and display quality matter most.",
+      "stores": [
+        {
+          "store": "Flipkart",
+          "price": 18999,
+          "offer": "₹1,500 instant discount on ICICI/HDFC cards",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Samsung+Galaxy+F70+5G"
+        },
+        {
+          "store": "Croma",
+          "price": 19499,
+          "offer": "₹1,000 exchange bonus",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Samsung%20Galaxy%20F70%205G%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 19199,
+          "offer": "Extra 5% JioMart wallet cashback",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Samsung%20Galaxy%20F70%205G"
+        }
+      ]
+    },
+    {
+      "id": "redmi-15c-5g",
+      "slug": "redmi-15c-5g",
+      "name": "Redmi 15C 5G",
+      "brand": "Redmi",
+      "category": "smartphones",
+      "tags": ["5g", "budget", "under-10k"],
+      "status": "In Stock",
+      "score": 81,
+      "launchedOn": "03 Dec 2025",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 12999,
+      "specs": {
+        "processor": "MediaTek Dimensity 6300",
+        "display": "6.74\" HD+ IPS LCD | 120Hz",
+        "camera": "50MP AI Dual Camera | 8MP Front",
+        "battery": "5500mAh | 33W Charger in box",
+        "memory": "4GB RAM | 128GB UFS 2.2"
+      },
+      "pros": [
+        "128GB fast UFS 2.2 storage under ₹10,000",
+        "Reliable 5G connectivity & 3.5mm headphone jack",
+        "33W charger included inside the box"
+      ],
+      "cons": [
+        "HD+ screen resolution instead of FHD+",
+        "4GB base RAM limits heavy multitasking"
+      ],
+      "expertVerdict": "One of the highest-value true 5G smartphones under ₹10,000 for students, parents, and daily calling/UPI usage.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 9499,
+          "offer": "₹500 instant bank discount on SBI Debit/Credit",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Redmi+15C+5G"
+        },
+        {
+          "store": "Flipkart",
+          "price": 9799,
+          "offer": "Exchange offer up to ₹7,000",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Redmi+15C+5G"
+        },
+        {
+          "store": "JioMart",
+          "price": 9699,
+          "offer": "Free same-day delivery in select cities",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Redmi%2015C%205G"
+        },
+        {
+          "store": "Croma",
+          "price": 9999,
+          "offer": "ZipCare screen protection discount",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Redmi%2015C%205G%3Arelevance"
+        }
+      ]
+    },
+    {
+      "id": "moto-g36-5g",
+      "slug": "moto-g36-5g",
+      "name": "Motorola G36 5G",
+      "brand": "Motorola",
+      "category": "smartphones",
+      "tags": ["5g", "stock-android", "under-10k"],
+      "status": "In Stock",
+      "score": 83,
+      "launchedOn": "12 Jun 2026",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 13499,
+      "specs": {
+        "processor": "Snapdragon 6s Gen 3",
+        "display": "6.6\" HD+ IPS | 120Hz | Stereo Speakers",
+        "camera": "50MP Quad Pixel | 8MP Front",
+        "battery": "5000mAh | 20W TurboPower",
+        "memory": "4GB RAM | 128GB Storage"
+      },
+      "pros": [
+        "Clean, ad-free Hello UI close to stock Android",
+        "Stereo speakers with Dolby Atmos",
+        "Vegan leather back & water-repellent design"
+      ],
+      "cons": [
+        "Only 1 major Android version upgrade",
+        "Charging takes ~1.5 hours"
+      ],
+      "expertVerdict": "Best bloatware-free 5G phone under ₹10,000 with great audio and clean software.",
+      "stores": [
+        {
+          "store": "Flipkart",
+          "price": 9899,
+          "offer": "₹750 off on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Motorola+G36+5G"
+        },
+        {
+          "store": "Croma",
+          "price": 9999,
+          "offer": "5% NeuCoins with Tata Neu HDFC Card",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Motorola%20G36%205G%3Arelevance"
+        },
+        {
+          "store": "Amazon",
+          "price": 10290,
+          "offer": "No-Cost EMI available",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Motorola+G36+5G"
+        }
+      ]
+    },
+    {
+      "id": "acer-aspire-lite-ryzen-5",
+      "slug": "acer-aspire-lite-ryzen-5",
+      "name": "Acer Aspire Lite AMD Ryzen 5 (16GB/512GB)",
+      "brand": "Acer",
+      "category": "laptops",
+      "tags": ["student", "office", "thin-light"],
+      "status": "In Stock",
+      "score": 84,
+      "launchedOn": "10 Feb 2026",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 52990,
+      "specs": {
+        "processor": "AMD Ryzen 5 5625U (6 Cores / 12 Threads)",
+        "display": "15.6\" FHD Anti-Glare IPS | Narrow Bezel",
+        "camera": "HD Webcam + Dual Stereo Speakers",
+        "battery": "Up to 8 Hours | 65W Adapter",
+        "memory": "16GB DDR4 RAM | 512GB NVMe SSD"
+      },
+      "pros": [
+        "16GB RAM + 512GB SSD out of the box under ₹36,000",
+        "6-core Ryzen 5 handles coding, Excel, and multitasking smoothly",
+        "Full-size keyboard with numeric pad & Type-C port"
+      ],
+      "cons": [
+        "No backlit keyboard",
+        "Average 45% NTSC display color gamut"
+      ],
+      "expertVerdict": "Unbeatable specs-per-rupee for students, programmers, and office users shopping under ₹40,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 34990,
+          "offer": "₹2,000 instant discount on HDFC/ICICI Credit Cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Acer+Aspire+Lite+Ryzen+5+16GB+512GB"
+        },
+        {
+          "store": "Flipkart",
+          "price": 35990,
+          "offer": "Extra ₹1,500 off on exchange",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Acer+Aspire+Lite+Ryzen+5+16GB"
+        },
+        {
+          "store": "Croma",
+          "price": 36990,
+          "offer": "Free laptop backpack + 1yr extended warranty deal",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Acer%20Aspire%20Lite%20Ryzen%205%3Arelevance"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-ideapad-slim-3-i5",
+      "slug": "lenovo-ideapad-slim-3-i5",
+      "name": "Lenovo IdeaPad Slim 3 Intel Core i5 13th Gen",
+      "brand": "Lenovo",
+      "category": "laptops",
+      "tags": ["student", "office", "performance"],
+      "status": "In Stock",
+      "score": 86,
+      "launchedOn": "04 May 2026",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 69990,
+      "specs": {
+        "processor": "Intel Core i5-13420H (8 Cores)",
+        "display": "15.6\" FHD IPS | 300 Nits | Anti-Glare",
+        "camera": "1080p FHD Webcam with Privacy Shutter",
+        "battery": "47Wh | Rapid Charge (2hr in 15 mins)",
+        "memory": "16GB LPDDR5 | 512GB Gen4 SSD"
+      },
+      "pros": [
+        "H-series Intel processor breezes through heavy multitasking",
+        "300-nit IPS panel + FHD privacy shutter webcam",
+        "Military-grade MIL-STD-810H tested chassis"
+      ],
+      "cons": [
+        "LPDDR5 RAM is soldered (non-upgradeable)",
+        "Integrated graphics only (light gaming)"
+      ],
+      "expertVerdict": "Best overall productivity & coding laptop under ₹50,000–₹60,000 with 13th Gen H-series speed and MS Office included.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 47990,
+          "offer": "₹3,000 bank discount + No-Cost EMI",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Lenovo+IdeaPad+Slim+3+i5+13420H"
+        },
+        {
+          "store": "Croma",
+          "price": 48490,
+          "offer": "₹2,500 HDFC Credit Card cashback",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Lenovo%20IdeaPad%20Slim%203%20i5%3Arelevance"
+        },
+        {
+          "store": "Flipkart",
+          "price": 48990,
+          "offer": "5% unlimited cashback with Flipkart Axis Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Lenovo+IdeaPad+Slim+3+i5+13th+Gen"
+        },
+        {
+          "store": "JioMart",
+          "price": 49490,
+          "offer": "GST invoice available for business buyers",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Lenovo%20IdeaPad%20Slim%203"
+        }
+      ]
+    },
+    {
+      "id": "boat-airdopes-141-anc",
+      "slug": "boat-airdopes-141-anc",
+      "name": "boAt Airdopes 141 ANC TWS Earbuds",
+      "brand": "boAt",
+      "category": "audio",
+      "tags": ["tws", "anc", "under-1000"],
+      "status": "In Stock",
+      "score": 81,
+      "launchedOn": "14 Mar 2026",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 4490,
+      "specs": {
+        "processor": "Bluetooth 5.3 + BEAST Mode (50ms Low Latency)",
+        "display": "10mm Dual Dynamic Drivers | 32dB ANC",
+        "camera": "Quad Mic ENx Environmental Noise Cancellation",
+        "battery": "42 Hours Total Playback | ASAP Type-C Fast Charge",
+        "memory": "IPX5 Sweat & Splash Resistant"
+      },
+      "pros": [
+        "Active Noise Cancellation (32dB) under ₹1,000",
+        "42-hour battery life with USB-C fast charge",
+        "Low-latency gaming mode & punchy bass"
+      ],
+      "cons": [
+        "Plastic charging case scratches easily",
+        "No companion app EQ customization"
+      ],
+      "expertVerdict": "A top-selling budget TWS pick under ₹1,000 whenever flash deal pricing drops it below ₹999.",
+      "stores": [
+        {
+          "store": "Flipkart",
+          "price": 949,
+          "offer": "SuperCoin extra ₹50 off + Free Delivery",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=boAt+Airdopes+141+ANC"
+        },
+        {
+          "store": "Amazon",
+          "price": 999,
+          "offer": "₹100 Prime coupon applied at checkout",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=boAt+Airdopes+141+ANC"
+        },
+        {
+          "store": "Croma",
+          "price": 1099,
+          "offer": "Same-day store pickup",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=boAt%20Airdopes%20141%20ANC%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 999,
+          "offer": "Buy 2 accessories for extra 5% off",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/boAt%20Airdopes%20141"
+        }
+      ]
+    },
+    {
+      "id": "oneplus-nord-buds-3",
+      "slug": "oneplus-nord-buds-3",
+      "name": "OnePlus Nord Buds 3",
+      "brand": "OnePlus",
+      "category": "audio",
+      "tags": ["tws", "anc", "under-5000"],
+      "status": "In Stock",
+      "score": 87,
+      "launchedOn": "17 Sep 2025",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 2799,
+      "specs": {
+        "processor": "Bluetooth 5.4 + Dual Device Connection",
+        "display": "12.4mm Titanized Diaphragm | 32dB ANC",
+        "camera": "Dual Mic AI Clear Call Algorithm",
+        "battery": "43 Hours Total | 10 min charge = 11 hrs",
+        "memory": "IP55 Dust & Water Resistance"
+      },
+      "pros": [
+        "Balanced sound with crisp vocals and deep BassWave 2.0",
+        "Dual-device multipoint pairing works seamlessly",
+        "Google Fast Pair + HeyMelody app equalizer"
+      ],
+      "cons": [
+        "No in-ear wear detection",
+        "No wireless charging"
+      ],
+      "expertVerdict": "Best overall TWS earphones under ₹2,500 for balanced audio, calls, and multipoint pairing.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 1999,
+          "offer": "₹200 instant discount on ICICI/OneCard",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=OnePlus+Nord+Buds+3"
+        },
+        {
+          "store": "Flipkart",
+          "price": 2099,
+          "offer": "5% cashback via Flipkart Axis Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=OnePlus+Nord+Buds+3"
+        },
+        {
+          "store": "Croma",
+          "price": 2199,
+          "offer": "1-year OnePlus India warranty",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=OnePlus%20Nord%20Buds%203%3Arelevance"
+        }
+      ]
+    },
+    {
+      "id": "ambrane-20000mah-powerbank-22w",
+      "slug": "ambrane-20000mah-powerbank-22w",
+      "name": "Ambrane 20000mAh 22.5W Fast Charging Power Bank",
+      "brand": "Ambrane",
+      "category": "accessories",
+      "tags": ["powerbank", "under-1000", "travel"],
+      "status": "In Stock",
+      "score": 82,
+      "launchedOn": "08 Jan 2026",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 2499,
+      "specs": {
+        "processor": "22.5W PD + QC 3.0 Fast Charge Output",
+        "display": "LED Battery Percentage Indicator",
+        "camera": "3 Output Ports (2x USB-A + 1x Type-C PD)",
+        "battery": "20000mAh High-Density Li-Polymer",
+        "memory": "Made in India | Multi-Layer Chipset Protection"
+      },
+      "pros": [
+        "Genuine 20000mAh capacity under ₹1,000 during deals",
+        "Two-way USB-C PD fast charging",
+        "180-day brand replacement warranty"
+      ],
+      "cons": [
+        "Slightly bulky (~410g) for trouser pockets",
+        "Takes ~6.5 hours for a full recharge"
+      ],
+      "expertVerdict": "Top everyday backup gadget under ₹1,000 for commuters, students, and travel.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 899,
+          "offer": "Limited-time Lightning Deal + 5% Amazon Pay cashback",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Ambrane+20000mAh+Power+Bank"
+        },
+        {
+          "store": "Flipkart",
+          "price": 949,
+          "offer": "Extra 5% off on combo with USB-C cable",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Ambrane+20000mAh+Power+Bank"
+        },
+        {
+          "store": "JioMart",
+          "price": 929,
+          "offer": "Free delivery on orders above ₹499",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Ambrane%2020000mAh"
+        }
+      ]
+    },
+    {
+      "id": "portronics-konnect-65w-gan-charger",
+      "slug": "portronics-konnect-65w-gan-charger",
+      "name": "Portronics Adapto 65W GaN Dual Type-C Charger",
+      "brand": "Portronics",
+      "category": "accessories",
+      "tags": ["charger", "gan", "under-1000", "laptop-accessory"],
+      "status": "In Stock",
+      "score": 80,
+      "launchedOn": "22 Apr 2026",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 2999,
+      "specs": {
+        "processor": "GaN (Gallium Nitride) Smart Power IC",
+        "display": "Compact Travel-Friendly Indian 2-Pin Plug",
+        "camera": "2x USB-C PD 3.0 + 1x USB-A QC",
+        "battery": "Up to 65W Laptop & Phone Charging",
+        "memory": "Over-Voltage & Thermal Protection"
+      },
+      "pros": [
+        "Charges phones, tablets, and Type-C laptops from one brick",
+        "Stays noticeably cooler than standard silicon chargers",
+        "Rare 65W GaN value under ₹1,000"
+      ],
+      "cons": [
+        "USB-C cable not included in the box",
+        "Total 65W splits when all 3 ports are used together"
+      ],
+      "expertVerdict": "Best budget universal GaN charger under ₹1,000 for multi-device setups.",
+      "stores": [
+        {
+          "store": "Flipkart",
+          "price": 979,
+          "offer": "₹70 instant bank offer on UPI",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Portronics+65W+GaN+Charger"
+        },
+        {
+          "store": "Amazon",
+          "price": 999,
+          "offer": "Subscribe & Save / Prime free 1-day delivery",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Portronics+65W+GaN+Charger"
+        },
+        {
+          "store": "Croma",
+          "price": 1149,
+          "offer": "Croma ZipCare replacement support",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Portronics%2065W%20Charger%3Arelevance"
+        }
+      ]
+    },
+    {
+      "id": "cmf-watch-pro-2",
+      "slug": "cmf-watch-pro-2",
+      "name": "CMF by Nothing Watch Pro 2",
+      "brand": "CMF",
+      "category": "smartwatches",
+      "tags": ["amoled", "gps", "under-5000"],
+      "status": "In Stock",
+      "score": 84,
+      "launchedOn": "08 Jul 2025",
+      "updatedAt": "2026-11-14T08:00:00.000Z",
+      "mrp": 5499,
+      "specs": {
+        "processor": "Built-in Multi-System GPS + Bluetooth Calling",
+        "display": "1.32\" AMOLED | Auto-Brightness | 60Hz",
+        "camera": "120+ Sports Modes | Gesture Control",
+        "battery": "Up to 11 Days Battery Life",
+        "memory": "IP68 Water & Dust Resistance | Interchangeable Bezel"
+      },
+      "pros": [
+        "Crisp auto-brightness AMOLED screen with rotating crown",
+        "Built-in GPS for outdoor runs without carrying a phone",
+        "Clean Nothing companion app without ads"
+      ],
+      "cons": [
+        "No third-party app store",
+        "Slightly thick aluminum case for small wrists"
+      ],
+      "expertVerdict": "Easily one of the cleanest, best-designed smartwatches under ₹5,000.",
+      "stores": [
+        {
+          "store": "Flipkart",
+          "price": 4299,
+          "offer": "₹300 off on UPI & Flipkart Axis Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=CMF+Watch+Pro+2"
+        },
+        {
+          "store": "Amazon",
+          "price": 4499,
+          "offer": "5% cashback on Amazon Pay Card",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=CMF+Watch+Pro+2"
+        },
+        {
+          "store": "Croma",
+          "price": 4499,
+          "offer": "In-store demo & pickup available",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=CMF%20Watch%20Pro%202%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 4399,
+          "offer": "₹200 JioMart wallet cashback",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/CMF%20Watch%20Pro%202"
+        }
+      ]
+    }
+  ]
+}

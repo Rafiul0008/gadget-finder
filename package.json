@@ -1,0 +1,16 @@
+{
+  "name": "gadget-finder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Free, fully automated Beebom-style multi-store electronics & gadget price comparison site (Amazon, Flipkart, Croma, JioMart).",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "update": "node scripts/auto-update.mjs",
+    "update:dry": "DRY_RUN=1 node scripts/auto-update.mjs",
+    "preview": "node scripts/server.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
