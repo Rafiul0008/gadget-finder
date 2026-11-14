@@ -163,6 +163,7 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
   <meta property="og:url" content="${esc(canonicalUrl)}"/>
   <meta property="og:site_name" content="${esc(config.siteName)}"/>
   <meta property="og:type" content="website"/>${ogImage}
+  <link rel="alternate" type="application/rss+xml" title="${esc(config.siteName)} — News &amp; Reviews" href="${esc(config.siteUrl)}/rss.xml"/>
   ${monetagMeta}
   <link rel="stylesheet" href="${assetPrefix}assets/main.css"/>
   ${jsonLdList.map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`).join('\n  ')}
@@ -2223,12 +2224,13 @@ function renderStoryPage(item, config, related) {
   const schema = [{
     '@context': 'https://schema.org',
     '@type': item.kind === 'reviews' ? 'Review' : item.kind === 'guides' ? 'Article' : 'NewsArticle',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
     headline: item.title,
     description: item.excerpt,
     datePublished: item.dateIso,
     dateModified: item.dateIso,
-    author: { '@type': 'Organization', name: item.author },
-    publisher: { '@type': 'Organization', name: config.siteName },
+    author: { '@type': 'Organization', name: item.author, url: config.siteUrl },
+    publisher: { '@type': 'Organization', name: config.siteName, url: config.siteUrl },
     url: canonicalUrl,
     ...(image ? { image: [image] } : {}),
     ...(item.kind === 'reviews' && item.score ? {
@@ -2768,13 +2770,38 @@ function build() {
       }
     }
 
+    // Google News Sitemap (last 48h or latest 50 news stories)
+    const nowMs = Date.now();
+    const recentNews = content.news.filter((n) => {
+      const t = Date.parse(n.dateIso || '');
+      return Number.isFinite(t) && (nowMs - t) <= 48 * 3600 * 1000;
+    });
+    const newsForSitemap = (recentNews.length ? recentNews : content.news).slice(0, 100);
+    const newsSitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n${newsForSitemap.map((item) => {
+      const pubDate = new Date(item.dateIso || Date.now()).toISOString();
+      return `  <url>\n    <loc>${esc(`${config.siteUrl}/news/${item.slug}/`)}</loc>\n    <news:news>\n      <news:publication>\n        <news:name>${esc(config.siteName)}</news:name>\n        <news:language>en</news:language>\n      </news:publication>\n      <news:publication_date>${esc(pubDate)}</news:publication_date>\n      <news:title>${esc(item.title)}</news:title>\n    </news:news>\n  </url>`;
+    }).join('\n')}\n</urlset>\n`;
+    fs.writeFileSync(path.join(DIST, 'news-sitemap.xml'), newsSitemap);
+
+    // RSS 2.0 Feed for Google News Publisher Center & Google Discover Follow
+    const feedItems = [...content.news, ...content.reviews, ...content.guides]
+      .sort((a, b) => Date.parse(b.dateIso || 0) - Date.parse(a.dateIso || 0))
+      .slice(0, 30);
+    const rssXml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">\n<channel>\n  <title>${esc(config.siteName)} — Latest News, Reviews &amp; Guides</title>\n  <link>${esc(config.siteUrl)}/</link>\n  <description>${esc(config.tagline || 'Live mobile phone prices, deals, specs and daily gadget news.')}</description>\n  <language>en-in</language>\n  <atom:link href="${esc(config.siteUrl)}/rss.xml" rel="self" type="application/rss+xml"/>\n${feedItems.map((item) => {
+      const link = `${config.siteUrl}/${item.kind}/${item.slug}/`;
+      const imgUrl = item.image ? `${config.siteUrl}/${item.image}` : (item.imagePhone ? phoneImageAbs(item.imagePhone, config) : '');
+      const pubDate = new Date(item.dateIso || Date.now()).toUTCString();
+      return `  <item>\n    <title>${esc(item.title)}</title>\n    <link>${esc(link)}</link>\n    <guid isPermaLink="true">${esc(link)}</guid>\n    <pubDate>${esc(pubDate)}</pubDate>\n    <description>${esc(item.excerpt || '')}</description>${imgUrl ? `\n    <media:content url="${esc(imgUrl)}" medium="image"/>` : ''}\n  </item>`;
+    }).join('\n')}\n</channel>\n</rss>\n`;
+    fs.writeFileSync(path.join(DIST, 'rss.xml'), rssXml);
+
     console.log(`Phones: ${phones.length} PDPs · ${brands.length} brands · ${pairs.length} comparisons · ${bands.length} price bands · ${listings.length} listings · ${storyCount} stories`);
   }
 
   // Sitemap & Robots
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${esc(u)}</loc></url>`).join('\n')}\n</urlset>\n`;
   fs.writeFileSync(path.join(DIST, 'sitemap.xml'), sitemap);
-  fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${config.siteUrl}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${config.siteUrl}/sitemap.xml\nSitemap: ${config.siteUrl}/news-sitemap.xml\n`);
   fs.writeFileSync(path.join(DIST, 'google24b27f993d02a70a.html'), 'google-site-verification: google24b27f993d02a70a.html\n');
 
   console.log(`Built ${urls.length} pages (${products.length} products) into dist/`);
