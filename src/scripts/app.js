@@ -228,3 +228,160 @@
 
   applyFilters();
 })();
+
+/* Phone directory filters (/mobile/) */
+(() => {
+  'use strict';
+
+  const grid = document.getElementById('phone-directory');
+  if (!grid) return;
+
+  const cards = Array.from(grid.querySelectorAll('.mini-card'));
+  const brandSelect = document.getElementById('phone-brand');
+  const ramSelect = document.getElementById('phone-ram');
+  const storageSelect = document.getElementById('phone-storage');
+  const networkSelect = document.getElementById('phone-5g');
+  const sortSelect = document.getElementById('phone-sort');
+  const maxSelect = document.getElementById('phone-max');
+  const resetBtn = document.getElementById('phone-reset');
+  const countEl = document.getElementById('phone-count');
+  const emptyEl = document.getElementById('phone-empty');
+  const searchEl = document.getElementById('global-search');
+
+  function apply() {
+    const brand = brandSelect?.value || 'all';
+    const minRam = Number(ramSelect?.value || 0) || 0;
+    const minStorage = Number(storageSelect?.value || 0) || 0;
+    const network = networkSelect?.value || 'all';
+    const maxPrice = Number(maxSelect?.value || 0) || 0;
+    const sort = sortSelect?.value || 'score';
+    const query = (searchEl?.value || '').trim().toLowerCase();
+
+    const visible = cards.filter((card) => {
+      if (brand !== 'all' && card.dataset.brand !== brand) return false;
+      if (minRam && Number(card.dataset.ram || 0) < minRam) return false;
+      if (minStorage && Number(card.dataset.storage || 0) < minStorage) return false;
+      if (network !== 'all' && card.dataset['5g'] !== network) return false;
+      const cardPrice = Number(card.dataset.price || 0);
+      if (maxPrice && (cardPrice <= 0 || cardPrice > maxPrice)) return false;
+      if (query && !(card.dataset.search || '').toLowerCase().includes(query)) return false;
+      return true;
+    });
+
+    visible.sort((a, b) => {
+      if (sort === 'price-asc') return (Number(a.dataset.price) || Infinity) - (Number(b.dataset.price) || Infinity);
+      if (sort === 'price-desc') return (Number(b.dataset.price) || 0) - (Number(a.dataset.price) || 0);
+      if (sort === 'camera') return Number(b.dataset.camera || 0) - Number(a.dataset.camera || 0) || Number(b.dataset.score || 0) - Number(a.dataset.score || 0);
+      if (sort === 'battery') return Number(b.dataset.battery || 0) - Number(a.dataset.battery || 0);
+      if (sort === 'display') return Number(b.dataset.refresh || 0) - Number(a.dataset.refresh || 0);
+      if (sort === 'name') return (a.dataset.name || '').localeCompare(b.dataset.name || '');
+      return Number(b.dataset.score || 0) - Number(a.dataset.score || 0);
+    });
+
+    cards.forEach((card) => { card.hidden = true; });
+    visible.forEach((card) => {
+      card.hidden = false;
+      grid.appendChild(card);
+    });
+
+    if (countEl) countEl.textContent = `${visible.length} of ${cards.length} phones`;
+    if (emptyEl) emptyEl.hidden = visible.length > 0;
+  }
+
+  [brandSelect, ramSelect, storageSelect, networkSelect, sortSelect, maxSelect].forEach((el) => {
+    el?.addEventListener('change', apply);
+  });
+  searchEl?.addEventListener('input', apply);
+  resetBtn?.addEventListener('click', () => {
+    if (brandSelect) brandSelect.value = 'all';
+    if (ramSelect) ramSelect.value = 'all';
+    if (storageSelect) storageSelect.value = 'all';
+    if (networkSelect) networkSelect.value = 'all';
+    if (maxSelect) maxSelect.value = '';
+    if (sortSelect) sortSelect.value = 'score';
+    if (searchEl) searchEl.value = '';
+    apply();
+  });
+
+  // Deep links from the home finder: /mobile/?max=20000&sort=camera&brand=Vivo
+  const params = new URLSearchParams(location.search);
+  const assign = (el, value) => {
+    if (!el || !value) return;
+    const exists = [...el.options].some((o) => o.value === value);
+    if (exists) el.value = value;
+  };
+  assign(maxSelect, params.get('max'));
+  assign(sortSelect, params.get('sort'));
+  assign(brandSelect, params.get('brand'));
+  assign(ramSelect, params.get('ram'));
+  assign(storageSelect, params.get('storage'));
+  assign(networkSelect, params.get('5g'));
+  if (searchEl && params.get('q')) searchEl.value = params.get('q');
+
+  apply();
+})();
+
+/* Home page price tabs */
+(() => {
+  'use strict';
+  const tabs = document.getElementById('price-tabs');
+  if (!tabs) return;
+  const buttons = Array.from(tabs.querySelectorAll('[data-price-tab]'));
+  const panels = Array.from(tabs.querySelectorAll('[data-price-panel]'));
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach((b) => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      panels.forEach((panel) => {
+        panel.classList.toggle('active', panel.dataset.pricePanel === btn.dataset.priceTab);
+      });
+    });
+  });
+})();
+
+/* Listing page price sort & budget filter */
+(() => {
+  'use strict';
+  const grid = document.querySelector('[data-listing-grid]');
+  if (!grid) return;
+  const cards = Array.from(grid.querySelectorAll('.mini-card'));
+  const sortEl = document.getElementById('listing-sort');
+  const countEl = document.getElementById('listing-count');
+  const pills = Array.from(document.querySelectorAll('[data-listing-max]'));
+  let maxPrice = 0;
+
+  function update() {
+    const sort = sortEl?.value || 'default';
+    const visible = cards.filter((card) => {
+      const p = Number(card.dataset.price || 0);
+      if (maxPrice > 0 && (p <= 0 || p > maxPrice)) return false;
+      return true;
+    });
+    if (sort === 'price-asc') {
+      visible.sort((a, b) => (Number(a.dataset.price) || Infinity) - (Number(b.dataset.price) || Infinity));
+    } else if (sort === 'price-desc') {
+      visible.sort((a, b) => (Number(b.dataset.price) || 0) - (Number(a.dataset.price) || 0));
+    } else if (sort === 'score') {
+      visible.sort((a, b) => Number(b.dataset.score || 0) - Number(a.dataset.score || 0));
+    } else if (sort === 'refresh') {
+      visible.sort((a, b) => Number(b.dataset.refresh || 0) - Number(a.dataset.refresh || 0));
+    }
+    cards.forEach((c) => { c.hidden = true; });
+    visible.forEach((c) => { c.hidden = false; grid.appendChild(c); });
+    if (countEl) countEl.textContent = `${visible.length} ${visible.length === 1 ? 'model' : 'models'}`;
+  }
+
+  pills.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      pills.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      maxPrice = Number(btn.dataset.listingMax || 0) || 0;
+      update();
+    });
+  });
+  sortEl?.addEventListener('change', update);
+})();

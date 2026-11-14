@@ -28,24 +28,34 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Fetch latest deals & structure specs
+      - name: Run full automation sync (phones, prices, images, deals, daily news, build)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CUELINKS_API_KEY: ${{ secrets.CUELINKS_API_KEY }}
-        run: node scripts/auto-update.mjs
+        run: node scripts/sync-all.mjs
 
-      - name: Commit updated product catalog
+      - name: Commit updated data and media assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain data/products.json)" ]; then
-            git add data/products.json
-            git commit -m "chore: automated deal & price update"
+          if [ -n "$(git status --porcelain data/ src/assets/)" ]; then
+            git add data/ src/assets/
+            git commit -m "chore: automated phones, prices, deals & daily news sync"
             git push
           fi
 
-      - name: Build static site
-        run: node scripts/build.mjs
+      - name: Compress dist images to WebP (quality 85, full resolution)
+        run: |
+          sudo apt-get update && sudo apt-get install -y webp
+          node scripts/compress-images.mjs
+
+      - name: Deploy to Cloudflare Pages (if configured)
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ./dist --project-name=best-phone-under
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,9 +1,10 @@
 {
-  "siteName": "TechPick Gadgets",
+  "siteName": "Best Phone Under",
   "tagline": "Smartphones, Laptops & Gadgets Compared Across Amazon, Flipkart, Croma & JioMart",
-  "siteUrl": "https://rafiul0008.github.io/gadget-finder",
+  "siteUrl": "https://best-phone-under.pages.dev",
   "currency": "₹",
   "locale": "en-IN",
+  "useRemoteImages": false,
   "monetag": {
     "enabled": false,
     "verificationMeta": "",
@@ -16,7 +17,7 @@
     "amazonTag": "yourtag-21",
     "cuelinksPublisherId": "",
     "earnkaroId": "",
-    "utmSource": "techpick_gadgets"
+    "utmSource": "bestphoneunder"
   },
   "automation": {
     "maxProductsPerRun": 10,

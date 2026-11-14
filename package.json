@@ -6,9 +6,13 @@
   "description": "Free, fully automated Beebom-style multi-store electronics & gadget price comparison site (Amazon, Flipkart, Croma, JioMart).",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "scrape": "node scripts/scrape-phones.mjs --discover --limit 80",
     "update": "node scripts/auto-update.mjs",
     "update:dry": "DRY_RUN=1 node scripts/auto-update.mjs",
-    "preview": "node scripts/server.mjs"
+    "preview": "node scripts/server.mjs",
+    "images": "node scripts/fetch-images.mjs",
+    "news": "node scripts/fetch-daily-news.mjs",
+    "sync": "node scripts/sync-all.mjs"
   },
   "engines": {
     "node": ">=20.0.0"

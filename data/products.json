@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T08:50:00.000Z",
+  "lastUpdated": "2026-11-14T18:58:58.691Z",
   "products": [
     {
       "id": "poco-m8x-5g",
@@ -7,7 +7,11 @@
       "name": "Poco M8x 5G",
       "brand": "Poco",
       "category": "smartphones",
-      "tags": ["5g", "battery", "gaming"],
+      "tags": [
+        "5g",
+        "battery",
+        "gaming"
+      ],
       "status": "In Stock",
       "score": 85,
       "launchedOn": "21 Aug 2026",
@@ -59,7 +63,8 @@
           "inStock": true,
           "url": "https://www.jiomart.com/search/Poco%20M8x%205G"
         }
-      ]
+      ],
+      "image": "assets/products/poco-m8x-5g.png"
     },
     {
       "id": "realme-narzo-100x-5g",
@@ -67,7 +72,11 @@
       "name": "Realme Narzo 100x 5G",
       "brand": "Realme",
       "category": "smartphones",
-      "tags": ["5g", "battery", "display"],
+      "tags": [
+        "5g",
+        "battery",
+        "display"
+      ],
       "status": "In Stock",
       "score": 82,
       "launchedOn": "15 Jul 2026",
@@ -112,7 +121,8 @@
           "inStock": true,
           "url": "https://www.croma.com/searchB?q=Realme%20Narzo%20100x%205G%3Arelevance"
         }
-      ]
+      ],
+      "image": "assets/products/realme-narzo-100x-5g.png"
     },
     {
       "id": "samsung-galaxy-f70-5g",
@@ -120,7 +130,11 @@
       "name": "Samsung Galaxy F70 5G",
       "brand": "Samsung",
       "category": "smartphones",
-      "tags": ["5g", "amoled", "camera"],
+      "tags": [
+        "5g",
+        "amoled",
+        "camera"
+      ],
       "status": "In Stock",
       "score": 80,
       "launchedOn": "18 Oct 2026",
@@ -165,7 +179,8 @@
           "inStock": true,
           "url": "https://www.jiomart.com/search/Samsung%20Galaxy%20F70%205G"
         }
-      ]
+      ],
+      "image": "assets/products/samsung-galaxy-f70-5g.png"
     },
     {
       "id": "redmi-15c-5g",
@@ -173,7 +188,11 @@
       "name": "Redmi 15C 5G",
       "brand": "Redmi",
       "category": "smartphones",
-      "tags": ["5g", "budget", "under-10k"],
+      "tags": [
+        "5g",
+        "budget",
+        "under-10k"
+      ],
       "status": "In Stock",
       "score": 81,
       "launchedOn": "03 Dec 2025",
@@ -225,7 +244,8 @@
           "inStock": true,
           "url": "https://www.croma.com/searchB?q=Redmi%2015C%205G%3Arelevance"
         }
-      ]
+      ],
+      "image": "assets/products/redmi-15c-5g.png"
     },
     {
       "id": "moto-g36-5g",
@@ -233,7 +253,11 @@
       "name": "Motorola G36 5G",
       "brand": "Motorola",
       "category": "smartphones",
-      "tags": ["5g", "stock-android", "under-10k"],
+      "tags": [
+        "5g",
+        "stock-android",
+        "under-10k"
+      ],
       "status": "In Stock",
       "score": 83,
       "launchedOn": "12 Jun 2026",
@@ -278,7 +302,8 @@
           "inStock": true,
           "url": "https://www.amazon.in/s?k=Motorola+G36+5G"
         }
-      ]
+      ],
+      "image": "assets/products/moto-g36-5g.jpg"
     },
     {
       "id": "acer-aspire-lite-ryzen-5",
@@ -286,7 +311,11 @@
       "name": "Acer Aspire Lite AMD Ryzen 5 (16GB/512GB)",
       "brand": "Acer",
       "category": "laptops",
-      "tags": ["student", "office", "thin-light"],
+      "tags": [
+        "student",
+        "office",
+        "thin-light"
+      ],
       "status": "In Stock",
       "score": 84,
       "launchedOn": "10 Feb 2026",
@@ -331,7 +360,8 @@
           "inStock": true,
           "url": "https://www.croma.com/searchB?q=Acer%20Aspire%20Lite%20Ryzen%205%3Arelevance"
         }
-      ]
+      ],
+      "image": "assets/products/acer-aspire-lite-ryzen-5.jpg"
     },
     {
       "id": "lenovo-ideapad-slim-3-i5",
@@ -339,7 +369,11 @@
       "name": "Lenovo IdeaPad Slim 3 Intel Core i5 13th Gen",
       "brand": "Lenovo",
       "category": "laptops",
-      "tags": ["student", "office", "performance"],
+      "tags": [
+        "student",
+        "office",
+        "performance"
+      ],
       "status": "In Stock",
       "score": 86,
       "launchedOn": "04 May 2026",
@@ -391,7 +425,8 @@
           "inStock": true,
           "url": "https://www.jiomart.com/search/Lenovo%20IdeaPad%20Slim%203"
         }
-      ]
+      ],
+      "image": "assets/products/lenovo-ideapad-slim-3-i5.webp"
     },
     {
       "id": "boat-airdopes-141-anc",
@@ -399,7 +434,11 @@
       "name": "boAt Airdopes 141 ANC TWS Earbuds",
       "brand": "boAt",
       "category": "audio",
-      "tags": ["tws", "anc", "under-1000"],
+      "tags": [
+        "tws",
+        "anc",
+        "under-1000"
+      ],
       "status": "In Stock",
       "score": 81,
       "launchedOn": "14 Mar 2026",
@@ -451,7 +490,8 @@
           "inStock": true,
           "url": "https://www.jiomart.com/search/boAt%20Airdopes%20141"
         }
-      ]
+      ],
+      "image": "assets/products/boat-airdopes-141-anc.jpg"
     },
     {
       "id": "oneplus-nord-buds-3",
@@ -459,7 +499,11 @@
       "name": "OnePlus Nord Buds 3",
       "brand": "OnePlus",
       "category": "audio",
-      "tags": ["tws", "anc", "under-5000"],
+      "tags": [
+        "tws",
+        "anc",
+        "under-5000"
+      ],
       "status": "In Stock",
       "score": 87,
       "launchedOn": "17 Sep 2025",
@@ -504,7 +548,8 @@
           "inStock": true,
           "url": "https://www.croma.com/searchB?q=OnePlus%20Nord%20Buds%203%3Arelevance"
         }
-      ]
+      ],
+      "image": "assets/products/oneplus-nord-buds-3.png"
     },
     {
       "id": "ambrane-20000mah-powerbank-22w",
@@ -512,7 +557,11 @@
       "name": "Ambrane 20000mAh 22.5W Fast Charging Power Bank",
       "brand": "Ambrane",
       "category": "accessories",
-      "tags": ["powerbank", "under-1000", "travel"],
+      "tags": [
+        "powerbank",
+        "under-1000",
+        "travel"
+      ],
       "status": "In Stock",
       "score": 82,
       "launchedOn": "08 Jan 2026",
@@ -557,7 +606,8 @@
           "inStock": true,
           "url": "https://www.jiomart.com/search/Ambrane%2020000mAh"
         }
-      ]
+      ],
+      "image": "assets/products/ambrane-20000mah-powerbank-22w.png"
     },
     {
       "id": "portronics-konnect-65w-gan-charger",
@@ -565,7 +615,12 @@
       "name": "Portronics Adapto 65W GaN Dual Type-C Charger",
       "brand": "Portronics",
       "category": "accessories",
-      "tags": ["charger", "gan", "under-1000", "laptop-accessory"],
+      "tags": [
+        "charger",
+        "gan",
+        "under-1000",
+        "laptop-accessory"
+      ],
       "status": "In Stock",
       "score": 80,
       "launchedOn": "22 Apr 2026",
@@ -610,7 +665,8 @@
           "inStock": true,
           "url": "https://www.croma.com/searchB?q=Portronics%2065W%20Charger%3Arelevance"
         }
-      ]
+      ],
+      "image": "assets/products/portronics-konnect-65w-gan-charger.jpg"
     },
     {
       "id": "cmf-watch-pro-2",
@@ -618,7 +674,11 @@
       "name": "CMF by Nothing Watch Pro 2",
       "brand": "CMF",
       "category": "smartwatches",
-      "tags": ["amoled", "gps", "under-5000"],
+      "tags": [
+        "amoled",
+        "gps",
+        "under-5000"
+      ],
       "status": "In Stock",
       "score": 84,
       "launchedOn": "08 Jul 2025",
@@ -670,7 +730,8 @@
           "inStock": true,
           "url": "https://www.jiomart.com/search/CMF%20Watch%20Pro%202"
         }
-      ]
+      ],
+      "image": "assets/products/cmf-watch-pro-2.png"
     }
   ]
 }
