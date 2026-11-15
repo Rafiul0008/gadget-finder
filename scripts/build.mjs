@@ -746,16 +746,23 @@ const parseDate = (text) => {
 };
 
 function estimateAntutuScore(phone) {
-  const explicitStr = specValue(phone, 'Processor', ['Antutu Score', 'AnTuTu Score', 'Antutu']) || phone.highlights?.['Antutu Score'] || '';
-  const explicitNum = Number(String(explicitStr).replace(/,/g, '').match(/(\d{5,8})/)?.[1] || 0);
+  const explicitAntutu = specValue(phone, 'Processor', ['Antutu Score', 'AnTuTu Score', 'Antutu']) || phone.highlights?.['Antutu Score'] || '';
+  const explicitNum = Number(String(explicitAntutu).replace(/,/g, '').match(/(\d{5,8})/)?.[1] || 0);
   if (explicitNum > 0) return explicitNum;
 
-  const chipset = (specValue(phone, 'Processor', ['Chipset', 'Processor']) || phone.highlights?.Processor || '').toLowerCase();
+  const chipsetRaw = specValue(phone, 'Processor', ['Chipset', 'Processor']) || phone.highlights?.Processor || '';
+  const embeddedMatch = String(chipsetRaw).replace(/,/g, '').match(/(\d{5,8})\s*antutu/i)
+    || String(chipsetRaw).replace(/,/g, '').match(/antutu[^\d]{0,10}(\d{5,8})/i);
+  if (embeddedMatch) return Number(embeddedMatch[1]);
+
+  const chipset = chipsetRaw.toLowerCase();
   if (!chipset) return 0;
 
-  // Last 3 years (2023-2026) 1M+ AnTuTu v10/v11 flagship & upper-midrange chipsets
-  const highTierPatterns = [
+  // Last 3 years (2023-2026) mobile chipsets AnTuTu v10/v11 reference scores
+  const chipsetPatterns = [
+    // Qualcomm Snapdragon 8 / Elite Series (1M+)
     [/snapdragon\s*8\s*elite\s*extreme\s*gen\s*6/i, 3600000],
+    [/snapdragon\s*8\s*elite\s*gen\s*6/i, 3450000],
     [/snapdragon\s*8\s*elite\s*gen\s*5/i, 3200000],
     [/snapdragon\s*8\s*elite/i, 2750000],
     [/snapdragon\s*8\s*gen\s*5/i, 2800000],
@@ -764,28 +771,109 @@ function estimateAntutuScore(phone) {
     [/snapdragon\s*8s\s*gen\s*4/i, 2000000],
     [/snapdragon\s*8s\s*gen\s*3/i, 1550000],
     [/snapdragon\s*8\s*gen\s*2/i, 1550000],
+    [/snapdragon\s*8\s*(?:plus|\+)\s*gen\s*1/i, 1300000],
+    [/snapdragon\s*8\s*gen\s*1/i, 1240000],
+    // Qualcomm Snapdragon 7 Series
     [/snapdragon\s*7\+\s*gen\s*3/i, 1450000],
     [/snapdragon\s*7\s*gen\s*4/i, 1150000],
     [/snapdragon\s*7\+\s*gen\s*2/i, 1120000],
+    [/snapdragon\s*7s\s*gen\s*4/i, 890000],
+    [/snapdragon\s*7\s*gen\s*3/i, 835000],
+    [/snapdragon\s*7s\s*gen\s*3/i, 760000],
+    [/snapdragon\s*7s\s*gen\s*2/i, 600000],
+    // Qualcomm Snapdragon 6 & 4 Series
+    [/snapdragon\s*6\s*gen\s*5/i, 780000],
+    [/snapdragon\s*6\s*gen\s*4/i, 710000],
+    [/snapdragon\s*6s\s*gen\s*4/i, 620000],
+    [/snapdragon\s*6\s*gen\s*3/i, 600000],
+    [/snapdragon\s*6\s*gen\s*1/i, 555000],
+    [/snapdragon\s*6s\s*gen\s*3/i, 470000],
+    [/snapdragon\s*695/i, 445000],
+    [/snapdragon\s*685/i, 360000],
+    [/snapdragon\s*680/i, 310000],
+    [/snapdragon\s*4\s*gen\s*5/i, 540000],
+    [/snapdragon\s*4\s*gen\s*4/i, 490000],
+    [/snapdragon\s*4\s*gen\s*2/i, 430000],
+    [/snapdragon\s*4\s*gen\s*1/i, 385000],
+    // MediaTek Dimensity 9000 / 8000 Series (1M+)
+    [/dimensity\s*9600/i, 3500000],
     [/dimensity\s*9500/i, 3100000],
     [/dimensity\s*9400/i, 2750000],
     [/dimensity\s*9300/i, 2150000],
     [/dimensity\s*9200/i, 1500000],
+    [/dimensity\s*9000/i, 1050000],
+    [/dimensity\s*8500/i, 1850000],
     [/dimensity\s*8400/i, 1650000],
     [/dimensity\s*8350/i, 1450000],
     [/dimensity\s*8300/i, 1400000],
+    // MediaTek Dimensity 8200 / 7000 / 6000 Series
+    [/dimensity\s*8200/i, 925000],
+    [/dimensity\s*7400/i, 740000],
+    [/dimensity\s*7360/i, 700000],
+    [/dimensity\s*7300/i, 680000],
+    [/dimensity\s*7100/i, 610000],
+    [/dimensity\s*7050/i, 580000],
+    [/dimensity\s*7020/i, 470000],
+    [/dimensity\s*6500/i, 520000],
+    [/dimensity\s*6400/i, 480000],
+    [/dimensity\s*6360/i, 465000],
+    [/dimensity\s*6300/i, 452000],
+    [/dimensity\s*6100/i, 395000],
+    [/dimensity\s*6080/i, 437000],
+    [/dimensity\s*6020/i, 420000],
+    // MediaTek Helio Series
+    [/helio\s*g200/i, 470000],
+    [/helio\s*g100/i, 445000],
+    [/helio\s*g99/i, 423000],
+    [/helio\s*g96/i, 382000],
+    [/helio\s*g91/i, 275000],
+    [/helio\s*g88/i, 270000],
+    [/helio\s*g85/i, 265000],
+    [/helio\s*g81/i, 260000],
+    [/helio\s*g80/i, 254000],
+    [/helio\s*g36/i, 137000],
+    // Apple Silicon
+    [/apple\s*a20/i, 2500000],
     [/apple\s*a19/i, 2200000],
     [/apple\s*a18/i, 1850000],
     [/apple\s*a17/i, 1600000],
     [/apple\s*a16/i, 1400000],
+    [/apple\s*a15/i, 1285000],
+    // Samsung Exynos
+    [/exynos\s*2700/i, 2900000],
+    [/exynos\s*2600/i, 2600000],
     [/exynos\s*2500/i, 2300000],
     [/exynos\s*2400/i, 1750000],
+    [/exynos\s*1580/i, 890000],
+    [/exynos\s*1480/i, 725000],
+    [/exynos\s*1380/i, 595000],
+    [/exynos\s*1330/i, 415000],
+    [/exynos\s*1280/i, 470000],
+    // Google Tensor
+    [/tensor\s*g6/i, 1650000],
     [/tensor\s*g5/i, 1350000],
     [/tensor\s*g4/i, 1150000],
+    [/tensor\s*g3/i, 960000],
+    // Huawei Kirin
+    [/kirin\s*9050/i, 1550000],
+    [/kirin\s*9030/i, 1400000],
     [/kirin\s*9020/i, 1250000],
     [/kirin\s*9010/i, 1050000],
+    [/kirin\s*8000/i, 650000],
+    // Unisoc
+    [/unisoc\s*t8300/i, 540000],
+    [/unisoc\s*t8200/i, 510000],
+    [/unisoc\s*t7300/i, 450000],
+    [/unisoc\s*t7250/i, 308000],
+    [/unisoc\s*t7225/i, 265000],
+    [/unisoc\s*t7100/i, 250000],
+    [/unisoc\s*t760/i, 472000],
+    [/unisoc\s*(?:tiger\s*)?t616/i, 285000],
+    [/unisoc\s*(?:tiger\s*)?t612/i, 245000],
+    [/unisoc\s*(?:tiger\s*)?t606/i, 246000],
+    [/unisoc\s*(?:sc)?9863a/i, 119000],
   ];
-  for (const [re, score] of highTierPatterns) {
+  for (const [re, score] of chipsetPatterns) {
     if (re.test(chipset)) return score;
   }
   return 0;
