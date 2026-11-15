@@ -676,11 +676,26 @@ function phoneImageAbs(phone, config) {
   return phone.gallery?.[0]?.url || null;
 }
 
+const POWER_BADGE_ICONS = {
+  gaming: `<svg viewBox="0 0 28 28" fill="none"><defs><linearGradient id="pgGame" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#ec4899"/></linearGradient></defs><rect width="28" height="28" rx="8" fill="url(#pgGame)"/><path d="M8.5 11.5h11a3 3 0 0 1 2.9 3.7l-.7 3.1a2.1 2.1 0 0 1-3.6 1l-1.5-1.5h-5.2l-1.5 1.5a2.1 2.1 0 0 1-3.6-1l-.7-3.1a3 3 0 0 1 2.9-3.7Z" fill="#ffffff" opacity=".95"/><path d="M9.5 13.5v3M8 15h3" stroke="#6366f1" stroke-width="1.6" stroke-linecap="round"/><circle cx="17.5" cy="14" r="1.1" fill="#ec4899"/><circle cx="19.5" cy="15.8" r="1.1" fill="#38bdf8"/></svg>`,
+  battery: `<svg viewBox="0 0 28 28" fill="none"><defs><linearGradient id="pgBat" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#059669"/></linearGradient></defs><rect width="28" height="28" rx="8" fill="url(#pgBat)"/><rect x="6" y="9" width="14" height="10" rx="2.5" fill="#ffffff" opacity=".95"/><rect x="20" y="12" width="2.2" height="4" rx="1" fill="#ffffff"/><path d="M13.8 10.6 11 14.3h2.3l-.7 3.1 3-3.9h-2.3l.5-2.9Z" fill="#f59e0b"/></svg>`,
+  camera: `<svg viewBox="0 0 28 28" fill="none"><defs><linearGradient id="pgCam" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f43f5e"/><stop offset="100%" stop-color="#fb923c"/></linearGradient></defs><rect width="28" height="28" rx="8" fill="url(#pgCam)"/><rect x="5.5" y="8.5" width="17" height="12" rx="3.5" fill="#ffffff" opacity=".95"/><circle cx="14" cy="14.5" r="3.8" fill="#1e1b4b"/><circle cx="14" cy="14.5" r="1.9" fill="#38bdf8"/><circle cx="19.5" cy="11" r="1" fill="#f59e0b"/></svg>`,
+};
+
+function renderPowerBadges(facts, compact = true) {
+  const badges = [];
+  if (facts.isGaming) badges.push(`<span class="pwr-badge pwr-gaming" title="Pro Gaming · ${Math.round(facts.antutu / 1000)}K+ AnTuTu">${POWER_BADGE_ICONS.gaming}${compact ? '' : '<span>1M+ AnTuTu Gaming</span>'}</span>`);
+  if (facts.isMegaBattery) badges.push(`<span class="pwr-badge pwr-battery" title="${facts.battery}mAh Mega Battery">${POWER_BADGE_ICONS.battery}${compact ? '' : `<span>${facts.battery}mAh+ Battery</span>`}</span>`);
+  if (facts.isProCamera) badges.push(`<span class="pwr-badge pwr-camera" title="${facts.cameraMP}MP Pro Camera">${POWER_BADGE_ICONS.camera}${compact ? '' : `<span>${facts.cameraMP}MP+ Camera</span>`}</span>`);
+  return badges.length ? `<span class="${compact ? 'card-power-badges' : 'hero-power-badges'}">${badges.join('')}</span>` : '';
+}
+
 function renderPhoneCard(phone, rootPrefix, config, compact = false) {
   const src = phoneImageSrc(phone, rootPrefix, config);
   const facts = phoneFacts(phone);
   const search = [phone.name, phone.brand, phone.highlights?.Processor, phone.highlights?.Display,
-    phone.highlights?.['Rear Camera'], facts.ramText, facts.storageText, facts.has5G ? '5G' : ''].filter(Boolean).join(' ');
+    phone.highlights?.['Rear Camera'], facts.ramText, facts.storageText, facts.has5G ? '5G' : '',
+    facts.isGaming ? 'gaming antutu 1m' : '', facts.isMegaBattery ? '7000mah battery' : ''].filter(Boolean).join(' ');
   return `<a class="mini-card${compact ? ' mini-card-compact' : ''}" href="${rootPrefix}mobile/${esc(phone.slug)}/"
         data-brand="${esc(phone.brand || '')}" data-price="${facts.price}" data-ram="${facts.ram}"
         data-storage="${facts.storage}" data-5g="${facts.has5G ? '1' : '0'}" data-score="${phone.score || 0}"
@@ -688,7 +703,7 @@ function renderPhoneCard(phone, rootPrefix, config, compact = false) {
         data-name="${esc(phone.name)}" data-search="${esc(search)}">
         <span class="mini-thumb">${src
           ? `<img src="${esc(src)}" alt="${esc(phone.name)}" width="96" height="96" loading="lazy" decoding="async"/>`
-          : deviceSvg('Smartphones')}</span>
+          : deviceSvg('Smartphones')}${renderPowerBadges(facts, true)}</span>
         <span class="mini-card-copy"><strong>${esc(phone.name)}</strong><span>${esc(formatPhonePrice(phone) || '—')}</span></span></a>`;
 }
 
@@ -730,12 +745,61 @@ const parseDate = (text) => {
   return Number.isNaN(ts) ? 0 : ts;
 };
 
+function estimateAntutuScore(phone) {
+  const explicitStr = specValue(phone, 'Processor', ['Antutu Score', 'AnTuTu Score', 'Antutu']) || phone.highlights?.['Antutu Score'] || '';
+  const explicitNum = Number(String(explicitStr).replace(/,/g, '').match(/(\d{5,8})/)?.[1] || 0);
+  if (explicitNum > 0) return explicitNum;
+
+  const chipset = (specValue(phone, 'Processor', ['Chipset', 'Processor']) || phone.highlights?.Processor || '').toLowerCase();
+  if (!chipset) return 0;
+
+  // Last 3 years (2023-2026) 1M+ AnTuTu v10/v11 flagship & upper-midrange chipsets
+  const highTierPatterns = [
+    [/snapdragon\s*8\s*elite\s*extreme\s*gen\s*6/i, 3600000],
+    [/snapdragon\s*8\s*elite\s*gen\s*5/i, 3200000],
+    [/snapdragon\s*8\s*elite/i, 2750000],
+    [/snapdragon\s*8\s*gen\s*5/i, 2800000],
+    [/snapdragon\s*8\s*gen\s*4/i, 2700000],
+    [/snapdragon\s*8\s*gen\s*3/i, 2050000],
+    [/snapdragon\s*8s\s*gen\s*4/i, 2000000],
+    [/snapdragon\s*8s\s*gen\s*3/i, 1550000],
+    [/snapdragon\s*8\s*gen\s*2/i, 1550000],
+    [/snapdragon\s*7\+\s*gen\s*3/i, 1450000],
+    [/snapdragon\s*7\s*gen\s*4/i, 1150000],
+    [/snapdragon\s*7\+\s*gen\s*2/i, 1120000],
+    [/dimensity\s*9500/i, 3100000],
+    [/dimensity\s*9400/i, 2750000],
+    [/dimensity\s*9300/i, 2150000],
+    [/dimensity\s*9200/i, 1500000],
+    [/dimensity\s*8400/i, 1650000],
+    [/dimensity\s*8350/i, 1450000],
+    [/dimensity\s*8300/i, 1400000],
+    [/apple\s*a19/i, 2200000],
+    [/apple\s*a18/i, 1850000],
+    [/apple\s*a17/i, 1600000],
+    [/apple\s*a16/i, 1400000],
+    [/exynos\s*2500/i, 2300000],
+    [/exynos\s*2400/i, 1750000],
+    [/tensor\s*g5/i, 1350000],
+    [/tensor\s*g4/i, 1150000],
+    [/kirin\s*9020/i, 1250000],
+    [/kirin\s*9010/i, 1050000],
+  ];
+  for (const [re, score] of highTierPatterns) {
+    if (re.test(chipset)) return score;
+  }
+  return 0;
+}
+
 function phoneFacts(phone) {
   const ramText = specValue(phone, 'Memory', ['RAM Size', 'RAM']) || (phone.highlights?.['RAM/Storage'] || '').split('/')[0] || '';
   const storageText = specValue(phone, 'Memory', ['Storage Size', 'Storage']) || (phone.highlights?.['RAM/Storage'] || '').split('/')[1] || '';
   const network = specValue(phone, 'Network', ['Technology']);
   const has5G = /5G/i.test(network) || /5G/i.test(phone.name) || phone.specs?.Network?.some((s) => s.label === '5G Bands');
   const availability = specValue(phone, 'General', ['Availability']);
+  const battery = Number(firstMatch(specValue(phone, 'Battery', ['Battery Capacity', 'Capacity']) || phone.highlights?.Battery || '', /(\d{3,5})\s*mAh/i)) || 0;
+  const cameraMP = Number(firstMatch(specValue(phone, 'Main Camera', ['Megapixel', 'Rear Camera #1 Megapixel']) || phone.highlights?.['Rear Camera'] || '', /(\d+(?:\.\d+)?)\s*MP/i)) || 0;
+  const antutu = estimateAntutuScore(phone);
   return {
     price: inrPrice(phone),
     ram: Number(firstMatch(ramText, /(\d+)\s*GB/i)) || 0,
@@ -743,9 +807,13 @@ function phoneFacts(phone) {
     storage: Number(firstMatch(storageText, /(\d+)\s*GB/i)) || 0,
     storageText,
     has5G: !!has5G,
-    battery: Number(firstMatch(specValue(phone, 'Battery', ['Battery Capacity', 'Capacity']), /(\d{3,5})\s*mAh/i)) || 0,
+    battery,
     chargingW: Number(firstMatch(specValue(phone, 'Battery', ['Charging Speed Wired', 'Charging']), /(\d+(?:\.\d+)?)\s*W/i)) || 0,
-    cameraMP: Number(firstMatch(specValue(phone, 'Main Camera', ['Megapixel', 'Rear Camera #1 Megapixel']), /(\d+(?:\.\d+)?)\s*MP/i)) || 0,
+    cameraMP,
+    antutu,
+    isGaming: antutu >= 1000000,
+    isMegaBattery: battery >= 7000,
+    isProCamera: cameraMP > 48,
     weightG: Number(firstMatch(specValue(phone, 'Body', ['Weight']), /([\d.]+)\s*(g|grams)/i)) || 0,
     screenIn: Number(firstMatch(specValue(phone, 'Display', ['Display Size', 'Size']), /([\d.]+)\s*inch/i)) || 0,
     refreshHz: Number(firstMatch(specValue(phone, 'Display', ['Refresh Rate']), /(\d+)\s*Hz/i)) || 0,
@@ -1352,7 +1420,12 @@ function formatSpecHtml(val, rootPrefix = './') {
   const safe = esc(val);
   if (!/antutu/i.test(safe)) return safe;
   const icon = `<img class="antutu-badge-icon" src="${rootPrefix}assets/icons/antutu.jpg" alt="AnTuTu" width="16" height="16" loading="lazy"/>`;
-  return safe.replace(/\b(antutu(?:\s+score)?)\b/gi, `${icon} $1`);
+  let out = safe.replace(/\b(antutu(?:\s+score)?)\b/gi, `${icon} $1`);
+  const scoreMatch = String(val).replace(/,/g, '').match(/(\d{6,8})/);
+  if (scoreMatch && Number(scoreMatch[1]) >= 1000000) {
+    out += ` <span class="inline-pwr-ico" title="1M+ AnTuTu Gaming">${POWER_BADGE_ICONS.gaming}</span>`;
+  }
+  return out;
 }
 
 function renderSpecGroup(group, entries, rootPrefix = '../../') {
@@ -1436,6 +1509,7 @@ ${renderHeader(rootPrefix)}
       <div class="hero-meta">
         ${phone.marketStatus && !(phone.marketStatus === 'Not Released in India' && phone.price?.currency === '₹') ? `<span class="status-badge">${esc(phone.marketStatus)}</span>` : ''}
         ${phone.brand ? `<span class="meta-pill">${esc(phone.brand)}</span>` : ''}
+        ${renderPowerBadges(phoneFacts(phone), false)}
       </div>
     </div>
     ${phone.score ? `<div class="score-ring" style="background: conic-gradient(var(--primary) 0 ${Number(phone.score)}%, var(--border) ${Number(phone.score)}% 100%)" title="Score out of 100"><strong>${phone.score}</strong><span>Score</span></div>` : ''}

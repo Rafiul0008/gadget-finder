@@ -2005,6 +2005,109 @@ button { font: inherit; cursor: pointer; }
   text-decoration: underline;
 }
 
+/* Visual Power Badges: 1M+ AnTuTu Gaming, 7000mAh+ Battery, >48MP Camera */
+.mini-thumb {
+  position: relative;
+}
+
+.card-power-badges {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 5px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.1);
+  z-index: 2;
+}
+
+.card-power-badges .pwr-ico {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+}
+
+.card-power-badges .pwr-ico svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.hero-power-badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.pwr-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.07);
+}
+
+.pwr-badge .pwr-ico {
+  display: inline-flex;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.pwr-badge .pwr-ico svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.pwr-badge.pwr-gaming {
+  background: #f5f3ff;
+  color: #5b21b6;
+  border-color: #ddd6fe;
+}
+
+.pwr-badge.pwr-battery {
+  background: #ecfdf5;
+  color: #065f46;
+  border-color: #a7f3d0;
+}
+
+.pwr-badge.pwr-camera {
+  background: #eff6ff;
+  color: #1e40af;
+  border-color: #bfdbfe;
+}
+
+.inline-pwr-ico {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 6px;
+  width: 18px;
+  height: 18px;
+}
+
+.inline-pwr-ico svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
 
 
 
