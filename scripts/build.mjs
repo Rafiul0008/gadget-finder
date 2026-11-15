@@ -1153,7 +1153,7 @@ function renderComparePage(pair, allPairs, config) {
       </div>
       <ul class="compare-quick">
         ${['Processor', 'Display', 'Battery', 'Rear Camera'].map((key) => phone.highlights?.[key]
-          ? `<li><span>${esc(key)}</span><strong>${esc(phone.highlights[key])}</strong></li>` : '').join('')}
+          ? `<li><span>${esc(key)}</span><strong>${formatSpecHtml(phone.highlights[key], rootPrefix)}</strong></li>` : '').join('')}
       </ul>
       <a class="spec-full-link" href="${rootPrefix}mobile/${esc(phone.slug)}/">Full specifications ›</a>
     </div>`;
@@ -1198,7 +1198,7 @@ ${renderHeader(rootPrefix, 'compare')}
   ${facts.length ? `
   <section class="section-card">
     <h2>At a Glance</h2>
-    <ul class="fact-list">${facts.map((f) => `<li>${esc(f)}</li>`).join('')}</ul>
+    <ul class="fact-list">${facts.map((f) => `<li>${formatSpecHtml(f, rootPrefix)}</li>`).join('')}</ul>
   </section>` : ''}
 
   <section class="section-card">
@@ -1212,8 +1212,8 @@ ${renderHeader(rootPrefix, 'compare')}
           <tbody>
             ${group.rows.map((row) => `<tr class="${row.diff ? 'is-diff' : ''}">
               <th>${esc(row.label)}</th>
-              <td>${row.a ? esc(row.a) : '<span class="na">—</span>'}</td>
-              <td>${row.b ? esc(row.b) : '<span class="na">—</span>'}</td>
+              <td>${row.a ? formatSpecHtml(row.a, rootPrefix) : '<span class="na">—</span>'}</td>
+              <td>${row.b ? formatSpecHtml(row.b, rootPrefix) : '<span class="na">—</span>'}</td>
             </tr>`).join('')}
           </tbody>
         </table>
@@ -1326,15 +1326,22 @@ ${renderHeader(rootPrefix, band.slug.startsWith('under-') ? band.slug : 'mobile-
 ${renderFooter(rootPrefix)}`;
 }
 
-function renderSpecGroup(group, entries) {
+function formatSpecHtml(val, rootPrefix = './') {
+  const safe = esc(val);
+  if (!/antutu/i.test(safe)) return safe;
+  const icon = `<img class="antutu-badge-icon" src="${rootPrefix}assets/icons/antutu.jpg" alt="AnTuTu" width="16" height="16" loading="lazy"/>`;
+  return safe.replace(/\b(antutu(?:\s+score)?)\b/gi, `${icon} $1`);
+}
+
+function renderSpecGroup(group, entries, rootPrefix = '../../') {
   return `
       <section class="section-card spec-group" id="spec-${esc(slugifyGroup(group))}">
         <h2>${esc(group)}</h2>
         <table class="spec-table">
           <tbody>
             ${entries.map((entry) => `
-              <tr><th>${esc(entry.label)}</th><td>${esc(entry.value)}${(entry.children || []).map((child) => `
-                <span class="spec-sub"><span class="spec-sub-label">${esc(child.label)}</span> <span class="spec-sub-value">${esc(child.value)}</span></span>`).join('')}</td></tr>`).join('')}
+              <tr><th>${esc(entry.label)}</th><td>${formatSpecHtml(entry.value, rootPrefix)}${(entry.children || []).map((child) => `
+                <span class="spec-sub"><span class="spec-sub-label">${esc(child.label)}</span> <span class="spec-sub-value">${formatSpecHtml(child.value, rootPrefix)}</span></span>`).join('')}</td></tr>`).join('')}
           </tbody>
         </table>
       </section>`;
@@ -1416,7 +1423,7 @@ ${renderHeader(rootPrefix)}
   <section class="section-card">
     <h2>Key Highlights</h2>
     <table class="highlight-table"><tbody>
-      ${Object.entries(phone.highlights).map(([k, v]) => `<tr><th>${esc(k)}</th><td>${esc(v)}</td></tr>`).join('')}
+      ${Object.entries(phone.highlights).map(([k, v]) => `<tr><th>${esc(k)}</th><td>${formatSpecHtml(v, rootPrefix)}</td></tr>`).join('')}
     </tbody></table>
   </section>` : ''}
 
@@ -1425,7 +1432,7 @@ ${renderHeader(rootPrefix)}
       ${groups.map((g) => `<a href="#spec-${esc(slugifyGroup(g))}">${esc(g)}</a>`).join('')}
     </nav>
     <div class="spec-body">
-      ${groups.length ? groups.map((g) => renderSpecGroup(g, phone.specs[g])).join('') : '<section class="section-card"><p>No specifications captured for this model yet.</p></section>'}
+      ${groups.length ? groups.map((g) => renderSpecGroup(g, phone.specs[g], rootPrefix)).join('') : '<section class="section-card"><p>No specifications captured for this model yet.</p></section>'}
     </div>
   </div>
 
@@ -1900,7 +1907,6 @@ ${renderHeader('./', 'home')}
 <main class="container">
   <section class="finder-hero">
     <div class="finder-copy">
-      <h1>Simplify Your <span class="gradient-text">Phone Search!</span></h1>
       <div class="hero-stores" aria-label="Supported stores">
         <span class="store-badge store-flipkart" title="Flipkart">
           <svg viewBox="0 0 24 24" width="16" height="16"><rect width="24" height="24" rx="6" fill="#2874f0"/><path d="M8 7h8l-1 11H9L8 7Z" fill="#ffe500"/><path d="M12.8 10.2h1.6v1.2h-1.2v1.1h1.1v1.2h-1.1V16h-1.4v-5.8h1Z" fill="#2874f0"/></svg>
@@ -2383,6 +2389,10 @@ function build() {
   const newsImgSrc = path.join(ROOT, 'src/assets/news');
   if (fs.existsSync(newsImgSrc)) {
     fs.cpSync(newsImgSrc, path.join(DIST, 'assets/news'), { recursive: true });
+  }
+  const iconsImgSrc = path.join(ROOT, 'src/assets/icons');
+  if (fs.existsSync(iconsImgSrc)) {
+    fs.cpSync(iconsImgSrc, path.join(DIST, 'assets/icons'), { recursive: true });
   }
 
   const products = (catalog.products || []).map(enrichProduct).sort((a, b) => b.score - a.score);
