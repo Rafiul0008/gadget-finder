@@ -1443,20 +1443,33 @@ ${renderHeader(rootPrefix)}
 
   ${(() => {
     const q = encodeURIComponent(phone.name);
+    const STORE_ICONS = {
+      amazon: `<svg viewBox="0 0 28 28" width="24" height="24" aria-hidden="true"><rect width="28" height="28" rx="7" fill="#131921"/><text x="14" y="15.5" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="13.5" font-weight="900">a</text><path d="M7.5 19.2c4.2 2.4 8.8 2.4 13 0" fill="none" stroke="#ff9900" stroke-width="2" stroke-linecap="round"/><path d="M18.6 18.2l2.1.6-.8 2" fill="none" stroke="#ff9900" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+      flipkart: `<svg viewBox="0 0 28 28" width="24" height="24" aria-hidden="true"><rect width="28" height="28" rx="7" fill="#2874f0"/><path d="M11 8.5a3 3 0 0 1 6 0" fill="none" stroke="#ffe500" stroke-width="1.8" stroke-linecap="round"/><path d="M8.5 9.5h11l-1.2 12.5H9.7L8.5 9.5Z" fill="#ffe500"/><path d="M14.7 12.4h2v1.6h-1.4v1.3h1.3v1.6h-1.3v3.2h-1.8v-6.2c0-.9.5-1.5 1.2-1.5Z" fill="#2874f0"/></svg>`,
+      croma: `<svg viewBox="0 0 28 28" width="24" height="24" aria-hidden="true"><rect width="28" height="28" rx="7" fill="#121212"/><path d="M19.5 10.2A7 7 0 1 0 19.5 17.8" fill="none" stroke="#00e9bf" stroke-width="3" stroke-linecap="round"/><circle cx="15" cy="14" r="2.2" fill="#ffffff"/></svg>`,
+      jiomart: `<svg viewBox="0 0 28 28" width="24" height="24" aria-hidden="true"><rect width="28" height="28" rx="7" fill="#e31837"/><path d="M10.5 8.5a3.5 3.5 0 0 1 7 0" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/><rect x="7.5" y="9.5" width="13" height="12" rx="3" fill="#ffffff" opacity=".18"/><text x="14" y="18.2" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="9.5" font-weight="900">Jio</text></svg>`,
+    };
     const buyStores = [
-      { name: 'Amazon', cls: 'store-amazon', badge: 'a', url: wrapAffiliateUrl(`https://www.amazon.in/s?k=${q}`, 'Amazon') },
-      { name: 'Flipkart', cls: 'store-flipkart', badge: 'f', url: wrapAffiliateUrl(`https://www.flipkart.com/search?q=${q}`, 'Flipkart') },
-      { name: 'Croma', cls: 'store-croma', badge: 'c', url: wrapAffiliateUrl(`https://www.croma.com/searchB?q=${q}%3Arelevance&text=${q}`, 'Croma') },
-      { name: 'JioMart', cls: 'store-jiomart', badge: 'J', url: wrapAffiliateUrl(`https://www.jiomart.com/search/${q}`, 'JioMart') },
+      { key: 'amazon', name: 'Amazon', cls: 'store-amazon', url: wrapAffiliateUrl(`https://www.amazon.in/s?k=${q}`, 'Amazon') },
+      { key: 'flipkart', name: 'Flipkart', cls: 'store-flipkart', url: wrapAffiliateUrl(`https://www.flipkart.com/search?q=${q}`, 'Flipkart') },
+      { key: 'croma', name: 'Croma', cls: 'store-croma', url: wrapAffiliateUrl(`https://www.croma.com/searchB?q=${q}%3Arelevance&text=${q}`, 'Croma') },
+      { key: 'jiomart', name: 'JioMart', cls: 'store-jiomart', url: wrapAffiliateUrl(`https://www.jiomart.com/search/${q}`, 'JioMart') },
     ];
     return `<section class="section-card buy-stores-card">
       <h2>Where to Buy ${esc(phone.name)}</h2>
       <div class="buy-stores-grid">
-        ${buyStores.map((s) => `<a class="buy-store-btn ${s.cls}" href="${esc(s.url)}" target="_blank" rel="nofollow sponsored noopener">
-          <span class="store-badge-dot">${s.badge}</span>
-          <span>Buy on ${esc(s.name)}</span>
+        ${buyStores.map((s) => {
+          const matched = (phone.stores || []).find((st) => (st.store || '').toLowerCase().includes(s.key));
+          const storePrice = matched?.price ? `${phone.price?.currency || '₹'}${Number(matched.price).toLocaleString('en-IN')}` : (priceText || 'Check Price');
+          return `<a class="buy-store-btn ${s.cls}" href="${esc(s.url)}" target="_blank" rel="nofollow sponsored noopener">
+          <span class="buy-store-icon">${STORE_ICONS[s.key]}</span>
+          <span class="buy-store-meta">
+            <span class="buy-store-name">${esc(s.name)}</span>
+            <span class="buy-store-price">${esc(storePrice)}</span>
+          </span>
           <span class="buy-arrow">›</span>
-        </a>`).join('')}
+        </a>`;
+        }).join('')}
       </div>
     </section>`;
   })()}
@@ -1951,19 +1964,19 @@ ${renderHeader('./', 'home')}
     <div class="finder-copy">
       <div class="hero-stores" aria-label="Supported stores">
         <span class="store-badge store-flipkart" title="Flipkart">
-          <svg viewBox="0 0 24 24" width="16" height="16"><rect width="24" height="24" rx="6" fill="#2874f0"/><path d="M8 7h8l-1 11H9L8 7Z" fill="#ffe500"/><path d="M12.8 10.2h1.6v1.2h-1.2v1.1h1.1v1.2h-1.1V16h-1.4v-5.8h1Z" fill="#2874f0"/></svg>
+          <svg viewBox="0 0 28 28" width="18" height="18"><rect width="28" height="28" rx="7" fill="#2874f0"/><path d="M11 8.5a3 3 0 0 1 6 0" fill="none" stroke="#ffe500" stroke-width="1.8" stroke-linecap="round"/><path d="M8.5 9.5h11l-1.2 12.5H9.7L8.5 9.5Z" fill="#ffe500"/><path d="M14.7 12.4h2v1.6h-1.4v1.3h1.3v1.6h-1.3v3.2h-1.8v-6.2c0-.9.5-1.5 1.2-1.5Z" fill="#2874f0"/></svg>
           <span>Flipkart</span>
         </span>
         <span class="store-badge store-amazon" title="Amazon">
-          <svg viewBox="0 0 24 24" width="16" height="16"><rect width="24" height="24" rx="6" fill="#131921"/><text x="12" y="13.5" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="11" font-weight="800">a</text><path d="M7 16.5c3.5 2 6.8 2 10 0" fill="none" stroke="#ff9900" stroke-width="1.8" stroke-linecap="round"/><path d="M15.8 15.6l1.7.5-.7 1.6" fill="none" stroke="#ff9900" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg viewBox="0 0 28 28" width="18" height="18"><rect width="28" height="28" rx="7" fill="#131921"/><text x="14" y="15.5" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="13.5" font-weight="900">a</text><path d="M7.5 19.2c4.2 2.4 8.8 2.4 13 0" fill="none" stroke="#ff9900" stroke-width="2" stroke-linecap="round"/><path d="M18.6 18.2l2.1.6-.8 2" fill="none" stroke="#ff9900" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           <span>Amazon</span>
         </span>
         <span class="store-badge store-croma" title="Croma">
-          <svg viewBox="0 0 24 24" width="16" height="16"><rect width="24" height="24" rx="6" fill="#121212"/><circle cx="12" cy="12" r="5.5" fill="none" stroke="#00e9bf" stroke-width="2.4" stroke-dasharray="26 8"/></svg>
+          <svg viewBox="0 0 28 28" width="18" height="18"><rect width="28" height="28" rx="7" fill="#121212"/><path d="M19.5 10.2A7 7 0 1 0 19.5 17.8" fill="none" stroke="#00e9bf" stroke-width="3" stroke-linecap="round"/><circle cx="15" cy="14" r="2.2" fill="#ffffff"/></svg>
           <span>Croma</span>
         </span>
         <span class="store-badge store-jiomart" title="JioMart">
-          <svg viewBox="0 0 24 24" width="16" height="16"><rect width="24" height="24" rx="6" fill="#0078ad"/><circle cx="12" cy="12" r="7.5" fill="#e31837"/><text x="12" y="15.2" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="10" font-weight="900">J</text></svg>
+          <svg viewBox="0 0 28 28" width="18" height="18"><rect width="28" height="28" rx="7" fill="#e31837"/><path d="M10.5 8.5a3.5 3.5 0 0 1 7 0" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/><rect x="7.5" y="9.5" width="13" height="12" rx="3" fill="#ffffff" opacity=".18"/><text x="14" y="18.2" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="9.5" font-weight="900">Jio</text></svg>
           <span>JioMart</span>
         </span>
       </div>
