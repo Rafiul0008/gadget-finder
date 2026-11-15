@@ -1,6 +1,6 @@
 {
   "source": "https://gadgets.beebom.com (factual specs/price data)",
-  "generatedAt": "2026-11-15T08:33:57.020Z",
+  "generatedAt": "2026-11-15T09:15:15.302Z",
   "count": 2526,
   "brands": [
     "ASUS",
@@ -3385,6 +3385,16 @@
         "amount": 18999,
         "text": "₹18,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 18999,
+          "priceText": "₹18,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/ai-nova-2-ultra-5g-green-128-gb/p/itm9db3f3ad8ba85?pid=MOBHHUFDZFG4CKDG&marketplace=FLIPKART&lid=LSTMOBHHUFDZFG4CKDGGCWUDQ&q=ai+nova+2+ultra+5g&fm=organic&pageUID=1776405316898"
+        }
+      ],
       "score": 77,
       "rating": 4.2,
       "marketStatus": "Upcoming",
@@ -3949,15 +3959,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:17.260Z",
-      "image": {
-        "file": "assets/phones/ai-plus-nova-2-ultra-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 791825,
-        "source": "https://cdn.beebom.com/mobile/ai-plus-nova-2-ultra-5g-front-back.png",
-        "fetchedAt": "2026-11-15T08:33:58.108Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:55.180Z"
     },
     {
       "slug": "ai-plus-nova-5g",
@@ -6264,6 +6266,16 @@
         "amount": 10999,
         "text": "₹10,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 10999,
+          "priceText": "₹10,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/ai-pulse-2-fe-black-64-gb/p/itm8310c24b71215?pid=MOBHQZVXATCFM5FK&marketplace=FLIPKART&lid=LSTMOBHQZVXATCFM5FKKIV8QZ&pageUID=1791353838417"
+        }
+      ],
       "score": 49,
       "rating": 4.2,
       "marketStatus": "Upcoming",
@@ -6781,15 +6793,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:07.908Z",
-      "image": {
-        "file": "assets/phones/ai-plus-pulse-2-fe.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1233808,
-        "source": "https://cdn.beebom.com/mobile/ai-plus-pulse-2-fe-front-back.png",
-        "fetchedAt": "2026-11-15T08:33:58.404Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:50.653Z"
     },
     {
       "slug": "alcatel-v3-classic-5g",
@@ -80091,6 +80095,7 @@
         "amount": 18000,
         "text": "₹18,000"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -80494,15 +80499,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:59.372Z",
-      "image": {
-        "file": "assets/phones/hmd-pulse-2-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1258554,
-        "source": "https://cdn.beebom.com/mobile/hmd-pulse-2-pro-front-back.png",
-        "fetchedAt": "2026-11-15T08:33:58.699Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:46.935Z"
     },
     {
       "slug": "hmd-pulse-plus",
@@ -176841,6 +176838,7 @@
       "name": "HONOR X8e",
       "brand": "Honor",
       "price": null,
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -177369,15 +177367,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:40.029Z",
-      "image": {
-        "file": "assets/phones/honor-x8e.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1264765,
-        "source": "https://cdn.beebom.com/mobile/honor-x8e-front-and-back1.png",
-        "fetchedAt": "2026-11-15T08:33:59.009Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:07.037Z"
     },
     {
       "slug": "honor-x9-5g",
@@ -181310,6 +181300,7 @@
         "amount": 1399,
         "text": "¥1399"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -181784,15 +181775,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:46.625Z",
-      "image": {
-        "file": "assets/phones/huawei-enjoy-100.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 531216,
-        "source": "https://cdn.beebom.com/mobile/huawei-enjoy-100-back-front.png",
-        "fetchedAt": "2026-11-15T08:33:59.312Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:09.963Z"
     },
     {
       "slug": "huawei-enjoy-100-pro",
@@ -181804,6 +181787,7 @@
         "amount": 1799,
         "text": "¥1799"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -182299,15 +182283,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:45.680Z",
-      "image": {
-        "file": "assets/phones/huawei-enjoy-100-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 846720,
-        "source": "https://cdn.beebom.com/mobile/huawei-enjoy-100-pro-back-front.png",
-        "fetchedAt": "2026-11-15T08:33:59.617Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:09.601Z"
     },
     {
       "slug": "huawei-enjoy-100-pro-max",
@@ -182319,6 +182295,7 @@
         "amount": 1999,
         "text": "¥1999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -182822,15 +182799,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:44.765Z",
-      "image": {
-        "file": "assets/phones/huawei-enjoy-100-pro-max.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 624550,
-        "source": "https://cdn.beebom.com/mobile/huawei-enjoy-100-pro-max-back-front.png",
-        "fetchedAt": "2026-11-15T08:33:59.986Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:09.191Z"
     },
     {
       "slug": "huawei-enjoy-50z",
@@ -236808,6 +236777,7 @@
         "amount": 5499,
         "text": "¥5499"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -237391,15 +237361,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:43.799Z",
-      "image": {
-        "file": "assets/phones/huawei-pura-90-plus.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 514007,
-        "source": "https://cdn.beebom.com/mobile/huawei-pura-90-plus-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:01.756Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:08.851Z"
     },
     {
       "slug": "huawei-pura-90-pro",
@@ -249780,6 +249742,16 @@
         "amount": 69999,
         "text": "₹69,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 69999,
+          "priceText": "₹69,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/infinix-gt-50-pro-red-blaze-256-gb/p/itmc00f21c0de886?pid=MOBHRQEFQKW6FQGN&marketplace=FLIPKART&lid=LSTMOBHRQEFQKW6FQGNFH8OAK&pageUID=1793343586298"
+        }
+      ],
       "score": 68,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -250427,15 +250399,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:02.203Z",
-      "image": {
-        "file": "assets/phones/infinix-gt-50-pro-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1065114,
-        "source": "https://cdn.beebom.com/mobile/infinix-gt-50-pro-5g-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:02.036Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:48.272Z"
     },
     {
       "slug": "infinix-hot-10",
@@ -293097,6 +293061,16 @@
         "amount": 19999,
         "text": "₹19,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 19999,
+          "priceText": "₹19,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/infinix-smart-20-hd-night-pulse-64-gb/p/itm31f788c5cac5d?pid=MOBHRGJFNBJZZE8P&marketplace=FLIPKART&lid=LSTMOBHRGJFNBJZZE8PGRXZCO&pageUID=1791368308608"
+        }
+      ],
       "score": 46,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -293515,15 +293489,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:05.033Z",
-      "image": {
-        "file": "assets/phones/infinix-smart-20-hd.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 805313,
-        "source": "https://cdn.beebom.com/mobile/infinix-smart-20-hd-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:02.320Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:49.431Z"
     },
     {
       "slug": "infinix-smart-20e",
@@ -311461,6 +311427,7 @@
         "amount": 86999,
         "text": "₹86,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -312103,15 +312070,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:53.665Z",
-      "image": {
-        "file": "assets/phones/iqoo-16.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 887038,
-        "source": "https://cdn.beebom.com/mobile/iqoo-16-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:02.603Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:44.322Z"
     },
     {
       "slug": "iqoo-16t",
@@ -319492,6 +319451,7 @@
         "amount": 4399,
         "text": "¥4399"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -320064,15 +320024,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:42.853Z",
-      "image": {
-        "file": "assets/phones/iqoo-neo-12.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 902488,
-        "source": "https://cdn.beebom.com/mobile/iqoo-neo-12-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:02.910Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:08.414Z"
     },
     {
       "slug": "iqoo-neo-5",
@@ -341585,6 +341537,16 @@
         "amount": 28998,
         "text": "₹28,998"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 28998,
+          "priceText": "₹28,998",
+          "inStock": true,
+          "url": "https://www.amazon.in/iQOO-Prismatic-Dimensity-Processor-OriginOS/dp/B0HG96MZ9P/ref=sr_1_3?crid=1WT9LU09FX72F&dib=eyJ2IjoiMSJ9.Quy72hss8ax7Iisy6FdVhCTRmdUufn0cU2YvrPouqq2pAIYLDQGJN50X4I2UIkuht8bLwekvIdXh0Fv0CUEo8VtR-hA8PpZoV4hxHGDzxt3q2CaAQiuPMpPyNtyKWb3xPJh8Ez6AY3JlU_yibCVXrY7wigdFFd3eG5boJmt0DCB3eTVtycNfDUyEE5DeST-9Bpha6jnoR1-QAjc4GlVu1FvWyRAyDP1O7uEkStmFZ7s.hZjq0vm1q_xoUhjKbf3w74aK0Fl6K4iBebF5AE64_pk&dib_tag=se&keywords=iqoo%2Bz11xa%2B5g&qid=1789362601&sprefix=iQOO%2BZ11xa%2B5G%2Caps%2C329&sr=8-3&th=1"
+        }
+      ],
       "score": 80,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -342173,15 +342135,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:21.993Z",
-      "image": {
-        "file": "assets/phones/iqoo-z11xa-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 553545,
-        "source": "https://cdn.beebom.com/mobile/iqoo-z11xa-5g-titan-black-front-and-back.png",
-        "fetchedAt": "2026-11-15T08:34:03.187Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:57.358Z"
     },
     {
       "slug": "iqoo-z1x",
@@ -365284,6 +365238,7 @@
         "amount": 14999,
         "text": "₹14,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -365742,15 +365697,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:57.006Z",
-      "image": {
-        "file": "assets/phones/itel-city-300-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1367435,
-        "source": "https://cdn.beebom.com/mobile/itel-city-300-5g.png",
-        "fetchedAt": "2026-11-15T08:34:08.709Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:15.274Z"
     },
     {
       "slug": "itel-flip-one",
@@ -380138,6 +380085,16 @@
         "amount": 8599,
         "text": "₹8,599"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 8599,
+          "priceText": "₹8,599",
+          "inStock": true,
+          "url": "https://www.amazon.in/Zeno-100-Pro-Octa-Core-Protection/dp/B0H8N8CP5L/ref=sr_1_2?dib=eyJ2IjoiMSJ9.r2YAjS81iW-voD9db4rZaxXqbvgnlRDFY6PI8rG9QmGD8pv_Gy_6C-I5yhXTY-Lv2woVDk6wkq5CBpxHJUAsr3CTfASx6pgmCzOqOLmdzHB3lw9SK5QoTSWuTkXCfJQGST2z4_wDGf4uwRY_iuxoli__BZP5b71Dz8eHOnBZ9X3a2z_4IzCBsaBR2eUZIZIW1t9kg8LAEhKtjJo0PmvdlNTCYABBz7ScQB_ly-FIl7THs-16v0hNIyQY30nQW306R5CRog__sv1TXwl5is5udWRqtIc7tmRg_lsytsESlAw.0gnTap9rZgaPqdNrterC8DG06_SXtNZKYK5JgG9Hjto&dib_tag=se&keywords=itel%2Bzeno%2B100%2Bpro&nsdOptOutParam=true&qid=1784788670&s=electronics&sr=1-2-catcorr&th=1"
+        }
+      ],
       "score": 62,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -380644,15 +380601,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:16.317Z",
-      "image": {
-        "file": "assets/phones/itel-zeno-100-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 643913,
-        "source": "https://cdn.beebom.com/mobile/itel-zeno-100-pro-front-and-back1.png",
-        "fetchedAt": "2026-11-15T08:34:08.985Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:54.817Z"
     },
     {
       "slug": "itel-zeno-20",
@@ -382278,6 +382227,16 @@
         "amount": 9549,
         "text": "₹9,549"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 9549,
+          "priceText": "₹9,549",
+          "inStock": true,
+          "url": "https://www.amazon.in/dp/B0HJ2PR3FN?ref_=QAHzEditorial_en_IN_9&pf_rd_r=YNRE1SMQHPCNHSZ9CN89&pf_rd_p=46ade3e9-bdaf-4f03-9e4e-29fce7eae66a&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-11&pf_rd_t=&pf_rd_i=1389401031&th=1"
+        }
+      ],
       "score": 64,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -382780,15 +382739,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:15.354Z",
-      "image": {
-        "file": "assets/phones/itel-zeno-300.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 653968,
-        "source": "https://cdn.beebom.com/mobile/itel-zeno-300-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:09.263Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:54.339Z"
     },
     {
       "slug": "itel-zeno-5g",
@@ -396472,6 +396423,24 @@
         "amount": 17999,
         "text": "₹17,999"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 17999,
+          "priceText": "₹17,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/Lava-Moonlight-Storage-Processor-Recording/dp/B0G2CHNYPY?th=1"
+        },
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 24999,
+          "priceText": "₹24,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/lava-blaze-duo-3-moonlight-black-128-gb/p/itm4fa1bac60d2a9?pid=MOBHKSAQRVSJWSHT&lid=LSTMOBHKSAQRVSJWSHTSVBRDI&marketplace=FLIPKART&q=lava+blaze+duo+3+5g+mobile&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_2_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_19_na_na_na&fm=organic&iid=06ac147b-d250-4861-8de6-fe9d108bf5db.MOBHKSAQRVSJWSHT.SEARCH&ppt=None&ppn=None&ssid=dk4yb44iqo0000001780564522603&qH=15eee79bdb8d470d&ov_redirect=true"
+        }
+      ],
       "score": 71,
       "rating": 3.6,
       "marketStatus": "Upcoming",
@@ -397063,15 +397032,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:20.096Z",
-      "image": {
-        "file": "assets/phones/lava-blaze-duo-3.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 455972,
-        "source": "https://cdn.beebom.com/mobile/lava-blaze-duo-3-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:09.562Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:56.407Z"
     },
     {
       "slug": "lava-blaze-nxt",
@@ -404403,6 +404364,24 @@
         "amount": 8299,
         "text": "₹8,299"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 8299,
+          "priceText": "₹8,299",
+          "inStock": true,
+          "url": "https://www.amazon.in/Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPBG7R1/ref=sr_1_1?crid=228BFN1QUPPV3&dib=eyJ2IjoiMSJ9.e-ydw8F883je7yXFh4d2XQaBUhHvJkWb_JPi4jlY3bJ8aEA8KKT85iY8WEoyvsxyW9G2WIZK91MVkizUuRE8kLLYh3eWFGEP4zDSgfOQvTKOCS98CuOc-U02X8u9hVVpf27s4S8fxWhq58dK6ujoX1YimOtXw3JL3jmC-3f0Lk0gy2xyHlRGzOfZnJiRNiadu4U6G_qQ6huYHYUumnJc7JY4R0_II0gzA5AjsNnM4bKbE-gbl8uasbd1O7e3F2m06tvHy6J7xd_gvye2OPc-7126zSrHMSLv16tFu0goA0w.1np_MmiqSHDVRs43o47UTHmfu2RxWZKNrIwgg8IOROo&dib_tag=se&keywords=Lava%2BBold%2BN4%2BLite&qid=1788416584&s=electronics&sprefix=lava%2Bbold%2Bn4%2Blite%2Celectronics%2C636&sr=1-1&th=1"
+        },
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 8299,
+          "priceText": "₹8,299",
+          "inStock": true,
+          "url": "https://www.flipkart.com/lava-bold-n4-lite-ghost-silver-32-gb/p/itmac2d7518525cc?pid=MOBHQT2BKFJ6WSVH&marketplace=FLIPKART&lid=LSTMOBHQT2BKFJ6WSVHITMCUE&pageUID=1791788687182"
+        }
+      ],
       "score": 64,
       "rating": 3.9,
       "marketStatus": "Upcoming",
@@ -404884,15 +404863,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:14.431Z",
-      "image": {
-        "file": "assets/phones/lava-bold-n4-lite.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 400138,
-        "source": "https://cdn.beebom.com/mobile/lava-bold-n4-lite-front-and-back3.png",
-        "fetchedAt": "2026-11-15T08:34:09.869Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:53.883Z"
     },
     {
       "slug": "lava-bold-n4-pro",
@@ -410096,6 +410067,7 @@
         "amount": 13999,
         "text": "₹13,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -410296,15 +410268,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:49.772Z",
-      "image": {
-        "file": "assets/phones/lava-shark-3-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 822075,
-        "source": "https://cdn.beebom.com/mobile/lava-shark-3-5g-back.png",
-        "fetchedAt": "2026-11-15T08:34:10.397Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:42.723Z"
     },
     {
       "slug": "lava-smart-4",
@@ -412830,6 +412794,16 @@
         "amount": 22999,
         "text": "₹22,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 22999,
+          "priceText": "₹22,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/lava-virat-curve-5g-ellora-slate-128-gb/p/itm19c98d835e5ea?pid=MOBHQT22GWZJWH6W&marketplace=FLIPKART&lid=LSTMOBHQT22GWZJWH6WA78BUQ&pageUID=1790573735035"
+        }
+      ],
       "score": 74,
       "rating": 4.3,
       "marketStatus": "Upcoming",
@@ -413361,15 +413335,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:51.297Z",
-      "image": {
-        "file": "assets/phones/lava-virat-curve-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 919984,
-        "source": "https://cdn.beebom.com/mobile/lava-virat-curve-5g-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:10.764Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:12.281Z"
     },
     {
       "slug": "lava-virat-v1",
@@ -413381,6 +413347,16 @@
         "amount": 9999,
         "text": "₹9,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 9999,
+          "priceText": "₹9,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/lava-virat-v1-nilgiri-blue-64-gb/p/itmed225fe6c3db4?pid=MOBHZ7KNECQC8BKW&lid=LSTMOBHZ7KNECQC8BKWAYNZG1&marketplace=FLIPKART&q=lava+virat+v1&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=437deca4-ad2c-4a54-90d8-e442effa1be5.MOBHZ7KNECQC8BKW.SEARCH&ppt=None&ppn=None&ssid=yvzu825gao0000001785484402384&qH=98e9e1013daa3196&ov_redirect=true"
+        }
+      ],
       "score": 80,
       "rating": 3.9,
       "marketStatus": "Upcoming",
@@ -413912,15 +413888,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:13.509Z",
-      "image": {
-        "file": "assets/phones/lava-virat-v1.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 598435,
-        "source": "https://cdn.beebom.com/mobile/lava-virat-v1-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:11.078Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:53.489Z"
     },
     {
       "slug": "lava-virat-v1-5g",
@@ -458764,6 +458732,7 @@
         "amount": 26999,
         "text": "₹26,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": null,
@@ -459307,15 +459276,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:47.550Z",
-      "image": {
-        "file": "assets/phones/moto-g47-power-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 951586,
-        "source": "https://cdn.beebom.com/mobile/moto-g47-power-5g-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:13.065Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:10.399Z"
     },
     {
       "slug": "moto-g50",
@@ -493693,6 +493654,24 @@
         "amount": 29689,
         "text": "₹29,689"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 30999,
+          "priceText": "₹30,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/motorola-edge-70-fusion-snapdragon-pantone-blue-surf-128-gb/p/itmde3fff77e262b?pid=MOBHN973UHXUTABD&marketplace=FLIPKART&lid=LSTMOBHN973UHXUTABDXA2BLL&pageUID=1781851895555"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 29689,
+          "priceText": "₹29,689",
+          "inStock": true,
+          "url": "https://www.amazon.in/Motorola-Pantone-Silhouette-Snapdragon-TurboPower/dp/B0GRMVNTDN/ref=sr_1_10?crid=24K1AJPFUXD0I&dib=eyJ2IjoiMSJ9.zFBZwVKQkqvqXSUyBj8X3Z7yvO-a0CAC1deyRU2lrxdcnv2qJXRGAjcKVa8KGnyZVvkoRK_Ork6mJH5nESy65s1b7v1YdT4-aIEEz0LU5jDX88pdMcC7rqnV-QtbZFgic165hW8rEjC7qv4rewWvnXEjKa_gefXRk0pXQ5zmG0WyTlR-wmAoFf0a3_vtTEELSXPS0IQhH73h35zQRfP8TuI5Hjga9lTn6w9PLfVJrUw.dPiF8LomB0KKLCy4MCjOL9PVJlrMH5sowSkUvA7VvHI&dib_tag=se&keywords=motorola+edge+70+fusion&qid=1773294071&sprefix=motorola+edge+70+fusion%2Caps%2C399&sr=8-10"
+        }
+      ],
       "score": 95,
       "rating": 4.4,
       "marketStatus": "Upcoming",
@@ -494349,15 +494328,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:44.033Z",
-      "image": {
-        "file": "assets/phones/motorola-edge-70-fusion.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 908318,
-        "source": "https://cdn.beebom.com/mobile/motorola-edge-70-fusion-front-and-back1.png",
-        "fetchedAt": "2026-11-15T08:34:13.386Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:39.915Z"
     },
     {
       "slug": "motorola-edge-70-fusion-plus-5g",
@@ -494994,6 +494965,24 @@
         "amount": 53490,
         "text": "₹53,490"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 54999,
+          "priceText": "₹54,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/motorola-edge-70-max/p/itm1b87bd4ec5e54?pid=MOBHMJQACRZKNK6Z&ocmpid=BrandAd_Motorola_Edge70Max_Google_Search_India_Launch_ProdSpec_Paid&gad_source=1&gad_campaignid=24013065346&gbraid=0AAAABAwN2_XFdCOXGifqBDYa4G01xiE7x&gclid=Cj0KCQjwjvfSBhDpARIsAEiOpSvm5WT3rcUVwAzk-PyircjBXOb7BH_MbIRQfmB1sfnB_VowY8c65Y0aAuEvEALw_wcB"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 28999,
+          "priceText": "₹28,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/Motorola-Pantone-Snapdragon-Processor-Ultra-Wide/dp/B0H9RDF38V?th=1"
+        }
+      ],
       "score": 94,
       "rating": 4.3,
       "marketStatus": "Upcoming",
@@ -495640,15 +495629,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:33.511Z",
-      "image": {
-        "file": "assets/phones/motorola-edge-70-max.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 645489,
-        "source": "https://cdn.beebom.com/mobile/motorola-edge-70-max-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:13.712Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:03.318Z"
     },
     {
       "slug": "motorola-edge-70-neo",
@@ -495660,6 +495641,7 @@
         "amount": 39999,
         "text": "₹39,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -495965,15 +495947,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:52.627Z",
-      "image": {
-        "file": "assets/phones/motorola-edge-70-neo.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 642290,
-        "source": "https://cdn.beebom.com/mobile/motorola-edge-70-neo-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:14.142Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:43.956Z"
     },
     {
       "slug": "motorola-edge-70-plus",
@@ -496557,6 +496531,24 @@
         "amount": 39999,
         "text": "₹39,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 39999,
+          "priceText": "₹39,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/motorola-edge-70-pro-satin-luxe-pantone-tea-green-256-gb/p/itmad36b25ee48bf?pid=MOBHN9734ZPCKBAC&marketplace=FLIPKART&lid=LSTMOBHN9734ZPCKBACJUQ4X8&pageUID=1787816137271"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 41199,
+          "priceText": "₹41,199",
+          "inStock": true,
+          "url": "https://www.amazon.in/Motorola-Satin-Luxe-Dimensity-Processor-Smartphone/dp/B0GZGHZ8YR/ref=sr_1_14?crid=3NBU01IXX8JBG&dib=eyJ2IjoiMSJ9.VA9xWNRXMJ5fvrraPGZDmux16mXBa-2xuzbyV09Ol7SD8Tqev0Oejz1suyNPW17Ondqgo_DJp7Kq3xUlmuLjxCBTUlgJRQJyAITs-MSuFU9kgRxML9uUSOb2gZrxZ42qYB3_1NynlgnRDiM0Ro6soQhY73tocqADRLDesf3BWIMbnKHD2JY3tfnS959Iqjdk1qR-zMD2JAAxvuopFUPUEOVDg993sgeAJbiohI2BfwY.WmzgOA_INRipNXUzkRYF18cftmnOzoKTyZ0GUuCeGdQ&dib_tag=se&keywords=motorola+edge+70+pro&qid=1787831492&sprefix=Motorola+Edge+70+Pro%2Caps%2C366&sr=8-14"
+        }
+      ],
       "score": 91,
       "rating": 4.2,
       "marketStatus": "Upcoming",
@@ -497231,15 +497223,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:24.869Z",
-      "image": {
-        "file": "assets/phones/motorola-edge-70-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 695656,
-        "source": "https://cdn.beebom.com/mobile/motorola-edge-70-pro-front-back-1 (1).png",
-        "fetchedAt": "2026-11-15T08:34:14.467Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:58.604Z"
     },
     {
       "slug": "motorola-edge-70-pro-plus",
@@ -497251,6 +497235,16 @@
         "amount": 47999,
         "text": "₹47,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 47999,
+          "priceText": "₹47,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/motorola-edge-70-pro/p/itm70caeee0ca941?pid=MOBHHXQRQJX8USUW&ocmpid=BrandAd_Motorola_Edge70ProPlus_Google_Search_India_Sale_ProdSpec_Paid&gad_source=1&gad_campaignid=23878450735&gbraid=0AAAAAohTLnK4AeOp5X5MNSC3hR7A4ynPU&gclid=Cj0KCQjwlqTRBhCBARIsANrkrxhxGbxC1aHQinxzqOo2UxYq99zT5MuezToU2P3og4Sp-FouZb_sgAkaAlygEALw_wcB"
+        }
+      ],
       "score": 91,
       "rating": 4.3,
       "marketStatus": "Upcoming",
@@ -497958,15 +497952,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:30.578Z",
-      "image": {
-        "file": "assets/phones/motorola-edge-70-pro-plus.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 847002,
-        "source": "https://cdn.beebom.com/mobile/motorola-edge-70-pro-plus-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:14.773Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:01.768Z"
     },
     {
       "slug": "motorola-edge-70-ultra",
@@ -515506,6 +515492,7 @@
         "amount": 88999,
         "text": "₹88,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -516164,15 +516151,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:58.451Z",
-      "image": {
-        "file": "assets/phones/motorola-razr-70.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1028285,
-        "source": "https://cdn.beebom.com/mobile/motorola-razr-70-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:15.102Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:46.484Z"
     },
     {
       "slug": "motorola-razr-70-plus",
@@ -516184,6 +516163,7 @@
         "amount": 111499,
         "text": "₹1,11,499"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -516842,15 +516822,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:54.613Z",
-      "image": {
-        "file": "assets/phones/motorola-razr-70-plus.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 804653,
-        "source": "https://cdn.beebom.com/mobile/motorola-razr-70-plus-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:15.397Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:44.814Z"
     },
     {
       "slug": "motorola-razr-70-ultra",
@@ -516862,6 +516834,7 @@
         "amount": 119999,
         "text": "₹1,19,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -517515,15 +517488,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:57.522Z",
-      "image": {
-        "file": "assets/phones/motorola-razr-70-ultra.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 970115,
-        "source": "https://cdn.beebom.com/mobile/motorola-razr-70-ultra-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:15.720Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:45.988Z"
     },
     {
       "slug": "motorola-razr-flex",
@@ -520049,6 +520014,24 @@
         "amount": 59999,
         "text": "₹59,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 59999,
+          "priceText": "₹59,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/motorola-signature-pantone-martini-olive-256-gb/p/itm945fffeb4a94c?pid=MOBHGVJYTCM8BZQF&lid=LSTMOBHGVJYTCM8BZQFUX35PO&marketplace=FLIPKART&q=motorola+signature+mobile&store=tyy%2F4io&srno=s_1_1&otracker=AS_Query_OrganicAutoSuggest_3_4_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_3_4_na_na_na&fm=organic&iid=en_eNeTJr-VTTE-UMnrnZ8-9lOFtkwdf8DNgfPU6PwV0IBu7tbM0M6p6OZzmUVhDpPbVsTfZLm-DlFf65i0I0bYZU4IsYyWu-Pj9cxFjFAoaLk%3D&ppt=pp&ppn=pp&ssid=3n9ei3b4j40000001769750266593&qH=16adfb63322d522b"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 57450,
+          "priceText": "₹57,450",
+          "inStock": false,
+          "url": "https://www.amazon.in/Motorola-Signature-Pantone-Snapdragon-Processor/dp/B0GPKG5N8V/ref=sr_1_6?crid=N4J1MR1GN9VX&dib=eyJ2IjoiMSJ9.7-xyhEovj2d5JwZZw_mETsksseK4wuZZcP4vCsjPRfbqxu1TWhK6eIvITmHR7rjdE2j_qtFf5khDYIuhmZvdqhwvdrgT4Cwbwa5CUR6pHktTXqsDO8WUN8W4Qee3hmTUEMhA0kdUZzDjqlFaofejrAf3tWoRSZdsaGNrYRbAaa0qvUVVB53vT-DLMTEhOgnuODJlhanJlXR_k8JNK82EaT3Y4hnFoj-2Vv_bFMjvHBY.4HkEH8Fit7eoAbGfBxACCb0CjyFMlPYjbTBKkut5oiI&dib_tag=se&keywords=motorola%2Bsignature&qid=1777894548&sprefix=Motorola%2BSignature%2Caps%2C453&sr=8-6&th=1"
+        }
+      ],
       "score": 95,
       "rating": 4.4,
       "marketStatus": "Upcoming",
@@ -520790,15 +520773,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:31.500Z",
-      "image": {
-        "file": "assets/phones/motorola-signature.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1018178,
-        "source": "https://cdn.beebom.com/mobile/motorola-signature-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:16.020Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:02.198Z"
     },
     {
       "slug": "motorola-signature-27",
@@ -520810,6 +520785,7 @@
         "amount": 169999,
         "text": "₹1,69,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -521471,15 +521447,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:50.770Z",
-      "image": {
-        "file": "assets/phones/motorola-signature-27.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 698723,
-        "source": "https://cdn.beebom.com/mobile/motorola-signature-27-front-and-back1.png",
-        "fetchedAt": "2026-11-15T08:34:16.307Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:43.116Z"
     },
     {
       "slug": "motorola-thinkphone",
@@ -555363,6 +555331,24 @@
         "amount": 34999,
         "text": "₹34,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 34999,
+          "priceText": "₹34,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/nothing-phone-4b-black-128-gb/p/itm939608b40adbb?pid=MOBHQENAAVZ8F6YP&marketplace=FLIPKART&lid=LSTMOBHQENAAVZ8F6YPTSL9I2&pageUID=1790575210274"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 31000,
+          "priceText": "₹31,000",
+          "inStock": true,
+          "url": "https://www.amazon.in/Nothing-Phone-Blue-8GB-128GB/dp/B0H8XQ49B8?th=1"
+        }
+      ],
       "score": 71,
       "rating": 4.4,
       "marketStatus": "Upcoming",
@@ -556055,15 +556041,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:55.107Z",
-      "image": {
-        "file": "assets/phones/nothing-phone-4b.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 669266,
-        "source": "https://cdn.beebom.com/mobile/nothing-phone-4b-front-back-side-1.png",
-        "fetchedAt": "2026-11-15T08:34:16.621Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:14.316Z"
     },
     {
       "slug": "nubia-navix-ultra",
@@ -565791,6 +565769,24 @@
         "amount": 47999,
         "text": "₹47,999,"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 61999,
+          "priceText": "₹61,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/oneplus-15r-5g-charcoal-black-256-gb/p/itmc1c624041ba6c?pid=MOBHGUTYBWQS4QXS&lid=LSTMOBHGUTYBWQS4QXS06TIS0&marketplace=FLIPKART&q=oneplus+15r&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=dc6e98cc-e7b5-4b76-95b0-8235ea508156.MOBHGUTYBWQS4QXS.SEARCH&ppt=pp&ppn=pp&ssid=py0plevwg00000001766385362006&qH=333e4621f8154708"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 59999,
+          "priceText": "₹59,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/dp/B0FZT1D63F?ref_=QAHzEditorial_en_IN_1&pf_rd_r=2576113FC49941D5AA7F&pf_rd_p=97843956-1fb5-4119-9819-f52940412403&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-3_CW&pf_rd_t=&pf_rd_i=1389401031&th=1"
+        }
+      ],
       "score": 90,
       "rating": 4.6,
       "marketStatus": "Upcoming",
@@ -566469,15 +566465,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:34.455Z",
-      "image": {
-        "file": "assets/phones/oneplus-15r.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 549589,
-        "source": "https://cdn.beebom.com/mobile/oneplus-15r-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:17.551Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:03.849Z"
     },
     {
       "slug": "oneplus-15s",
@@ -580867,6 +580855,7 @@
         "amount": 4399,
         "text": "¥4399"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -581467,15 +581456,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:41.881Z",
-      "image": {
-        "file": "assets/phones/oneplus-ace-7.png",
-        "width": 1000,
-        "height": 920,
-        "bytes": 860174,
-        "source": "https://cdn.beebom.com/mobile/oneplus-ace-7-front-back-Silver-1.png",
-        "fetchedAt": "2026-11-15T08:34:17.987Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:07.906Z"
     },
     {
       "slug": "oneplus-ace-7-pro",
@@ -581487,6 +581468,7 @@
         "amount": 5999,
         "text": "¥5999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -582084,15 +582066,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:40.962Z",
-      "image": {
-        "file": "assets/phones/oneplus-ace-7-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 984467,
-        "source": "https://cdn.beebom.com/mobile/oneplus-ace-7-pro-front-and-back2.png",
-        "fetchedAt": "2026-11-15T08:34:18.550Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:07.423Z"
     },
     {
       "slug": "oneplus-n6",
@@ -587610,6 +587584,24 @@
         "amount": 46565,
         "text": "₹46,565"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 46999,
+          "priceText": "₹46,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/dp/B0GRBBPBGQ?ref_=QAHzEditorial_en_IN_1&pf_rd_r=68BA56274F2F4CD3A33A&pf_rd_p=8ce93fa6-af18-4c21-bacf-3617cbace456&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-3_CW&pf_rd_t=&pf_rd_i=1389401031"
+        },
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 46565,
+          "priceText": "₹46,565",
+          "inStock": true,
+          "url": "https://www.flipkart.com/oneplus-nord-6-fresh-mint-256-gb/p/itmc49f71cdc4080?pid=MOBHMBW2KKBSFG9R&lid=LSTMOBHMBW2KKBSFG9RF62IZH&marketplace=FLIPKART&q=oneplus+nord+6+5g&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&fm=organic&iid=ed0b8c3f-567c-4241-8046-a46d81f7c3dd.MOBHMBW2KKBSFG9R.SEARCH&ppt=None&ppn=None&ssid=kk7gfuylhc0000001776144512513&qH=f6642e6989e11333&ov_redirect=true"
+        }
+      ],
       "score": 93,
       "rating": 4.5,
       "marketStatus": "Upcoming",
@@ -588304,15 +588296,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:28.727Z",
-      "image": {
-        "file": "assets/phones/oneplus-nord-6.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 663837,
-        "source": "https://cdn.beebom.com/mobile/oneplus-nord-6-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:18.838Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:00.652Z"
     },
     {
       "slug": "oneplus-nord-ce-5g",
@@ -593192,6 +593176,24 @@
         "amount": 36780,
         "text": "₹36,780"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 37999,
+          "priceText": "₹37,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/OnePlus-Round-Beast-Unleashed-Launching/dp/B0GWLTLNTV/ref=sr_1_1?adgrpid=59315357219&dib=eyJ2IjoiMSJ9.SvmPlSykpV07wjmEsOMFdBHrvbnfYvMrryPUQSWB7fGZLkCB-tFJ48vafKM-297ISCmz-IWxSgCZHoq417Kg5DPahEQ618lqxEd5ElUsH2QCstaAZDWQ_B6aS_BWoHpz3wHb5aD9cLtdfls2J1ge0kkrPtNmLIcbht8nNeaMH7oCoikh6exWrw_OPebWzFKF19sHp2F7cpVP4AuirwHKWyRO1UJemPf82Y_9RXnzhDQ.ODRdUJ6Gwfv6Uedizo7qsfk3JBVTZUMhBKjb_bPXzCc&dib_tag=se&gad_source=1&hvadid=714819211877&hvdev=c&hvexpln=0&hvlocphy=9062082&hvnetw=g&hvocijid=2726347692562922648--&hvqmt=e&hvrand=2726347692562922648&hvtargid=kwd-1538221322773&hydadcr=25227_2856623&keywords=oneplus%2Bnord%2Bce6&mcid=abdb45054cc93d379437447e5ed4f1e0&qid=1778222182&sr=8-1&th=1"
+        },
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 36780,
+          "priceText": "₹36,780",
+          "inStock": true,
+          "url": "https://www.flipkart.com/oneplus-nord-ce6-pitch-black-128-gb/p/itmd7b224b18cb05?pid=MOBHN886XZV5BC22&lid=LSTMOBHN886XZV5BC220CNQT8&marketplace=FLIPKART&q=oneplus+nord+ce6+5g&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_2_16_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_2_16_na_na_ps&fm=search-autosuggest&iid=fe1350e9-b229-4ffa-a92e-d878c99bd555.MOBHN886XZV5BC22.SEARCH&ppt=sp&ppn=sp&ssid=8f9ps6bylc0000001791957716050&qH=9d4b36279c830d79&ov_redirect=true"
+        }
+      ],
       "score": 89,
       "rating": 4.5,
       "marketStatus": "Upcoming",
@@ -593840,15 +593842,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:25.797Z",
-      "image": {
-        "file": "assets/phones/oneplus-nord-ce-6.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 636272,
-        "source": "https://cdn.beebom.com/mobile/oneplus-nord-ce-6-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:19.126Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:59.123Z"
     },
     {
       "slug": "oneplus-nord-ce-6-lite",
@@ -599883,6 +599877,7 @@
         "amount": 3699,
         "text": "¥3699"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -600430,15 +600425,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:38.182Z",
-      "image": {
-        "file": "assets/phones/oneplus-turbo-6vs.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 949878,
-        "source": "https://cdn.beebom.com/mobile/oneplus-turbo-6vs-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:19.421Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:05.718Z"
     },
     {
       "slug": "oneplus-turbo-6x",
@@ -655973,6 +655960,24 @@
         "amount": 38999,
         "text": "₹38,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 38999,
+          "priceText": "₹38,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/oppo-f35-5g-mist-pink-128-gb/p/itm337202b9d6fc7?pid=MOBHRHZHJ8NMUN8R&marketplace=FLIPKART&lid=LSTMOBHRHZHJ8NMUN8ROW2QTO&q=oppo+f35+5g&fm=organic&pageUID=1791796459118"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 38999,
+          "priceText": "₹38,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/OPPO-8000mAh-SUPERVOOC-Dimensity-Resistance/dp/B0HJQXWJWC/ref=sr_1_1?crid=32MLTOCHHZOLC&dib=eyJ2IjoiMSJ9.OWAInUAbHcuPuRp57XAz2vfw0jwmgS2UMaIDmVZZsSfJb0m2U-GI9Y_sEB5Pl50Pc6xDMNEBhQ0qFD8GKeNsOasRsc4Cgz_KAJrqa9Q3UdYjY1K2U7NOaDIB4uv34dsHBXJ7A0ogJF9_mv466RyNglvKDh0JIkdOu5AYC8mirvNvIxS8sCfi9j1LbzNFrV4Rr6lCyp-A5BWb_vhRRhttX3izKh5PF-g6aROhAv72Znu3aqjWmkWCKPtny2MY7aJyzu2JQr2vByEY1L68zQ1xnsGOkPF4eyMSapfOs-ts4Fw.3hPr2Ht8f65ioU-wv0O5XZlyX2YIx8sgl_kD4JrRgqE&dib_tag=se&keywords=oppo%2Bf35&qid=1791796487&s=electronics&sprefix=oppo%2Bf35%2Celectronics%2C450&sr=1-1&th=1"
+        }
+      ],
       "score": 77,
       "rating": 4.2,
       "marketStatus": "Upcoming",
@@ -656598,15 +656603,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:08.859Z",
-      "image": {
-        "file": "assets/phones/oppo-f35.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 766399,
-        "source": "https://cdn.beebom.com/mobile/oppo-f35-front-and-back-2.png",
-        "fetchedAt": "2026-11-15T08:34:19.713Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:51.042Z"
     },
     {
       "slug": "oppo-f35-pro",
@@ -656618,6 +656615,24 @@
         "amount": 45999,
         "text": "₹45,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 45999,
+          "priceText": "₹45,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/oppo-f35-pro-5g-sunrise-orange-128-gb/p/itm9a32b614f537d?pid=MOBHRHZHYRJYWYUE&lid=LSTMOBHRHZHYRJYWYUEE5MATJ&marketplace=FLIPKART&q=oppo+f35+5g&store=tyy%2F4io&srno=s_1_3&otracker=AS_Query_OrganicAutoSuggest_3_8_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_3_8_na_na_na&fm=organic&iid=7f2f20b7-43fa-43b0-a9a6-a973de44caf1.MOBHRHZHYRJYWYUE.SEARCH&ppt=None&ppn=None&ssid=29p1vy10a80000001791796439434&qH=c9ecdc1f0ed54448&ov_redirect=true"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 45999,
+          "priceText": "₹45,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/OPPO-Sunrise-8000mAh-SUPERVOOC-Dimensity/dp/B0HJTXRH6W/ref=sr_1_5?crid=32MLTOCHHZOLC&dib=eyJ2IjoiMSJ9.OWAInUAbHcuPuRp57XAz2vfw0jwmgS2UMaIDmVZZsSfJb0m2U-GI9Y_sEB5Pl50Pc6xDMNEBhQ0qFD8GKeNsOasRsc4Cgz_KAJrqa9Q3UdYjY1K2U7NOaDIB4uv34dsHBXJ7A0ogJF9_mv466RyNglvKDh0JIkdOu5AYC8mirvNvIxS8sCfi9j1LbzNFrV4Rr6lCyp-A5BWb_vhRRhttX3izKh5PF-g6aROhAv72Znu3aqjWmkWCKPtny2MY7aJyzu2JQr2vByEY1L68zQ1xnsGOkPF4eyMSapfOs-ts4Fw.3hPr2Ht8f65ioU-wv0O5XZlyX2YIx8sgl_kD4JrRgqE&dib_tag=se&keywords=oppo%2Bf35&qid=1791796487&s=electronics&sprefix=oppo%2Bf35%2Celectronics%2C450&sr=1-5&th=1"
+        }
+      ],
       "score": 88,
       "rating": 4.3,
       "marketStatus": "Upcoming",
@@ -657249,15 +657264,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:09.798Z",
-      "image": {
-        "file": "assets/phones/oppo-f35-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 862103,
-        "source": "https://cdn.beebom.com/mobile/oppo-f35-pro-front-and-back-view_3.png",
-        "fetchedAt": "2026-11-15T08:34:20.009Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:51.551Z"
     },
     {
       "slug": "oppo-find-n2-flip",
@@ -661101,6 +661108,24 @@
         "amount": 139999,
         "text": "₹1,39,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 139999,
+          "priceText": "₹1,39,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/oppo-find-x10-glacier-blue-256-gb/p/itma3cf79028e92d?pid=MOBHS77J9SCNW2SC&marketplace=FLIPKART&lid=LSTMOBHS77J9SCNW2SCUTNFJB&q=oppo+find+x10&fm=organic&pageUID=1793252074843"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 139999,
+          "priceText": "₹1,39,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/OPPO-Smartphone-Hasselblad-Dimensity-6-59-inch/dp/B0HMVXLVZT/ref=sr_1_1_sspa?crid=1P67ON45XY1Z5&dib=eyJ2IjoiMSJ9.wUYjYQ8cw9wnrsFSb03nUamJ5LOT5msrStjrp3f2xeL5ImIgPaJAEzX6VX2EjDQaiKaYnDuD-VvN7unACjLoW86BUQZ95fYXXIRPhNSzJqZrgV-97NFeCVqUWP3fI-N--zq-9W-UQ6kaOUY6f5mHkw7eZnFEcEnT44GXBWemsfFaDg7HS12F8-Mp8KnoJ2dPzHV6MtU7ApjTEIQrOuTHZewZBUMgCWFM_snkML33xz0.jDxhL9WAgLB9Xf52_oacfcqH29pOVJF1sHDi6PVq5lo&dib_tag=se&keywords=oppo%2Bfind%2Bx10&qid=1793252268&sprefix=Oppo%2BFind%2BX10%2Caps%2C278&sr=8-1-spons&aref=5A4up9xVD6&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+        }
+      ],
       "score": 83,
       "rating": 4.7,
       "marketStatus": "Upcoming",
@@ -661814,15 +661839,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:03.142Z",
-      "image": {
-        "file": "assets/phones/oppo-find-x10.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 850461,
-        "source": "https://cdn.beebom.com/mobile/oppo-find-x10-front-and-back-1.png",
-        "fetchedAt": "2026-11-15T08:34:20.301Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:48.682Z"
     },
     {
       "slug": "oppo-find-x10-pro",
@@ -662069,6 +662086,24 @@
         "amount": 199999,
         "text": "₹1,99,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 199999,
+          "priceText": "₹1,99,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/oppo-find-x10-pro-max-luna-white-512-gb/p/itm81b24791fb881?pid=MOBHS77JDGGUQP8U&lid=LSTMOBHS77JDGGUQP8ULYFTB3&marketplace=FLIPKART&q=oppo+find+x+10+pro+max&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_2_21_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_21_na_na_na&fm=search-autosuggest&iid=en_q0VWtfaHuVNyqzcCrCsebaC8jgijLGNReA4CVN8FxXJOzpChkTcoeUW9uOYx-xp8UBDTp3v5YlZw-0qlgHAX8UZlHGEgA_98p5iq1QrByy3Ouf4LwdPWfGUgmJFUo7UP&ppt=sp&ppn=sp&ssid=8189qcdllc0000001793253008723&qH=4d5ccb8edeafa4db&ov_redirect=true"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 199999,
+          "priceText": "₹1,99,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/OPPO-Hasselblad-Dimensity-6-78-inch-SUPERVOOC/dp/B0HMW8CM2Q/ref=sr_1_1_sspa?crid=2L72RAGJWBD2H&dib=eyJ2IjoiMSJ9.r6VxzeAnwRwG4Fbki-W8arY7kCB4PHSTH8TwTu9bKX35ImIgPaJAEzX6VX2EjDQaTxZ3skalitrIkElPWW0rcvy_-Mjyz8lyu3kCHse4gtB_x8mzdXnKTKa0DnRoBh_XWKiPbpJmiJ-kVS3daq1djowgOzNjMv5wByxokG_NyZ9R1128Rrp8Z4fEXjGhran8gdRytJYNDZpXI1OgZPMR1Kr1K5f3j4NviMAuSWluyC4.AA8kvRxV7Sk6Ml3gUgw9mUVUxCwIHgY-EIZYUnxf3Kk&dib_tag=se&keywords=oppo+find+x10+pro+max&qid=1793253013&sprefix=Oppo+Find+X10+Pro+Max%2Caps%2C271&sr=8-1-spons&aref=rruJC7ef2m&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+        }
+      ],
       "score": 86,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -662782,15 +662817,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:04.093Z",
-      "image": {
-        "file": "assets/phones/oppo-find-x10-pro-max.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 639418,
-        "source": "https://cdn.beebom.com/mobile/oppo-find-x10-pro-max-front-and-back3.png",
-        "fetchedAt": "2026-11-15T08:34:20.587Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:49.068Z"
     },
     {
       "slug": "oppo-find-x10-ultra",
@@ -686532,6 +686559,16 @@
         "amount": 32999,
         "text": "₹32,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 32999,
+          "priceText": "₹32,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/oppo-k14-plus-5g-solar-orange-128-gb/p/itm6b2b1016fd57a?pid=MOBHR3ZYZXYQ2GYK&lid=LSTMOBHR3ZYZXYQ2GYKUXH85B&marketplace=FLIPKART&q=oppo+k14+plus+5g&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_13_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_13_na_na_na&fm=organic&iid=2dd39d09-b7bd-4272-a1c6-13602be99e47.MOBHR3ZYZXYQ2GYK.SEARCH&ppt=None&ppn=None&ssid=rbayxlhydc0000001791444493353&qH=c41ece26e095dcde&ov_redirect=true"
+        }
+      ],
       "score": 89,
       "rating": 4.4,
       "marketStatus": "Upcoming",
@@ -687180,15 +687217,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:50.362Z",
-      "image": {
-        "file": "assets/phones/oppo-k14-plus.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 597553,
-        "source": "https://cdn.beebom.com/mobile/oppo-k14-plus-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:20.869Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:11.843Z"
     },
     {
       "slug": "oppo-k14-turbo",
@@ -693628,6 +693657,7 @@
         "amount": 65999,
         "text": "₹65,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Rumored",
@@ -693869,15 +693899,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:56.063Z",
-      "image": {
-        "file": "assets/phones/oppo-reno-17.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 618190,
-        "source": "https://cdn.beebom.com/mobile/oppo-reno-17-back-2 (1).png",
-        "fetchedAt": "2026-11-15T08:34:22.872Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:14.786Z"
     },
     {
       "slug": "oppo-reno-17-pro",
@@ -703235,6 +703257,24 @@
         "amount": 47999,
         "text": "₹47,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 47999,
+          "priceText": "₹47,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/oppo-reno15-5g-glacier-white-256-gb/p/itm37cc91d1c2807?pid=MOBHGZZ9YK5DRXSW&lid=LSTMOBHGZZ9YK5DRXSWFNAPAE&marketplace=FLIPKART&sattr%5B%5D=color&sattr%5B%5D=storage&sattr%5B%5D=ram&st=color"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 49999,
+          "priceText": "₹49,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/Reno15-Glacier-Storage-Additional-Exchange/dp/B0G8XZJ4N5/ref=sr_1_1_sspa?crid=1Q8G6YGC3T7F3&dib=eyJ2IjoiMSJ9.69Tr7XNeav4S4TPj1wlosV4Y9fwQzyCQrEJ2t4mMWS_Qv-RNvih3hxMYQA_HSK-NwuAWiFQ91kTybzYxr2E7D6BA8MhDOK9c1fQvDm0oCQdvvO2VbzDVLj9c_rUFvU4ENNlYilo2y-sHJslnhn7rY1lLqsEKDj-EccKgPWLtWSW3-NI6_GnHbUrtI-DyzrW4zQ0Ptd3bQMCT3sRtps3DGf2PqWMsfRO8eBmqUrDY_hk.yuvqbRUARVG3qYX06A5ALrG6488qW97pz7IQE2O6SI8&dib_tag=se&keywords=Oppo%2BReno15%2B5G&qid=1768288088&sprefix=oppo%2Breno15%2B5g%2Caps%2C392&sr=8-1-spons&aref=ix9Ij0JBfX&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+        }
+      ],
       "score": 86,
       "rating": 4.5,
       "marketStatus": "Upcoming",
@@ -703934,15 +703974,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:43.065Z",
-      "image": {
-        "file": "assets/phones/oppo-reno15.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 903432,
-        "source": "https://cdn.beebom.com/mobile/oppo-reno15-front-and-back2.png",
-        "fetchedAt": "2026-11-15T08:34:23.189Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:39.457Z"
     },
     {
       "slug": "oppo-reno15-f-5g",
@@ -710687,6 +710719,7 @@
         "amount": 62999,
         "text": "₹62,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -711301,15 +711334,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:55.613Z",
-      "image": {
-        "file": "assets/phones/oppo-reno16-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 714491,
-        "source": "https://cdn.beebom.com/mobile/oppo-reno16-pro-front-back-1.png",
-        "fetchedAt": "2026-11-15T08:34:23.478Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:45.246Z"
     },
     {
       "slug": "oppo-reno-16c",
@@ -738394,6 +738419,16 @@
         "amount": 35999,
         "text": "₹35,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 35999,
+          "priceText": "₹35,999",
+          "inStock": false,
+          "url": "https://www.flipkart.com/poco-f7-5g-frost-white-256-gb/p/itm22bb5d3a241bd?pid=MOBHCY2UMGZGXQTU&lid=LSTMOBHCY2UMGZGXQTUXGZLMY&marketplace=FLIPKART&q=poco+f7&store=tyy%2F4io&srno=s_1_5&otracker=AS_Query_HistoryAutoSuggest_6_0_na_na_na&otracker1=AS_Query_HistoryAutoSuggest_6_0_na_na_na&fm=organic&iid=dd425755-d01f-461e-a8bc-72f4237663c3.MOBHCY2UMGZGXQTU.SEARCH&ppt=clp&ppn=mobile-phones-store&ssid=2za2klwirk0000001750775252751&qH=cf02f6a10fac988f"
+        }
+      ],
       "score": 92,
       "rating": 4.4,
       "marketStatus": "Upcoming",
@@ -739031,15 +739066,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:54.135Z",
-      "image": {
-        "file": "assets/phones/poco-f7.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 802851,
-        "source": "https://cdn.beebom.com/mobile/poco-f7-front-back-1.png",
-        "fetchedAt": "2026-11-15T08:34:23.768Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:13.811Z"
     },
     {
       "slug": "poco-f7-pro",
@@ -755402,6 +755429,24 @@
         "amount": 18390,
         "text": "₹18,390"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 18999,
+          "priceText": "₹18,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/poco-m8x-5g-blue-128-gb/p/itm0e93ee1b1a898?pid=MOBHPCYNT7VGVKZS&marketplace=FLIPKART&lid=LSTMOBHPCYNT7VGVKZSIT3GWT&pageUID=1787811496401"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 18390,
+          "priceText": "₹18,390",
+          "inStock": true,
+          "url": "https://www.amazon.in/POCO-M8x-Green-128-RAM/dp/B0HHFHLW73"
+        }
+      ],
       "score": 76,
       "rating": 3.7,
       "marketStatus": "Upcoming",
@@ -755974,15 +756019,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:19.119Z",
-      "image": {
-        "file": "assets/phones/poco-m8x-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 744731,
-        "source": "https://cdn.beebom.com/mobile/poco-m8x-5g-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:24.705Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:55.953Z"
     },
     {
       "slug": "poco-x2",
@@ -763821,6 +763858,24 @@
         "amount": 23999,
         "text": "₹23,999,"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 23999,
+          "priceText": "₹23,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/poco-x7-pro-5g-nebula-green-256-gb/p/itm8f21ab157cc72?pid=MOBH7YZ94697Z9D6&lid=LSTMOBH7YZ94697Z9D61ANMBK&marketplace=FLIPKART&sattr%5B%5D=color&sattr%5B%5D=ram&st=color"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 29999,
+          "priceText": "₹29,999",
+          "inStock": false,
+          "url": "https://www.amazon.in/POCO-Pro-Yellow-8GB-256GB/dp/B0F1331BB5/ref=sr_1_3?crid=2VNS5DEZXVPG3&dib=eyJ2IjoiMSJ9.NICewt2MyeXesRm9xqOwAZe7bq24Iqbw6OROYpvLUENVueRz4mUvFKobnZbT1utIZVXQlWoPMsh1g_AmY7TL0vLsYYgZbB1V6X0cyuzEFtzH3t0ZEA5qiKOfOy4ay_E5ieX8Gw_LT9hS9McNO2RSv4c354Q5GsteSqfyugTKviW7dcFx6itv_5LI4w4w3sO8WD7U5NlA8NyWhDvc7guagtmFo8Jq_dLH37CT6_EA847ltVUKFUvhNMTbkvH4XI7y-O0zegobBVy4yG24Bn2SY2LCLGtNnATPn2Dhgy1KcZY.WirwqsR7iGWxDXJG47AuJGNuGooA_NffQtd1zUqaM8Y&dib_tag=se&keywords=POCO+X7+Pro+5G&qid=1747991500&s=electronics&sprefix=poco+x7+pro+5g%2Celectronics%2C237&sr=1-3"
+        }
+      ],
       "score": 95,
       "rating": 4.3,
       "marketStatus": "Upcoming",
@@ -764466,15 +764521,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:53.204Z",
-      "image": {
-        "file": "assets/phones/poco-x7-pro-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1115498,
-        "source": "https://cdn.beebom.com/mobile/poco-x7-pro-5g/poco-x7-pro-5g-front-and-back-1.png",
-        "fetchedAt": "2026-11-15T08:34:25.026Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:13.283Z"
     },
     {
       "slug": "poco-x8",
@@ -764486,6 +764533,16 @@
         "amount": 29999,
         "text": "₹29,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 29999,
+          "priceText": "₹29,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/poco-x8-5g-black-128-gb/p/itme5971a702d6f4?pid=MOBHQ6XZJAUN46UF&marketplace=FLIPKART&lid=LSTMOBHQ6XZJAUN46UFYE0XHT&pageUID=1789106235982"
+        }
+      ],
       "score": 89,
       "rating": 4.3,
       "marketStatus": "Upcoming",
@@ -765114,15 +765171,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:21.048Z",
-      "image": {
-        "file": "assets/phones/poco-x8.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 757357,
-        "source": "https://cdn.beebom.com/mobile/poco-x8-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:25.314Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:56.819Z"
     },
     {
       "slug": "poco-x8-power-5g",
@@ -765812,6 +765861,16 @@
         "amount": 39999,
         "text": "₹39,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 39999,
+          "priceText": "₹39,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/poco-x8-pro-charger-box-white-256-gb/p/itmabdb890182fb1?pid=MOBHMGG5QFZXHVAH&marketplace=FLIPKART&lid=LSTMOBHMGG5QFZXHVAH0PJMVC&q=poco+x8+pro+5g&fm=organic&pageUID=1779962425091"
+        }
+      ],
       "score": 93,
       "rating": 4.4,
       "marketStatus": "Upcoming",
@@ -766475,15 +766534,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:23.881Z",
-      "image": {
-        "file": "assets/phones/poco-x8-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 489681,
-        "source": "https://cdn.beebom.com/mobile/poco-x8-pro-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:25.621Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:58.150Z"
     },
     {
       "slug": "poco-x8-pro-max",
@@ -766495,6 +766546,16 @@
         "amount": 48999,
         "text": "₹48,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 48999,
+          "priceText": "₹48,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/poco-x8-pro-max-white-256-gb/p/itm38fa4fd504c3f?pid=MOBHMGG5YF569YNY&marketplace=FLIPKART&lid=LSTMOBHMGG5YF569YNYPQLFPD&q=poco+x8+pro+max+5g&fm=organic&pageUID=1780036839970"
+        }
+      ],
       "score": 91,
       "rating": 4.5,
       "marketStatus": "Upcoming",
@@ -767147,15 +767208,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:29.656Z",
-      "image": {
-        "file": "assets/phones/poco-x8-pro-max.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 518593,
-        "source": "https://cdn.beebom.com/mobile/poco-x8-pro-max-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:25.903Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:01.143Z"
     },
     {
       "slug": "poco-x8s",
@@ -820239,6 +820292,7 @@
         "amount": 10999,
         "text": "₹10,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -820744,15 +820798,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:56.550Z",
-      "image": {
-        "file": "assets/phones/realme-c81.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 947279,
-        "source": "https://cdn.beebom.com/mobile/realme-c81-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:26.195Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:45.620Z"
     },
     {
       "slug": "realme-c83",
@@ -826885,6 +826931,7 @@
         "amount": 35850,
         "text": "₹35,850"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -827507,15 +827554,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:00.312Z",
-      "image": {
-        "file": "assets/phones/realme-gt-8.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 410197,
-        "source": "https://cdn.beebom.com/mobile/realme-gt-8-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:26.474Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:47.404Z"
     },
     {
       "slug": "realme-gt-8-pro",
@@ -839266,6 +839305,24 @@
         "amount": 19597,
         "text": "₹19,597"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 21999,
+          "priceText": "₹21,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/realme-1200nits-Military-Grade-Resistance-48-Month/dp/B0H33DTQ1S/ref=sr_1_1_sspa?crid=21UBMUB6OSDX&dib=eyJ2IjoiMSJ9.y1n2uiqwOCUevIMz7uHAaxSx18iDEo3qHai3AG4CIw2KQygpvE84d8zFD9Gof8QemDh57lHaXNFjXkAAlyxsBL8bNac0bEu2QjJ0DWTkIyW0f0L9BDH-ycZ4S997OqgMJvsZzNSLlHxXfZQhH15tHBTsWo5UsbHmRZoXLkrUjExlqm5TsvjXQXEH3NmFtsmfrXAuk1a-SWJa_TGtmTl-e4T-m23NpYOEEUm5ydhPXTk33WoCbcwv-HCJYphqCIz6Ts_nbxVbIy0QT-m24-hmWrZn4mx_GB2UcODoUzry8nQ.q_BjX0EF5b4JKTNHoJkXu3q4hHyFuWr0_TOr5X1xDrw&dib_tag=se&keywords=Realme%2BNarzo%2B100x%2B5G&qid=1784703677&s=electronics&sprefix=realme%2Bnarzo%2B100x%2B5g%2Celectronics%2C422&sr=1-1-spons&aref=cjwiuuGmGj&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+        },
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 19597,
+          "priceText": "₹19,597",
+          "inStock": true,
+          "url": "https://www.flipkart.com/realme-narzo-100x-5g-midnight-black-128-gb/p/itm66836fc8ecc5e?pid=MOBHPJGFBGZUZBXG&marketplace=FLIPKART&lid=LSTMOBHPJGFBGZUZBXG1NXPIF&fm=eyJ3dHAiOiJwcm9kdWN0Q2FyZExpc3QiLCJwcnB0Ijoic3AiLCJtaWQiOiJQUk9EVUNUIn0&pageUID=1785836301948"
+        }
+      ],
       "score": 76,
       "rating": 4.2,
       "marketStatus": "Upcoming",
@@ -839807,15 +839864,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:18.191Z",
-      "image": {
-        "file": "assets/phones/realme-narzo-100x-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1304435,
-        "source": "https://cdn.beebom.com/mobile/realme-narzo-100x-5g-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:26.772Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:55.575Z"
     },
     {
       "slug": "realme-narzo-10a",
@@ -870840,6 +870889,24 @@
         "amount": 32990,
         "text": "₹32,990"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 32999,
+          "priceText": "₹32,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/realme-p4s-5g-electric-cyan-128-gb/p/itmcb2e7e552a5ef?pid=MOBHPBHAFUZTDTPX&marketplace=FLIPKART&lid=LSTMOBHPBHAFUZTDTPXY7KQJC&pageUID=1788416128231"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 32990,
+          "priceText": "₹32,990",
+          "inStock": true,
+          "url": "https://www.amazon.in/realme-P4s-Titanium-Gray-128GB/dp/B0HJWXB5K8?th=1"
+        }
+      ],
       "score": 89,
       "rating": 4.4,
       "marketStatus": "Upcoming",
@@ -871468,15 +871535,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:26.816Z",
-      "image": {
-        "file": "assets/phones/realme-p4s-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 880725,
-        "source": "https://cdn.beebom.com/mobile/realme-p4s-5g-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:27.061Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:59.697Z"
     },
     {
       "slug": "realme-p4s-lite",
@@ -871488,6 +871547,16 @@
         "amount": 13999,
         "text": "₹13,999,"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 13999,
+          "priceText": "₹13,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/realme-p4s-lite-nebula-black-64-gb/p/itmad0ec6e862ac8?pid=MOBHQZZGSGB5WZP9&marketplace=FLIPKART&lid=LSTMOBHQZZGSGB5WZP9N5XKTQ&pageUID=1791443891777"
+        }
+      ],
       "score": 88,
       "rating": 3.7,
       "marketStatus": "Upcoming",
@@ -872045,15 +872114,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:10.724Z",
-      "image": {
-        "file": "assets/phones/realme-p4s-lite.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 734630,
-        "source": "https://cdn.beebom.com/mobile/realme-p4s-lite-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:27.352Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:52.030Z"
     },
     {
       "slug": "realme-p4x",
@@ -888500,6 +888561,7 @@
         "amount": 949,
         "text": "$949"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -889107,15 +889169,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:36.304Z",
-      "image": {
-        "file": "assets/phones/redmagic-12-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 689739,
-        "source": "https://cdn.beebom.com/mobile/redmagic-12-pro-front-back-side.png",
-        "fetchedAt": "2026-11-15T08:34:29.110Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:04.723Z"
     },
     {
       "slug": "redmagic-12-pro-plus",
@@ -920881,6 +920935,7 @@
         "amount": 2999,
         "text": "¥2999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -921449,15 +921504,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:48.474Z",
-      "image": {
-        "file": "assets/phones/redmi-k100.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 660216,
-        "source": "https://cdn.beebom.com/mobile/redmi-k100-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:29.418Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:10.904Z"
     },
     {
       "slug": "redmi-k100-pro",
@@ -942398,6 +942445,7 @@
         "amount": 2499,
         "text": "¥2499"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -942953,15 +943001,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:37.221Z",
-      "image": {
-        "file": "assets/phones/redmi-m100-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 761575,
-        "source": "https://cdn.beebom.com/mobile/redmi-m100-pro-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:29.707Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:05.178Z"
     },
     {
       "slug": "redmi-note-10",
@@ -967338,6 +967378,24 @@
         "amount": 49430,
         "text": "₹49,430"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 49998,
+          "priceText": "₹49,998",
+          "inStock": true,
+          "url": "https://www.amazon.in/Redmi-Note-Pro-Launching-15th/dp/B0HGM9RBMH/ref=sr_1_1?dib=eyJ2IjoiMSJ9.oeJ4DSMKljGW4bh7wTn3y2_yTAqsXCYIikV_uLXBDn88D32qHgJEspG6ZUp6icBxfOdpEELbOzQbhDHLLnhB3tku5UDKbJUTpZ1sZFsC3PE.RdIqjQOGNFK7DCy_x-YMVn7e5nALfinu_lbsnSxTBjE&dib_tag=se&keywords=redmi%2Bnote%2B17%2Bpro%2Bmax&qid=1790145664&s=electronics&sr=1-1&th=1"
+        },
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 49430,
+          "priceText": "₹49,430",
+          "inStock": true,
+          "url": "https://www.flipkart.com/redmi-note-17-pro-max-5g-secret-sunrise-256-gb/p/itm68bf0869eb4ab?pid=MOBHRGHDRKGCJJGY&marketplace=FLIPKART&lid=LSTMOBHRGHDRKGCJJGY1IV9M0&pageUID=1793099959890"
+        }
+      ],
       "score": 95,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -968016,15 +968074,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:27.764Z",
-      "image": {
-        "file": "assets/phones/redmi-note-17-pro-max.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 405979,
-        "source": "https://cdn.beebom.com/mobile/redmi-note-17-pro-max-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:30.013Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:00.221Z"
     },
     {
       "slug": "redmi-note-7",
@@ -989337,6 +989387,24 @@
         "amount": 18499,
         "text": "₹18,499"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 18499,
+          "priceText": "₹18,499",
+          "inStock": true,
+          "url": "https://www.amazon.in/Samsung-Storage-MediaTek-6000mAh-Upgrades/dp/B0HGLNB1XP?linkCode=sl2&linkId=a7ab2d68945f2fa0cd0b8bd3ff0b14dc&ref_=as_li_ss_tl&ascsubtag=srctok-1af086579b3b677a&btn_type=ss&btn_ref=srctok-1af086579b3b677a"
+        },
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 18499,
+          "priceText": "₹18,499",
+          "inStock": true,
+          "url": "https://www.flipkart.com/samsung-galaxy-a08-lte-dark-blue-64-gb/p/itma6392fda80eee?pid=MOBHQZZHXY4H9JNQ&marketplace=FLIPKART&lid=LSTMOBHQZZHXY4H9JNQLYJB31&q=samsung+galaxy+a08+4g&fm=organic&pageUID=1793165312455"
+        }
+      ],
       "score": 57,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -989873,15 +989941,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:01.227Z",
-      "image": {
-        "file": "assets/phones/samsung-galaxy-a08.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 366500,
-        "source": "https://cdn.beebom.com/mobile/samsung-galaxy-a08-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:30.291Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:47.816Z"
     },
     {
       "slug": "samsung-galaxy-a10",
@@ -1028098,6 +1028158,16 @@
         "amount": 16999,
         "text": "₹16,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 16999,
+          "priceText": "₹16,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/samsung-galaxy-f08-dark-blue-64-gb/p/itme0e389f41fa86?pid=MOBHR32YUHEQZWSZ&lid=LSTMOBHR32YUHEQZWSZXNNXXK&marketplace=FLIPKART&q=samsung+galaxy+f08+5g&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_18_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_18_na_na_na&fm=organic&iid=6d4e7083-eafe-45f0-bc91-d3b244479af1.MOBHR32YUHEQZWSZ.SEARCH&ppt=None&ppn=None&ssid=qbpsxq9exs0000001791437527230&qH=f75eaa47d3c478a3&ov_redirect=true&affExtParam2=TZO20261008110214lu1hZetjmz&affExtParam1=B2227"
+        }
+      ],
       "score": 57,
       "rating": 4.3,
       "marketStatus": "Upcoming",
@@ -1028628,15 +1028698,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:11.650Z",
-      "image": {
-        "file": "assets/phones/samsung-galaxy-f08.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 950233,
-        "source": "https://cdn.beebom.com/mobile/samsung-galaxy-f08-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:30.583Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:52.479Z"
     },
     {
       "slug": "samsung-galaxy-f12",
@@ -1038447,6 +1038509,16 @@
         "amount": 18999,
         "text": "₹18,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 18999,
+          "priceText": "₹18,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/samsung-galaxy-f70-5g-bold-black-128-gb/p/itmcc1028703e31e?pid=MOBHRV4XEHTNRHHT&marketplace=FLIPKART&lid=LSTMOBHRV4XEHTNRHHTQYQGDP&q=Samsung+Galaxy+F70+5G&fm=organic&pageUID=1792560623098"
+        }
+      ],
       "score": 62,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -1038990,15 +1039062,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:46.004Z",
-      "image": {
-        "file": "assets/phones/samsung-galaxy-f70.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 808843,
-        "source": "https://cdn.beebom.com/mobile/samsung-galaxy-f70-front-back-2.png",
-        "fetchedAt": "2026-11-15T08:34:30.870Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:41.073Z"
     },
     {
       "slug": "samsung-galaxy-f70-pro",
@@ -1046337,6 +1046401,16 @@
         "amount": 15999,
         "text": "₹15,999"
       },
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 15999,
+          "priceText": "₹15,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/Samsung-Storage-MediaTek-6000mAh-Upgrades/dp/B0HJ7Z1M6T/ref=sr_1_1?dib=eyJ2IjoiMSJ9.vYLk8n2bIg9cJ_j0lemv4XTBKq-yFOUhZElaLgKt1H-vWLUD6k5K9XB9itAUT_46o_BDzDc2XXH-_7tRZuW42BaSpQTWXvn25VM2nykcWXGKT0zZJQ8yp4YrYmWJV-Q33oFG4--paeoj0gp9RETdYPUGaGNHvTOSTEBIh37gEHEbs5UueiMh_AgmZRHUFdkmYPrLcjsg77aKhAj_fG-giSOAbDvksq7RoSrSMwaEyjUsKvFz8pHqHAXIxxHCrEbsf4-yCVxioDT2O81q-PchBwQY1lvgiu1P0vsN7gm8L_M.poaXlPKfq-X7K2PscuvR63i09slNN-kv6iHNuqIDeDA&dib_tag=se&keywords=Samsung+Galaxy+M08&qid=1791437471&s=electronics&sr=1-1"
+        }
+      ],
       "score": 57,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -1046867,15 +1046941,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:12.586Z",
-      "image": {
-        "file": "assets/phones/samsung-galaxy-m08.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 859649,
-        "source": "https://cdn.beebom.com/mobile/samsung-galaxy-m08-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:31.159Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:53.004Z"
     },
     {
       "slug": "samsung-galaxy-m10",
@@ -1114518,6 +1114584,7 @@
         "amount": 18999,
         "text": "¥18999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -1115340,15 +1115407,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:39.093Z",
-      "image": {
-        "file": "assets/phones/samsung-w27.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 876099,
-        "source": "https://cdn.beebom.com/mobile/samsung-w27-front-and-back-2.png",
-        "fetchedAt": "2026-11-15T08:34:31.471Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:06.283Z"
     },
     {
       "slug": "sony-xperia-1-iii",
@@ -1176822,6 +1176881,24 @@
         "amount": 26499,
         "text": "₹26,499"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 31999,
+          "priceText": "₹31,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/tecno-Pova-Curve-2-5G-Melting-Silver-128-GB/p/itm55bac6e44a4fe?pid=MOBHK67S4B7QR4ZG&ocmpid=BrandAd_TECNO_POVACURVE2_Internal_Website"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 26499,
+          "priceText": "₹26,499",
+          "inStock": true,
+          "url": "https://www.amazon.in/Tecno-Curve-Melting-Silver-Storage/dp/B0GFX21YZ6/ref=sr_1_3?crid=1KA766KZ13MUL&dib=eyJ2IjoiMSJ9.fLIRAME1rTSLuKDmHIe_S6KH568DLKqKjnz7QxbIu0wsuwaRo72EQSvKIz4PHSexDlZp45CQc6PfCMonzC3SRHmhCQGEfUSGu41DP-OR9I2yP6sI1SXTAAp4_4mlImtpTXInX_eACZ36STREhslNgeA4lyTWbSAF5XWkYL9H2RHlnIbHvMmRsDEsigqHShy14z-RCOZg-jC8ih_Ju2pHK0oYIqqyUyeZAxC4hFWjZyc.iKIX09z1HiPCdz7oAcnlR-xF3mBBNHKPC4QCrqd9u9k&dib_tag=se&keywords=tecno%2Bpova%2Bcurve%2B2%2B5g&qid=1780396140&sprefix=Tecno%2BPova%2BCurve%2B2%2Caps%2C272&sr=8-3&th=1"
+        }
+      ],
       "score": 79,
       "rating": 4.1,
       "marketStatus": "Upcoming",
@@ -1177393,15 +1177470,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:22.926Z",
-      "image": {
-        "file": "assets/phones/tecno-pova-curve-2.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 728709,
-        "source": "https://cdn.beebom.com/mobile/tecno-pova-curve-2-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:31.758Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:57.776Z"
     },
     {
       "slug": "tecno-pova-curve-5g",
@@ -1212522,6 +1212591,24 @@
         "amount": 38999,
         "text": "₹38,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 38999,
+          "priceText": "₹38,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/vivo-s2-fe-stellar-green-128-gb/p/itmaf458fdc4f839?pid=MOBHR8G9CECNFCDY&marketplace=FLIPKART&lid=LSTMOBHR8G9CECNFCDYJJJRZX&pageUID=1792560056772"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 38999,
+          "priceText": "₹38,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/vivo-Stellar-Storage-Additional-Exchange/dp/B0HK17FHHH/ref=sr_1_2?crid=3PI44RPD6CPK1&dib=eyJ2IjoiMSJ9.wjJrhVJAjThI86YyuME_GUb-oB4vlMMYbTLzA4MM48wjkKA4S5sjj7chi9TqPNnlaV5mpU0ZF5yJk5HMwfthBQx5tzROtSy0__JBHfTfwr9aok20KMuUrLcXPg4uL3ji5mCYT3iuqlZAHZl2aoGRJJO5I2mUmwaxlm579tLiw6zl1U3kbNKR3iXxp5GmgVepwbpECTEuqJHG04S7mi7lgo8c2ifxI9_Yj9oEifQZlllQudRvqs12y8m6eSzBhSnK2rfIaB6aqiaIN52leictO2OhLeDrkVcryIUhF_KMPLc.YR2LQMfB2sKNSwtpAJ5rjTcJ7GgANuRw8asYEZPp70E&dib_tag=se&keywords=Vivo+S2+FE&qid=1792560067&s=electronics&sprefix=vivo+s2+fe%2Celectronics%2C288&sr=1-2"
+        }
+      ],
       "score": 79,
       "rating": 4.2,
       "marketStatus": "Upcoming",
@@ -1213094,15 +1213181,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:05.969Z",
-      "image": {
-        "file": "assets/phones/vivo-s2-fe.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 630222,
-        "source": "https://cdn.beebom.com/mobile/vivo-s2-fe-back-front.png",
-        "fetchedAt": "2026-11-15T08:34:32.040Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:49.819Z"
     },
     {
       "slug": "vivo-s20",
@@ -1230405,6 +1230484,24 @@
         "amount": 16999,
         "text": "₹16,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 16999,
+          "priceText": "₹16,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/vivo-t4x-5g-marine-blue-128-gb/p/itm017656bdd097b?pid=MOBH9JUSTWEMVADU&lid=LSTMOBH9JUSTWEMVADU5W2ENU&marketplace=FLIPKART&sattr%5B%5D=color&sattr%5B%5D=storage&sattr%5B%5D=ram&st=ram"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 33999,
+          "priceText": "₹33,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/VIVO-T4x-Marine-Blue-128GB/dp/B0F196CQSQ/ref=sr_1_3?crid=RVGWVOILV7K&dib=eyJ2IjoiMSJ9.VCry64cHZfQL2FRz74M5w8o-DhtAzRtR0fYLMvnRsYCEvi3c1dtlwVzvKlOp7RUTOIOxHYPuiaJZo0IP_9hdewfFBFN981pt1x4k72NMcVORf8nUu-lxGxeA5ofsGGLSKi-sy2bI0IUQPwZYKrGQZH64AN5KhgsgwPX9YH6_b4R1-OcZ-sEQRyYWAxxyA0f173Vy6l2VwF16mMCRHElvFGr8uMLqjZfBc_xQp_eedeQ.nzgkh0twFgREG8Gv3uyUuFhlgrb8ui4VFHAK4jFj7PU&dib_tag=se&keywords=Vivo+T4x+5G&nsdOptOutParam=true&qid=1747721197&sprefix=poco%2Bc3%2Caps%2C615&sr=8-3"
+        }
+      ],
       "score": 74,
       "rating": 4.4,
       "marketStatus": "Upcoming",
@@ -1230941,15 +1231038,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:42.120Z",
-      "image": {
-        "file": "assets/phones/vivo-t4x-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 604227,
-        "source": "https://cdn.beebom.com/mobile/vivo-t4x-front-and-back-6.png",
-        "fetchedAt": "2026-11-15T08:34:32.327Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:38.939Z"
     },
     {
       "slug": "vivo-t5",
@@ -1231504,6 +1231593,16 @@
         "amount": 34999,
         "text": "₹34,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 39999,
+          "priceText": "₹39,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/vivo-t5-5g-royal-bronze-128-gb/p/itm8fa150d1fa2d2?pid=MOBHQC8D6EURCBKD&marketplace=FLIPKART&lid=LSTMOBHQC8D6EURCBKDVGX4VE&pageUID=1788936503911"
+        }
+      ],
       "score": 85,
       "rating": 4.5,
       "marketStatus": "Upcoming",
@@ -1232127,15 +1232226,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:49.449Z",
-      "image": {
-        "file": "assets/phones/vivo-t5-5g.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 555831,
-        "source": "https://cdn.beebom.com/mobile/vivo-t5-5g-front-back-1.png",
-        "fetchedAt": "2026-11-15T08:34:32.608Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:11.357Z"
     },
     {
       "slug": "vivo-t5-lite-5g",
@@ -1260616,6 +1260707,24 @@
         "amount": 62999,
         "text": "₹62,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 62999,
+          "priceText": "₹62,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/vivo-v80-sunrise-anthem-128-gb/p/itma504af1ae77cb?pid=MOBHR8J2FRP7VRYG&lid=LSTMOBHR8J2FRP7VRYGEZGPBS&marketplace=FLIPKART&q=Vivo+V80&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=6097e2f4-1f9e-4aba-a2d9-70aa09cbc5ab.MOBHR8J2FRP7VRYG.SEARCH&ppt=None&ppn=None&ssid=18l1xzh4wg0000001791871227162&qH=b131fc3a25c005f7&ov_redirect=true"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 62999,
+          "priceText": "₹62,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/vivo-Sunrise-Storage-Additional-Exchange/dp/B0HJCXYKCT/ref=sr_1_1?crid=ZWGHFG43WBQ8&dib=eyJ2IjoiMSJ9.-naupBcfl7__jI-tv3lmQTzAA1AfdLyhxbkgEr78sbNKbIreBQk5v4cFxLy9WZnIeuZN_QniEhqT8XwlmNpnExwmyoIaOPmNyiVEHEDcfhE1Erm-2KSNmOQTTNXcvIpr8AI-mkWoiZ1RJG5yUEJ30tKBSd6Wf-7AnbsGdIvCGTY8wU9EZkphPSNTxWdyOLeVMIBNcwMiCEqbQeiBH5Vrotki_9EgL8jdKG5K4gMDEHHbTODF4Q0P0Ljb3t2giu0-vptLawxhATmWwpfKTrxAkjaD4gTJjs9WKraCbRJN32k._zR8DI3Bp3kuzD2Z-8GzLDCJ-I6krfYZT4wv2MmKViI&dib_tag=se&keywords=Vivo%2BV80&qid=1791871216&s=electronics&sprefix=vivo%2Bv80%2Celectronics%2C391&sr=1-1&th=1"
+        }
+      ],
       "score": 80,
       "rating": 4.5,
       "marketStatus": "Upcoming",
@@ -1261331,15 +1261440,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:44.973Z",
-      "image": {
-        "file": "assets/phones/vivo-v80.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 935108,
-        "source": "https://cdn.beebom.com/mobile/vivo-v80-front-back-2.png",
-        "fetchedAt": "2026-11-15T08:34:32.896Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:40.388Z"
     },
     {
       "slug": "vivo-v80-lite-5g",
@@ -1265604,6 +1265705,24 @@
         "amount": 219999,
         "text": "₹2,19,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 219999,
+          "priceText": "₹2,19,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/vivo-x-fold-6-nebula-teal-512-gb/p/itm1c5507b365b48?pid=MOBHRAZJ2XGRKVYF"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 219999,
+          "priceText": "₹2,19,999",
+          "inStock": true,
+          "url": "https://www.amazon.in/vivo-Nebula-Storage-Additional-Exchange/dp/B0HK47QMVT/ref=sr_1_1?crid=2ZEI5BD5F55V1&dib=eyJ2IjoiMSJ9.F2gcsLEW8g5yFAMcISTfhVZxB7ZzOCS1_S7io0n4mMIBRE6RMr4PnRg3BoCa2S8UrrjCaWyqsI3SS7X8oslE3tQ5QHckoifx3328ICs5-0GyRSDVydxNPYkJ3LwlH4iGF4KW6f9rZzFLy5SyuQ-25JzJoLjNcCrReaq7zJj4-SlRiI_xYcukz5PkWbyelqcfXY92Rit5WGs1KP1pOXOw-XG5hqutGl2zR7ywiHgyah7Z9ctKp3lcKCgWngHIFu-nq1sCplSwdmEpSlXAPrIkOH5J-C8bGElQt7nw3zfy_aA.fycfl_uiluUcifTgGCBM3_a2TpYuiMHUiM7WfmM43aE&dib_tag=se&keywords=Vivo%2BX%2BFold%2B6&qid=1791870854&s=electronics&sprefix=vivo%2Bx%2Bfold%2B6%2Celectronics%2C278&sr=1-1&th=1"
+        }
+      ],
       "score": 76,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -1266421,15 +1266540,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:06.924Z",
-      "image": {
-        "file": "assets/phones/vivo-x-fold-6.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1630004,
-        "source": "https://cdn.beebom.com/mobile/vivo-x-fold-6-back-1.png",
-        "fetchedAt": "2026-11-15T08:34:33.963Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:50.270Z"
     },
     {
       "slug": "vivo-x-fold3-pro",
@@ -1271125,6 +1271236,24 @@
         "amount": 58999,
         "text": "₹58,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 58999,
+          "priceText": "₹58,999",
+          "inStock": false,
+          "url": "https://www.flipkart.com/vivo-x200-5g-cosmos-black-256-gb/p/itm8a4d46ac97f57?pid=MOBH7443KJ744GWE&lid=LSTMOBH7443KJ744GWEPKP4AI&marketplace=FLIPKART&q=vivo+x200&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_na&iid=28b1f81f-2316-4006-bf9b-54b583787177.MOBH7443KJ744GWE.SEARCH&ssid=r3vrlaygy80000001734073349462&qH=260782e1c82122f0"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 65999,
+          "priceText": "₹65,999",
+          "inStock": false,
+          "url": "https://www.amazon.in/Natural-Storage-Additional-Exchange-Offers/dp/B07WHQB1Z4"
+        }
+      ],
       "score": 84,
       "rating": 4.6,
       "marketStatus": "Upcoming",
@@ -1271758,15 +1271887,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:52.248Z",
-      "image": {
-        "file": "assets/phones/vivo-x200.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 815942,
-        "source": "https://cdn.beebom.com/mobile/vivo-x200/vivo-x200-camera-front-back-design-night-black-.png",
-        "fetchedAt": "2026-11-15T08:34:34.328Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:12.820Z"
     },
     {
       "slug": "vivo-x200-fe",
@@ -1275143,6 +1275264,16 @@
         "amount": 59999,
         "text": "₹59,999,"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 59999,
+          "priceText": "₹59,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/vivo-x200t-seaside-lilac-256-gb/p/itm1b8452d68859b?pid=MOBHJK5M62ZH9FAM&marketplace=FLIPKART&lid=LSTMOBHJK5M62ZH9FAMR92PUT&pageUID=1770097446061"
+        }
+      ],
       "score": 94,
       "rating": 4.6,
       "marketStatus": "Upcoming",
@@ -1275816,15 +1275947,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:32.540Z",
-      "image": {
-        "file": "assets/phones/vivo-x200t.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 624155,
-        "source": "https://cdn.beebom.com/mobile/vivo-x200t-light-purple-front-and-back.png",
-        "fetchedAt": "2026-11-15T08:34:34.613Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:02.707Z"
     },
     {
       "slug": "vivo-x300",
@@ -1283086,6 +1283209,7 @@
         "amount": 78999,
         "text": "₹78,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -1283762,15 +1283886,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:46.941Z",
-      "image": {
-        "file": "assets/phones/vivo-x500.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 581473,
-        "source": "https://cdn.beebom.com/mobile/vivo-X500-front-back-4.png",
-        "fetchedAt": "2026-11-15T08:34:35.038Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:41.439Z"
     },
     {
       "slug": "vivo-x500-pro",
@@ -1283782,6 +1283898,7 @@
         "amount": 92999,
         "text": "₹92,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -1284457,15 +1284574,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:47.870Z",
-      "image": {
-        "file": "assets/phones/vivo-x500-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 795074,
-        "source": "https://cdn.beebom.com/mobile/vivo-x500-pro-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:35.325Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:41.822Z"
     },
     {
       "slug": "vivo-x500-pro-max",
@@ -1284477,6 +1284586,7 @@
         "amount": 99999,
         "text": "₹99,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -1285152,15 +1285262,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:48.854Z",
-      "image": {
-        "file": "assets/phones/vivo-x500-pro-max.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 564810,
-        "source": "https://cdn.beebom.com/mobile/vivo-x500-pro-max-front-back-side.png",
-        "fetchedAt": "2026-11-15T08:34:35.608Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:42.276Z"
     },
     {
       "slug": "vivo-x500e",
@@ -1360092,6 +1360194,7 @@
         "amount": 1599,
         "text": "¥1599"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Not Released in India",
@@ -1360576,15 +1360679,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:33:35.396Z",
-      "image": {
-        "file": "assets/phones/vivo-y6k.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 754821,
-        "source": "https://cdn.beebom.com/mobile/vivo-y6k-front-back.png",
-        "fetchedAt": "2026-11-15T08:34:35.895Z"
-      }
+      "scrapedAt": "2026-11-15T09:15:04.285Z"
     },
     {
       "slug": "vivo-y6t",
@@ -1401200,6 +1401295,7 @@
         "amount": 84999,
         "text": "₹84,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Upcoming",
@@ -1401947,15 +1402043,7 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-15T08:32:51.710Z",
-      "image": {
-        "file": "assets/phones/xiaomi-18-pro.png",
-        "width": 1000,
-        "height": 1000,
-        "bytes": 1017937,
-        "source": "https://cdn.beebom.com/mobile/xiaomi-18-pro-transparent-edition-front-and-back.png",
-        "fetchedAt": "2026-11-15T08:34:36.213Z"
-      }
+      "scrapedAt": "2026-11-15T09:14:43.598Z"
     },
     {
       "slug": "xiaomi-18-pro-max",
@@ -1446098,11 +1446186,5 @@
         "fetchedAt": "2026-11-14T18:58:55.802Z"
       }
     }
-  ],
-  "imageStats": {
-    "generatedAt": "2026-11-15T08:34:36.213Z",
-    "count": 2526,
-    "minWidth": 497,
-    "maxWidth": 2000
-  }
+  ]
 }

@@ -1660,9 +1660,12 @@ ${renderHeader(rootPrefix)}
       <h2>Where to Buy ${esc(phone.name)}</h2>
       <div class="buy-stores-grid">
         ${buyStores.map((s) => {
-          const matched = (phone.stores || []).find((st) => (st.store || '').toLowerCase().includes(s.key));
-          const storePrice = matched?.price ? `${phone.price?.currency || '₹'}${Number(matched.price).toLocaleString('en-IN')}` : (priceText || 'Check Price');
-          return `<a class="buy-store-btn ${s.cls}" href="${esc(s.url)}" target="_blank" rel="nofollow sponsored noopener">
+          const matched = (phone.stores || []).find((st) => (st.store || st.key || '').toLowerCase().includes(s.key));
+          const storePrice = matched?.price
+            ? `${phone.price?.currency || '₹'}${Number(matched.price).toLocaleString('en-IN')}`
+            : (phone.stores?.length ? 'Check Price' : (priceText || 'Check Price'));
+          const storeHref = matched?.url ? wrapAffiliateUrl(matched.url, s.name) : s.url;
+          return `<a class="buy-store-btn ${s.cls}" href="${esc(storeHref)}" target="_blank" rel="nofollow sponsored noopener">
           <span class="buy-store-icon">${STORE_ICONS[s.key]}</span>
           <span class="buy-store-meta">
             <span class="buy-store-name">${esc(s.name)}</span>

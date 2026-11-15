@@ -147,6 +147,42 @@ function parseGallery(html) {
   return images.map((img) => ({ url: img.url, alt: img.alt, category: img.category })).filter((img) => img.url);
 }
 
+function parseStores(all) {
+  const island = all.find((i) => i.component === 'StoreVariantsAndDataComponent' && i.props?.storesData);
+  const rawStores = island?.props?.storesData || [];
+  const out = [];
+  for (const st of rawStores) {
+    if (!st || typeof st !== 'object') continue;
+    const variants = (Array.isArray(st.variants) ? st.variants : [])
+      .map((v) => ({
+        price: Number(String(v?.price || '').replace(/[^\d]/g, '')) || 0,
+        priceText: clean(v?.price || ''),
+        inStock: Boolean(v?.inStock),
+        url: clean(v?.link || ''),
+      }))
+      .filter((v) => v.price > 0 && v.url);
+    if (!variants.length) continue;
+    variants.sort((a, b) => (b.inStock - a.inStock) || (a.price - b.price));
+    const best = variants[0];
+    out.push({
+      store: clean(st.displayName || st.name || ''),
+      key: clean(st.name || ''),
+      price: best.price,
+      priceText: best.priceText,
+      inStock: best.inStock,
+      url: (() => {
+        try {
+          const u = new URL(best.url);
+          u.searchParams.delete('tag');
+          u.searchParams.delete('affid');
+          return u.toString();
+        } catch { return best.url; }
+      })(),
+    });
+  }
+  return out;
+}
+
 function parseRecord(html, slug) {
   const all = islands(html);
   const h1 = [...html.matchAll(/<h1[^>]*>([\s\S]{1,160}?)<\/h1>/g)].map((m) => stripTags(m[1])).find(Boolean) || '';
@@ -182,6 +218,7 @@ function parseRecord(html, slug) {
     name: h1,
     brand,
     price: parsedPrice,
+    stores: parseStores(all),
     score: scoreMatch ? Number(scoreMatch[1]) : null,
     rating: ratingMatch ? Number(ratingMatch[1]) : null,
     marketStatus,
