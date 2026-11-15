@@ -1858,5 +1858,58 @@ button { font: inherit; cursor: pointer; }
   gap: 7px;
 }
 
+.buy-stores-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+@media (max-width: 720px) {
+  .buy-stores-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.buy-store-btn {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 13px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-size: 13.5px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+.buy-store-btn:hover {
+  transform: translateY(-1px);
+  border-color: var(--primary);
+  box-shadow: var(--shadow);
+}
+.store-badge-dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 900;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+.buy-store-btn.store-amazon .store-badge-dot { background: #131921; color: #ff9900; }
+.buy-store-btn.store-flipkart .store-badge-dot { background: #2874f0; color: #ffe500; }
+.buy-store-btn.store-croma .store-badge-dot { background: #121212; color: #00e9bf; }
+.buy-store-btn.store-jiomart .store-badge-dot { background: #e31837; color: #ffffff; }
+.buy-arrow {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1;
+}
+
+
 
 

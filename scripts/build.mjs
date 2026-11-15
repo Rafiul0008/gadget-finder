@@ -1441,6 +1441,26 @@ ${renderHeader(rootPrefix)}
     ${phone.score ? `<div class="score-ring" style="background: conic-gradient(var(--primary) 0 ${Number(phone.score)}%, var(--border) ${Number(phone.score)}% 100%)" title="Score out of 100"><strong>${phone.score}</strong><span>Score</span></div>` : ''}
   </section>
 
+  ${(() => {
+    const q = encodeURIComponent(phone.name);
+    const buyStores = [
+      { name: 'Amazon', cls: 'store-amazon', badge: 'a', url: wrapAffiliateUrl(`https://www.amazon.in/s?k=${q}`, 'Amazon') },
+      { name: 'Flipkart', cls: 'store-flipkart', badge: 'f', url: wrapAffiliateUrl(`https://www.flipkart.com/search?q=${q}`, 'Flipkart') },
+      { name: 'Croma', cls: 'store-croma', badge: 'c', url: wrapAffiliateUrl(`https://www.croma.com/searchB?q=${q}%3Arelevance&text=${q}`, 'Croma') },
+      { name: 'JioMart', cls: 'store-jiomart', badge: 'J', url: wrapAffiliateUrl(`https://www.jiomart.com/search/${q}`, 'JioMart') },
+    ];
+    return `<section class="section-card buy-stores-card">
+      <h2>Where to Buy ${esc(phone.name)}</h2>
+      <div class="buy-stores-grid">
+        ${buyStores.map((s) => `<a class="buy-store-btn ${s.cls}" href="${esc(s.url)}" target="_blank" rel="nofollow sponsored noopener">
+          <span class="store-badge-dot">${s.badge}</span>
+          <span>Buy on ${esc(s.name)}</span>
+          <span class="buy-arrow">›</span>
+        </a>`).join('')}
+      </div>
+    </section>`;
+  })()}
+
   ${Object.keys(phone.highlights || {}).length ? `
   <section class="section-card">
     <h2>Key Highlights</h2>
