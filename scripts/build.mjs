@@ -952,7 +952,7 @@ const isReleasedPhone = (p) => !/upcoming|rumor|discontinued|not released/i.test
 function phonesInBand(phones, band) {
   return phones
     .filter((p) => inrPrice(p) >= Math.max(band.min, 1) && inrPrice(p) <= band.max)
-    .sort((a, b) => (b.score || 0) - (a.score || 0) || inrPrice(b) - inrPrice(a));
+    .sort((a, b) => inrPrice(b) - inrPrice(a) || (b.score || 0) - (a.score || 0));
 }
 
 const priceRange = (list) => {
@@ -1485,9 +1485,9 @@ ${renderHeader(rootPrefix, band.slug.startsWith('under-') ? band.slug : 'mobile-
     <div class="listing-sort-wrap">
       <label class="muted" for="listing-sort">Sort:</label>
       <select id="listing-sort" class="sort-select">
-        <option value="default">Best Score</option>
+        <option value="price-desc" selected>Price: High to Low</option>
         <option value="price-asc">Price: Low to High</option>
-        <option value="price-desc">Price: High to Low</option>
+        <option value="default">Best Score</option>
         <option value="refresh">Refresh Rate</option>
       </select>
       <span class="muted" id="listing-count">${priced.length} phones</span>
@@ -2126,7 +2126,7 @@ function renderHomePage(phones, config, content, pairs) {
     max,
     list: phones
       .filter((p) => inrPrice(p) && inrPrice(p) <= max)
-      .sort((a, b) => (b.score || 0) - (a.score || 0))
+      .sort((a, b) => inrPrice(b) - inrPrice(a) || (b.score || 0) - (a.score || 0))
       .slice(0, 4),
   })).filter((tab) => tab.list.length);
 
@@ -2235,7 +2235,7 @@ ${renderHeader('./', 'home')}
         <div class="mini-grid">
           ${tab.list.map((p) => renderPhoneCard(p, './', config)).join('')}
         </div>
-        <a class="home-head-link tab-link" href="./mobile/?max=${tab.max}&amp;sort=score">View all phones under ₹${tab.max.toLocaleString('en-IN')} ›</a>
+        <a class="home-head-link tab-link" href="./mobile/?max=${tab.max}&amp;sort=price-desc">View all phones under ₹${tab.max.toLocaleString('en-IN')} ›</a>
       </div>`).join('')}
     </div>
   </section>
@@ -2711,7 +2711,7 @@ function build() {
       const catOk = bp.category === 'all' || p.category === bp.category;
       const priceOk = p.lowestPrice <= bp.maxPrice && p.lowestPrice >= (bp.minPrice || 0);
       return catOk && priceOk;
-    });
+    }).sort((a, b) => (b.lowestPrice || 0) - (a.lowestPrice || 0) || (b.score || 0) - (a.score || 0));
     const highlighted = esc(bp.title).replace(/(₹[\d,]+)/, '<span class="price-highlight">$1</span>');
     const pageHtml = renderListPage({
       title: `${bp.title} in India (${monthYear}) | ${config.siteName}`,
