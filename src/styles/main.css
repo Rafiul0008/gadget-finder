@@ -2079,6 +2079,47 @@ button { font: inherit; cursor: pointer; }
   gap: 6px;
 }
 
+.hero-power-badges .pwr-badge {
+  padding: 4px;
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
+  justify-content: center;
+  gap: 0;
+}
+
+.hero-power-badges .pwr-badge svg {
+  width: 20px;
+  height: 20px;
+}
+
+.meta-brand-pill {
+  padding: 3px 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  min-height: 28px;
+}
+
+.meta-brand-pill .brand-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 5px;
+  display: block;
+}
+
+.meta-brand-pill .brand-monogram {
+  width: 22px;
+  height: 22px;
+  font-size: 10.5px;
+  border-radius: 5px;
+}
+
 .pwr-badge {
   display: inline-flex;
   align-items: center;
@@ -2431,7 +2472,8 @@ html[data-theme="dark"] .brand-logo-img {
 html[data-theme="dark"] .mini-thumb,
 html[data-theme="dark"] .phone-hero-media,
 html[data-theme="dark"] .product-hero-media,
-html[data-theme="dark"] .brand-logo-chip .brand-logo {
+html[data-theme="dark"] .brand-logo-chip .brand-logo,
+html[data-theme="dark"] .meta-brand-pill {
   background: #ffffff;
   border-radius: 10px;
 }

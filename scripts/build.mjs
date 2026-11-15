@@ -694,11 +694,11 @@ const POWER_BADGE_ICONS = {
   camera: `<svg viewBox="0 0 28 28" fill="none"><defs><linearGradient id="pgCam" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f43f5e"/><stop offset="100%" stop-color="#fb923c"/></linearGradient></defs><rect width="28" height="28" rx="8" fill="url(#pgCam)"/><rect x="5.5" y="8.5" width="17" height="12" rx="3.5" fill="#ffffff" opacity=".95"/><circle cx="14" cy="14.5" r="3.8" fill="#1e1b4b"/><circle cx="14" cy="14.5" r="1.9" fill="#38bdf8"/><circle cx="19.5" cy="11" r="1" fill="#f59e0b"/></svg>`,
 };
 
-function renderPowerBadges(facts, compact = true) {
+function renderPowerBadges(facts, compact = true, iconOnly = compact) {
   const badges = [];
-  if (facts.isGaming) badges.push(`<span class="pwr-badge pwr-gaming" title="Pro Gaming · ${Math.round(facts.antutu / 1000)}K+ AnTuTu">${POWER_BADGE_ICONS.gaming}${compact ? '' : '<span>1M+ AnTuTu Gaming</span>'}</span>`);
-  if (facts.isMegaBattery) badges.push(`<span class="pwr-badge pwr-battery" title="${facts.battery}mAh Mega Battery">${POWER_BADGE_ICONS.battery}${compact ? '' : `<span>${facts.battery}mAh+ Battery</span>`}</span>`);
-  if (facts.isProCamera) badges.push(`<span class="pwr-badge pwr-camera" title="${facts.cameraMP}MP Pro Camera">${POWER_BADGE_ICONS.camera}${compact ? '' : `<span>${facts.cameraMP}MP+ Camera</span>`}</span>`);
+  if (facts.isGaming) badges.push(`<span class="pwr-badge pwr-gaming" title="Pro Gaming · ${Math.round(facts.antutu / 1000)}K+ AnTuTu">${POWER_BADGE_ICONS.gaming}${iconOnly ? '' : '<span>1M+ AnTuTu Gaming</span>'}</span>`);
+  if (facts.isMegaBattery) badges.push(`<span class="pwr-badge pwr-battery" title="${facts.battery}mAh Mega Battery">${POWER_BADGE_ICONS.battery}${iconOnly ? '' : `<span>${facts.battery}mAh+ Battery</span>`}</span>`);
+  if (facts.isProCamera) badges.push(`<span class="pwr-badge pwr-camera" title="${facts.cameraMP}MP Pro Camera">${POWER_BADGE_ICONS.camera}${iconOnly ? '' : `<span>${facts.cameraMP}MP+ Camera</span>`}</span>`);
   return badges.length ? `<span class="${compact ? 'card-power-badges' : 'hero-power-badges'}">${badges.join('')}</span>` : '';
 }
 
@@ -1328,7 +1328,7 @@ function renderComparePage(pair, allPairs, config) {
       <h2><a href="${rootPrefix}mobile/${esc(phone.slug)}/">${esc(phone.name)}</a></h2>
       <div class="compare-price">${esc(formatPhonePrice(phone) || 'Price not listed')}</div>
       <div class="hero-meta">
-        ${phone.brand ? `<span class="meta-pill">${esc(phone.brand)}</span>` : ''}
+        ${phone.brand ? `<a class="meta-pill meta-brand-pill" href="${rootPrefix}mobile-brands/${brandSlug(phone.brand)}/" title="${esc(phone.brand)}">${renderBrandLogo(phone.brand, rootPrefix)}</a>` : ''}
         ${phone.score ? `<span class="meta-pill">Score ${phone.score}</span>` : ''}
         ${phoneFacts(phone).has5G ? '<span class="meta-pill">5G</span>' : ''}
       </div>
@@ -1639,9 +1639,9 @@ ${renderHeader(rootPrefix)}
     <div class="phone-hero-copy">
       <h1>${esc(phone.name)}${priceText ? ` <span class="price-highlight">${esc(priceText)}</span>` : ''}</h1>
       <div class="hero-meta">
-        ${phone.marketStatus && !(phone.marketStatus === 'Not Released in India' && phone.price?.currency === '₹') ? `<span class="status-badge">${esc(phone.marketStatus)}</span>` : ''}
-        ${phone.brand ? `<span class="meta-pill">${esc(phone.brand)}</span>` : ''}
-        ${renderPowerBadges(facts, false)}
+        ${phone.marketStatus && !((phone.price?.amount > 0 || phone.stores?.length > 0) && /upcoming|rumor|not released/i.test(phone.marketStatus)) ? `<span class="status-badge">${esc(phone.marketStatus)}</span>` : ''}
+        ${phone.brand ? `<a class="meta-pill meta-brand-pill" href="${rootPrefix}mobile-brands/${brandSlug(phone.brand)}/" title="${esc(phone.brand)}">${renderBrandLogo(phone.brand, rootPrefix)}</a>` : ''}
+        ${renderPowerBadges(facts, false, true)}
       </div>
     </div>
     ${phone.score ? `<div class="score-ring" style="background: conic-gradient(var(--primary) 0 ${Number(phone.score)}%, var(--border) ${Number(phone.score)}% 100%)" title="Score out of 100"><strong>${phone.score}</strong><span>Score</span></div>` : ''}
@@ -1859,10 +1859,11 @@ function buildNewsArticle(phone, config) {
   const selfie = specValue(phone, 'Selfie Camera', ['Front Camera #1 Megapixel', 'Megapixel']);
   const charging = specValue(phone, 'Battery', ['Charging Speed Wired', 'Charging']);
   const status = phone.marketStatus || '';
+  const isListed = Boolean(phone.price?.amount > 0 || phone.stores?.length > 0);
   const availability = f.availability;
-  const state = /Upcoming/i.test(status)
+  const state = !isListed && /Upcoming/i.test(status)
     ? 'is listed as an upcoming launch'
-    : /Not Released/i.test(status)
+    : !isListed && /Not Released/i.test(status)
       ? 'has been listed online, but is not yet available in India'
       : 'is now listed';
 
