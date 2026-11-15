@@ -1434,7 +1434,7 @@ ${renderHeader(rootPrefix)}
     <div class="phone-hero-copy">
       <h1>${esc(phone.name)}${priceText ? ` <span class="price-highlight">${esc(priceText)}</span>` : ''}</h1>
       <div class="hero-meta">
-        ${phone.marketStatus ? `<span class="status-badge">${esc(phone.marketStatus)}</span>` : ''}
+        ${phone.marketStatus && !(phone.marketStatus === 'Not Released in India' && phone.price?.currency === '₹') ? `<span class="status-badge">${esc(phone.marketStatus)}</span>` : ''}
         ${phone.brand ? `<span class="meta-pill">${esc(phone.brand)}</span>` : ''}
       </div>
     </div>

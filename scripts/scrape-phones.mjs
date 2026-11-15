@@ -163,11 +163,15 @@ function parseRecord(html, slug) {
     || '';
   const brand = (rawBrand && rawBrand.toLowerCase() !== 'mobile') ? rawBrand : (h1.split(' ')[0] || '');
 
+  const parsedPrice = parsePrice(heroText);
   const statusCandidates = ['Not Released in India', 'Upcoming', 'Rumoured', 'Rumored', 'Discontinued', 'Available'];
   const propStatus = brandIsland?.props?.marketStatus || '';
-  const marketStatus = statusCandidates.find((s) => propStatus.toLowerCase() === s.toLowerCase())
-    || statusCandidates.find((s) => heroText.includes(s))
+  let marketStatus = statusCandidates.find((s) => propStatus.toLowerCase() === s.toLowerCase())
+    || statusCandidates.filter((s) => s !== 'Not Released in India').find((s) => heroText.includes(s))
     || null;
+  if (marketStatus === 'Not Released in India' && parsedPrice?.currency === '₹') {
+    marketStatus = null;
+  }
 
   const scoreMatch = /(\d{1,3})\s*Beebom Score/.exec(heroText);
   const ratingMatch = /(\d\.\d)\s*\/\s*5/.exec(heroText);
@@ -177,7 +181,7 @@ function parseRecord(html, slug) {
     url: `${ORIGIN}/mobile/${slug}`,
     name: h1,
     brand,
-    price: parsePrice(heroText),
+    price: parsedPrice,
     score: scoreMatch ? Number(scoreMatch[1]) : null,
     rating: ratingMatch ? Number(ratingMatch[1]) : null,
     marketStatus,
