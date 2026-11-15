@@ -16,15 +16,18 @@ const NEWS_IMG_DIR = path.join(ROOT, 'src/assets/news');
 const UA = 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Mobile Safari/537.36';
 
 const FEEDS = [
-  { name: 'GSMArena', url: 'https://www.gsmarena.com/rss-news-reviews.php3', weight: 10 },
+  { name: 'Gadgets 360', url: 'https://www.gadgets360.com/rss/mobiles/feeds', weight: 10 },
+  { name: 'FoneArena', url: 'https://www.fonearena.com/blog/feed', weight: 10 },
+  { name: 'Smartprix', url: 'https://www.smartprix.com/bytes/feed/', weight: 10 },
   { name: 'Beebom', url: 'https://beebom.com/feed/', weight: 9 },
-  { name: '91mobiles', url: 'https://www.91mobiles.com/hub/feed/', weight: 9 },
-  { name: 'The Verge Tech', url: 'https://www.theverge.com/rss/tech/index.xml', weight: 8 },
-  { name: 'TechRadar', url: 'https://www.techradar.com/rss', weight: 7 },
+  { name: 'Gizmochina', url: 'https://www.gizmochina.com/feed/', weight: 9 },
   { name: 'Android Authority', url: 'https://www.androidauthority.com/feed/', weight: 8 },
+  { name: '9to5Google', url: 'https://9to5google.com/feed/', weight: 8 },
+  { name: 'The Verge Tech', url: 'https://www.theverge.com/rss/tech/index.xml', weight: 7 },
 ];
 
-const GADGET_KEYWORDS = /\b(phone|smartphone|iphone|samsung|galaxy|pixel|oneplus|xiaomi|redmi|poco|vivo|oppo|realme|nothing|motorola|laptop|macbook|ipad|tablet|earbuds|headphone|smartwatch|watch|chip|snapdragon|dimensity|exynos|amoled|oled|camera|5g|battery|charger|gadget|android|ios|ai|gpu|nvidia|amd|intel|sony|lg)\b/i;
+const GADGET_KEYWORDS = /\b(phone|smartphone|iphone|samsung|galaxy|pixel|oneplus|xiaomi|redmi|poco|vivo|oppo|realme|nothing|motorola|iqoo|infinix|tecno|laptop|macbook|ipad|tablet|earbuds|headphone|smartwatch|apple watch|galaxy watch|chipset|snapdragon|dimensity|exynos|amoled|oled|camera|5g|battery|charger|gadget|android|ios|nvidia|amd|intel|sony)\b/i;
+const EXCLUDE_KEYWORDS = /\b(rugby|nfl|nba|fifa|cricket|soccer|how to watch|live stream|best buy|walmart|target|black friday.*\$|\$\d+ off at best buy)\b/i;
 
 function decodeXml(str) {
   return String(str || '')
@@ -80,7 +83,7 @@ function parseFeed(xml, sourceName, weight) {
     const imageUrl = extractImageFromBlock(block) || extractImageFromBlock(rawDesc);
     if (!title || !link || !/^https?:\/\//i.test(link)) continue;
     const text = `${title} ${desc}`;
-    if (!GADGET_KEYWORDS.test(text)) continue;
+    if (!GADGET_KEYWORDS.test(text) || EXCLUDE_KEYWORDS.test(text)) continue;
     const ageHours = Math.max(0, (Date.now() - (Number.isFinite(ts) ? ts : Date.now())) / 36e5);
     const relevance = (title.match(new RegExp(GADGET_KEYWORDS.source, 'gi')) || []).length * 2;
     const score = weight + relevance - Math.min(ageHours / 12, 12);

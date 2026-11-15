@@ -215,6 +215,18 @@ async function main() {
   } else if (flag('--discover')) slugs = await discover();
   else { console.error('Need --slug, --urls or --discover. See header.'); process.exit(1); }
 
+  const refreshPrices = flag('--refresh-prices');
+  const existing = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : { phones: [] };
+  const bySlug = new Map(existing.phones.map((p) => [p.slug, p]));
+
+  if (refreshPrices && flag('--discover') && slugs.length < LIMIT) {
+    const stale = existing.phones
+      .filter((p) => p.price?.currency === '₹' && !slugs.includes(p.slug))
+      .sort((a, b) => (Date.parse(a.scrapedAt || '') || 0) - (Date.parse(b.scrapedAt || '') || 0))
+      .map((p) => p.slug);
+    slugs = [...slugs, ...stale];
+  }
+
   slugs = [...new Set(slugs)].slice(0, LIMIT);
 
   if (flag('--dry')) {
@@ -223,9 +235,6 @@ async function main() {
     return;
   }
 
-  const refreshPrices = flag('--refresh-prices');
-  const existing = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : { phones: [] };
-  const bySlug = new Map(existing.phones.map((p) => [p.slug, p]));
   let ok = 0, failed = 0, skipped = 0;
 
   for (const slug of slugs) {
