@@ -1179,7 +1179,35 @@ button { font: inherit; cursor: pointer; }
 .filter-reset:hover { border-color: var(--primary); color: var(--primary); }
 .filter-count { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--subtle); }
 
-.brand-chips { margin-top: 10px; }
+.brand-chips {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 8px;
+  padding: 4px 2px 8px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.brand-chips::-webkit-scrollbar { display: none; }
+.brand-logo-chip {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+}
+.brand-logo-chip .brand-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  display: block;
+}
+.brand-logo-chip .brand-monogram {
+  width: 24px;
+  height: 24px;
+  font-size: 10px;
+}
 .phone-directory { margin-top: 14px; }
 .mini-card[hidden] { display: none; }
 .section-card.no-pad { padding: 14px; }

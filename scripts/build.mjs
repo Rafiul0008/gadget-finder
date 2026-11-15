@@ -1801,7 +1801,7 @@ ${renderHeader('../', 'mobile')}
   </div>
 
   <div class="chip-row brand-chips">
-    ${brands.map(({ brand, count }) => `<a class="chip" href="../mobile-brands/${brandSlug(brand)}/">${esc(brand)} <em>${count}</em></a>`).join('')}
+    ${brands.map(({ brand, count }) => `<a class="chip brand-logo-chip" href="../mobile-brands/${brandSlug(brand)}/" title="${esc(brand)} (${count})" aria-label="${esc(brand)} (${count} phones)">${renderBrandLogo(brand, '../')}<em>${count}</em></a>`).join('')}
   </div>
 
   <section class="section-card no-pad">
