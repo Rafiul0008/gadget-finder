@@ -227,7 +227,8 @@ button { font: inherit; cursor: pointer; }
 .hero-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  align-items: center;
+  gap: 8px;
   margin-top: 10px;
   font-size: 12.5px;
   color: var(--subtle);
@@ -2087,6 +2088,8 @@ button { font: inherit; cursor: pointer; }
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.01em;
+  line-height: 1.2;
+  white-space: nowrap;
   border: 1px solid transparent;
   box-shadow: 0 1px 3px rgba(15, 23, 42, 0.07);
 }
@@ -2099,9 +2102,11 @@ button { font: inherit; cursor: pointer; }
   flex-shrink: 0;
 }
 
+.pwr-badge svg,
 .pwr-badge .pwr-ico svg {
   width: 18px;
   height: 18px;
+  flex-shrink: 0;
   display: block;
 }
 
