@@ -1984,8 +1984,11 @@ ${renderHeader('./', 'home')}
     <form class="finder-form" action="./mobile/" method="get">
       <label class="finder-field">
         <span>I'm looking for</span>
-        <select name="type" aria-label="Product type">
+        <select id="finder-type" name="type" aria-label="Product type">
           <option value="mobile">Mobile</option>
+          <option value="laptops">Laptop</option>
+          <option value="earbuds">Earbuds</option>
+          <option value="smartwatches">Smart Watch</option>
         </select>
       </label>
       <label class="finder-field">

@@ -501,3 +501,19 @@
   });
 })();
 
+/* Home Finder Form Category Routing (Mobile, Laptops, Earbuds, Smart Watch) */
+(() => {
+  'use strict';
+  const form = document.querySelector('.finder-form');
+  const typeEl = document.getElementById('finder-type');
+  if (!form || !typeEl) return;
+  const syncAction = () => {
+    const val = typeEl.value || 'mobile';
+    form.setAttribute('action', `./${val}/`);
+  };
+  typeEl.addEventListener('change', syncAction);
+  form.addEventListener('submit', syncAction);
+  syncAction();
+})();
+
+
