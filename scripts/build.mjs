@@ -725,7 +725,7 @@ function renderPhoneCard(phone, rootPrefix, config, compact = false) {
         <span class="mini-thumb">${src
           ? `<img src="${esc(src)}" alt="${esc(phone.name)}" width="96" height="96" loading="lazy" decoding="async"/>`
           : deviceSvg('Smartphones')}</span>
-        <span class="mini-card-copy"><strong>${esc(phone.name)}</strong><span>${esc(formatPhonePrice(phone) || '—')}</span>${microHtml}</span></a>`;
+        <span class="mini-card-copy"><strong>${esc(phone.name)}</strong><span class="mini-card-price">${esc(formatPhonePrice(phone) || '—')}</span>${microHtml}</span></a>`;
 }
 
 /* ---------------------------------------------------------------------------
