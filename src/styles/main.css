@@ -183,7 +183,9 @@ button { font: inherit; cursor: pointer; }
   color: transparent;
 }
 .nav-price-amt.p10 { background-image: linear-gradient(90deg, #059669, #10b981, #ea580c); }
+.nav-price-amt.p15 { background-image: linear-gradient(90deg, #0284c7, #10b981, #f59e0b); }
 .nav-price-amt.p20 { background-image: linear-gradient(90deg, #7c3aed, #a855f7, #f59e0b); }
+.nav-price-amt.p25 { background-image: linear-gradient(90deg, #4f46e5, #06b6d4, #10b981); }
 .nav-price-amt.p30 { background-image: linear-gradient(90deg, #2563eb, #0ea5e9, #475569); }
 .nav-price-amt.p40 { background-image: linear-gradient(90deg, #be123c, #e11d48, #1e293b); }
 .nav-price-amt.p50 { background-image: linear-gradient(90deg, #ca8a04, #eab308, #f97316); }
@@ -2158,6 +2160,24 @@ button { font: inherit; cursor: pointer; }
   border-radius: 4px;
   object-fit: cover;
   display: block;
+}
+
+.card-micro-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.card-micro-specs span {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #475569;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+  padding: 1px 6px;
+  white-space: nowrap;
 }
 
 

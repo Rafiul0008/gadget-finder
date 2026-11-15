@@ -192,7 +192,9 @@ const NAV_ICONS = {
 function renderHeader(rootPrefix, activeSlug = '') {
   const priceItems = [
     { href: `${rootPrefix}mobile-price-list/under-10000/`, amt: '₹10,000', slug: 'under-10000', tone: 'p10' },
+    { href: `${rootPrefix}mobile-price-list/under-15000/`, amt: '₹15,000', slug: 'under-15000', tone: 'p15' },
     { href: `${rootPrefix}mobile-price-list/under-20000/`, amt: '₹20,000', slug: 'under-20000', tone: 'p20' },
+    { href: `${rootPrefix}mobile-price-list/under-25000/`, amt: '₹25,000', slug: 'under-25000', tone: 'p25' },
     { href: `${rootPrefix}mobile-price-list/under-30000/`, amt: '₹30,000', slug: 'under-30000', tone: 'p30' },
     { href: `${rootPrefix}mobile-price-list/under-40000/`, amt: '₹40,000', slug: 'under-40000', tone: 'p40' },
     { href: `${rootPrefix}mobile-price-list/under-50000/`, amt: '₹50,000', slug: 'under-50000', tone: 'p50' },
@@ -696,6 +698,15 @@ function renderPhoneCard(phone, rootPrefix, config, compact = false) {
   const search = [phone.name, phone.brand, phone.highlights?.Processor, phone.highlights?.Display,
     phone.highlights?.['Rear Camera'], facts.ramText, facts.storageText, facts.has5G ? '5G' : '',
     facts.isGaming ? 'gaming antutu 1m' : '', facts.isMegaBattery ? '7000mah battery' : ''].filter(Boolean).join(' ');
+  const microParts = [];
+  if (facts.ram && facts.storage) microParts.push(`${facts.ram}/${facts.storage}GB`);
+  else if (facts.ram) microParts.push(`${facts.ram}GB RAM`);
+  if (facts.battery) microParts.push(`${facts.battery}mAh`);
+  if (facts.isGaming) microParts.push(`${(facts.antutu / 1000000).toFixed(1)}M AnTuTu`);
+  else if (facts.cameraMP) microParts.push(`${facts.cameraMP}MP`);
+  const microHtml = !compact && microParts.length
+    ? `<span class="card-micro-specs">${microParts.slice(0, 3).map((m) => `<span>${esc(m)}</span>`).join('')}</span>`
+    : '';
   return `<a class="mini-card${compact ? ' mini-card-compact' : ''}" href="${rootPrefix}mobile/${esc(phone.slug)}/"
         data-brand="${esc(phone.brand || '')}" data-price="${facts.price}" data-ram="${facts.ram}"
         data-storage="${facts.storage}" data-5g="${facts.has5G ? '1' : '0'}" data-score="${phone.score || 0}"
@@ -704,7 +715,7 @@ function renderPhoneCard(phone, rootPrefix, config, compact = false) {
         <span class="mini-thumb">${src
           ? `<img src="${esc(src)}" alt="${esc(phone.name)}" width="96" height="96" loading="lazy" decoding="async"/>`
           : deviceSvg('Smartphones')}</span>
-        <span class="mini-card-copy"><strong>${esc(phone.name)}</strong><span>${esc(formatPhonePrice(phone) || '—')}</span></span></a>`;
+        <span class="mini-card-copy"><strong>${esc(phone.name)}</strong><span>${esc(formatPhonePrice(phone) || '—')}</span>${microHtml}</span></a>`;
 }
 
 /* ---------------------------------------------------------------------------
@@ -923,11 +934,15 @@ const PRICE_BANDS = [
 ];
 
 const EXTRA_UNDER_BANDS = [
+  { slug: 'under-15000', label: 'Under ₹15,000', short: 'Under ₹15k', min: 0, max: 14999 },
   { slug: 'under-20000', label: 'Under ₹20,000', short: 'Under ₹20k', min: 0, max: 19999 },
+  { slug: 'under-25000', label: 'Under ₹25,000', short: 'Under ₹25k', min: 0, max: 24999 },
   { slug: 'under-30000', label: 'Under ₹30,000', short: 'Under ₹30k', min: 0, max: 29999 },
   { slug: 'under-40000', label: 'Under ₹40,000', short: 'Under ₹40k', min: 0, max: 39999 },
   { slug: 'under-50000', label: 'Under ₹50,000', short: 'Under ₹50k', min: 0, max: 49999 },
 ];
+
+const isReleasedPhone = (p) => !/upcoming|rumor|discontinued|not released/i.test(p.marketStatus || '');
 
 function phonesInBand(phones, band) {
   return phones
@@ -2067,7 +2082,7 @@ function renderRail(list, rootPrefix, config, limit = 10) {
   return `<div class="rail">${list.slice(0, limit).map((p) => renderPhoneCard(p, rootPrefix, config)).join('')}</div>`;
 }
 
-const HOME_PRICE_TABS = [10000, 20000, 30000, 40000, 50000, 60000];
+const HOME_PRICE_TABS = [10000, 15000, 20000, 25000, 30000, 40000, 50000];
 
 const HOME_FEATURES = [
   { label: 'Camera Phones', href: 'best-camera-phones/', icon: '📷' },
@@ -2086,7 +2101,8 @@ function isAmoledPhone(p) {
 function renderHomePage(phones, config, content, pairs) {
   const monthYear = formatMonthYear(new Date().toISOString());
   const indiaPhones = phones.filter((p) => p.price?.currency === '₹');
-  const latest = (indiaPhones.length ? indiaPhones : phones).slice().sort(byAvailability);
+  const releasedIndia = indiaPhones.filter(isReleasedPhone);
+  const latest = (releasedIndia.length ? releasedIndia : indiaPhones.length ? indiaPhones : phones).slice().sort(byAvailability);
   const upcoming = phones.filter((p) => /Upcoming/i.test(p.marketStatus || '')).sort(byAvailability);
   const amoled = phones.filter(isAmoledPhone).sort((a, b) => (b.score || 0) - (a.score || 0) || byAvailability(a, b));
   const globalPhones = phones.filter((p) => p.price?.currency && p.price.currency !== '₹').sort(byAvailability);
@@ -2205,8 +2221,18 @@ ${renderHeader('./', 'home')}
   </section>
 
   <section class="home-section">
-    ${renderHomeSectionHead('<span class="gradient-text">Upcoming</span> Phones', './upcoming-mobile-phones/')}
-    ${renderRail(upcoming, './', config)}
+    ${renderHomeSectionHead('Browse Phones <span class="gradient-text">By Price</span>', './mobile-price-list/')}
+    <div class="price-tabs" id="price-tabs">
+      <div class="tab-row" role="tablist" aria-label="Price bands">
+        ${priceTabs.map((tab, i) => `<button type="button" class="tab-btn${i === 0 ? ' active' : ''}" role="tab" aria-selected="${i === 0}" data-price-tab="${tab.max}"><span class="tab-under">✨ Under</span><span class="tab-amt">₹${tab.max.toLocaleString('en-IN')}</span></button>`).join('')}
+      </div>
+      ${priceTabs.map((tab, i) => `<div class="tab-panel${i === 0 ? ' active' : ''}" data-price-panel="${tab.max}" role="tabpanel">
+        <div class="mini-grid">
+          ${tab.list.map((p) => renderPhoneCard(p, './', config)).join('')}
+        </div>
+        <a class="home-head-link tab-link" href="./mobile/?max=${tab.max}&amp;sort=score">View all phones under ₹${tab.max.toLocaleString('en-IN')} ›</a>
+      </div>`).join('')}
+    </div>
   </section>
 
   <section class="home-section">
@@ -2217,6 +2243,11 @@ ${renderHeader('./', 'home')}
   <section class="home-section">
     ${renderHomeSectionHead('<span class="gradient-text">AMOLED</span> Display Phones', './best-amoled-display-phones/')}
     ${renderRail(amoled, './', config)}
+  </section>
+
+  <section class="home-section">
+    ${renderHomeSectionHead('<span class="gradient-text">Upcoming</span> Phones', './upcoming-mobile-phones/')}
+    ${renderRail(upcoming, './', config)}
   </section>
 
   <section class="home-section">
@@ -2240,21 +2271,6 @@ ${renderHeader('./', 'home')}
   <section class="home-section">
     ${renderHomeSectionHead('<span class="gradient-text">Latest</span> Reviews', './reviews/')}
     ${renderStoryRow(content.reviews[0], content.reviews.slice(1, 6), './', config)}
-  </section>
-
-  <section class="home-section">
-    ${renderHomeSectionHead('Browse Phones <span class="gradient-text">By Price</span>', './mobile-price-list/')}
-    <div class="price-tabs" id="price-tabs">
-      <div class="tab-row" role="tablist" aria-label="Price bands">
-        ${priceTabs.map((tab, i) => `<button type="button" class="tab-btn${i === 0 ? ' active' : ''}" role="tab" aria-selected="${i === 0}" data-price-tab="${tab.max}"><span class="tab-under">✨ Under</span><span class="tab-amt">₹${tab.max.toLocaleString('en-IN')}</span></button>`).join('')}
-      </div>
-      ${priceTabs.map((tab, i) => `<div class="tab-panel${i === 0 ? ' active' : ''}" data-price-panel="${tab.max}" role="tabpanel">
-        <div class="mini-grid">
-          ${tab.list.map((p) => renderPhoneCard(p, './', config)).join('')}
-        </div>
-        <a class="home-head-link tab-link" href="./mobile/?max=${tab.max}&amp;sort=score">View all phones under ₹${tab.max.toLocaleString('en-IN')} ›</a>
-      </div>`).join('')}
-    </div>
   </section>
 
   <section class="home-section">
@@ -2821,9 +2837,12 @@ function build() {
       {
         slug: 'latest-mobile-phones', h1Html: '<span class="price-highlight">Latest</span> Mobile Phones',
         title: `Latest Mobile Phones (${formatMonthYear(new Date().toISOString())}) | ${config.siteName}`,
-        description: `The newest mobile phones in our database, sorted by availability date. ${phones.length} models tracked with full specifications and prices.`,
-        list: (phones.filter((p) => p.price?.currency === '₹').length ? phones.filter((p) => p.price?.currency === '₹') : phones).slice().sort(byAvailability),
-        note: 'Newest India-priced models first, based on the availability date listed for each phone.',
+        description: `The newest released mobile phones in our database, sorted by availability date. ${phones.length} models tracked with full specifications and prices.`,
+        list: (() => {
+          const released = phones.filter((p) => p.price?.currency === '₹' && isReleasedPhone(p));
+          return (released.length ? released : phones.filter((p) => p.price?.currency === '₹')).slice().sort(byAvailability);
+        })(),
+        note: 'Newest released India-priced models first, excluding upcoming and rumored devices.',
         sortNote: 'Sorted by availability date, newest first.',
       },
       {
