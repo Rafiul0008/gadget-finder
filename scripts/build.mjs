@@ -1326,6 +1326,28 @@ ${renderHeader(rootPrefix, band.slug.startsWith('under-') ? band.slug : 'mobile-
 ${renderFooter(rootPrefix)}`;
 }
 
+const SPEC_ICONS = {
+  processor: `<svg viewBox="0 0 32 32" fill="none"><rect x="7" y="7" width="18" height="18" rx="4" fill="#6366f1"/><rect x="11" y="11" width="10" height="10" rx="2" fill="#38bdf8"/><path d="M12 3v4M20 3v4M12 25v4M20 25v4M3 12h4M3 20h4M25 12h4M25 20h4" stroke="#818cf8" stroke-width="2.2" stroke-linecap="round"/></svg>`,
+  display: `<svg viewBox="0 0 32 32" fill="none"><rect x="7" y="3" width="18" height="26" rx="4" fill="#3b82f6"/><rect x="9.5" y="5.5" width="13" height="21" rx="2" fill="#38bdf8"/><path d="M12 10l8 8M12 16l5 5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".9"/></svg>`,
+  battery: `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="9" width="22" height="14" rx="3.5" fill="#10b981"/><rect x="26" y="13" width="3" height="6" rx="1.5" fill="#059669"/><path d="M16 11.5l-3.5 5h3l-1 4 4-5.5h-3l.5-3.5z" fill="#fde047"/></svg>`,
+  'rear camera': `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="7" width="24" height="18" rx="5" fill="#8b5cf6"/><circle cx="15" cy="16" r="5.5" fill="#1e1b4b"/><circle cx="15" cy="16" r="3" fill="#38bdf8"/><circle cx="23" cy="11" r="1.5" fill="#fde047"/></svg>`,
+  'main camera': `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="7" width="24" height="18" rx="5" fill="#8b5cf6"/><circle cx="15" cy="16" r="5.5" fill="#1e1b4b"/><circle cx="15" cy="16" r="3" fill="#38bdf8"/><circle cx="23" cy="11" r="1.5" fill="#fde047"/></svg>`,
+  'front camera': `<svg viewBox="0 0 32 32" fill="none"><rect x="8" y="3" width="16" height="26" rx="4" fill="#ec4899"/><rect x="10.5" y="5.5" width="11" height="21" rx="2" fill="#fdf2f8"/><circle cx="16" cy="9" r="2.2" fill="#db2777"/><circle cx="16" cy="17.5" r="4" fill="#f472b6"/></svg>`,
+  'selfie camera': `<svg viewBox="0 0 32 32" fill="none"><rect x="8" y="3" width="16" height="26" rx="4" fill="#ec4899"/><rect x="10.5" y="5.5" width="11" height="21" rx="2" fill="#fdf2f8"/><circle cx="16" cy="9" r="2.2" fill="#db2777"/><circle cx="16" cy="17.5" r="4" fill="#f472b6"/></svg>`,
+  'ram/storage': `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="15" rx="3" fill="#f59e0b"/><rect x="7" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="14" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="21" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><path d="M8 23v3M13 23v3M19 23v3M24 23v3" stroke="#d97706" stroke-width="2" stroke-linecap="round"/></svg>`,
+  memory: `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="15" rx="3" fill="#f59e0b"/><rect x="7" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="14" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="21" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><path d="M8 23v3M13 23v3M19 23v3M24 23v3" stroke="#d97706" stroke-width="2" stroke-linecap="round"/></svg>`,
+  general: `<svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" fill="#0ea5e9"/><rect x="14.5" y="13" width="3" height="9" rx="1.5" fill="#ffffff"/><circle cx="16" cy="9.5" r="1.8" fill="#ffffff"/></svg>`,
+  body: `<svg viewBox="0 0 32 32" fill="none"><rect x="8" y="3" width="16" height="26" rx="4" fill="#64748b"/><rect x="10" y="5" width="12" height="22" rx="2.5" fill="#cbd5e1"/><path d="M13 7.5h6" stroke="#475569" stroke-width="2" stroke-linecap="round"/></svg>`,
+  'operating system': `<svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" fill="#22c55e"/><path d="M11 18c0-2.8 2.2-5 5-5s5 2.2 5 5v3H11v-3z" fill="#ffffff"/><path d="M12.5 12l-1.5-2.5M19.5 12l1.5-2.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/></svg>`,
+  network: `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="20" width="4" height="7" rx="1.5" fill="#38bdf8"/><rect x="10.5" y="15" width="4" height="12" rx="1.5" fill="#3b82f6"/><rect x="17" y="10" width="4" height="17" rx="1.5" fill="#6366f1"/><rect x="23.5" y="5" width="4" height="22" rx="1.5" fill="#8b5cf6"/></svg>`,
+  connectivity: `<svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="23" r="2.8" fill="#06b6d4"/><path d="M10.5 18a7.8 7.8 0 0 1 11 0M6.5 13.5a13.5 13.5 0 0 1 19 0" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+  features: `<svg viewBox="0 0 32 32" fill="none"><path d="M16 4l3.3 6.8 7.5 1.1-5.4 5.3 1.3 7.5L16 21.1l-6.7 3.6 1.3-7.5-5.4-5.3 7.5-1.1L16 4z" fill="#f43f5e"/><circle cx="16" cy="15.5" r="3" fill="#fde047"/></svg>`,
+};
+
+function specIcon(label) {
+  return SPEC_ICONS[String(label || '').trim().toLowerCase()] || SPEC_ICONS.features;
+}
+
 function formatSpecHtml(val, rootPrefix = './') {
   const safe = esc(val);
   if (!/antutu/i.test(safe)) return safe;
@@ -1336,7 +1358,7 @@ function formatSpecHtml(val, rootPrefix = './') {
 function renderSpecGroup(group, entries, rootPrefix = '../../') {
   return `
       <section class="section-card spec-group" id="spec-${esc(slugifyGroup(group))}">
-        <h2>${esc(group)}</h2>
+        <h2 class="spec-group-title"><span class="spec-ico spec-ico-lg">${specIcon(group)}</span><span>${esc(group)}</span></h2>
         <table class="spec-table">
           <tbody>
             ${entries.map((entry) => `
@@ -1423,13 +1445,13 @@ ${renderHeader(rootPrefix)}
   <section class="section-card">
     <h2>Key Highlights</h2>
     <table class="highlight-table"><tbody>
-      ${Object.entries(phone.highlights).map(([k, v]) => `<tr><th>${esc(k)}</th><td>${formatSpecHtml(v, rootPrefix)}</td></tr>`).join('')}
+      ${Object.entries(phone.highlights).map(([k, v]) => `<tr><th><span class="spec-lbl-wrap"><span class="spec-ico">${specIcon(k)}</span><span class="spec-lbl">${esc(k)}</span></span></th><td>${formatSpecHtml(v, rootPrefix)}</td></tr>`).join('')}
     </tbody></table>
   </section>` : ''}
 
   <div class="spec-layout">
     <nav class="spec-nav" aria-label="Specification sections">
-      ${groups.map((g) => `<a href="#spec-${esc(slugifyGroup(g))}">${esc(g)}</a>`).join('')}
+      ${groups.map((g) => `<a href="#spec-${esc(slugifyGroup(g))}" title="${esc(g)}"><span class="spec-ico">${specIcon(g)}</span><span>${esc(g)}</span></a>`).join('')}
     </nav>
     <div class="spec-body">
       ${groups.length ? groups.map((g) => renderSpecGroup(g, phone.specs[g], rootPrefix)).join('') : '<section class="section-card"><p>No specifications captured for this model yet.</p></section>'}

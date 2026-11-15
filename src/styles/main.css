@@ -1820,4 +1820,43 @@ button { font: inherit; cursor: pointer; }
   }
 }
 
+.spec-lbl-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.spec-ico {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 3px;
+  border-radius: 7px;
+  background: #f1f5f9;
+  flex-shrink: 0;
+}
+.spec-ico svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.spec-ico-lg {
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  border-radius: 8px;
+}
+.spec-group-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.spec-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+
 
