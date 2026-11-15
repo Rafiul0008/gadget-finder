@@ -1485,6 +1485,25 @@ function renderPhonePage(phone, allPhones, config, pairs = []) {
     }))),
   };
 
+  const facts = phoneFacts(phone);
+
+  const renderHighlightCell = (k, v) => {
+    const key = String(k || '').trim().toLowerCase();
+    let html = formatSpecHtml(v, rootPrefix);
+    if (key === 'processor' && facts.antutu > 0) {
+      const scoreFormatted = facts.antutu.toLocaleString('en-US');
+      html += ` <span class="hl-antutu-pill" title="AnTuTu Benchmark Score"><img class="antutu-badge-icon" src="${rootPrefix}assets/icons/antutu.jpg" alt="AnTuTu" width="16" height="16" loading="lazy"/><span>AnTuTu ${scoreFormatted}</span></span>`;
+      if (facts.isGaming) {
+        html += `<span class="inline-pwr-ico" title="1M+ AnTuTu Gaming">${POWER_BADGE_ICONS.gaming}</span>`;
+      }
+    } else if (key === 'battery' && facts.isMegaBattery) {
+      html += `<span class="inline-pwr-ico" title="7000mAh+ Mega Battery">${POWER_BADGE_ICONS.battery}</span>`;
+    } else if ((key === 'rear camera' || key === 'main camera' || key === 'camera') && facts.isProCamera) {
+      html += `<span class="inline-pwr-ico" title=">48MP Pro Camera">${POWER_BADGE_ICONS.camera}</span>`;
+    }
+    return html;
+  };
+
   return `${renderHead({
     title: `${phone.name} Price${priceText ? ` (${priceText})` : ''} — Full Specs | ${config.siteName}`,
     description: `${phone.name} specifications and price. ${Object.entries(phone.highlights || {}).slice(0, 4).map(([k, v]) => `${k}: ${v}`).join(', ')}.`,
@@ -1509,7 +1528,7 @@ ${renderHeader(rootPrefix)}
       <div class="hero-meta">
         ${phone.marketStatus && !(phone.marketStatus === 'Not Released in India' && phone.price?.currency === '₹') ? `<span class="status-badge">${esc(phone.marketStatus)}</span>` : ''}
         ${phone.brand ? `<span class="meta-pill">${esc(phone.brand)}</span>` : ''}
-        ${renderPowerBadges(phoneFacts(phone), false)}
+        ${renderPowerBadges(facts, false)}
       </div>
     </div>
     ${phone.score ? `<div class="score-ring" style="background: conic-gradient(var(--primary) 0 ${Number(phone.score)}%, var(--border) ${Number(phone.score)}% 100%)" title="Score out of 100"><strong>${phone.score}</strong><span>Score</span></div>` : ''}
@@ -1552,7 +1571,7 @@ ${renderHeader(rootPrefix)}
   <section class="section-card">
     <h2>Key Highlights</h2>
     <table class="highlight-table"><tbody>
-      ${Object.entries(phone.highlights).map(([k, v]) => `<tr><th><span class="spec-lbl-wrap"><span class="spec-ico">${specIcon(k)}</span><span class="spec-lbl">${esc(k)}</span></span></th><td>${formatSpecHtml(v, rootPrefix)}</td></tr>`).join('')}
+      ${Object.entries(phone.highlights).map(([k, v]) => `<tr><th><span class="spec-lbl-wrap"><span class="spec-ico">${specIcon(k)}</span><span class="spec-lbl">${esc(k)}</span></span></th><td>${renderHighlightCell(k, v)}</td></tr>`).join('')}
     </tbody></table>
   </section>` : ''}
 
