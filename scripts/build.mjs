@@ -163,6 +163,8 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
   <meta property="og:url" content="${esc(canonicalUrl)}"/>
   <meta property="og:site_name" content="${esc(config.siteName)}"/>
   <meta property="og:type" content="website"/>${ogImage}
+  <link rel="icon" type="image/jpeg" href="${assetPrefix}assets/icons/brand-icon.jpg"/>
+  <link rel="apple-touch-icon" href="${assetPrefix}assets/icons/brand-icon.jpg"/>
   <link rel="alternate" type="application/rss+xml" title="${esc(config.siteName)} — News &amp; Reviews" href="${esc(config.siteUrl)}/rss.xml"/>
   ${monetagMeta}
   <link rel="stylesheet" href="${assetPrefix}assets/main.css"/>
@@ -212,10 +214,8 @@ function renderHeader(rootPrefix, activeSlug = '') {
   return `<header class="site-header">
   <div class="container">
     <div class="header-top">
-      <a class="brand" href="${rootPrefix}">
-        <span class="brand-mark">${esc(config.siteName.split(' ')[0])}</span>
-        <span class="brand-sep">|</span>
-        <span class="brand-sub">${esc(config.siteName.split(' ').slice(1).join(' ') || 'Gadgets')}</span>
+      <a class="brand" href="${rootPrefix}" aria-label="${esc(config.siteName)}">
+        <img class="brand-logo-img" src="${rootPrefix}assets/icons/header-logo.jpg" alt="${esc(config.siteName)}" height="42"/>
       </a>
       <div class="search-box">
         <span class="search-icon">✨</span>

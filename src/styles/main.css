@@ -1805,3 +1805,19 @@ button { font: inherit; cursor: pointer; }
   margin: 0 3px 0 4px;
 }
 
+.brand-logo-img {
+  display: block;
+  height: 44px;
+  width: auto;
+  max-width: 195px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+@media (max-width: 560px) {
+  .brand-logo-img {
+    height: 36px;
+    max-width: 148px;
+  }
+}
+
+
