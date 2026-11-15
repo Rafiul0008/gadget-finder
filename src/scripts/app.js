@@ -678,5 +678,59 @@
   }
 })();
 
+/* Day / Pitch-Black Dark Mode Switch (Synced with Device & Manual Toggle) */
+(() => {
+  'use strict';
+  const btn = document.getElementById('theme-toggle');
+  const mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+  function applyTheme(theme) {
+    const isDark = theme === 'dark';
+    document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
+    if (btn) {
+      btn.textContent = isDark ? '☀️' : '🌙';
+      btn.setAttribute('aria-label', isDark ? 'Switch to Day mode' : 'Switch to Dark mode');
+      btn.title = isDark ? 'Switch to Day mode' : 'Switch to Pitch-Black Dark mode';
+    }
+  }
+
+  function resolveEffectiveTheme() {
+    try {
+      const saved = localStorage.getItem('bpu_theme');
+      if (saved === 'dark' || saved === 'light') return saved;
+    } catch { /* ignore */ }
+    return mq && mq.matches ? 'dark' : 'light';
+  }
+
+  applyTheme(resolveEffectiveTheme());
+
+  if (mq) {
+    const onSystemChange = (e) => {
+      try {
+        if (!localStorage.getItem('bpu_theme')) {
+          applyTheme(e.matches ? 'dark' : 'light');
+        }
+      } catch {
+        applyTheme(e.matches ? 'dark' : 'light');
+      }
+    };
+    if (mq.addEventListener) mq.addEventListener('change', onSystemChange);
+    else if (mq.addListener) mq.addListener(onSystemChange);
+  }
+
+  if (btn) {
+    btn.addEventListener('click', () => {
+      const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      const system = mq && mq.matches ? 'dark' : 'light';
+      try {
+        if (next === system) localStorage.removeItem('bpu_theme');
+        else localStorage.setItem('bpu_theme', next);
+      } catch { /* ignore */ }
+      applyTheme(next);
+    });
+  }
+})();
+
+
 
 

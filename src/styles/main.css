@@ -2318,6 +2318,179 @@ html, body {
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.28);
 }
 
+/* Day / Dark Toggle Button */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.theme-toggle:hover {
+  border-color: var(--primary);
+  transform: scale(1.05);
+}
+
+/* Pitch-Black OLED Dark Mode (Auto-synced with device & manual toggle) */
+html[data-theme="dark"] {
+  --bg: #000000;
+  --surface: #0a0a0a;
+  --surface-alt: #121212;
+  --border: #222222;
+  --ink: #f8fafc;
+  --muted: #cbd5e1;
+  --subtle: #94a3b8;
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --green-bg: #052e16;
+  --red-bg: #3b0a0a;
+  --amber-bg: #3b2306;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.75);
+  --shadow-lg: 0 14px 34px rgba(0, 0, 0, 0.9);
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    --bg: #000000;
+    --surface: #0a0a0a;
+    --surface-alt: #121212;
+    --border: #222222;
+    --ink: #f8fafc;
+    --muted: #cbd5e1;
+    --subtle: #94a3b8;
+    --primary: #3b82f6;
+    --primary-dark: #2563eb;
+    --green-bg: #052e16;
+    --red-bg: #3b0a0a;
+    --amber-bg: #3b2306;
+    --shadow: 0 2px 12px rgba(0, 0, 0, 0.75);
+    --shadow-lg: 0 14px 34px rgba(0, 0, 0, 0.9);
+    color-scheme: dark;
+  }
+}
+
+html[data-theme="dark"] body {
+  background: #000000;
+  color: var(--ink);
+}
+
+html[data-theme="dark"] .site-header,
+html[data-theme="dark"] .section-card,
+html[data-theme="dark"] .mini-card,
+html[data-theme="dark"] .product-card,
+html[data-theme="dark"] .filter-bar,
+html[data-theme="dark"] .brand-card,
+html[data-theme="dark"] .story-card,
+html[data-theme="dark"] .compare-card,
+html[data-theme="dark"] .spec-nav,
+html[data-theme="dark"] .search-dropdown,
+html[data-theme="dark"] .pwa-toast,
+html[data-theme="dark"] .buy-store-btn {
+  background: #0a0a0a;
+  border-color: #222222;
+  color: var(--ink);
+}
+
+html[data-theme="dark"] .search-box,
+html[data-theme="dark"] .filter-bar select,
+html[data-theme="dark"] .sort-select,
+html[data-theme="dark"] .chip,
+html[data-theme="dark"] .nav-link,
+html[data-theme="dark"] .tab-btn,
+html[data-theme="dark"] .feature-tile,
+html[data-theme="dark"] .meta-pill,
+html[data-theme="dark"] .pwa-btn-sec {
+  background: #111111;
+  border-color: #262626;
+  color: var(--ink);
+}
+
+html[data-theme="dark"] .nav-link.active,
+html[data-theme="dark"] .tab-btn.active,
+html[data-theme="dark"] .chip-active {
+  background: #172554;
+  border-color: #3b82f6;
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .brand-logo-img {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+
+html[data-theme="dark"] .mini-thumb,
+html[data-theme="dark"] .phone-hero-media,
+html[data-theme="dark"] .product-hero-media,
+html[data-theme="dark"] .brand-logo-chip .brand-logo {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+html[data-theme="dark"] .card-micro-specs span {
+  background: #161616;
+  border-color: #2a2a2a;
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .hl-antutu-pill {
+  background: #2c1306;
+  border-color: #7c2d12;
+  color: #fdba74;
+}
+
+html[data-theme="dark"] .pwr-badge.pwr-gaming {
+  background: #1e1038;
+  border-color: #5b21b6;
+  color: #ddd6fe;
+}
+
+html[data-theme="dark"] .pwr-badge.pwr-battery {
+  background: #052e16;
+  border-color: #166534;
+  color: #a7f3d0;
+}
+
+html[data-theme="dark"] .pwr-badge.pwr-camera {
+  background: #0c1e3a;
+  border-color: #1d4ed8;
+  color: #bfdbfe;
+}
+
+html[data-theme="dark"] .pwa-toast-copy strong,
+html[data-theme="dark"] .buy-store-price,
+html[data-theme="dark"] .spec-table td,
+html[data-theme="dark"] .highlight-table td {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .pwa-toast-copy span,
+html[data-theme="dark"] .spec-table th,
+html[data-theme="dark"] .highlight-table th,
+html[data-theme="dark"] .buy-store-name {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .spec-table tr,
+html[data-theme="dark"] .highlight-table tr,
+html[data-theme="dark"] .site-footer {
+  border-color: #1f1f1f;
+}
+
+html[data-theme="dark"] .site-footer {
+  background: #050505;
+}
+
+
 
 
 

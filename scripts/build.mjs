@@ -154,10 +154,13 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-  <meta name="theme-color" content="#1d4ed8"/>
+  <meta name="color-scheme" content="light dark"/>
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#1d4ed8"/>
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
-  <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
   <meta name="mobile-web-app-capable" content="yes"/>
+  <script>(function(){try{var t=localStorage.getItem('bpu_theme');var d=(t==='dark')||(t!=='light'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light';}catch(e){}})();</script>
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}"/>
   <meta name="robots" content="INDEX,FOLLOW,max-snippet:-1,max-image-preview:large"/>
@@ -228,6 +231,7 @@ function renderHeader(rootPrefix, activeSlug = '') {
         <span class="search-icon">✨</span>
         <input id="global-search" type="search" placeholder='AI Search "Poco", "Ryzen 5", "earbuds under 1000"...' aria-label="AI Search gadgets"/>
       </div>
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch Day / Dark mode" title="Switch Day / Dark mode">🌙</button>
       <a class="header-cta" href="${rootPrefix}best-gadgets-under-1000/">🔥 Deals Under ₹1,000</a>
     </div>
     <nav class="nav-strip" aria-label="Categories">
