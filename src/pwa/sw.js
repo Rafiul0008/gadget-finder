@@ -1,10 +1,8 @@
-const CACHE_NAME = 'bpu-shell-v1';
+const CACHE_NAME = 'bpu-shell-v3';
 const SHELL_ASSETS = [
   '/',
-  '/assets/main.css',
-  '/assets/app.js',
-  '/assets/icons/brand-icon.jpg',
   '/manifest.webmanifest',
+  '/assets/icons/brand-icon.jpg',
 ];
 
 self.addEventListener('install', (event) => {
@@ -29,15 +27,20 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
-  if (req.mode === 'navigate') {
+  const isFreshAsset = req.mode === 'navigate'
+    || /\.(css|js|json|webmanifest)(\?.*)?$/i.test(url.pathname + url.search);
+
+  if (isFreshAsset) {
     event.respondWith(
       fetch(req)
         .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(req, copy)).catch(() => {});
+          if (res.ok && res.type === 'basic') {
+            const copy = res.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(req, copy)).catch(() => {});
+          }
           return res;
         })
-        .catch(() => caches.match(req).then((cached) => cached || caches.match('/')))
+        .catch(() => caches.match(req).then((cached) => cached || (req.mode === 'navigate' ? caches.match('/') : undefined)))
     );
     return;
   }

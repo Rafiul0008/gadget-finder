@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
+const BUILD_VER = Date.now().toString(36);
 
 const config = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/site.config.json'), 'utf8'));
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/products.json'), 'utf8'));
@@ -175,7 +176,7 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
   <link rel="apple-touch-icon" href="${assetPrefix}assets/icons/brand-icon.jpg"/>
   <link rel="alternate" type="application/rss+xml" title="${esc(config.siteName)} — News &amp; Reviews" href="${esc(config.siteUrl)}/rss.xml"/>
   ${monetagMeta}
-  <link rel="stylesheet" href="${assetPrefix}assets/main.css"/>
+  <link rel="stylesheet" href="${assetPrefix}assets/main.css?v=${BUILD_VER}"/>
   ${jsonLdList.map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`).join('\n  ')}
   ${gaScript}
   ${monetagScript}
@@ -424,7 +425,7 @@ function renderFooter(rootPrefix) {
     <div id="modal-body"></div>
   </div>
 </div>
-<script src="${rootPrefix}assets/app.js"></script>
+<script src="${rootPrefix}assets/app.js?v=${BUILD_VER}"></script>
 </body>
 </html>`;
 }
