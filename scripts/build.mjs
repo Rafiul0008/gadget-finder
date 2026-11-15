@@ -153,7 +153,11 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <meta name="theme-color" content="#1d4ed8"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+  <meta name="mobile-web-app-capable" content="yes"/>
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}"/>
   <meta name="robots" content="INDEX,FOLLOW,max-snippet:-1,max-image-preview:large"/>
@@ -163,6 +167,7 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
   <meta property="og:url" content="${esc(canonicalUrl)}"/>
   <meta property="og:site_name" content="${esc(config.siteName)}"/>
   <meta property="og:type" content="website"/>${ogImage}
+  <link rel="manifest" href="${assetPrefix}manifest.webmanifest"/>
   <link rel="icon" type="image/jpeg" href="${assetPrefix}assets/icons/brand-icon.jpg"/>
   <link rel="apple-touch-icon" href="${assetPrefix}assets/icons/brand-icon.jpg"/>
   <link rel="alternate" type="application/rss+xml" title="${esc(config.siteName)} — News &amp; Reviews" href="${esc(config.siteUrl)}/rss.xml"/>
@@ -2625,6 +2630,15 @@ function build() {
 
   fs.copyFileSync(path.join(ROOT, 'src/styles/main.css'), path.join(DIST, 'assets/main.css'));
   fs.copyFileSync(path.join(ROOT, 'src/scripts/app.js'), path.join(DIST, 'assets/app.js'));
+  const pwaManifest = path.join(ROOT, 'src/pwa/manifest.webmanifest');
+  const pwaSw = path.join(ROOT, 'src/pwa/sw.js');
+  if (fs.existsSync(pwaManifest)) fs.copyFileSync(pwaManifest, path.join(DIST, 'manifest.webmanifest'));
+  if (fs.existsSync(pwaSw)) fs.copyFileSync(pwaSw, path.join(DIST, 'sw.js'));
+  const dailyNewsJson = path.join(ROOT, 'data/daily-news.json');
+  if (fs.existsSync(dailyNewsJson)) {
+    ensureDir(path.join(DIST, 'data'));
+    fs.copyFileSync(dailyNewsJson, path.join(DIST, 'data/daily-news.json'));
+  }
   const productsImgSrc = path.join(ROOT, 'src/assets/products');
   if (fs.existsSync(productsImgSrc)) {
     fs.cpSync(productsImgSrc, path.join(DIST, 'assets/products'), { recursive: true });

@@ -516,4 +516,167 @@
   syncAction();
 })();
 
+/* Mobile PWA: Service Worker, App Install Popup & Push Notification Alerts */
+(() => {
+  'use strict';
+  const header = document.querySelector('.site-header');
+  const rootPrefix = header?.dataset.root || './';
+  let swReg = null;
+  let deferredPrompt = null;
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register(`${rootPrefix}sw.js`).then((reg) => {
+      swReg = reg;
+      checkFreshNewsNotification(reg);
+    }).catch(() => {});
+  }
+
+  function sendNotification(title, body, url, tag) {
+    if (!('Notification' in window) || Notification.permission !== 'granted') return;
+    const opts = {
+      body,
+      icon: `${rootPrefix}assets/icons/brand-icon.jpg`,
+      badge: `${rootPrefix}assets/icons/brand-icon.jpg`,
+      tag: tag || 'bpu-alert',
+      data: { url: url || rootPrefix },
+    };
+    if (swReg && swReg.showNotification) {
+      swReg.showNotification(title, opts).catch(() => {});
+    } else {
+      try { new Notification(title, opts); } catch { /* ignore */ }
+    }
+  }
+
+  function checkFreshNewsNotification() {
+    if (!('Notification' in window) || Notification.permission !== 'granted') return;
+    fetch(`${rootPrefix}data/daily-news.json`, { cache: 'no-store' })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        const top = data?.items?.[0];
+        if (!top || !top.slug) return;
+        const lastSeen = localStorage.getItem('bpu_last_news_slug');
+        if (lastSeen !== top.slug) {
+          localStorage.setItem('bpu_last_news_slug', top.slug);
+          if (lastSeen) {
+            sendNotification('🔥 Trending Tech Update', top.title, `${rootPrefix}news/${top.slug}/`, `news-${top.slug}`);
+          }
+        }
+      })
+      .catch(() => {});
+  }
+
+  function createToast({ id, icon, title, subtitle, primaryText, onPrimary, dismissKey, secondaryText, onSecondary }) {
+    if (document.getElementById(id)) return null;
+    const el = document.createElement('div');
+    el.id = id;
+    el.className = 'pwa-toast';
+    el.setAttribute('role', 'dialog');
+    el.innerHTML = `
+      <div class="pwa-toast-body">
+        <img class="pwa-toast-ico" src="${rootPrefix}assets/icons/brand-icon.jpg" alt="" width="40" height="40"/>
+        <div class="pwa-toast-copy">
+          <strong>${title}</strong>
+          <span>${subtitle}</span>
+        </div>
+        <button type="button" class="pwa-toast-close" aria-label="Close">✕</button>
+      </div>
+      <div class="pwa-toast-actions">
+        ${secondaryText ? `<button type="button" class="pwa-btn-sec">${secondaryText}</button>` : ''}
+        <button type="button" class="pwa-btn-pri">${primaryText}</button>
+      </div>`;
+    document.body.appendChild(el);
+    requestAnimationFrame(() => el.classList.add('open'));
+
+    const close = (remember = true) => {
+      el.classList.remove('open');
+      if (remember && dismissKey) localStorage.setItem(dismissKey, String(Date.now()));
+      setTimeout(() => el.remove(), 220);
+    };
+    el.querySelector('.pwa-toast-close').addEventListener('click', () => close(true));
+    el.querySelector('.pwa-btn-pri').addEventListener('click', () => onPrimary(close));
+    if (secondaryText && onSecondary) {
+      el.querySelector('.pwa-btn-sec').addEventListener('click', () => onSecondary(close));
+    }
+    return el;
+  }
+
+  function recentlyDismissed(key, hours = 24) {
+    const ts = Number(localStorage.getItem(key) || 0);
+    return ts && Date.now() - ts < hours * 3600 * 1000;
+  }
+
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+  const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    if (isStandalone || recentlyDismissed('bpu_install_dismissed', 48)) return;
+    setTimeout(() => {
+      if (!deferredPrompt) return;
+      createToast({
+        id: 'bpu-install-toast',
+        title: 'Install Best Phone Under App',
+        subtitle: 'Instant 1-tap price checks, AnTuTu & deals on your home screen.',
+        primaryText: '📲 Install App',
+        secondaryText: 'Later',
+        dismissKey: 'bpu_install_dismissed',
+        onSecondary: (close) => close(true),
+        onPrimary: async (close) => {
+          if (!deferredPrompt) { close(false); return; }
+          deferredPrompt.prompt();
+          try { await deferredPrompt.userChoice; } catch { /* ignore */ }
+          deferredPrompt = null;
+          close(true);
+        },
+      });
+    }, 2200);
+  });
+
+  if (isIos && !isStandalone && !recentlyDismissed('bpu_install_dismissed', 72)) {
+    setTimeout(() => {
+      createToast({
+        id: 'bpu-install-toast',
+        title: 'Add Best Phone Under to Home Screen',
+        subtitle: 'Tap Share ⬆ then "Add to Home Screen" for the full mobile app.',
+        primaryText: 'Got it',
+        dismissKey: 'bpu_install_dismissed',
+        onPrimary: (close) => close(true),
+      });
+    }, 3000);
+  }
+
+  // Push Notification Opt-in Popup (shown when permission is default & not recently dismissed)
+  if ('Notification' in window && Notification.permission === 'default' && !recentlyDismissed('bpu_notif_dismissed', 48)) {
+    setTimeout(() => {
+      if (document.getElementById('bpu-install-toast')) return; // avoid stacking two popups simultaneously
+      createToast({
+        id: 'bpu-notif-toast',
+        title: 'Get Live Price Drops & Tech News',
+        subtitle: 'Enable alerts for mobile price cuts, new launches & top deals.',
+        primaryText: '🔔 Enable Alerts',
+        secondaryText: 'No thanks',
+        dismissKey: 'bpu_notif_dismissed',
+        onSecondary: (close) => close(true),
+        onPrimary: async (close) => {
+          try {
+            const perm = await Notification.requestPermission();
+            if (perm === 'granted') {
+              sendNotification(
+                'Alerts Enabled — Best Phone Under',
+                'You will now receive live price drop & daily tech news alerts!',
+                `${rootPrefix}news/`,
+                'bpu-welcome'
+              );
+              checkFreshNewsNotification();
+            }
+          } catch { /* ignore */ }
+          close(true);
+        },
+      });
+    }, 5500);
+  }
+})();
+
+
 

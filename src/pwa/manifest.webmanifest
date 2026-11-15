@@ -1,0 +1,20 @@
+{
+  "name": "Best Phone Under — India's Smart Tech Guide",
+  "short_name": "BestPhoneUnder",
+  "description": "Live mobile phone prices, AnTuTu scores, specs, and deals across Amazon, Flipkart, Croma & JioMart.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#1d4ed8",
+  "categories": ["shopping", "news", "utilities"],
+  "icons": [
+    {
+      "src": "/assets/icons/brand-icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
