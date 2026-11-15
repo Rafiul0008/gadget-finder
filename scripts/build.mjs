@@ -211,7 +211,7 @@ function renderHeader(rootPrefix, activeSlug = '') {
     { href: `${rootPrefix}reviews/`, label: 'Reviews', slug: 'reviews' },
     { href: `${rootPrefix}guides/`, label: 'Guides', slug: 'guides' },
   ];
-  return `<header class="site-header">
+  return `<header class="site-header" data-root="${rootPrefix}">
   <div class="container">
     <div class="header-top">
       <a class="brand" href="${rootPrefix}" aria-label="${esc(config.siteName)}">
@@ -2868,6 +2868,30 @@ function build() {
   fs.writeFileSync(path.join(DIST, 'sitemap.xml'), sitemap);
   fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${config.siteUrl}/sitemap.xml\nSitemap: ${config.siteUrl}/news-sitemap.xml\n`);
   fs.writeFileSync(path.join(DIST, 'google24b27f993d02a70a.html'), 'google-site-verification: google24b27f993d02a70a.html\n');
+
+  // Global search index
+  const searchIndex = [
+    ...phones.map((p) => {
+      const f = phoneFacts(p);
+      return {
+        n: p.name,
+        u: `mobile/${p.slug}/`,
+        b: p.brand || 'Mobile',
+        p: p.price?.amount ? `${p.price.currency || '₹'}${Number(p.price.amount).toLocaleString('en-IN')}` : '',
+        a: Number(p.price?.amount || 0),
+        t: `${p.name} ${p.brand || ''} ${f.has5G ? '5g' : ''} ${f.hasAmoled ? 'amoled' : ''} ${p.highlights?.Processor || ''}`.toLowerCase(),
+      };
+    }),
+    ...products.map((pr) => ({
+      n: pr.name,
+      u: `${pr.category}/`,
+      b: pr.categoryLabel || pr.category || 'Deal',
+      p: pr.lowestPrice ? `₹${Number(pr.lowestPrice).toLocaleString('en-IN')}` : '',
+      a: Number(pr.lowestPrice || 0),
+      t: `${pr.name} ${pr.brand || ''} ${pr.category || ''} ${Object.values(pr.specs || {}).join(' ')}`.toLowerCase(),
+    })),
+  ];
+  fs.writeFileSync(path.join(DIST, 'assets/search-index.json'), JSON.stringify(searchIndex));
 
   console.log(`Built ${urls.length} pages (${products.length} products) into dist/`);
 }

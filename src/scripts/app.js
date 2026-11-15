@@ -385,3 +385,119 @@
   });
   sortEl?.addEventListener('change', update);
 })();
+
+/* Global Live Search across all pages */
+(() => {
+  'use strict';
+  const input = document.getElementById('global-search');
+  if (!input) return;
+  const box = input.closest('.search-box');
+  if (!box) return;
+  const header = document.querySelector('.site-header');
+  const rootPrefix = header?.dataset.root || './';
+
+  let indexPromise = null;
+  let indexData = null;
+
+  const dropdown = document.createElement('div');
+  dropdown.id = 'global-search-results';
+  dropdown.className = 'search-dropdown';
+  dropdown.hidden = true;
+  box.appendChild(dropdown);
+
+  function loadIndex() {
+    if (indexData) return Promise.resolve(indexData);
+    if (!indexPromise) {
+      indexPromise = fetch(`${rootPrefix}assets/search-index.json`)
+        .then((r) => (r.ok ? r.json() : []))
+        .then((data) => {
+          indexData = Array.isArray(data) ? data : [];
+          return indexData;
+        })
+        .catch(() => []);
+    }
+    return indexPromise;
+  }
+
+  function escHtml(s) {
+    return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function parseQuery(raw) {
+    const clean = raw.trim().toLowerCase();
+    let maxPrice = 0;
+    const underMatch = clean.match(/\b(?:under|below|<)\s*(?:rs\.?|₹)?\s*(\d{3,6})\b/);
+    if (underMatch) maxPrice = Number(underMatch[1]);
+    const text = clean
+      .replace(/\b(?:under|below|<)\s*(?:rs\.?|₹)?\s*\d{3,6}\b/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+    const tokens = text ? text.split(' ').filter(Boolean) : [];
+    return { tokens, maxPrice, rawClean: clean };
+  }
+
+  async function renderResults() {
+    const q = input.value.trim();
+    if (!q) {
+      dropdown.hidden = true;
+      dropdown.innerHTML = '';
+      return;
+    }
+    const items = await loadIndex();
+    const { tokens, maxPrice } = parseQuery(q);
+    const matches = items.filter((it) => {
+      if (maxPrice > 0 && (it.a <= 0 || it.a > maxPrice)) return false;
+      for (const tok of tokens) {
+        if (!it.t.includes(tok)) return false;
+      }
+      return true;
+    }).slice(0, 8);
+
+    if (!matches.length) {
+      dropdown.innerHTML = `<div class="search-empty">No matches for "${escHtml(q)}"</div><a class="search-all-link" href="${rootPrefix}mobile/?q=${encodeURIComponent(q)}">Browse all phones ›</a>`;
+      dropdown.hidden = false;
+      return;
+    }
+
+    dropdown.innerHTML = matches.map((m) => `
+      <a class="search-result-item" href="${rootPrefix}${escHtml(m.u)}">
+        <span class="search-result-main">
+          <span class="search-result-name">${escHtml(m.n)}</span>
+          <span class="search-result-sub">${escHtml(m.b)}</span>
+        </span>
+        ${m.p ? `<span class="search-result-price">${escHtml(m.p)}</span>` : ''}
+      </a>`).join('') + `<a class="search-all-link" href="${rootPrefix}mobile/?q=${encodeURIComponent(q)}">See all results for "${escHtml(q)}" ›</a>`;
+    dropdown.hidden = false;
+  }
+
+  let timer = null;
+  input.addEventListener('focus', () => {
+    loadIndex();
+    if (input.value.trim()) renderResults();
+  });
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(renderResults, 90);
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      dropdown.hidden = true;
+      return;
+    }
+    if (e.key === 'Enter') {
+      const q = input.value.trim();
+      if (!q) return;
+      e.preventDefault();
+      const first = dropdown.querySelector('.search-result-item');
+      if (first && first.getAttribute('href')) {
+        location.href = first.getAttribute('href');
+      } else {
+        location.href = `${rootPrefix}mobile/?q=${encodeURIComponent(q)}`;
+      }
+    }
+  });
+  document.addEventListener('click', (e) => {
+    if (!box.contains(e.target)) dropdown.hidden = true;
+  });
+})();
+
