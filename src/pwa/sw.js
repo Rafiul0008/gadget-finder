@@ -8,10 +8,12 @@ try {
   importScripts('https://5gvci.com/act/files/service-worker.min.js?r=sw');
 } catch (e) {}
 
-const CACHE_NAME = 'bpu-shell-v3';
+const CACHE_NAME = 'bpu-shell-v4';
 const SHELL_ASSETS = [
   '/',
   '/manifest.webmanifest',
+  '/assets/main.css',
+  '/assets/app.js',
   '/assets/icons/brand-icon.jpg',
 ];
 

@@ -157,7 +157,7 @@ function deviceSvg(category) {
 function productThumb(p, rootPrefix) {
   if (!p.image) return deviceSvg(p.category);
   const src = /^https?:\/\//i.test(p.image) ? p.image : `/${p.image.replace(/^\/+/, '')}`;
-  return `<img src="${esc(src)}" alt="${esc(p.name)}" class="product-photo" loading="lazy"/>`;
+  return `<img src="${esc(src)}" alt="${esc(p.name)}" class="product-photo" width="110" height="130" loading="lazy" decoding="async"/>`;
 }
 
 function formatMonthYear(iso) {
@@ -189,6 +189,10 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
   <meta charset="utf-8"/>
   <base href="/"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <link rel="preconnect" href="https://m.media-amazon.com" crossorigin/>
+  <link rel="dns-prefetch" href="https://m.media-amazon.com"/>
+  <link rel="preconnect" href="https://www.googletagmanager.com"/>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
   <meta name="color-scheme" content="light dark"/>
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#1d4ed8"/>
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000"/>
@@ -478,7 +482,7 @@ function renderFooter(rootPrefix) {
     <div id="modal-body"></div>
   </div>
 </div>
-<script src="/assets/app.js?v=${BUILD_VER}"></script>
+<script src="/assets/app.js?v=${BUILD_VER}" defer></script>
 </body>
 </html>`;
 }
@@ -2788,8 +2792,23 @@ function build() {
   fs.rmSync(DIST, { recursive: true, force: true });
   ensureDir(path.join(DIST, 'assets'));
 
-  fs.copyFileSync(path.join(ROOT, 'src/styles/main.css'), path.join(DIST, 'assets/main.css'));
-  fs.copyFileSync(path.join(ROOT, 'src/scripts/app.js'), path.join(DIST, 'assets/app.js'));
+  // Minify CSS into dist/assets/main.css
+  const rawCss = fs.readFileSync(path.join(ROOT, 'src/styles/main.css'), 'utf8');
+  const minCss = rawCss
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .replace(/\s+/g, ' ')
+    .replace(/\s*([{}:;,>~])\s*/g, '$1')
+    .replace(/;\}/g, '}')
+    .trim();
+  fs.writeFileSync(path.join(DIST, 'assets/main.css'), minCss);
+
+  // Minify JS into dist/assets/app.js
+  const rawJs = fs.readFileSync(path.join(ROOT, 'src/scripts/app.js'), 'utf8');
+  const minJs = rawJs
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .replace(/^\s*\/\/.*$/gm, '')
+    .trim();
+  fs.writeFileSync(path.join(DIST, 'assets/app.js'), minJs);
   const pwaManifest = path.join(ROOT, 'src/pwa/manifest.webmanifest');
   const pwaSw = path.join(ROOT, 'src/pwa/sw.js');
   if (fs.existsSync(pwaManifest)) fs.copyFileSync(pwaManifest, path.join(DIST, 'manifest.webmanifest'));

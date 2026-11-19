@@ -31,15 +31,16 @@ let savedBytes = 0;
 for (const dir of dirs) {
   if (!fs.existsSync(dir)) continue;
   for (const file of fs.readdirSync(dir)) {
-    if (!file.endsWith('.png')) continue;
-    const pngPath = path.join(dir, file);
-    const webpPath = pngPath.replace(/\.png$/i, '.webp');
+    const ext = path.extname(file).toLowerCase();
+    if (ext !== '.png' && ext !== '.jpg' && ext !== '.jpeg') continue;
+    const origPath = path.join(dir, file);
+    const webpPath = origPath.replace(/\.(png|jpe?g)$/i, '.webp');
     try {
-      execFileSync('cwebp', ['-q', '85', '-m', '4', '-mt', '-quiet', pngPath, '-o', webpPath]);
-      const oldSize = fs.statSync(pngPath).size;
+      execFileSync('cwebp', ['-q', '82', '-m', '4', '-mt', '-quiet', origPath, '-o', webpPath]);
+      const oldSize = fs.statSync(origPath).size;
       const newSize = fs.statSync(webpPath).size;
       if (newSize > 0 && newSize < oldSize) {
-        fs.unlinkSync(pngPath);
+        fs.unlinkSync(origPath);
         savedBytes += oldSize - newSize;
         converted.add(file);
       } else if (fs.existsSync(webpPath)) {
@@ -58,8 +59,8 @@ if (converted.size) {
       if (entry.isDirectory()) rewriteHtml(full);
       else if (entry.name.endsWith('.html')) {
         const html = fs.readFileSync(full, 'utf8');
-        const next = html.replace(/(assets\/(?:phones|products)\/[a-z0-9-]+)\.png/gi, (m, base) => {
-          const fname = `${path.basename(base)}.png`;
+        const next = html.replace(/(assets\/(?:phones|products)\/[a-z0-9_-]+)\.(png|jpe?g)/gi, (m, base, ext) => {
+          const fname = `${path.basename(base)}.${ext}`;
           return converted.has(fname) ? `${base}.webp` : m;
         });
         if (next !== html) fs.writeFileSync(full, next);
@@ -69,4 +70,4 @@ if (converted.size) {
   rewriteHtml(DIST);
 }
 
-console.log(`Compressed ${converted.size} PNGs to WebP (-q 85), saved ${(savedBytes / (1024 * 1024)).toFixed(1)} MB.`);
+console.log(`Compressed ${converted.size} images to WebP (-q 82), saved ${(savedBytes / (1024 * 1024)).toFixed(1)} MB.`);
