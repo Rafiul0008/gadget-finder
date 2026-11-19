@@ -156,7 +156,7 @@ function deviceSvg(category) {
 
 function productThumb(p, rootPrefix) {
   if (!p.image) return deviceSvg(p.category);
-  const src = /^https?:\/\//i.test(p.image) ? p.image : `${rootPrefix}${p.image}`;
+  const src = /^https?:\/\//i.test(p.image) ? p.image : `/${p.image.replace(/^\/+/, '')}`;
   return `<img src="${esc(src)}" alt="${esc(p.name)}" class="product-photo" loading="lazy"/>`;
 }
 
@@ -172,11 +172,9 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
   const defaultShareImg = `${config.siteUrl}/assets/icons/header-logo.jpg`;
   const shareImg = image || defaultShareImg;
   const ogImage = `\n  <meta property="og:image" content="${esc(shareImg)}"/>\n  <meta property="og:image:alt" content="${esc(title)}"/>\n  <meta name="twitter:card" content="summary_large_image"/>\n  <meta name="twitter:image" content="${esc(shareImg)}"/>`;
-  const monetagMeta = config.monetag?.enabled && config.monetag.verificationMeta
-    ? config.monetag.verificationMeta
-    : '';
-  const monetagScript = config.monetag?.enabled
-    ? (config.monetag.zoneScriptUrl && config.monetag.zoneScriptUrl.includes('tag.min.js')
+  const monetagMeta = config.monetag?.verificationMeta || '';
+  const monetagScript = config.monetag?.enabled && config.monetag?.zoneScriptUrl
+    ? (config.monetag.zoneScriptUrl.includes('tag.min.js')
       ? `<script src="${esc(config.monetag.zoneScriptUrl)}" data-zone="${esc(config.monetag.zoneId || '312427')}" async data-cfasync="false"></script>`
       : `<script>(function(s){s.dataset.zone='${esc(config.monetag.zoneId || '12288311')}',s.src='${esc(config.monetag.zoneScriptUrl || 'https://n6wxm.com/vignette.min.js')}'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>`)
     : '';
@@ -189,6 +187,7 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
+  <base href="/"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
   <meta name="color-scheme" content="light dark"/>
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#1d4ed8"/>
@@ -210,12 +209,12 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
   <meta property="og:site_name" content="${esc(config.siteName)}"/>
   <meta property="og:locale" content="en_IN"/>
   <meta property="og:type" content="website"/>${ogImage}
-  <link rel="manifest" href="${assetPrefix}manifest.webmanifest"/>
-  <link rel="icon" type="image/jpeg" href="${assetPrefix}assets/icons/brand-icon.jpg"/>
-  <link rel="apple-touch-icon" href="${assetPrefix}assets/icons/brand-icon.jpg"/>
+  <link rel="manifest" href="/manifest.webmanifest"/>
+  <link rel="icon" type="image/jpeg" href="/assets/icons/brand-icon.jpg"/>
+  <link rel="apple-touch-icon" href="/assets/icons/brand-icon.jpg"/>
   <link rel="alternate" type="application/rss+xml" title="${esc(config.siteName)} — News &amp; Reviews" href="${esc(config.siteUrl)}/rss.xml"/>
   ${monetagMeta}
-  <link rel="stylesheet" href="${assetPrefix}assets/main.css?v=${BUILD_VER}"/>
+  <link rel="stylesheet" href="/assets/main.css?v=${BUILD_VER}"/>
   ${jsonLdList.map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`).join('\n  ')}
   ${gaScript}
   ${monetagScript}
@@ -223,22 +222,22 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
 }
 
 const NAV_ICONS = {
-  '': `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gAll1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#6366f1"/></linearGradient><linearGradient id="gAll2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#fb923c"/></linearGradient></defs><rect x="6" y="6" width="16" height="16" rx="5" fill="url(#gAll1)"/><rect x="26" y="6" width="16" height="16" rx="5" fill="url(#gAll2)"/><rect x="6" y="26" width="16" height="16" rx="5" fill="#818cf8"/><rect x="26" y="26" width="16" height="16" rx="5" fill="#38bdf8"/></svg>`,
-  mobile: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gPhBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1d4ed8"/></linearGradient><linearGradient id="gPhScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#67e8f9"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#fb7185"/></linearGradient></defs><rect x="11" y="4" width="26" height="40" rx="6" fill="url(#gPhBody)"/><rect x="14" y="7" width="20" height="34" rx="4" fill="url(#gPhScr)"/><rect x="17" y="12" width="6" height="6" rx="1.8" fill="#60a5fa"/><rect x="25" y="12" width="6" height="6" rx="1.8" fill="#fde047"/><rect x="17" y="20" width="6" height="6" rx="1.8" fill="#fb7185"/><rect x="29" y="16" width="13" height="8" rx="3" fill="#bfdbfe"/><rect x="27" y="26" width="11" height="7" rx="2.5" fill="#fecdd3"/></svg>`,
-  laptops: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gLpScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="50%" stop-color="#818cf8"/><stop offset="100%" stop-color="#f472b6"/></linearGradient></defs><rect x="9" y="9" width="30" height="20" rx="4" fill="#8b5cf6"/><rect x="12" y="12" width="24" height="14" rx="2.5" fill="url(#gLpScr)"/><rect x="15" y="15" width="5" height="5" rx="1.5" fill="#a78bfa"/><rect x="21.5" y="15" width="5" height="5" rx="1.5" fill="#60a5fa"/><rect x="28" y="15" width="5" height="5" rx="1.5" fill="#fecdd3"/><path d="M5 31h38l-3 8H8l-3-8z" fill="#a78bfa"/><rect x="19" y="34" width="10" height="3" rx="1.5" fill="#7c3aed"/></svg>`,
-  tablets: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gTabBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#2563eb"/></linearGradient><linearGradient id="gTabScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#67e8f9"/><stop offset="100%" stop-color="#c084fc"/></linearGradient></defs><rect x="8" y="6" width="32" height="36" rx="5" fill="url(#gTabBody)"/><rect x="11" y="9" width="26" height="30" rx="3" fill="url(#gTabScr)"/><circle cx="24" cy="41" r="1.5" fill="#ffffff" opacity=".8"/></svg>`,
-  'smart-tv': `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gTvScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#06b6d4"/><stop offset="50%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient></defs><rect x="5" y="8" width="38" height="26" rx="4" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/><rect x="8" y="11" width="32" height="20" rx="2" fill="url(#gTvScr)"/><path d="M18 38h12M24 34v4" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/></svg>`,
-  refrigerators: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gFrBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0284c7"/><stop offset="100%" stop-color="#0369a1"/></linearGradient></defs><rect x="12" y="4" width="24" height="40" rx="5" fill="url(#gFrBody)"/><rect x="14" y="6" width="20" height="14" rx="2" fill="#38bdf8"/><rect x="14" y="22" width="20" height="20" rx="2" fill="#0284c7"/><line x1="12" y1="21" x2="36" y2="21" stroke="#0c4a6e" stroke-width="1.5"/><rect x="15" y="12" width="2" height="5" rx="1" fill="#ffffff"/><rect x="15" y="25" width="2" height="7" rx="1" fill="#ffffff"/></svg>`,
-  ac: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gAcBody" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0ea5e9"/><stop offset="100%" stop-color="#6366f1"/></linearGradient></defs><rect x="6" y="12" width="36" height="20" rx="4" fill="url(#gAcBody)"/><rect x="9" y="24" width="30" height="4" rx="1.5" fill="#e0f2fe"/><path d="M12 36c2 4 4 4 6 0s4-4 6 0 4 4 6 0" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" fill="none"/></svg>`,
-  earbuds: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gEbCase" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6d28d9"/></linearGradient><linearGradient id="gEbPod" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient></defs><rect x="10" y="22" width="28" height="20" rx="8" fill="url(#gEbCase)"/><ellipse cx="24" cy="22" rx="14" ry="5" fill="#3b82f6"/><ellipse cx="24" cy="18" rx="12" ry="4" fill="#a78bfa"/><circle cx="16" cy="12" r="5" fill="url(#gEbPod)"/><rect x="15" y="13" width="4" height="10" rx="2" fill="#818cf8"/><circle cx="32" cy="10" r="5" fill="url(#gEbPod)"/><rect x="29" y="11" width="4" height="10" rx="2" fill="#818cf8"/></svg>`,
-  smartwatches: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gSwBand" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#818cf8"/><stop offset="100%" stop-color="#6366f1"/></linearGradient><linearGradient id="gSwScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4c1d95"/><stop offset="100%" stop-color="#312e81"/></linearGradient></defs><rect x="16" y="3" width="16" height="42" rx="6" fill="url(#gSwBand)"/><rect x="10" y="11" width="28" height="26" rx="7" fill="#a78bfa"/><rect x="13" y="14" width="22" height="20" rx="5" fill="url(#gSwScr)"/><path d="M21 20c0-1.5 1.8-2.2 3-0.8 1.2-1.4 3-0.7 3 0.8 0 2-3 4-3 4s-3-2-3-4z" fill="#fb7185"/><rect x="16" y="27" width="16" height="3" rx="1.5" fill="#4ade80"/></svg>`,
-  'mobile-brands': `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gBr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#f97316"/></linearGradient></defs><path d="M24 5l5.5 11.2 12.3 1.8-8.9 8.7 2.1 12.3L24 33.2 13 39l2.1-12.3-8.9-8.7 12.3-1.8L24 5z" fill="url(#gBr)"/></svg>`,
-  compare: `<svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="15" height="28" rx="4" fill="#3b82f6"/><rect x="27" y="10" width="15" height="28" rx="4" fill="#ec4899"/><circle cx="24" cy="24" r="7" fill="#ffffff"/><path d="M20 24h8M24 20l4 4-4 4" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
-  'mobile-price-list': `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gPr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient></defs><circle cx="24" cy="24" r="19" fill="url(#gPr)"/><path d="M17 15h14M17 21h14M17 27l10 9M17 27h6a5 5 0 0 0 0-12" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
-  news: `<svg viewBox="0 0 48 48" fill="none"><rect x="7" y="8" width="34" height="32" rx="6" fill="#6366f1"/><rect x="12" y="13" width="12" height="10" rx="2.5" fill="#38bdf8"/><rect x="27" y="14" width="9" height="3" rx="1.5" fill="#e0e7ff"/><rect x="27" y="20" width="9" height="3" rx="1.5" fill="#e0e7ff"/><rect x="12" y="27" width="24" height="3.5" rx="1.5" fill="#c7d2fe"/><rect x="12" y="33" width="18" height="3.5" rx="1.5" fill="#c7d2fe"/></svg>`,
-  reviews: `<svg viewBox="0 0 48 48" fill="none"><rect x="6" y="8" width="36" height="26" rx="7" fill="#8b5cf6"/><path d="M16 34l-6 7v-7h6z" fill="#8b5cf6"/><path d="M24 14l2.4 4.8 5.3.8-3.8 3.7.9 5.3L24 26.1l-4.8 2.5.9-5.3-3.8-3.7 5.3-.8L24 14z" fill="#fde047"/></svg>`,
-  guides: `<svg viewBox="0 0 48 48" fill="none"><rect x="9" y="6" width="30" height="36" rx="5" fill="#ec4899"/><rect x="13" y="6" width="5" height="36" fill="#be185d"/><rect x="22" y="14" width="12" height="4" rx="2" fill="#fce7f3"/><rect x="22" y="22" width="10" height="3.5" rx="1.75" fill="#fbcfe8"/></svg>`,
-  budget: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#fb923c"/></linearGradient></defs><path d="M26 7H11a4 4 0 0 0-4 4v15l16 16a4 4 0 0 0 5.7 0l12.3-12.3a4 4 0 0 0 0-5.7L26 7z" fill="url(#gBg)"/><circle cx="15" cy="15" r="3" fill="#ffffff"/></svg>`,
+  '': `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gAll1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#6366f1"/></linearGradient><linearGradient id="gAll2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#fb923c"/></linearGradient></defs><rect x="6" y="6" width="16" height="16" rx="5" fill="url(#gAll1)"/><rect x="26" y="6" width="16" height="16" rx="5" fill="url(#gAll2)"/><rect x="6" y="26" width="16" height="16" rx="5" fill="#818cf8"/><rect x="26" y="26" width="16" height="16" rx="5" fill="#38bdf8"/></svg>`,
+  mobile: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gPhBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1d4ed8"/></linearGradient><linearGradient id="gPhScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#67e8f9"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#fb7185"/></linearGradient></defs><rect x="11" y="4" width="26" height="40" rx="6" fill="url(#gPhBody)"/><rect x="14" y="7" width="20" height="34" rx="4" fill="url(#gPhScr)"/><rect x="17" y="12" width="6" height="6" rx="1.8" fill="#60a5fa"/><rect x="25" y="12" width="6" height="6" rx="1.8" fill="#fde047"/><rect x="17" y="20" width="6" height="6" rx="1.8" fill="#fb7185"/><rect x="29" y="16" width="13" height="8" rx="3" fill="#bfdbfe"/><rect x="27" y="26" width="11" height="7" rx="2.5" fill="#fecdd3"/></svg>`,
+  laptops: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gLpScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="50%" stop-color="#818cf8"/><stop offset="100%" stop-color="#f472b6"/></linearGradient></defs><rect x="9" y="9" width="30" height="20" rx="4" fill="#8b5cf6"/><rect x="12" y="12" width="24" height="14" rx="2.5" fill="url(#gLpScr)"/><rect x="15" y="15" width="5" height="5" rx="1.5" fill="#a78bfa"/><rect x="21.5" y="15" width="5" height="5" rx="1.5" fill="#60a5fa"/><rect x="28" y="15" width="5" height="5" rx="1.5" fill="#fecdd3"/><path d="M5 31h38l-3 8H8l-3-8z" fill="#a78bfa"/><rect x="19" y="34" width="10" height="3" rx="1.5" fill="#7c3aed"/></svg>`,
+  tablets: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gTabBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#2563eb"/></linearGradient><linearGradient id="gTabScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#67e8f9"/><stop offset="100%" stop-color="#c084fc"/></linearGradient></defs><rect x="8" y="6" width="32" height="36" rx="5" fill="url(#gTabBody)"/><rect x="11" y="9" width="26" height="30" rx="3" fill="url(#gTabScr)"/><circle cx="24" cy="41" r="1.5" fill="#ffffff" opacity=".8"/></svg>`,
+  'smart-tv': `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gTvScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#06b6d4"/><stop offset="50%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient></defs><rect x="5" y="8" width="38" height="26" rx="4" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/><rect x="8" y="11" width="32" height="20" rx="2" fill="url(#gTvScr)"/><path d="M18 38h12M24 34v4" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+  refrigerators: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gFrBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0284c7"/><stop offset="100%" stop-color="#0369a1"/></linearGradient></defs><rect x="12" y="4" width="24" height="40" rx="5" fill="url(#gFrBody)"/><rect x="14" y="6" width="20" height="14" rx="2" fill="#38bdf8"/><rect x="14" y="22" width="20" height="20" rx="2" fill="#0284c7"/><line x1="12" y1="21" x2="36" y2="21" stroke="#0c4a6e" stroke-width="1.5"/><rect x="15" y="12" width="2" height="5" rx="1" fill="#ffffff"/><rect x="15" y="25" width="2" height="7" rx="1" fill="#ffffff"/></svg>`,
+  ac: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gAcBody" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0ea5e9"/><stop offset="100%" stop-color="#6366f1"/></linearGradient></defs><rect x="6" y="12" width="36" height="20" rx="4" fill="url(#gAcBody)"/><rect x="9" y="24" width="30" height="4" rx="1.5" fill="#e0f2fe"/><path d="M12 36c2 4 4 4 6 0s4-4 6 0 4 4 6 0" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" fill="none"/></svg>`,
+  earbuds: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gEbCase" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6d28d9"/></linearGradient><linearGradient id="gEbPod" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient></defs><rect x="10" y="22" width="28" height="20" rx="8" fill="url(#gEbCase)"/><ellipse cx="24" cy="22" rx="14" ry="5" fill="#3b82f6"/><ellipse cx="24" cy="18" rx="12" ry="4" fill="#a78bfa"/><circle cx="16" cy="12" r="5" fill="url(#gEbPod)"/><rect x="15" y="13" width="4" height="10" rx="2" fill="#818cf8"/><circle cx="32" cy="10" r="5" fill="url(#gEbPod)"/><rect x="29" y="11" width="4" height="10" rx="2" fill="#818cf8"/></svg>`,
+  smartwatches: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gSwBand" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#818cf8"/><stop offset="100%" stop-color="#6366f1"/></linearGradient><linearGradient id="gSwScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4c1d95"/><stop offset="100%" stop-color="#312e81"/></linearGradient></defs><rect x="16" y="3" width="16" height="42" rx="6" fill="url(#gSwBand)"/><rect x="10" y="11" width="28" height="26" rx="7" fill="#a78bfa"/><rect x="13" y="14" width="22" height="20" rx="5" fill="url(#gSwScr)"/><path d="M21 20c0-1.5 1.8-2.2 3-0.8 1.2-1.4 3-0.7 3 0.8 0 2-3 4-3 4s-3-2-3-4z" fill="#fb7185"/><rect x="16" y="27" width="16" height="3" rx="1.5" fill="#4ade80"/></svg>`,
+  'mobile-brands': `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gBr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#f97316"/></linearGradient></defs><path d="M24 5l5.5 11.2 12.3 1.8-8.9 8.7 2.1 12.3L24 33.2 13 39l2.1-12.3-8.9-8.7 12.3-1.8L24 5z" fill="url(#gBr)"/></svg>`,
+  compare: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><rect x="6" y="10" width="15" height="28" rx="4" fill="#3b82f6"/><rect x="27" y="10" width="15" height="28" rx="4" fill="#ec4899"/><circle cx="24" cy="24" r="7" fill="#ffffff"/><path d="M20 24h8M24 20l4 4-4 4" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  'mobile-price-list': `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gPr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient></defs><circle cx="24" cy="24" r="19" fill="url(#gPr)"/><path d="M17 15h14M17 21h14M17 27l10 9M17 27h6a5 5 0 0 0 0-12" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  news: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><rect x="7" y="8" width="34" height="32" rx="6" fill="#6366f1"/><rect x="12" y="13" width="12" height="10" rx="2.5" fill="#38bdf8"/><rect x="27" y="14" width="9" height="3" rx="1.5" fill="#e0e7ff"/><rect x="27" y="20" width="9" height="3" rx="1.5" fill="#e0e7ff"/><rect x="12" y="27" width="24" height="3.5" rx="1.5" fill="#c7d2fe"/><rect x="12" y="33" width="18" height="3.5" rx="1.5" fill="#c7d2fe"/></svg>`,
+  reviews: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><rect x="6" y="8" width="36" height="26" rx="7" fill="#8b5cf6"/><path d="M16 34l-6 7v-7h6z" fill="#8b5cf6"/><path d="M24 14l2.4 4.8 5.3.8-3.8 3.7.9 5.3L24 26.1l-4.8 2.5.9-5.3-3.8-3.7 5.3-.8L24 14z" fill="#fde047"/></svg>`,
+  guides: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><rect x="9" y="6" width="30" height="36" rx="5" fill="#ec4899"/><rect x="13" y="6" width="5" height="36" fill="#be185d"/><rect x="22" y="14" width="12" height="4" rx="2" fill="#fce7f3"/><rect x="22" y="22" width="10" height="3.5" rx="1.75" fill="#fbcfe8"/></svg>`,
+  budget: `<svg width="22" height="22" viewBox="0 0 48 48" fill="none" style="width:22px;height:22px;max-width:22px;max-height:22px;display:block;"><defs><linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#fb923c"/></linearGradient></defs><path d="M26 7H11a4 4 0 0 0-4 4v15l16 16a4 4 0 0 0 5.7 0l12.3-12.3a4 4 0 0 0 0-5.7L26 7z" fill="url(#gBg)"/><circle cx="15" cy="15" r="3" fill="#ffffff"/></svg>`,
 };
 
 function renderHeader(rootPrefix, activeSlug = '') {
@@ -272,8 +271,8 @@ function renderHeader(rootPrefix, activeSlug = '') {
   return `<header class="site-header" data-root="${rootPrefix}">
   <div class="container">
     <div class="header-top">
-      <a class="brand" href="${rootPrefix}" aria-label="${esc(config.siteName)}">
-        <img class="brand-logo-img" src="${rootPrefix}assets/icons/header-logo.jpg" alt="${esc(config.siteName)}" height="42"/>
+      <a class="brand" href="/" aria-label="${esc(config.siteName)}">
+        <img class="brand-logo-img" src="/assets/icons/header-logo.jpg" alt="${esc(config.siteName)}" width="170" height="42" style="max-height:42px;width:auto;display:block;"/>
       </a>
       <div class="search-box">
         <span class="search-icon">✨</span>
@@ -479,7 +478,7 @@ function renderFooter(rootPrefix) {
     <div id="modal-body"></div>
   </div>
 </div>
-<script src="${rootPrefix}assets/app.js?v=${BUILD_VER}"></script>
+<script src="/assets/app.js?v=${BUILD_VER}"></script>
 </body>
 </html>`;
 }
@@ -743,7 +742,7 @@ ${renderHeader(rootPrefix)}
     <div class="product-hero-main">
       <div class="product-hero-media">
         ${p.image
-          ? `<img class="product-hero-photo" src="${esc(/^https?:\/\//i.test(p.image) ? p.image : rootPrefix + p.image)}" alt="${esc(p.name)}" width="220" height="220" fetchpriority="high"/>`
+          ? `<img class="product-hero-photo" src="${esc(/^https?:\/\//i.test(p.image) ? p.image : '/' + p.image.replace(/^\/+/, ''))}" alt="${esc(p.name)}" width="220" height="220" fetchpriority="high"/>`
           : `<div class="product-hero-photo">${deviceSvg(p.category)}</div>`}
       </div>
       <div class="product-hero-copy">
@@ -823,7 +822,7 @@ function phoneImageSrc(phone, rootPrefix, config) {
   const local = PHONE_IMAGE_EXTS
     .map((ext) => `assets/phones/${phone.slug}.${ext}`)
     .find((rel) => fs.existsSync(path.join(ROOT, 'src', rel)));
-  if (local) return `${rootPrefix}${local}`;
+  if (local) return `/${local}`;
   if (!config?.useRemoteImages) return '';
   const gallery = (phone.gallery || [])
     .filter((g) => g.url && /^https?:/.test(g.url) && !/watch\?|youtu/.test(g.url))
@@ -1236,7 +1235,7 @@ function renderBrandLogo(brand, rootPrefix = '../', large = false) {
   const slug = brandSlug(brand);
   for (const ext of ['png', 'webp', 'svg', 'jpg']) {
     if (fs.existsSync(path.join(ROOT, `src/assets/brands/${slug}.${ext}`))) {
-      return `<img class="brand-logo${large ? ' brand-logo-lg' : ''}" src="${rootPrefix}assets/brands/${slug}.${ext}" alt="${esc(brand)} logo" loading="lazy"/>`;
+      return `<img class="brand-logo${large ? ' brand-logo-lg' : ''}" src="/assets/brands/${slug}.${ext}" alt="${esc(brand)} logo" loading="lazy"/>`;
     }
   }
   return `<span class="brand-monogram${large ? ' brand-monogram-lg' : ''}">${esc(brandInitials(brand))}</span>`;
@@ -1660,21 +1659,21 @@ ${renderFooter(rootPrefix)}`;
 }
 
 const SPEC_ICONS = {
-  processor: `<svg viewBox="0 0 32 32" fill="none"><rect x="7" y="7" width="18" height="18" rx="4" fill="#6366f1"/><rect x="11" y="11" width="10" height="10" rx="2" fill="#38bdf8"/><path d="M12 3v4M20 3v4M12 25v4M20 25v4M3 12h4M3 20h4M25 12h4M25 20h4" stroke="#818cf8" stroke-width="2.2" stroke-linecap="round"/></svg>`,
-  display: `<svg viewBox="0 0 32 32" fill="none"><rect x="7" y="3" width="18" height="26" rx="4" fill="#3b82f6"/><rect x="9.5" y="5.5" width="13" height="21" rx="2" fill="#38bdf8"/><path d="M12 10l8 8M12 16l5 5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".9"/></svg>`,
-  battery: `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="9" width="22" height="14" rx="3.5" fill="#10b981"/><rect x="26" y="13" width="3" height="6" rx="1.5" fill="#059669"/><path d="M16 11.5l-3.5 5h3l-1 4 4-5.5h-3l.5-3.5z" fill="#fde047"/></svg>`,
-  'rear camera': `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="7" width="24" height="18" rx="5" fill="#8b5cf6"/><circle cx="15" cy="16" r="5.5" fill="#1e1b4b"/><circle cx="15" cy="16" r="3" fill="#38bdf8"/><circle cx="23" cy="11" r="1.5" fill="#fde047"/></svg>`,
-  'main camera': `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="7" width="24" height="18" rx="5" fill="#8b5cf6"/><circle cx="15" cy="16" r="5.5" fill="#1e1b4b"/><circle cx="15" cy="16" r="3" fill="#38bdf8"/><circle cx="23" cy="11" r="1.5" fill="#fde047"/></svg>`,
-  'front camera': `<svg viewBox="0 0 32 32" fill="none"><rect x="8" y="3" width="16" height="26" rx="4" fill="#ec4899"/><rect x="10.5" y="5.5" width="11" height="21" rx="2" fill="#fdf2f8"/><circle cx="16" cy="9" r="2.2" fill="#db2777"/><circle cx="16" cy="17.5" r="4" fill="#f472b6"/></svg>`,
-  'selfie camera': `<svg viewBox="0 0 32 32" fill="none"><rect x="8" y="3" width="16" height="26" rx="4" fill="#ec4899"/><rect x="10.5" y="5.5" width="11" height="21" rx="2" fill="#fdf2f8"/><circle cx="16" cy="9" r="2.2" fill="#db2777"/><circle cx="16" cy="17.5" r="4" fill="#f472b6"/></svg>`,
-  'ram/storage': `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="15" rx="3" fill="#f59e0b"/><rect x="7" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="14" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="21" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><path d="M8 23v3M13 23v3M19 23v3M24 23v3" stroke="#d97706" stroke-width="2" stroke-linecap="round"/></svg>`,
-  memory: `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="15" rx="3" fill="#f59e0b"/><rect x="7" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="14" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="21" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><path d="M8 23v3M13 23v3M19 23v3M24 23v3" stroke="#d97706" stroke-width="2" stroke-linecap="round"/></svg>`,
-  general: `<svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" fill="#0ea5e9"/><rect x="14.5" y="13" width="3" height="9" rx="1.5" fill="#ffffff"/><circle cx="16" cy="9.5" r="1.8" fill="#ffffff"/></svg>`,
-  body: `<svg viewBox="0 0 32 32" fill="none"><rect x="8" y="3" width="16" height="26" rx="4" fill="#64748b"/><rect x="10" y="5" width="12" height="22" rx="2.5" fill="#cbd5e1"/><path d="M13 7.5h6" stroke="#475569" stroke-width="2" stroke-linecap="round"/></svg>`,
-  'operating system': `<svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" fill="#22c55e"/><path d="M11 18c0-2.8 2.2-5 5-5s5 2.2 5 5v3H11v-3z" fill="#ffffff"/><path d="M12.5 12l-1.5-2.5M19.5 12l1.5-2.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/></svg>`,
-  network: `<svg viewBox="0 0 32 32" fill="none"><rect x="4" y="20" width="4" height="7" rx="1.5" fill="#38bdf8"/><rect x="10.5" y="15" width="4" height="12" rx="1.5" fill="#3b82f6"/><rect x="17" y="10" width="4" height="17" rx="1.5" fill="#6366f1"/><rect x="23.5" y="5" width="4" height="22" rx="1.5" fill="#8b5cf6"/></svg>`,
-  connectivity: `<svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="23" r="2.8" fill="#06b6d4"/><path d="M10.5 18a7.8 7.8 0 0 1 11 0M6.5 13.5a13.5 13.5 0 0 1 19 0" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/></svg>`,
-  features: `<svg viewBox="0 0 32 32" fill="none"><path d="M16 4l3.3 6.8 7.5 1.1-5.4 5.3 1.3 7.5L16 21.1l-6.7 3.6 1.3-7.5-5.4-5.3 7.5-1.1L16 4z" fill="#f43f5e"/><circle cx="16" cy="15.5" r="3" fill="#fde047"/></svg>`,
+  processor: `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="7" y="7" width="18" height="18" rx="4" fill="#6366f1"/><rect x="11" y="11" width="10" height="10" rx="2" fill="#38bdf8"/><path d="M12 3v4M20 3v4M12 25v4M20 25v4M3 12h4M3 20h4M25 12h4M25 20h4" stroke="#818cf8" stroke-width="2.2" stroke-linecap="round"/></svg>`,
+  display: `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="7" y="3" width="18" height="26" rx="4" fill="#3b82f6"/><rect x="9.5" y="5.5" width="13" height="21" rx="2" fill="#38bdf8"/><path d="M12 10l8 8M12 16l5 5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".9"/></svg>`,
+  battery: `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="4" y="9" width="22" height="14" rx="3.5" fill="#10b981"/><rect x="26" y="13" width="3" height="6" rx="1.5" fill="#059669"/><path d="M16 11.5l-3.5 5h3l-1 4 4-5.5h-3l.5-3.5z" fill="#fde047"/></svg>`,
+  'rear camera': `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="4" y="7" width="24" height="18" rx="5" fill="#8b5cf6"/><circle cx="15" cy="16" r="5.5" fill="#1e1b4b"/><circle cx="15" cy="16" r="3" fill="#38bdf8"/><circle cx="23" cy="11" r="1.5" fill="#fde047"/></svg>`,
+  'main camera': `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="4" y="7" width="24" height="18" rx="5" fill="#8b5cf6"/><circle cx="15" cy="16" r="5.5" fill="#1e1b4b"/><circle cx="15" cy="16" r="3" fill="#38bdf8"/><circle cx="23" cy="11" r="1.5" fill="#fde047"/></svg>`,
+  'front camera': `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="8" y="3" width="16" height="26" rx="4" fill="#ec4899"/><rect x="10.5" y="5.5" width="11" height="21" rx="2" fill="#fdf2f8"/><circle cx="16" cy="9" r="2.2" fill="#db2777"/><circle cx="16" cy="17.5" r="4" fill="#f472b6"/></svg>`,
+  'selfie camera': `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="8" y="3" width="16" height="26" rx="4" fill="#ec4899"/><rect x="10.5" y="5.5" width="11" height="21" rx="2" fill="#fdf2f8"/><circle cx="16" cy="9" r="2.2" fill="#db2777"/><circle cx="16" cy="17.5" r="4" fill="#f472b6"/></svg>`,
+  'ram/storage': `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="4" y="8" width="24" height="15" rx="3" fill="#f59e0b"/><rect x="7" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="14" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="21" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><path d="M8 23v3M13 23v3M19 23v3M24 23v3" stroke="#d97706" stroke-width="2" stroke-linecap="round"/></svg>`,
+  memory: `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="4" y="8" width="24" height="15" rx="3" fill="#f59e0b"/><rect x="7" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="14" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><rect x="21" y="11" width="4" height="7" rx="1" fill="#fef3c7"/><path d="M8 23v3M13 23v3M19 23v3M24 23v3" stroke="#d97706" stroke-width="2" stroke-linecap="round"/></svg>`,
+  general: `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><circle cx="16" cy="16" r="12" fill="#0ea5e9"/><rect x="14.5" y="13" width="3" height="9" rx="1.5" fill="#ffffff"/><circle cx="16" cy="9.5" r="1.8" fill="#ffffff"/></svg>`,
+  body: `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="8" y="3" width="16" height="26" rx="4" fill="#64748b"/><rect x="10" y="5" width="12" height="22" rx="2.5" fill="#cbd5e1"/><path d="M13 7.5h6" stroke="#475569" stroke-width="2" stroke-linecap="round"/></svg>`,
+  'operating system': `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><circle cx="16" cy="16" r="12" fill="#22c55e"/><path d="M11 18c0-2.8 2.2-5 5-5s5 2.2 5 5v3H11v-3z" fill="#ffffff"/><path d="M12.5 12l-1.5-2.5M19.5 12l1.5-2.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/></svg>`,
+  network: `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><rect x="4" y="20" width="4" height="7" rx="1.5" fill="#38bdf8"/><rect x="10.5" y="15" width="4" height="12" rx="1.5" fill="#3b82f6"/><rect x="17" y="10" width="4" height="17" rx="1.5" fill="#6366f1"/><rect x="23.5" y="5" width="4" height="22" rx="1.5" fill="#8b5cf6"/></svg>`,
+  connectivity: `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><circle cx="16" cy="23" r="2.8" fill="#06b6d4"/><path d="M10.5 18a7.8 7.8 0 0 1 11 0M6.5 13.5a13.5 13.5 0 0 1 19 0" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+  features: `<svg width="18" height="18" viewBox="0 0 32 32" fill="none" style="width:18px;height:18px;max-width:18px;max-height:18px;display:inline-block;"><path d="M16 4l3.3 6.8 7.5 1.1-5.4 5.3 1.3 7.5L16 21.1l-6.7 3.6 1.3-7.5-5.4-5.3 7.5-1.1L16 4z" fill="#f43f5e"/><circle cx="16" cy="15.5" r="3" fill="#fde047"/></svg>`,
 };
 
 function specIcon(label) {
@@ -1684,7 +1683,7 @@ function specIcon(label) {
 function formatSpecHtml(val, rootPrefix = './') {
   const safe = esc(val);
   if (!/antutu/i.test(safe)) return safe;
-  const icon = `<img class="antutu-badge-icon" src="${rootPrefix}assets/icons/antutu.jpg" alt="AnTuTu" width="16" height="16" loading="lazy"/>`;
+  const icon = `<img class="antutu-badge-icon" src="/assets/icons/antutu.jpg" alt="AnTuTu" width="16" height="16" loading="lazy"/>`;
   let out = safe.replace(/\b(antutu(?:\s+score)?)\b/gi, `${icon} $1`);
   const scoreMatch = String(val).replace(/,/g, '').match(/(\d{6,8})/);
   if (scoreMatch && Number(scoreMatch[1]) >= 1000000) {
@@ -1757,7 +1756,7 @@ function renderPhonePage(phone, allPhones, config, pairs = []) {
     let html = formatSpecHtml(v, rootPrefix);
     if (key === 'processor' && facts.antutu > 0) {
       const scoreFormatted = facts.antutu.toLocaleString('en-US');
-      html += ` <span class="hl-antutu-pill" title="AnTuTu Benchmark Score"><img class="antutu-badge-icon" src="${rootPrefix}assets/icons/antutu.jpg" alt="AnTuTu" width="16" height="16" loading="lazy"/><span>AnTuTu ${scoreFormatted}</span></span>`;
+      html += ` <span class="hl-antutu-pill" title="AnTuTu Benchmark Score"><img class="antutu-badge-icon" src="/assets/icons/antutu.jpg" alt="AnTuTu" width="16" height="16" loading="lazy"/><span>AnTuTu ${scoreFormatted}</span></span>`;
       if (facts.isGaming) {
         html += `<span class="inline-pwr-ico" title="1M+ AnTuTu Gaming">${POWER_BADGE_ICONS.gaming}</span>`;
       }
