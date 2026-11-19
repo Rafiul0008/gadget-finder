@@ -1,6 +1,6 @@
 {
   "source": "https://gadgets.beebom.com (factual specs/price data)",
-  "generatedAt": "2026-11-19T13:53:36.924Z",
+  "generatedAt": "2026-11-19T14:54:03.254Z",
   "count": 2526,
   "brands": [
     "ASUS",
@@ -3969,14 +3969,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:59.373Z",
+      "scrapedAt": "2026-11-19T14:53:26.059Z",
       "image": {
         "file": "assets/phones/ai-plus-nova-2-ultra-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 791825,
         "source": "https://cdn.beebom.com/mobile/ai-plus-nova-2-ultra-5g-front-back.png",
-        "fetchedAt": "2026-11-19T13:53:39.342Z"
+        "fetchedAt": "2026-11-19T14:54:04.200Z"
       }
     },
     {
@@ -6815,14 +6815,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:49.280Z",
+      "scrapedAt": "2026-11-19T14:53:15.834Z",
       "image": {
         "file": "assets/phones/ai-plus-pulse-2-fe.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1233808,
         "source": "https://cdn.beebom.com/mobile/ai-plus-pulse-2-fe-front-back.png",
-        "fetchedAt": "2026-11-19T13:53:41.625Z"
+        "fetchedAt": "2026-11-19T14:54:04.493Z"
       }
     },
     {
@@ -80571,14 +80571,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:39.733Z",
+      "scrapedAt": "2026-11-19T14:53:06.728Z",
       "image": {
         "file": "assets/phones/hmd-pulse-2-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1258554,
         "source": "https://cdn.beebom.com/mobile/hmd-pulse-2-pro-front-back.png",
-        "fetchedAt": "2026-11-19T13:53:43.791Z"
+        "fetchedAt": "2026-11-19T14:54:04.777Z"
       }
     },
     {
@@ -176928,7 +176928,11 @@
       "url": "https://gadgets.beebom.com/mobile/honor-x8e",
       "name": "HONOR X8e",
       "brand": "Honor",
-      "price": null,
+      "price": {
+        "currency": "$",
+        "amount": 100,
+        "text": "$100"
+      },
       "stores": [],
       "score": null,
       "rating": null,
@@ -177458,14 +177462,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:21.955Z",
+      "scrapedAt": "2026-11-19T14:53:48.296Z",
       "image": {
         "file": "assets/phones/honor-x8e.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1264765,
         "source": "https://cdn.beebom.com/mobile/honor-x8e-front-and-back1.png",
-        "fetchedAt": "2026-11-19T13:53:44.239Z"
+        "fetchedAt": "2026-11-19T14:54:05.060Z"
       }
     },
     {
@@ -181875,14 +181879,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:28.482Z",
+      "scrapedAt": "2026-11-19T14:53:54.806Z",
       "image": {
         "file": "assets/phones/huawei-enjoy-100.png",
         "width": 1000,
         "height": 1000,
         "bytes": 531216,
         "source": "https://cdn.beebom.com/mobile/huawei-enjoy-100-back-front.png",
-        "fetchedAt": "2026-11-19T13:53:45.249Z"
+        "fetchedAt": "2026-11-19T14:54:05.340Z"
       }
     },
     {
@@ -182391,14 +182395,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:27.599Z",
+      "scrapedAt": "2026-11-19T14:53:53.872Z",
       "image": {
         "file": "assets/phones/huawei-enjoy-100-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 846720,
         "source": "https://cdn.beebom.com/mobile/huawei-enjoy-100-pro-back-front.png",
-        "fetchedAt": "2026-11-19T13:53:45.683Z"
+        "fetchedAt": "2026-11-19T14:54:05.620Z"
       }
     },
     {
@@ -182915,14 +182919,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:26.683Z",
+      "scrapedAt": "2026-11-19T14:53:52.943Z",
       "image": {
         "file": "assets/phones/huawei-enjoy-100-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 624550,
         "source": "https://cdn.beebom.com/mobile/huawei-enjoy-100-pro-max-back-front.png",
-        "fetchedAt": "2026-11-19T13:53:45.981Z"
+        "fetchedAt": "2026-11-19T14:54:05.900Z"
       }
     },
     {
@@ -237485,14 +237489,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:25.774Z",
+      "scrapedAt": "2026-11-19T14:53:51.962Z",
       "image": {
         "file": "assets/phones/huawei-pura-90-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 514007,
         "source": "https://cdn.beebom.com/mobile/huawei-pura-90-plus-front-back.png",
-        "fetchedAt": "2026-11-19T13:53:47.898Z"
+        "fetchedAt": "2026-11-19T14:54:06.179Z"
       }
     },
     {
@@ -250566,14 +250570,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:42.622Z",
+      "scrapedAt": "2026-11-19T14:53:09.518Z",
       "image": {
         "file": "assets/phones/infinix-gt-50-pro-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1065114,
         "source": "https://cdn.beebom.com/mobile/infinix-gt-50-pro-5g-front-back.png",
-        "fetchedAt": "2026-11-19T13:53:48.177Z"
+        "fetchedAt": "2026-11-19T14:54:06.462Z"
       }
     },
     {
@@ -293788,14 +293792,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:46.440Z",
+      "scrapedAt": "2026-11-19T14:53:13.094Z",
       "image": {
         "file": "assets/phones/infinix-smart-20-hd.png",
         "width": 1000,
         "height": 1000,
         "bytes": 805313,
         "source": "https://cdn.beebom.com/mobile/infinix-smart-20-hd-front-back.png",
-        "fetchedAt": "2026-11-19T13:53:50.087Z"
+        "fetchedAt": "2026-11-19T14:54:06.786Z"
       }
     },
     {
@@ -312378,14 +312382,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:34.207Z",
+      "scrapedAt": "2026-11-19T14:53:01.238Z",
       "image": {
         "file": "assets/phones/iqoo-16.png",
         "width": 1000,
         "height": 1000,
         "bytes": 887038,
         "source": "https://cdn.beebom.com/mobile/iqoo-16-back-front.png",
-        "fetchedAt": "2026-11-19T13:53:52.136Z"
+        "fetchedAt": "2026-11-19T14:54:07.112Z"
       }
     },
     {
@@ -320342,14 +320346,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:24.783Z",
+      "scrapedAt": "2026-11-19T14:53:51.017Z",
       "image": {
         "file": "assets/phones/iqoo-neo-12.png",
         "width": 1000,
         "height": 1000,
         "bytes": 902488,
         "source": "https://cdn.beebom.com/mobile/iqoo-neo-12-front-back.png",
-        "fetchedAt": "2026-11-19T13:53:54.400Z"
+        "fetchedAt": "2026-11-19T14:54:07.392Z"
       }
     },
     {
@@ -342479,14 +342483,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:02.179Z",
+      "scrapedAt": "2026-11-19T14:53:28.824Z",
       "image": {
         "file": "assets/phones/iqoo-z11xa-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 553545,
         "source": "https://cdn.beebom.com/mobile/iqoo-z11xa-5g-titan-black-front-and-back.png",
-        "fetchedAt": "2026-11-19T13:53:56.230Z"
+        "fetchedAt": "2026-11-19T14:54:07.671Z"
       }
     },
     {
@@ -380983,14 +380987,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:56.612Z",
+      "scrapedAt": "2026-11-19T14:53:23.224Z",
       "image": {
         "file": "assets/phones/itel-zeno-100-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 643913,
         "source": "https://cdn.beebom.com/mobile/itel-zeno-100-pro-front-and-back1.png",
-        "fetchedAt": "2026-11-19T13:53:59.718Z"
+        "fetchedAt": "2026-11-19T14:54:07.950Z"
       }
     },
     {
@@ -383129,14 +383133,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:55.701Z",
+      "scrapedAt": "2026-11-19T14:53:22.282Z",
       "image": {
         "file": "assets/phones/itel-zeno-300.png",
         "width": 1000,
         "height": 1000,
         "bytes": 653968,
         "source": "https://cdn.beebom.com/mobile/itel-zeno-300-back-front.png",
-        "fetchedAt": "2026-11-19T13:54:01.673Z"
+        "fetchedAt": "2026-11-19T14:54:08.229Z"
       }
     },
     {
@@ -403190,14 +403194,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:57.545Z",
+      "scrapedAt": "2026-11-19T14:53:24.171Z",
       "image": {
         "file": "assets/phones/lava-bold-n2.png",
         "width": 1000,
         "height": 1000,
         "bytes": 319336,
         "source": "https://cdn.beebom.com/mobile/lava-bold-n2-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:01.968Z"
+        "fetchedAt": "2026-11-19T14:54:08.515Z"
       }
     },
     {
@@ -410713,14 +410717,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:31.395Z",
+      "scrapedAt": "2026-11-19T14:52:58.491Z",
       "image": {
         "file": "assets/phones/lava-shark-3-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 822075,
         "source": "https://cdn.beebom.com/mobile/lava-shark-3-5g-back.png",
-        "fetchedAt": "2026-11-19T13:54:02.363Z"
+        "fetchedAt": "2026-11-19T14:54:08.916Z"
       }
     },
     {
@@ -413789,14 +413793,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:31.212Z",
+      "scrapedAt": "2026-11-19T14:53:57.665Z",
       "image": {
         "file": "assets/phones/lava-virat-curve-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 919984,
         "source": "https://cdn.beebom.com/mobile/lava-virat-curve-5g-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:02.663Z"
+        "fetchedAt": "2026-11-19T14:54:09.197Z"
       }
     },
     {
@@ -414350,14 +414354,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:54.786Z",
+      "scrapedAt": "2026-11-19T14:53:21.378Z",
       "image": {
         "file": "assets/phones/lava-virat-v1.png",
         "width": 1000,
         "height": 1000,
         "bytes": 598435,
         "source": "https://cdn.beebom.com/mobile/lava-virat-v1-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:02.962Z"
+        "fetchedAt": "2026-11-19T14:54:09.476Z"
       }
     },
     {
@@ -494852,14 +494856,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:26.779Z",
+      "scrapedAt": "2026-11-19T14:52:53.979Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-fusion.png",
         "width": 1000,
         "height": 1000,
         "bytes": 908318,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-fusion-front-and-back1.png",
-        "fetchedAt": "2026-11-19T13:54:03.261Z"
+        "fetchedAt": "2026-11-19T14:54:11.552Z"
       }
     },
     {
@@ -496161,14 +496165,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:13.425Z",
+      "scrapedAt": "2026-11-19T14:53:40.021Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 645489,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-max-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:03.558Z"
+        "fetchedAt": "2026-11-19T14:54:11.821Z"
       }
     },
     {
@@ -496487,14 +496491,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:30.506Z",
+      "scrapedAt": "2026-11-19T14:52:57.612Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-neo.png",
         "width": 1000,
         "height": 1000,
         "bytes": 642290,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-neo-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:03.829Z"
+        "fetchedAt": "2026-11-19T14:54:12.099Z"
       }
     },
     {
@@ -497771,14 +497775,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:04.970Z",
+      "scrapedAt": "2026-11-19T14:53:31.578Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 695656,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-pro-front-back-1 (1).png",
-        "fetchedAt": "2026-11-19T13:54:04.861Z"
+        "fetchedAt": "2026-11-19T14:54:12.367Z"
       }
     },
     {
@@ -498508,14 +498512,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:08.728Z",
+      "scrapedAt": "2026-11-19T14:53:35.257Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-pro-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 847002,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-pro-plus-back-front.png",
-        "fetchedAt": "2026-11-19T13:54:05.137Z"
+        "fetchedAt": "2026-11-19T14:54:12.636Z"
       }
     },
     {
@@ -516715,14 +516719,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:38.818Z",
+      "scrapedAt": "2026-11-19T14:53:05.811Z",
       "image": {
         "file": "assets/phones/motorola-razr-70.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1028285,
         "source": "https://cdn.beebom.com/mobile/motorola-razr-70-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:07.203Z"
+        "fetchedAt": "2026-11-19T14:54:12.919Z"
       }
     },
     {
@@ -517394,14 +517398,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:35.129Z",
+      "scrapedAt": "2026-11-19T14:53:02.163Z",
       "image": {
         "file": "assets/phones/motorola-razr-70-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 804653,
         "source": "https://cdn.beebom.com/mobile/motorola-razr-70-plus-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:09.344Z"
+        "fetchedAt": "2026-11-19T14:54:13.198Z"
       }
     },
     {
@@ -518068,14 +518072,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:37.899Z",
+      "scrapedAt": "2026-11-19T14:53:04.891Z",
       "image": {
         "file": "assets/phones/motorola-razr-70-ultra.png",
         "width": 1000,
         "height": 1000,
         "bytes": 970115,
         "source": "https://cdn.beebom.com/mobile/motorola-razr-70-ultra-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:11.560Z"
+        "fetchedAt": "2026-11-19T14:54:13.481Z"
       }
     },
     {
@@ -521362,14 +521366,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:11.580Z",
+      "scrapedAt": "2026-11-19T14:53:38.113Z",
       "image": {
         "file": "assets/phones/motorola-signature.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1018178,
         "source": "https://cdn.beebom.com/mobile/motorola-signature-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:13.669Z"
+        "fetchedAt": "2026-11-19T14:54:13.758Z"
       }
     },
     {
@@ -522044,14 +522048,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:32.337Z",
+      "scrapedAt": "2026-11-19T14:52:59.416Z",
       "image": {
         "file": "assets/phones/motorola-signature-27.png",
         "width": 1000,
         "height": 1000,
         "bytes": 698723,
         "source": "https://cdn.beebom.com/mobile/motorola-signature-27-front-and-back1.png",
-        "fetchedAt": "2026-11-19T13:54:15.460Z"
+        "fetchedAt": "2026-11-19T14:54:14.036Z"
       }
     },
     {
@@ -554457,14 +554461,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:25.861Z",
+      "scrapedAt": "2026-11-19T14:52:53.019Z",
       "image": {
         "file": "assets/phones/nothing-phone-3a-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 659346,
         "source": "https://cdn.beebom.com/mobile/nothing-phone-3a-pro-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:15.756Z"
+        "fetchedAt": "2026-11-19T14:54:14.316Z"
       }
     },
     {
@@ -556664,14 +556668,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:34.116Z",
+      "scrapedAt": "2026-11-19T14:54:00.452Z",
       "image": {
         "file": "assets/phones/nothing-phone-4b.png",
         "width": 1000,
         "height": 1000,
         "bytes": 669266,
         "source": "https://cdn.beebom.com/mobile/nothing-phone-4b-front-back-side-1.png",
-        "fetchedAt": "2026-11-19T13:54:16.052Z"
+        "fetchedAt": "2026-11-19T14:54:14.584Z"
       }
     },
     {
@@ -567096,14 +567100,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:14.373Z",
+      "scrapedAt": "2026-11-19T14:53:40.940Z",
       "image": {
         "file": "assets/phones/oneplus-15r.png",
         "width": 1000,
         "height": 1000,
         "bytes": 549589,
         "source": "https://cdn.beebom.com/mobile/oneplus-15r-back-front.png",
-        "fetchedAt": "2026-11-19T13:54:16.391Z"
+        "fetchedAt": "2026-11-19T14:54:14.864Z"
       }
     },
     {
@@ -582095,14 +582099,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:23.792Z",
+      "scrapedAt": "2026-11-19T14:53:50.121Z",
       "image": {
         "file": "assets/phones/oneplus-ace-7.png",
         "width": 1000,
         "height": 920,
         "bytes": 860174,
         "source": "https://cdn.beebom.com/mobile/oneplus-ace-7-front-back-Silver-1.png",
-        "fetchedAt": "2026-11-19T13:54:16.725Z"
+        "fetchedAt": "2026-11-19T14:54:15.144Z"
       }
     },
     {
@@ -582713,14 +582717,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:22.878Z",
+      "scrapedAt": "2026-11-19T14:53:49.188Z",
       "image": {
         "file": "assets/phones/oneplus-ace-7-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 984467,
         "source": "https://cdn.beebom.com/mobile/oneplus-ace-7-pro-front-and-back2.png",
-        "fetchedAt": "2026-11-19T13:54:18.822Z"
+        "fetchedAt": "2026-11-19T14:54:15.426Z"
       }
     },
     {
@@ -588987,14 +588991,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:07.752Z",
+      "scrapedAt": "2026-11-19T14:53:34.334Z",
       "image": {
         "file": "assets/phones/oneplus-nord-6.png",
         "width": 1000,
         "height": 1000,
         "bytes": 663837,
         "source": "https://cdn.beebom.com/mobile/oneplus-nord-6-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:19.119Z"
+        "fetchedAt": "2026-11-19T14:54:15.706Z"
       }
     },
     {
@@ -594541,14 +594545,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:05.910Z",
+      "scrapedAt": "2026-11-19T14:53:32.495Z",
       "image": {
         "file": "assets/phones/oneplus-nord-ce-6.png",
         "width": 1000,
         "height": 1000,
         "bytes": 636272,
         "source": "https://cdn.beebom.com/mobile/oneplus-nord-ce-6-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:19.415Z"
+        "fetchedAt": "2026-11-19T14:54:15.983Z"
       }
     },
     {
@@ -601132,14 +601136,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:20.071Z",
+      "scrapedAt": "2026-11-19T14:53:46.444Z",
       "image": {
         "file": "assets/phones/oneplus-turbo-6vs.png",
         "width": 1000,
         "height": 1000,
         "bytes": 949878,
         "source": "https://cdn.beebom.com/mobile/oneplus-turbo-6vs-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:21.474Z"
+        "fetchedAt": "2026-11-19T14:54:16.264Z"
       }
     },
     {
@@ -657326,14 +657330,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:50.216Z",
+      "scrapedAt": "2026-11-19T14:53:16.803Z",
       "image": {
         "file": "assets/phones/oppo-f35.png",
         "width": 1000,
         "height": 1000,
         "bytes": 766399,
         "source": "https://cdn.beebom.com/mobile/oppo-f35-front-and-back-2.png",
-        "fetchedAt": "2026-11-19T13:54:21.771Z"
+        "fetchedAt": "2026-11-19T14:54:16.590Z"
       }
     },
     {
@@ -658030,14 +658034,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:51.062Z",
+      "scrapedAt": "2026-11-19T14:53:17.745Z",
       "image": {
         "file": "assets/phones/oppo-f35-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 862103,
         "source": "https://cdn.beebom.com/mobile/oppo-f35-pro-front-and-back-view_3.png",
-        "fetchedAt": "2026-11-19T13:54:24.150Z"
+        "fetchedAt": "2026-11-19T14:54:16.891Z"
       }
     },
     {
@@ -662678,14 +662682,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:43.550Z",
+      "scrapedAt": "2026-11-19T14:53:10.508Z",
       "image": {
         "file": "assets/phones/oppo-find-x10.png",
         "width": 1000,
         "height": 1000,
         "bytes": 850461,
         "source": "https://cdn.beebom.com/mobile/oppo-find-x10-front-and-back-1.png",
-        "fetchedAt": "2026-11-19T13:54:26.202Z"
+        "fetchedAt": "2026-11-19T14:54:17.173Z"
       }
     },
     {
@@ -663745,14 +663749,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:44.561Z",
+      "scrapedAt": "2026-11-19T14:53:11.482Z",
       "image": {
         "file": "assets/phones/oppo-find-x10-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 639418,
         "source": "https://cdn.beebom.com/mobile/oppo-find-x10-pro-max-front-and-back3.png",
-        "fetchedAt": "2026-11-19T13:54:26.472Z"
+        "fetchedAt": "2026-11-19T14:54:17.473Z"
       }
     },
     {
@@ -688163,14 +688167,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:30.285Z",
+      "scrapedAt": "2026-11-19T14:53:56.726Z",
       "image": {
         "file": "assets/phones/oppo-k14-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 597553,
         "source": "https://cdn.beebom.com/mobile/oppo-k14-plus-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:26.741Z"
+        "fetchedAt": "2026-11-19T14:54:17.741Z"
       }
     },
     {
@@ -695218,14 +695222,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:16.237Z",
+      "scrapedAt": "2026-11-19T14:53:42.771Z",
       "image": {
         "file": "assets/phones/oppo-reno-17.png",
         "width": 1000,
         "height": 1000,
         "bytes": 755681,
         "source": "https://cdn.beebom.com/mobile/oppo-reno-17-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:27.038Z"
+        "fetchedAt": "2026-11-19T14:54:18.024Z"
       }
     },
     {
@@ -695853,14 +695857,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:15.286Z",
+      "scrapedAt": "2026-11-19T14:53:41.871Z",
       "image": {
         "file": "assets/phones/oppo-reno-17-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 670508,
         "source": "https://cdn.beebom.com/mobile/oppo-reno-17-pro-front-back-1.png",
-        "fetchedAt": "2026-11-19T13:54:27.790Z"
+        "fetchedAt": "2026-11-19T14:54:18.765Z"
       }
     },
     {
@@ -705736,14 +705740,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:23.946Z",
+      "scrapedAt": "2026-11-19T14:52:51.194Z",
       "image": {
         "file": "assets/phones/oppo-reno15.png",
         "width": 1000,
         "height": 1000,
         "bytes": 903432,
         "source": "https://cdn.beebom.com/mobile/oppo-reno15-front-and-back2.png",
-        "fetchedAt": "2026-11-19T13:54:28.089Z"
+        "fetchedAt": "2026-11-19T14:54:19.035Z"
       }
     },
     {
@@ -711151,9 +711155,10 @@
       "brand": "Oppo",
       "price": {
         "currency": "₹",
-        "amount": 26990,
-        "text": "₹26,990"
+        "amount": 28990,
+        "text": "₹28,990"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": null,
@@ -711804,14 +711809,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T13:51:42.870Z",
+      "scrapedAt": "2026-11-19T14:54:02.305Z",
       "image": {
         "file": "assets/phones/oppo-reno16-f-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 715932,
         "source": "https://cdn.beebom.com/mobile/oppo-reno16-f-5g-front-back.png",
-        "fetchedAt": "2026-11-14T13:55:23.331Z"
+        "fetchedAt": "2026-11-19T14:54:19.362Z"
       }
     },
     {
@@ -711821,9 +711826,10 @@
       "brand": "Oppo",
       "price": {
         "currency": "₹",
-        "amount": 26990,
-        "text": "₹26,990"
+        "amount": 28990,
+        "text": "₹28,990"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": null,
@@ -712469,14 +712475,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T13:51:42.180Z",
+      "scrapedAt": "2026-11-19T14:54:01.366Z",
       "image": {
         "file": "assets/phones/oppo-reno16-fs-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 715932,
         "source": "https://cdn.beebom.com/mobile/oppo-reno16-fs-5g-front-back.png",
-        "fetchedAt": "2026-11-14T13:55:24.203Z"
+        "fetchedAt": "2026-11-19T14:54:21.208Z"
       }
     },
     {
@@ -713104,14 +713110,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:36.056Z",
+      "scrapedAt": "2026-11-19T14:53:03.066Z",
       "image": {
         "file": "assets/phones/oppo-reno16-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 714491,
         "source": "https://cdn.beebom.com/mobile/oppo-reno16-pro-front-back-1.png",
-        "fetchedAt": "2026-11-19T13:54:28.360Z"
+        "fetchedAt": "2026-11-19T14:54:23.064Z"
       }
     },
     {
@@ -757836,14 +757842,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:00.339Z",
+      "scrapedAt": "2026-11-19T14:53:26.989Z",
       "image": {
         "file": "assets/phones/poco-m8x-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 744731,
         "source": "https://cdn.beebom.com/mobile/poco-m8x-5g-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:28.655Z"
+        "fetchedAt": "2026-11-19T14:54:23.342Z"
       }
     },
     {
@@ -766350,14 +766356,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:33.190Z",
+      "scrapedAt": "2026-11-19T14:53:59.541Z",
       "image": {
         "file": "assets/phones/poco-x7-pro-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1115498,
         "source": "https://cdn.beebom.com/mobile/poco-x7-pro-5g/poco-x7-pro-5g-front-and-back-1.png",
-        "fetchedAt": "2026-11-19T13:54:28.928Z"
+        "fetchedAt": "2026-11-19T14:54:23.614Z"
       }
     },
     {
@@ -767024,14 +767030,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:01.263Z",
+      "scrapedAt": "2026-11-19T14:53:27.943Z",
       "image": {
         "file": "assets/phones/poco-x8.png",
         "width": 1000,
         "height": 1000,
         "bytes": 757357,
         "source": "https://cdn.beebom.com/mobile/poco-x8-back-front.png",
-        "fetchedAt": "2026-11-19T13:54:30.762Z"
+        "fetchedAt": "2026-11-19T14:54:23.911Z"
       }
     },
     {
@@ -767728,14 +767734,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:04.049Z",
+      "scrapedAt": "2026-11-19T14:53:30.678Z",
       "image": {
         "file": "assets/phones/poco-x8-power-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1040719,
         "source": "https://cdn.beebom.com/mobile/poco-x8-power-5g-back-front.png",
-        "fetchedAt": "2026-11-19T13:54:31.060Z"
+        "fetchedAt": "2026-11-19T14:54:24.183Z"
       }
     },
     {
@@ -769103,14 +769109,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:10.644Z",
+      "scrapedAt": "2026-11-19T14:53:37.162Z",
       "image": {
         "file": "assets/phones/poco-x8-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 518593,
         "source": "https://cdn.beebom.com/mobile/poco-x8-pro-max-back-front.png",
-        "fetchedAt": "2026-11-19T13:54:31.357Z"
+        "fetchedAt": "2026-11-19T14:54:24.451Z"
       }
     },
     {
@@ -822729,14 +822735,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:36.963Z",
+      "scrapedAt": "2026-11-19T14:53:03.957Z",
       "image": {
         "file": "assets/phones/realme-c81.png",
         "width": 1000,
         "height": 1000,
         "bytes": 947279,
         "source": "https://cdn.beebom.com/mobile/realme-c81-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:33.357Z"
+        "fetchedAt": "2026-11-19T14:54:24.729Z"
       }
     },
     {
@@ -829493,14 +829499,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:40.695Z",
+      "scrapedAt": "2026-11-19T14:53:07.632Z",
       "image": {
         "file": "assets/phones/realme-gt-8.png",
         "width": 1000,
         "height": 1000,
         "bytes": 410197,
         "source": "https://cdn.beebom.com/mobile/realme-gt-8-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:35.215Z"
+        "fetchedAt": "2026-11-19T14:54:25.025Z"
       }
     },
     {
@@ -841811,14 +841817,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:58.474Z",
+      "scrapedAt": "2026-11-19T14:53:25.147Z",
       "image": {
         "file": "assets/phones/realme-narzo-100x-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1304435,
         "source": "https://cdn.beebom.com/mobile/realme-narzo-100x-5g-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:35.513Z"
+        "fetchedAt": "2026-11-19T14:54:25.318Z"
       }
     },
     {
@@ -873490,14 +873496,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:06.826Z",
+      "scrapedAt": "2026-11-19T14:53:33.417Z",
       "image": {
         "file": "assets/phones/realme-p4s-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 880725,
         "source": "https://cdn.beebom.com/mobile/realme-p4s-5g-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:35.811Z"
+        "fetchedAt": "2026-11-19T14:54:25.598Z"
       }
     },
     {
@@ -874077,14 +874083,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:52.003Z",
+      "scrapedAt": "2026-11-19T14:53:18.635Z",
       "image": {
         "file": "assets/phones/realme-p4s-lite.png",
         "width": 1000,
         "height": 1000,
         "bytes": 734630,
         "source": "https://cdn.beebom.com/mobile/realme-p4s-lite-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:36.116Z"
+        "fetchedAt": "2026-11-19T14:54:25.883Z"
       }
     },
     {
@@ -891140,14 +891146,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:18.256Z",
+      "scrapedAt": "2026-11-19T14:53:44.613Z",
       "image": {
         "file": "assets/phones/redmagic-12-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 689739,
         "source": "https://cdn.beebom.com/mobile/redmagic-12-pro-front-back-side.png",
-        "fetchedAt": "2026-11-19T13:54:36.385Z"
+        "fetchedAt": "2026-11-19T14:54:26.164Z"
       }
     },
     {
@@ -945025,14 +945031,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:19.171Z",
+      "scrapedAt": "2026-11-19T14:53:45.517Z",
       "image": {
         "file": "assets/phones/redmi-m100-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 761575,
         "source": "https://cdn.beebom.com/mobile/redmi-m100-pro-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:36.712Z"
+        "fetchedAt": "2026-11-19T14:54:26.443Z"
       }
     },
     {
@@ -970142,14 +970148,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:09.687Z",
+      "scrapedAt": "2026-11-19T14:53:36.221Z",
       "image": {
         "file": "assets/phones/redmi-note-17-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 405979,
         "source": "https://cdn.beebom.com/mobile/redmi-note-17-pro-max-back-front.png",
-        "fetchedAt": "2026-11-19T13:54:37.948Z"
+        "fetchedAt": "2026-11-19T14:54:26.720Z"
       }
     },
     {
@@ -992017,14 +992023,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:41.683Z",
+      "scrapedAt": "2026-11-19T14:53:08.593Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-a08.png",
         "width": 1000,
         "height": 1000,
         "bytes": 366500,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-a08-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:38.217Z"
+        "fetchedAt": "2026-11-19T14:54:26.996Z"
       }
     },
     {
@@ -1030782,14 +1030788,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:52.882Z",
+      "scrapedAt": "2026-11-19T14:53:19.557Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-f08.png",
         "width": 1000,
         "height": 1000,
         "bytes": 950233,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-f08-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:38.543Z"
+        "fetchedAt": "2026-11-19T14:54:27.322Z"
       }
     },
     {
@@ -1041206,14 +1041212,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:45.489Z",
+      "scrapedAt": "2026-11-19T14:53:12.366Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-f70.png",
         "width": 1000,
         "height": 1000,
         "bytes": 808843,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-f70-front-back-2.png",
-        "fetchedAt": "2026-11-19T13:54:40.567Z"
+        "fetchedAt": "2026-11-19T14:54:27.601Z"
       }
     },
     {
@@ -1041226,9 +1041232,27 @@
         "amount": 24999,
         "text": "₹24,999"
       },
-      "score": 78,
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 24999,
+          "priceText": "₹24,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/samsung-galaxy-f70-pro-5g-aura-green-128-gb/p/itm37bbb9ed78024?pid=MOBHZ8YSHHX6C4KX&marketplace=FLIPKART&lid=LSTMOBHZ8YSHHX6C4KX10HJIB&pageUID=1786362560237"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 25950,
+          "priceText": "₹25,950",
+          "inStock": true,
+          "url": "https://www.amazon.in/Samsung-Battery-Dimensity-Oualcomm-Processor/dp/B0HDYHWHHP/ref=sr_1_1?adgrpid=61482345760&dib=eyJ2IjoiMSJ9.18iHKY7ry0F683o-D-Niih0hXtmL7QWGZ1G7YW71E2rvNcMjrw5jhJJRHImQ3XlJSPob-bIHIcmcTh3lkiBow0hIO3QRLC1AmAciplLD96kazS2boLkOkDSxXW4kxcBBgHevrqmWd8lMUA1SNBg-w5IH9SQRUyD1asZaDGAGqyTw7eUE1a_fhCkNk2kCkRwNkw-Ehdpqydq10SCTOTtJnws4Wn8NlyXa3JGr7kU7ob4.S-BWSVj_3YXXNqbYkA50b_fVXpB_hBQNDb4iUq0rDbk&dib_tag=se&gad_source=1&hvadid=714819190715&hvdev=c&hvexpln=0&hvlocphy=9302611&hvnetw=g&hvocijid=16553559908661756952--&hvqmt=b&hvrand=16553559908661756952&hvtargid=kwd-2550943288967&hydadcr=25169_2856635&keywords=samsung+galaxy+f70+pro+5g+mobile&mcid=dee90b39dadb3e0f988ad1da2004941d&qid=1787828358&sr=8-1"
+        }
+      ],
+      "score": 80,
       "rating": 4.2,
-      "marketStatus": null,
+      "marketStatus": "Upcoming",
       "highlights": {
         "Processor": "Snapdragon 6 Gen 3",
         "Display": "6.65 inches",
@@ -1041849,14 +1041873,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T13:51:43.563Z",
+      "scrapedAt": "2026-11-19T14:54:03.243Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-f70-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 973127,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-f70-pro-5g-front-and-back1.png",
-        "fetchedAt": "2026-11-14T13:55:55.639Z"
+        "fetchedAt": "2026-11-19T14:54:27.904Z"
       }
     },
     {
@@ -1049093,14 +1049117,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:53.827Z",
+      "scrapedAt": "2026-11-19T14:53:20.492Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-m08.png",
         "width": 1000,
         "height": 1000,
         "bytes": 859649,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-m08-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:40.846Z"
+        "fetchedAt": "2026-11-19T14:54:28.183Z"
       }
     },
     {
@@ -1117570,14 +1117594,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:20.995Z",
+      "scrapedAt": "2026-11-19T14:53:47.366Z",
       "image": {
         "file": "assets/phones/samsung-w27.png",
         "width": 1000,
         "height": 1000,
         "bytes": 876099,
         "source": "https://cdn.beebom.com/mobile/samsung-w27-front-and-back-2.png",
-        "fetchedAt": "2026-11-19T13:54:41.151Z"
+        "fetchedAt": "2026-11-19T14:54:28.462Z"
       }
     },
     {
@@ -1179653,14 +1179677,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:03.083Z",
+      "scrapedAt": "2026-11-19T14:53:29.765Z",
       "image": {
         "file": "assets/phones/tecno-pova-curve-2.png",
         "width": 1000,
         "height": 1000,
         "bytes": 728709,
         "source": "https://cdn.beebom.com/mobile/tecno-pova-curve-2-back-front.png",
-        "fetchedAt": "2026-11-19T13:54:41.447Z"
+        "fetchedAt": "2026-11-19T14:54:28.739Z"
       }
     },
     {
@@ -1215409,14 +1215433,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:47.383Z",
+      "scrapedAt": "2026-11-19T14:53:13.997Z",
       "image": {
         "file": "assets/phones/vivo-s2-fe.png",
         "width": 1000,
         "height": 1000,
         "bytes": 630222,
         "source": "https://cdn.beebom.com/mobile/vivo-s2-fe-back-front.png",
-        "fetchedAt": "2026-11-19T13:54:41.716Z"
+        "fetchedAt": "2026-11-19T14:54:29.730Z"
       }
     },
     {
@@ -1233274,14 +1233298,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:23.036Z",
+      "scrapedAt": "2026-11-19T14:52:50.292Z",
       "image": {
         "file": "assets/phones/vivo-t4x-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 604227,
         "source": "https://cdn.beebom.com/mobile/vivo-t4x-front-and-back-6.png",
-        "fetchedAt": "2026-11-19T13:54:43.584Z"
+        "fetchedAt": "2026-11-19T14:54:30.051Z"
       }
     },
     {
@@ -1234470,14 +1234494,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:29.386Z",
+      "scrapedAt": "2026-11-19T14:53:55.772Z",
       "image": {
         "file": "assets/phones/vivo-t5-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 555831,
         "source": "https://cdn.beebom.com/mobile/vivo-t5-5g-front-back-1.png",
-        "fetchedAt": "2026-11-19T13:54:43.852Z"
+        "fetchedAt": "2026-11-19T14:54:30.331Z"
       }
     },
     {
@@ -1263702,14 +1263726,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:24.902Z",
+      "scrapedAt": "2026-11-19T14:52:52.105Z",
       "image": {
         "file": "assets/phones/vivo-v80.png",
         "width": 1000,
         "height": 1000,
         "bytes": 935108,
         "source": "https://cdn.beebom.com/mobile/vivo-v80-front-back-2.png",
-        "fetchedAt": "2026-11-19T13:54:44.123Z"
+        "fetchedAt": "2026-11-19T14:54:30.610Z"
       }
     },
     {
@@ -1268810,14 +1268834,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:48.358Z",
+      "scrapedAt": "2026-11-19T14:53:14.896Z",
       "image": {
         "file": "assets/phones/vivo-x-fold-6.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1630004,
         "source": "https://cdn.beebom.com/mobile/vivo-x-fold-6-back-1.png",
-        "fetchedAt": "2026-11-19T13:54:48.449Z"
+        "fetchedAt": "2026-11-19T14:54:31.615Z"
       }
     },
     {
@@ -1274165,14 +1274189,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:32.229Z",
+      "scrapedAt": "2026-11-19T14:53:58.600Z",
       "image": {
         "file": "assets/phones/vivo-x200.png",
         "width": 1000,
         "height": 1000,
         "bytes": 815942,
         "source": "https://cdn.beebom.com/mobile/vivo-x200/vivo-x200-camera-front-back-design-night-black-.png",
-        "fetchedAt": "2026-11-19T13:54:48.763Z"
+        "fetchedAt": "2026-11-19T14:54:31.894Z"
       }
     },
     {
@@ -1278233,14 +1278257,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:12.483Z",
+      "scrapedAt": "2026-11-19T14:53:39.049Z",
       "image": {
         "file": "assets/phones/vivo-x200t.png",
         "width": 1000,
         "height": 1000,
         "bytes": 624155,
         "source": "https://cdn.beebom.com/mobile/vivo-x200t-light-purple-front-and-back.png",
-        "fetchedAt": "2026-11-19T13:54:49.103Z"
+        "fetchedAt": "2026-11-19T14:54:32.161Z"
       }
     },
     {
@@ -1286165,14 +1286189,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:27.730Z",
+      "scrapedAt": "2026-11-19T14:52:54.876Z",
       "image": {
         "file": "assets/phones/vivo-x500.png",
         "width": 1000,
         "height": 1000,
         "bytes": 584798,
         "source": "https://cdn.beebom.com/mobile/vivo-X500-front-back-1.png",
-        "fetchedAt": "2026-11-19T13:54:49.459Z"
+        "fetchedAt": "2026-11-19T14:54:32.485Z"
       }
     },
     {
@@ -1286851,14 +1286875,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:28.640Z",
+      "scrapedAt": "2026-11-19T14:52:55.768Z",
       "image": {
         "file": "assets/phones/vivo-x500-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 795074,
         "source": "https://cdn.beebom.com/mobile/vivo-x500-pro-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:49.729Z"
+        "fetchedAt": "2026-11-19T14:54:33.420Z"
       }
     },
     {
@@ -1287537,14 +1287561,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:29.579Z",
+      "scrapedAt": "2026-11-19T14:52:56.727Z",
       "image": {
         "file": "assets/phones/vivo-x500-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 564810,
         "source": "https://cdn.beebom.com/mobile/vivo-x500-pro-max-front-back-side.png",
-        "fetchedAt": "2026-11-19T13:54:49.998Z"
+        "fetchedAt": "2026-11-19T14:54:33.698Z"
       }
     },
     {
@@ -1362980,14 +1363004,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:53:17.267Z",
+      "scrapedAt": "2026-11-19T14:53:43.690Z",
       "image": {
         "file": "assets/phones/vivo-y6k.png",
         "width": 1000,
         "height": 1000,
         "bytes": 754821,
         "source": "https://cdn.beebom.com/mobile/vivo-y6k-front-back.png",
-        "fetchedAt": "2026-11-19T13:54:50.293Z"
+        "fetchedAt": "2026-11-19T14:54:33.974Z"
       }
     },
     {
@@ -1404353,14 +1404377,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-19T13:52:33.271Z",
+      "scrapedAt": "2026-11-19T14:53:00.329Z",
       "image": {
         "file": "assets/phones/xiaomi-18-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1017937,
         "source": "https://cdn.beebom.com/mobile/xiaomi-18-pro-transparent-edition-front-and-back.png",
-        "fetchedAt": "2026-11-19T13:54:52.364Z"
+        "fetchedAt": "2026-11-19T14:54:34.303Z"
       }
     },
     {
@@ -1448506,7 +1448530,7 @@
     }
   ],
   "imageStats": {
-    "generatedAt": "2026-11-19T13:54:52.364Z",
+    "generatedAt": "2026-11-19T14:54:34.303Z",
     "count": 2526,
     "minWidth": 497,
     "maxWidth": 2000
