@@ -14,7 +14,7 @@
     "gaMeasurementId": ""
   },
   "affiliates": {
-    "amazonTag": "yourtag-21",
+    "amazonTag": "teachunder-21",
     "cuelinksPublisherId": "",
     "earnkaroId": "",
     "utmSource": "bestphoneunder"
@@ -77,6 +77,15 @@
       "description": "Best smartphones under ₹20,000 ranked by Value Score, display, processor, camera, and latest discounts across Flipkart, Amazon, Croma, and JioMart."
     },
     {
+      "slug": "best-laptops-under-30000",
+      "title": "Best Laptops Under ₹30,000",
+      "shortTitle": "Laptops Under ₹30,000",
+      "category": "laptops",
+      "maxPrice": 30000,
+      "minPrice": 0,
+      "description": "Top affordable laptops for basic study, office work, and web browsing under ₹30,000 across Amazon, Flipkart, Croma, and JioMart."
+    },
+    {
       "slug": "best-laptops-under-40000",
       "title": "Best Laptops Under ₹40,000",
       "shortTitle": "Laptops Under ₹40,000",
@@ -86,6 +95,15 @@
       "description": "Best student and work laptops under ₹40,000 compared across Amazon, Flipkart, Croma, and JioMart with card offers."
     },
     {
+      "slug": "best-laptops-under-50000",
+      "title": "Best Laptops Under ₹50,000",
+      "shortTitle": "Laptops Under ₹50,000",
+      "category": "laptops",
+      "maxPrice": 50000,
+      "minPrice": 0,
+      "description": "Best performance Intel Core i5 and AMD Ryzen 5 laptops under ₹50,000 with 16GB RAM and fast SSDs."
+    },
+    {
       "slug": "best-laptops-under-60000",
       "title": "Best Laptops Under ₹60,000",
       "shortTitle": "Laptops Under ₹60,000",
@@ -93,6 +111,141 @@
       "maxPrice": 60000,
       "minPrice": 0,
       "description": "Best performance, creator, and gaming laptops under ₹60,000 with full specifications and lowest verified prices."
+    },
+    {
+      "slug": "best-laptops-under-80000",
+      "title": "Best Laptops Under ₹80,000",
+      "shortTitle": "Laptops Under ₹80,000",
+      "category": "laptops",
+      "maxPrice": 80000,
+      "minPrice": 0,
+      "description": "Premium creator, business, and dedicated GPU gaming laptops under ₹80,000 compared across stores."
+    },
+    {
+      "slug": "best-tablets-under-15000",
+      "title": "Best Tablets Under ₹15,000",
+      "shortTitle": "Tablets Under ₹15,000",
+      "category": "tablets",
+      "maxPrice": 15000,
+      "minPrice": 0,
+      "description": "Best budget Android tablets under ₹15,000 for students, entertainment, reading, and online classes."
+    },
+    {
+      "slug": "best-tablets-under-25000",
+      "title": "Best Tablets Under ₹25,000",
+      "shortTitle": "Tablets Under ₹25,000",
+      "category": "tablets",
+      "maxPrice": 25000,
+      "minPrice": 0,
+      "description": "Best mid-range tablets under ₹25,000 with 120Hz displays, stylus pen support, and fast processors."
+    },
+    {
+      "slug": "best-tablets-under-40000",
+      "title": "Best Tablets Under ₹40,000",
+      "shortTitle": "Tablets Under ₹40,000",
+      "category": "tablets",
+      "maxPrice": 40000,
+      "minPrice": 0,
+      "description": "Top Apple iPads and premium Samsung Galaxy Tabs under ₹40,000 with productivity features and lowest prices."
+    },
+    {
+      "slug": "best-smart-tv-under-15000",
+      "title": "Best Smart TVs Under ₹15,000",
+      "shortTitle": "TVs Under ₹15,000",
+      "category": "smart-tv",
+      "maxPrice": 15000,
+      "minPrice": 0,
+      "description": "Best 32-inch HD & FHD Smart Google and Android TVs under ₹15,000 with OTT apps and Dolby Audio."
+    },
+    {
+      "slug": "best-smart-tv-under-25000",
+      "title": "Best Smart TVs Under ₹25,000",
+      "shortTitle": "TVs Under ₹25,000",
+      "category": "smart-tv",
+      "maxPrice": 25000,
+      "minPrice": 0,
+      "description": "Best 43-inch 4K Ultra HD Smart LED TVs under ₹25,000 compared across Amazon, Flipkart, and Croma."
+    },
+    {
+      "slug": "best-smart-tv-under-40000",
+      "title": "Best 4K Smart TVs Under ₹40,000",
+      "shortTitle": "TVs Under ₹40,000",
+      "category": "smart-tv",
+      "maxPrice": 40000,
+      "minPrice": 0,
+      "description": "Best 50-inch and 55-inch 4K HDR Smart TVs under ₹40,000 from LG, Samsung, Sony, and Xiaomi."
+    },
+    {
+      "slug": "best-refrigerators-under-15000",
+      "title": "Best Refrigerators Under ₹15,000",
+      "shortTitle": "Fridges Under ₹15,000",
+      "category": "refrigerators",
+      "maxPrice": 15000,
+      "minPrice": 0,
+      "description": "Best single-door energy-efficient refrigerators under ₹15,000 with stabilizer-free operation."
+    },
+    {
+      "slug": "best-refrigerators-under-25000",
+      "title": "Best Double Door Refrigerators Under ₹25,000",
+      "shortTitle": "Fridges Under ₹25,000",
+      "category": "refrigerators",
+      "maxPrice": 25000,
+      "minPrice": 0,
+      "description": "Top frost-free double door refrigerators under ₹25,000 with digital inverter compressors and smart cooling."
+    },
+    {
+      "slug": "best-refrigerators-under-35000",
+      "title": "Best Inverter Refrigerators Under ₹35,000",
+      "shortTitle": "Fridges Under ₹35,000",
+      "category": "refrigerators",
+      "maxPrice": 35000,
+      "minPrice": 0,
+      "description": "Best 300L+ convertible frost-free refrigerators under ₹35,000 from Samsung, LG, Whirlpool, and Haier."
+    },
+    {
+      "slug": "best-ac-under-30000",
+      "title": "Best Air Conditioners Under ₹30,000",
+      "shortTitle": "AC Under ₹30,000",
+      "category": "air-conditioners",
+      "maxPrice": 30000,
+      "minPrice": 0,
+      "description": "Best 1 Ton and 1.5 Ton inverter split ACs under ₹30,000 with fast cooling and copper condensers."
+    },
+    {
+      "slug": "best-ac-under-40000",
+      "title": "Best Inverter Split AC Under ₹40,000",
+      "shortTitle": "AC Under ₹40,000",
+      "category": "air-conditioners",
+      "maxPrice": 40000,
+      "minPrice": 0,
+      "description": "Top 1.5 Ton 3-Star & 5-Star inverter split ACs under ₹40,000 from Daikin, LG, Voltas, and Lloyd."
+    },
+    {
+      "slug": "best-ac-under-50000",
+      "title": "Best 5-Star Inverter AC Under ₹50,000",
+      "shortTitle": "AC Under ₹50,000",
+      "category": "air-conditioners",
+      "maxPrice": 50000,
+      "minPrice": 0,
+      "description": "Best 5-Star heavy-duty inverter split air conditioners under ₹50,000 with AI dual inverter cooling and PM 2.5 filters."
+    },
+    {
+      "slug": "best-earbuds-under-1500",
+      "title": "Best TWS Earbuds Under ₹1,500",
+      "shortTitle": "Earbuds Under ₹1,500",
+      "category": "audio",
+      "maxPrice": 1500,
+      "minPrice": 0,
+      "description": "Top budget true wireless earbuds under ₹1,500 with long battery life, low latency gaming, and punchy bass."
+    },
+    {
+      "slug": "best-smartwatches-under-2000",
+      "title": "Best Smartwatches Under ₹2,000",
+      "shortTitle": "Watches Under ₹2,000",
+      "category": "smartwatches",
+      "maxPrice": 2000,
+      "minPrice": 0,
+      "description": "Best Bluetooth calling smartwatches under ₹2,000 with health tracking, HD displays, and stylish straps."
     }
   ]
 }

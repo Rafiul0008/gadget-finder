@@ -28,15 +28,16 @@ function wrapAffiliateUrl(rawUrl, storeName) {
   try {
     const u = new URL(rawUrl);
     const store = (storeName || '').toLowerCase();
+    const isAmazon = store.includes('amazon') || u.hostname.includes('amazon');
     const { amazonTag, cuelinksPublisherId, utmSource } = config.affiliates || {};
-    if (store === 'amazon' && amazonTag && !u.searchParams.has('tag')) {
+    if (isAmazon && amazonTag) {
       u.searchParams.set('tag', amazonTag);
     }
     if (utmSource && !u.searchParams.has('utm_source')) {
       u.searchParams.set('utm_source', utmSource);
     }
     const finalUrl = u.toString();
-    if (cuelinksPublisherId && store !== 'amazon') {
+    if (cuelinksPublisherId && !isAmazon) {
       return `https://linksredirect.com/?pub_id=${encodeURIComponent(cuelinksPublisherId)}&url=${encodeURIComponent(finalUrl)}`;
     }
     return finalUrl;
@@ -87,6 +88,38 @@ function deviceSvg(category) {
       <rect x="18" y="14" width="84" height="54" rx="6" fill="#0f172a" stroke="#2563eb" stroke-width="3"/>
       <rect x="24" y="20" width="72" height="42" rx="3" fill="#dbeafe"/>
       <path d="M8 72h104l-6 10H14L8 72z" fill="#334155"/>
+    </svg>`;
+  }
+  if (category === 'tablets') {
+    return `<svg viewBox="0 0 120 96" width="90" height="78" fill="none" aria-hidden="true">
+      <rect x="22" y="10" width="76" height="76" rx="10" fill="#0f172a" stroke="#0284c7" stroke-width="3"/>
+      <rect x="28" y="16" width="64" height="64" rx="6" fill="#e0f2fe"/>
+      <circle cx="60" cy="83" r="2.5" fill="#38bdf8"/>
+    </svg>`;
+  }
+  if (category === 'smart-tv') {
+    return `<svg viewBox="0 0 120 96" width="96" height="78" fill="none" aria-hidden="true">
+      <rect x="12" y="12" width="96" height="58" rx="5" fill="#0f172a" stroke="#3b82f6" stroke-width="3"/>
+      <rect x="18" y="18" width="84" height="46" rx="3" fill="#dbeafe"/>
+      <path d="M48 76h24M60 70v6" stroke="#475569" stroke-width="3.5" stroke-linecap="round"/>
+    </svg>`;
+  }
+  if (category === 'refrigerators') {
+    return `<svg viewBox="0 0 96 120" width="76" height="96" fill="none" aria-hidden="true">
+      <rect x="20" y="8" width="56" height="104" rx="8" fill="#0f172a" stroke="#0284c7" stroke-width="3"/>
+      <rect x="25" y="13" width="46" height="36" rx="4" fill="#dbeafe"/>
+      <rect x="25" y="55" width="46" height="52" rx="4" fill="#bae6fd"/>
+      <line x1="20" y1="52" x2="76" y2="52" stroke="#0284c7" stroke-width="2"/>
+      <rect x="27" y="26" width="3" height="10" rx="1.5" fill="#0284c7"/>
+      <rect x="27" y="66" width="3" height="14" rx="1.5" fill="#0284c7"/>
+    </svg>`;
+  }
+  if (category === 'air-conditioners' || category === 'ac') {
+    return `<svg viewBox="0 0 120 96" width="96" height="78" fill="none" aria-hidden="true">
+      <rect x="10" y="24" width="100" height="46" rx="8" fill="#0f172a" stroke="#0ea5e9" stroke-width="3"/>
+      <rect x="16" y="52" width="88" height="10" rx="3" fill="#e0f2fe"/>
+      <circle cx="96" cy="38" r="3" fill="#22c55e"/>
+      <path d="M28 76c6 6 12 6 18 0s12-6 18 0 12 6 18 0" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" fill="none"/>
     </svg>`;
   }
   if (category === 'audio') {
@@ -186,9 +219,13 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
 const NAV_ICONS = {
   '': `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gAll1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#6366f1"/></linearGradient><linearGradient id="gAll2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#fb923c"/></linearGradient></defs><rect x="6" y="6" width="16" height="16" rx="5" fill="url(#gAll1)"/><rect x="26" y="6" width="16" height="16" rx="5" fill="url(#gAll2)"/><rect x="6" y="26" width="16" height="16" rx="5" fill="#818cf8"/><rect x="26" y="26" width="16" height="16" rx="5" fill="#38bdf8"/></svg>`,
   mobile: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gPhBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1d4ed8"/></linearGradient><linearGradient id="gPhScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#67e8f9"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#fb7185"/></linearGradient></defs><rect x="11" y="4" width="26" height="40" rx="6" fill="url(#gPhBody)"/><rect x="14" y="7" width="20" height="34" rx="4" fill="url(#gPhScr)"/><rect x="17" y="12" width="6" height="6" rx="1.8" fill="#60a5fa"/><rect x="25" y="12" width="6" height="6" rx="1.8" fill="#fde047"/><rect x="17" y="20" width="6" height="6" rx="1.8" fill="#fb7185"/><rect x="29" y="16" width="13" height="8" rx="3" fill="#bfdbfe"/><rect x="27" y="26" width="11" height="7" rx="2.5" fill="#fecdd3"/></svg>`,
+  laptops: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gLpScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="50%" stop-color="#818cf8"/><stop offset="100%" stop-color="#f472b6"/></linearGradient></defs><rect x="9" y="9" width="30" height="20" rx="4" fill="#8b5cf6"/><rect x="12" y="12" width="24" height="14" rx="2.5" fill="url(#gLpScr)"/><rect x="15" y="15" width="5" height="5" rx="1.5" fill="#a78bfa"/><rect x="21.5" y="15" width="5" height="5" rx="1.5" fill="#60a5fa"/><rect x="28" y="15" width="5" height="5" rx="1.5" fill="#fecdd3"/><path d="M5 31h38l-3 8H8l-3-8z" fill="#a78bfa"/><rect x="19" y="34" width="10" height="3" rx="1.5" fill="#7c3aed"/></svg>`,
+  tablets: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gTabBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#2563eb"/></linearGradient><linearGradient id="gTabScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#67e8f9"/><stop offset="100%" stop-color="#c084fc"/></linearGradient></defs><rect x="8" y="6" width="32" height="36" rx="5" fill="url(#gTabBody)"/><rect x="11" y="9" width="26" height="30" rx="3" fill="url(#gTabScr)"/><circle cx="24" cy="41" r="1.5" fill="#ffffff" opacity=".8"/></svg>`,
+  'smart-tv': `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gTvScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#06b6d4"/><stop offset="50%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient></defs><rect x="5" y="8" width="38" height="26" rx="4" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/><rect x="8" y="11" width="32" height="20" rx="2" fill="url(#gTvScr)"/><path d="M18 38h12M24 34v4" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+  refrigerators: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gFrBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0284c7"/><stop offset="100%" stop-color="#0369a1"/></linearGradient></defs><rect x="12" y="4" width="24" height="40" rx="5" fill="url(#gFrBody)"/><rect x="14" y="6" width="20" height="14" rx="2" fill="#38bdf8"/><rect x="14" y="22" width="20" height="20" rx="2" fill="#0284c7"/><line x1="12" y1="21" x2="36" y2="21" stroke="#0c4a6e" stroke-width="1.5"/><rect x="15" y="12" width="2" height="5" rx="1" fill="#ffffff"/><rect x="15" y="25" width="2" height="7" rx="1" fill="#ffffff"/></svg>`,
+  ac: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gAcBody" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0ea5e9"/><stop offset="100%" stop-color="#6366f1"/></linearGradient></defs><rect x="6" y="12" width="36" height="20" rx="4" fill="url(#gAcBody)"/><rect x="9" y="24" width="30" height="4" rx="1.5" fill="#e0f2fe"/><path d="M12 36c2 4 4 4 6 0s4-4 6 0 4 4 6 0" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" fill="none"/></svg>`,
   earbuds: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gEbCase" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6d28d9"/></linearGradient><linearGradient id="gEbPod" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient></defs><rect x="10" y="22" width="28" height="20" rx="8" fill="url(#gEbCase)"/><ellipse cx="24" cy="22" rx="14" ry="5" fill="#3b82f6"/><ellipse cx="24" cy="18" rx="12" ry="4" fill="#a78bfa"/><circle cx="16" cy="12" r="5" fill="url(#gEbPod)"/><rect x="15" y="13" width="4" height="10" rx="2" fill="#818cf8"/><circle cx="32" cy="10" r="5" fill="url(#gEbPod)"/><rect x="29" y="11" width="4" height="10" rx="2" fill="#818cf8"/></svg>`,
   smartwatches: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gSwBand" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#818cf8"/><stop offset="100%" stop-color="#6366f1"/></linearGradient><linearGradient id="gSwScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4c1d95"/><stop offset="100%" stop-color="#312e81"/></linearGradient></defs><rect x="16" y="3" width="16" height="42" rx="6" fill="url(#gSwBand)"/><rect x="10" y="11" width="28" height="26" rx="7" fill="#a78bfa"/><rect x="13" y="14" width="22" height="20" rx="5" fill="url(#gSwScr)"/><path d="M21 20c0-1.5 1.8-2.2 3-0.8 1.2-1.4 3-0.7 3 0.8 0 2-3 4-3 4s-3-2-3-4z" fill="#fb7185"/><rect x="16" y="27" width="16" height="3" rx="1.5" fill="#4ade80"/></svg>`,
-  laptops: `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gLpScr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="50%" stop-color="#818cf8"/><stop offset="100%" stop-color="#f472b6"/></linearGradient></defs><rect x="9" y="9" width="30" height="20" rx="4" fill="#8b5cf6"/><rect x="12" y="12" width="24" height="14" rx="2.5" fill="url(#gLpScr)"/><rect x="15" y="15" width="5" height="5" rx="1.5" fill="#a78bfa"/><rect x="21.5" y="15" width="5" height="5" rx="1.5" fill="#60a5fa"/><rect x="28" y="15" width="5" height="5" rx="1.5" fill="#fecdd3"/><path d="M5 31h38l-3 8H8l-3-8z" fill="#a78bfa"/><rect x="19" y="34" width="10" height="3" rx="1.5" fill="#7c3aed"/></svg>`,
   'mobile-brands': `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gBr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#f97316"/></linearGradient></defs><path d="M24 5l5.5 11.2 12.3 1.8-8.9 8.7 2.1 12.3L24 33.2 13 39l2.1-12.3-8.9-8.7 12.3-1.8L24 5z" fill="url(#gBr)"/></svg>`,
   compare: `<svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="15" height="28" rx="4" fill="#3b82f6"/><rect x="27" y="10" width="15" height="28" rx="4" fill="#ec4899"/><circle cx="24" cy="24" r="7" fill="#ffffff"/><path d="M20 24h8M24 20l4 4-4 4" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
   'mobile-price-list': `<svg viewBox="0 0 48 48" fill="none"><defs><linearGradient id="gPr" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient></defs><circle cx="24" cy="24" r="19" fill="url(#gPr)"/><path d="M17 15h14M17 21h14M17 27l10 9M17 27h6a5 5 0 0 0 0-12" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
@@ -211,9 +248,13 @@ function renderHeader(rootPrefix, activeSlug = '') {
   const navItems = [
     { href: `${rootPrefix}`, label: 'All', slug: '' },
     { href: `${rootPrefix}mobile/`, label: 'Phone', slug: 'mobile' },
+    { href: `${rootPrefix}laptops/`, label: 'Laptop', slug: 'laptops' },
+    { href: `${rootPrefix}tablets/`, label: 'Tablet', slug: 'tablets' },
+    { href: `${rootPrefix}smart-tv/`, label: 'Smart TV', slug: 'smart-tv' },
+    { href: `${rootPrefix}refrigerators/`, label: 'Fridge', slug: 'refrigerators' },
+    { href: `${rootPrefix}ac/`, label: 'AC', slug: 'ac' },
     { href: `${rootPrefix}earbuds/`, label: 'Earbuds', slug: 'earbuds' },
     { href: `${rootPrefix}smartwatches/`, label: 'Smart Watch', slug: 'smartwatches' },
-    { href: `${rootPrefix}laptops/`, label: 'Laptop', slug: 'laptops' },
     ...priceItems.map((p) => ({ ...p, isPrice: true, label: `Under ${p.amt}` })),
     { href: `${rootPrefix}mobile-brands/`, label: 'Brands', slug: 'mobile-brands' },
     { href: `${rootPrefix}compare/`, label: 'Compare', slug: 'compare' },
@@ -398,7 +439,14 @@ function renderFooter(rootPrefix) {
     </div>
   </div>
   <nav class="container footer-links" aria-label="Footer">
-    <a href="${rootPrefix}mobile/">All Phones</a>
+    <a href="${rootPrefix}mobile/">Phones</a>
+    <a href="${rootPrefix}laptops/">Laptops</a>
+    <a href="${rootPrefix}tablets/">Tablets</a>
+    <a href="${rootPrefix}smart-tv/">Smart TVs</a>
+    <a href="${rootPrefix}refrigerators/">Refrigerators</a>
+    <a href="${rootPrefix}ac/">ACs</a>
+    <a href="${rootPrefix}earbuds/">Earbuds</a>
+    <a href="${rootPrefix}smartwatches/">Smartwatches</a>
     <a href="${rootPrefix}mobile-brands/">Brands</a>
     <a href="${rootPrefix}mobile-list/">By Feature</a>
     <a href="${rootPrefix}mobile-price-list/">By Price</a>
@@ -430,6 +478,104 @@ function renderFooter(rootPrefix) {
 </html>`;
 }
 
+function getCategoryPriceButtons(category) {
+  switch (category) {
+    case 'laptops':
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 30000, label: 'Under ₹30,000' },
+        { val: 40000, label: 'Under ₹40,000' },
+        { val: 50000, label: 'Under ₹50,000' },
+        { val: 60000, label: 'Under ₹60,000' },
+        { val: 80000, label: 'Under ₹80,000' },
+        { val: 100000, label: 'Under ₹1,00,000' }
+      ];
+    case 'tablets':
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 15000, label: 'Under ₹15,000' },
+        { val: 20000, label: 'Under ₹20,000' },
+        { val: 25000, label: 'Under ₹25,000' },
+        { val: 35000, label: 'Under ₹35,000' },
+        { val: 60000, label: 'Under ₹60,000' }
+      ];
+    case 'smart-tv':
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 15000, label: 'Under ₹15,000' },
+        { val: 25000, label: 'Under ₹25,000' },
+        { val: 35000, label: 'Under ₹35,000' },
+        { val: 45000, label: 'Under ₹45,000' },
+        { val: 60000, label: 'Under ₹60,000' }
+      ];
+    case 'refrigerators':
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 15000, label: 'Under ₹15,000' },
+        { val: 20000, label: 'Under ₹20,000' },
+        { val: 25000, label: 'Under ₹25,000' },
+        { val: 35000, label: 'Under ₹35,000' },
+        { val: 50000, label: 'Under ₹50,000' }
+      ];
+    case 'air-conditioners':
+    case 'ac':
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 30000, label: 'Under ₹30,000' },
+        { val: 35000, label: 'Under ₹35,000' },
+        { val: 40000, label: 'Under ₹40,000' },
+        { val: 45000, label: 'Under ₹45,000' },
+        { val: 55000, label: 'Under ₹55,000' }
+      ];
+    case 'smartphones':
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 10000, label: 'Under ₹10,000' },
+        { val: 15000, label: 'Under ₹15,000' },
+        { val: 20000, label: 'Under ₹20,000' },
+        { val: 30000, label: 'Under ₹30,000' },
+        { val: 50000, label: 'Under ₹50,000' },
+        { val: 70000, label: 'Under ₹70,000' }
+      ];
+    case 'audio':
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 1000, label: 'Under ₹1,000' },
+        { val: 1500, label: 'Under ₹1,500' },
+        { val: 2500, label: 'Under ₹2,500' },
+        { val: 3500, label: 'Under ₹3,500' },
+        { val: 5000, label: 'Under ₹5,000' }
+      ];
+    case 'smartwatches':
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 1500, label: 'Under ₹1,500' },
+        { val: 2500, label: 'Under ₹2,500' },
+        { val: 4000, label: 'Under ₹4,000' },
+        { val: 7000, label: 'Under ₹7,000' },
+        { val: 12000, label: 'Under ₹12,000' }
+      ];
+    case 'accessories':
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 500, label: 'Under ₹500' },
+        { val: 1000, label: 'Under ₹1,000' },
+        { val: 1500, label: 'Under ₹1,500' },
+        { val: 2500, label: 'Under ₹2,500' }
+      ];
+    default:
+      return [
+        { val: 0, label: 'All Budgets' },
+        { val: 1000, label: 'Under ₹1,000' },
+        { val: 5000, label: 'Under ₹5,000' },
+        { val: 10000, label: 'Under ₹10,000' },
+        { val: 20000, label: 'Under ₹20,000' },
+        { val: 40000, label: 'Under ₹40,000' },
+        { val: 70000, label: 'Under ₹70,000' }
+      ];
+  }
+}
+
 function renderListPage({ title, headingHtml, description, products, allProducts, canonicalUrl, rootPrefix, activeSlug, defaultCategory = 'all', defaultMaxPrice = 0, breadcrumbs }) {
   const itemListSchema = {
     '@context': 'https://schema.org',
@@ -455,20 +601,17 @@ function renderListPage({ title, headingHtml, description, products, allProducts
 
   const catButtons = [
     { key: 'all', label: 'All' },
-    { key: 'smartphones', label: 'Smartphones' },
+    { key: 'smartphones', label: 'Phones' },
     { key: 'laptops', label: 'Laptops' },
+    { key: 'tablets', label: 'Tablets' },
+    { key: 'smart-tv', label: 'Smart TVs' },
+    { key: 'refrigerators', label: 'Fridges' },
+    { key: 'air-conditioners', label: 'ACs' },
     { key: 'audio', label: 'Earbuds & Audio' },
     { key: 'smartwatches', label: 'Smartwatches' },
     { key: 'accessories', label: 'Accessories' }
   ];
-  const priceButtons = [
-    { val: 0, label: 'All Budgets' },
-    { val: 1000, label: 'Under ₹1,000' },
-    { val: 5000, label: 'Under ₹5,000' },
-    { val: 10000, label: 'Under ₹10,000' },
-    { val: 20000, label: 'Under ₹20,000' },
-    { val: 50000, label: 'Under ₹50,000' }
-  ];
+  const priceButtons = getCategoryPriceButtons(defaultCategory);
 
   const topFive = products.slice(0, 5);
 
@@ -494,6 +637,9 @@ ${renderHeader(rootPrefix, activeSlug)}
       ${priceButtons.map((b) => `<button type="button" class="chip-btn ${b.val === defaultMaxPrice ? 'active' : ''}" data-filter-price="${b.val}">${esc(b.label)}</button>`).join('')}
     </div>
     <div class="filter-right">
+      <select id="budget-select" class="filter-select" aria-label="Filter by budget">
+        ${priceButtons.map((b) => `<option value="${b.val}" ${b.val === (defaultMaxPrice || 0) ? 'selected' : ''}>${esc(b.label)}</option>`).join('')}
+      </select>
       <select id="store-select" class="filter-select" aria-label="Filter by store">
         <option value="all">All Stores</option>
         <option value="Amazon">Amazon</option>
@@ -2742,8 +2888,48 @@ function build() {
     urls.push(`${config.siteUrl}/${bp.slug}/`);
   }
 
-  // Gadget category pages (Earbuds, Smartwatches, Laptops)
+  // Gadget category pages (Laptops, Tablets, Smart TV, Refrigerators, AC, Earbuds, Smartwatches)
   const gadgetCategories = [
+    {
+      slug: 'laptops',
+      category: 'laptops',
+      shortTitle: 'Laptops',
+      headingHtml: 'Best <span class="price-highlight">Laptops</span>',
+      title: `Best Laptops & Notebooks (${monthYear}) | ${config.siteName}`,
+      description: 'Compare top student, creator, and gaming laptops, specs, Value Scores, and verified store offers across Amazon, Flipkart, Croma, and JioMart.',
+    },
+    {
+      slug: 'tablets',
+      category: 'tablets',
+      shortTitle: 'Tablets',
+      headingHtml: 'Best <span class="price-highlight">Tablets &amp; iPads</span>',
+      title: `Best Tablets & iPads (${monthYear}) | ${config.siteName}`,
+      description: 'Compare top Apple iPads, Samsung Galaxy Tabs, Xiaomi Pads, specs, Value Scores, and multi-store offers.',
+    },
+    {
+      slug: 'smart-tv',
+      category: 'smart-tv',
+      shortTitle: 'Smart TV',
+      headingHtml: 'Best <span class="price-highlight">Smart TVs</span>',
+      title: `Best Smart TVs (${monthYear}) | ${config.siteName}`,
+      description: 'Compare top 32", 43", 50", 55" 4K Smart Google TVs, OLED/QLED panels, specs, and lowest store prices.',
+    },
+    {
+      slug: 'refrigerators',
+      category: 'refrigerators',
+      shortTitle: 'Refrigerator',
+      headingHtml: 'Best <span class="price-highlight">Refrigerators</span>',
+      title: `Best Refrigerators (${monthYear}) | ${config.siteName}`,
+      description: 'Compare top single door, double door frost-free, and side-by-side inverter refrigerators across stores.',
+    },
+    {
+      slug: 'ac',
+      category: 'air-conditioners',
+      shortTitle: 'AC',
+      headingHtml: 'Best <span class="price-highlight">Air Conditioners</span>',
+      title: `Best Split Inverter Air Conditioners (${monthYear}) | ${config.siteName}`,
+      description: 'Compare top 1 Ton and 1.5 Ton 3-Star & 5-Star inverter split ACs with energy ratings and live store offers.',
+    },
     {
       slug: 'earbuds',
       category: 'audio',
@@ -2760,19 +2946,11 @@ function build() {
       title: `Best Smartwatches & Wearables (${monthYear}) | ${config.siteName}`,
       description: 'Compare top smartwatches with AMOLED displays, fitness tracking, Value Scores, and lowest prices.',
     },
-    {
-      slug: 'laptops',
-      category: 'laptops',
-      shortTitle: 'Laptops',
-      headingHtml: 'Best <span class="price-highlight">Laptops</span>',
-      title: `Best Laptops & Notebooks (${monthYear}) | ${config.siteName}`,
-      description: 'Compare top student, creator, and gaming laptops, specs, Value Scores, and verified store offers.',
-    },
   ];
   for (const gc of gadgetCategories) {
     const dir = path.join(DIST, gc.slug);
     ensureDir(dir);
-    const matching = products.filter((p) => p.category === gc.category);
+    const matching = products.filter((p) => p.category === gc.category || (gc.category === 'air-conditioners' && p.category === 'ac'));
     const pageHtml = renderListPage({
       title: gc.title,
       headingHtml: gc.headingHtml,

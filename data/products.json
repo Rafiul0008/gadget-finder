@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T02:10:54.509Z",
+  "lastUpdated": "2026-11-19T07:14:42.198Z",
   "products": [
     {
       "id": "poco-m8x-5g",
@@ -47,7 +47,7 @@
           "price": 18499,
           "offer": "5% cashback on Amazon Pay ICICI Card",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=Poco+M8x+5G"
+          "url": "https://www.amazon.in/s?k=Poco+M8x+5G&tag=teachunder-21"
         },
         {
           "store": "Croma",
@@ -105,7 +105,7 @@
           "price": 18499,
           "offer": "₹1,000 coupon on product page + SBI Card discount",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=Realme+Narzo+100x+5G"
+          "url": "https://www.amazon.in/s?k=Realme+Narzo+100x+5G&tag=teachunder-21"
         },
         {
           "store": "Flipkart",
@@ -221,7 +221,7 @@
           "price": 9499,
           "offer": "₹500 instant bank discount on SBI Debit/Credit",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=Redmi+15C+5G"
+          "url": "https://www.amazon.in/s?k=Redmi+15C+5G&tag=teachunder-21"
         },
         {
           "store": "Flipkart",
@@ -300,7 +300,7 @@
           "price": 10290,
           "offer": "No-Cost EMI available",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=Motorola+G36+5G"
+          "url": "https://www.amazon.in/s?k=Motorola+G36+5G&tag=teachunder-21"
         }
       ],
       "image": "assets/products/moto-g36-5g.jpg"
@@ -344,7 +344,7 @@
           "price": 34990,
           "offer": "₹2,000 instant discount on HDFC/ICICI Credit Cards",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=Acer+Aspire+Lite+Ryzen+5+16GB+512GB"
+          "url": "https://www.amazon.in/s?k=Acer+Aspire+Lite+Ryzen+5+16GB+512GB&tag=teachunder-21"
         },
         {
           "store": "Flipkart",
@@ -402,7 +402,7 @@
           "price": 47990,
           "offer": "₹3,000 bank discount + No-Cost EMI",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=Lenovo+IdeaPad+Slim+3+i5+13420H"
+          "url": "https://www.amazon.in/s?k=Lenovo+IdeaPad+Slim+3+i5+13420H&tag=teachunder-21"
         },
         {
           "store": "Croma",
@@ -474,7 +474,7 @@
           "price": 999,
           "offer": "₹100 Prime coupon applied at checkout",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=boAt+Airdopes+141+ANC"
+          "url": "https://www.amazon.in/s?k=boAt+Airdopes+141+ANC&tag=teachunder-21"
         },
         {
           "store": "Croma",
@@ -532,7 +532,7 @@
           "price": 1999,
           "offer": "₹200 instant discount on ICICI/OneCard",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=OnePlus+Nord+Buds+3"
+          "url": "https://www.amazon.in/s?k=OnePlus+Nord+Buds+3&tag=teachunder-21"
         },
         {
           "store": "Flipkart",
@@ -590,7 +590,7 @@
           "price": 899,
           "offer": "Limited-time Lightning Deal + 5% Amazon Pay cashback",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=Ambrane+20000mAh+Power+Bank"
+          "url": "https://www.amazon.in/s?k=Ambrane+20000mAh+Power+Bank&tag=teachunder-21"
         },
         {
           "store": "Flipkart",
@@ -656,7 +656,7 @@
           "price": 999,
           "offer": "Subscribe & Save / Prime free 1-day delivery",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=Portronics+65W+GaN+Charger"
+          "url": "https://www.amazon.in/s?k=Portronics+65W+GaN+Charger&tag=teachunder-21"
         },
         {
           "store": "Croma",
@@ -714,7 +714,7 @@
           "price": 4499,
           "offer": "5% cashback on Amazon Pay Card",
           "inStock": true,
-          "url": "https://www.amazon.in/s?k=CMF+Watch+Pro+2"
+          "url": "https://www.amazon.in/s?k=CMF+Watch+Pro+2&tag=teachunder-21"
         },
         {
           "store": "Croma",
@@ -732,6 +732,2165 @@
         }
       ],
       "image": "assets/products/cmf-watch-pro-2.png"
+    },
+    {
+      "id": "hp-15s-ryzen-5",
+      "slug": "hp-15s-ryzen-5",
+      "name": "HP 15s AMD Ryzen 5 5500U (16GB/512GB SSD)",
+      "brand": "HP",
+      "category": "laptops",
+      "tags": [
+        "work",
+        "student",
+        "ryzen",
+        "thin-light"
+      ],
+      "status": "In Stock",
+      "score": 87,
+      "launchedOn": "18 Mar 2026",
+      "updatedAt": "2026-11-19T07:14:42.190Z",
+      "mrp": 54990,
+      "specs": {
+        "processor": "AMD Ryzen 5 5500U (6 Cores, 12 Threads, Up to 4.0GHz)",
+        "display": "15.6\" FHD (1920x1080) Micro-Edge Anti-Glare | 250 nits",
+        "camera": "HP True Vision 720p HD Camera with Dual Array Mic",
+        "battery": "41Wh 3-Cell Li-ion | 65W Fast Charge (50% in 45 mins)",
+        "memory": "16GB DDR4 RAM | 512GB PCIe NVMe M.2 SSD"
+      },
+      "pros": [
+        "Powerful 6-core Ryzen 5 performance for multitasking and office work",
+        "Generous 16GB RAM prevents slowdowns with 30+ browser tabs",
+        "Fast charging recharges 50% battery in just 45 minutes"
+      ],
+      "cons": [
+        "No backlit keyboard on base variant",
+        "250 nits brightness is average for outdoor sunlight"
+      ],
+      "expertVerdict": "The go-to all-rounder laptop for college students and working professionals seeking reliable 16GB performance under ₹40,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 38990,
+          "offer": "Flat ₹1,500 instant discount on SBI & ICICI cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=HP+15s+AMD+Ryzen+5+5500U&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 39490,
+          "offer": "Extra ₹1,000 off on exchange",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=HP%2015s%20AMD%20Ryzen%205%205500U"
+        },
+        {
+          "store": "Croma",
+          "price": 40990,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=HP%2015s%20AMD%20Ryzen%205%205500U%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 40490,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/HP%2015s%20AMD%20Ryzen%205%205500U"
+        }
+      ]
+    },
+    {
+      "id": "apple-macbook-air-m1",
+      "slug": "apple-macbook-air-m1",
+      "name": "Apple MacBook Air M1 (8GB/256GB SSD)",
+      "brand": "Apple",
+      "category": "laptops",
+      "tags": [
+        "apple",
+        "premium",
+        "battery-king",
+        "creator"
+      ],
+      "status": "In Stock",
+      "score": 93,
+      "launchedOn": "12 Jan 2026",
+      "updatedAt": "2026-11-19T07:14:42.191Z",
+      "mrp": 99900,
+      "specs": {
+        "processor": "Apple M1 Chip (8-Core CPU, 7-Core GPU, 16-Core Neural Engine)",
+        "display": "13.3\" Retina Display (2560x1600) | P3 Wide Color | 400 nits",
+        "camera": "720p FaceTime HD Camera with Advanced Image Signal Processor",
+        "battery": "49.9Wh Battery | Up to 18 Hours Apple TV / Web Browsing",
+        "memory": "8GB Unified Memory | 256GB Ultra-Fast SSD Storage"
+      },
+      "pros": [
+        "Legendary 18-hour real-world battery life without thermal throttling",
+        "Fanless silent operation with industry-leading M1 silicon efficiency",
+        "Gorgeous True Tone Retina display and class-leading Force Touch trackpad"
+      ],
+      "cons": [
+        "Limited to two Thunderbolt / USB 4 ports",
+        "8GB unified memory is not user-upgradable"
+      ],
+      "expertVerdict": "Even today, the MacBook Air M1 offers unmatched build quality, trackpad feel, and battery endurance for creators and coders under ₹65,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 64990,
+          "offer": "Flat ₹2,500 instant discount on HDFC Bank Credit Cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Apple+MacBook+Air+M1&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 65990,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Apple%20MacBook%20Air%20M1"
+        },
+        {
+          "store": "Croma",
+          "price": 66990,
+          "offer": "Free laptop sleeve with Croma store pickup",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Apple%20MacBook%20Air%20M1%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 66490,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Apple%20MacBook%20Air%20M1"
+        }
+      ]
+    },
+    {
+      "id": "asus-vivobook-15-i3",
+      "slug": "asus-vivobook-15-i3",
+      "name": "ASUS Vivobook 15 Intel Core i3 12th Gen (8GB/512GB)",
+      "brand": "ASUS",
+      "category": "laptops",
+      "tags": [
+        "budget",
+        "student",
+        "thin-light"
+      ],
+      "status": "In Stock",
+      "score": 84,
+      "launchedOn": "04 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.191Z",
+      "mrp": 45990,
+      "specs": {
+        "processor": "Intel Core i3-1215U 12th Gen (6 Cores, 8 Threads, Up to 4.4GHz)",
+        "display": "15.6\" FHD (1920x1080) 16:9 Anti-Glare | 250 nits | 60Hz",
+        "camera": "720p HD Camera with Privacy Shutter",
+        "battery": "42Wh 3-Cell Li-ion | 45W AC Adapter",
+        "memory": "8GB DDR4 (Upgradable to 16GB) | 512GB M.2 NVMe PCIe 3.0 SSD"
+      },
+      "pros": [
+        "12th Gen 6-core Intel architecture beats older 11th Gen dual-cores",
+        "Physical webcam privacy shutter and 180° lay-flat hinge",
+        "ErgoSense keyboard with comfortable 1.4mm key travel"
+      ],
+      "cons": [
+        "TN viewing angles are narrow compared to IPS panels",
+        "Plastic chassis can flex under heavy palm pressure"
+      ],
+      "expertVerdict": "The best budget laptop under ₹30,000 for everyday schooling, Zoom classes, and document editing.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 29990,
+          "offer": "Flat ₹1,000 instant discount with ICICI Bank cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=ASUS+Vivobook+15+Intel+Core+i3+12th+Gen&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 30490,
+          "offer": "Special price discount applied",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=ASUS%20Vivobook%2015%20Intel%20Core%20i3%2012th%20Gen"
+        },
+        {
+          "store": "Croma",
+          "price": 31990,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=ASUS%20Vivobook%2015%20Intel%20Core%20i3%2012th%20Gen%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 31490,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/ASUS%20Vivobook%2015%20Intel%20Core%20i3%2012th%20Gen"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-loq-15-rtx-3050",
+      "slug": "lenovo-loq-15-rtx-3050",
+      "name": "Lenovo LOQ 15 Gaming (Intel Core i5 12th Gen / RTX 3050 6GB)",
+      "brand": "Lenovo",
+      "category": "laptops",
+      "tags": [
+        "gaming",
+        "rtx",
+        "creator",
+        "high-performance"
+      ],
+      "status": "In Stock",
+      "score": 90,
+      "launchedOn": "10 May 2026",
+      "updatedAt": "2026-11-19T07:14:42.191Z",
+      "mrp": 86990,
+      "specs": {
+        "processor": "Intel Core i5-12450HX (8 Cores, 12 Threads, Up to 4.4GHz)",
+        "display": "15.6\" FHD (1920x1080) IPS | 144Hz | 300 nits | 100% sRGB | G-SYNC",
+        "camera": "1080p FHD Camera with E-shutter",
+        "battery": "60Wh Battery | 170W Slim Tip Fast Charger (50% in 30 mins)",
+        "memory": "16GB DDR5 4800MHz (2x8GB) | 512GB PCIe 4.0 NVMe SSD | RTX 3050 6GB (95W TGP)"
+      },
+      "pros": [
+        "Full 100% sRGB color accurate 144Hz display ideal for gamers & creators",
+        "Upgraded 6GB RTX 3050 GPU with high 95W TGP delivers steady 60+ FPS",
+        "Dual-fan thermal chamber maintains cool palm rests during long sessions"
+      ],
+      "cons": [
+        "Bulky 2.4kg weight and large 170W power brick",
+        "Battery lasts 3 to 4 hours on gaming-grade hardware"
+      ],
+      "expertVerdict": "Lenovo LOQ dominates the sub-₹65,000 gaming category with its 100% sRGB screen and 6GB VRAM RTX 3050 graphics.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 62990,
+          "offer": "Flat ₹3,000 instant discount on OneCard & HDFC cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Lenovo+LOQ+15+Gaming+Intel+Core+i5+RTX+3050&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 63490,
+          "offer": "₹2,000 off on exchange bonus",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Lenovo%20LOQ%2015%20Gaming%20Intel%20Core%20i5%20RTX%203050"
+        },
+        {
+          "store": "Croma",
+          "price": 64990,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Lenovo%20LOQ%2015%20Gaming%20Intel%20Core%20i5%20RTX%203050%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 63990,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Lenovo%20LOQ%2015%20Gaming%20Intel%20Core%20i5%20RTX%203050"
+        }
+      ]
+    },
+    {
+      "id": "acer-nitro-v-15-rtx4050",
+      "slug": "acer-nitro-v-15-rtx4050",
+      "name": "Acer Nitro V 15 Gaming (Core i5 13th Gen / RTX 4050 6GB)",
+      "brand": "Acer",
+      "category": "laptops",
+      "tags": [
+        "gaming",
+        "rtx4050",
+        "dlss3",
+        "high-performance"
+      ],
+      "status": "In Stock",
+      "score": 91,
+      "launchedOn": "24 Apr 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 92999,
+      "specs": {
+        "processor": "Intel Core i5-13420H (8 Cores, 12 Threads, Up to 4.6GHz)",
+        "display": "15.6\" FHD (1920x1080) IPS 144Hz | 16:9 Aspect Ratio",
+        "camera": "720p HD Webcam with Acer PurifiedVoice AI Noise Reduction",
+        "battery": "57Wh 4-Cell Li-ion | 135W Power Adapter",
+        "memory": "16GB DDR5 5200MHz RAM | 512GB Gen4 PCIe NVMe SSD | RTX 4050 6GB GDDR6"
+      },
+      "pros": [
+        "NVIDIA RTX 4050 with DLSS 3.5 Frame Generation crushes modern AAA games",
+        "Fast 16GB DDR5 5200MHz memory handles heavy video editing effortlessly",
+        "Thunderbolt 4 port allows high-speed external GPU and 4K monitor hookup"
+      ],
+      "cons": [
+        "Display coverage is ~62.5% sRGB (gamut could be richer)",
+        "Fan noise increases noticeably in Turbo mode"
+      ],
+      "expertVerdict": "The most cost-effective RTX 4050 gaming rig on the market, unlocking modern DLSS 3 frame generation under ₹75,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 74990,
+          "offer": "Flat ₹4,000 instant card discount + 9 months No Cost EMI",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Acer+Nitro+V+15+Gaming+Core+i5+13th+Gen+RTX+4050&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 75490,
+          "offer": "Extra ₹1,500 off on Axis Bank cards",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Acer%20Nitro%20V%2015%20Gaming%20Core%20i5%2013th%20Gen%20RTX%204050"
+        },
+        {
+          "store": "Croma",
+          "price": 76990,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Acer%20Nitro%20V%2015%20Gaming%20Core%20i5%2013th%20Gen%20RTX%204050%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 75990,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Acer%20Nitro%20V%2015%20Gaming%20Core%20i5%2013th%20Gen%20RTX%204050"
+        }
+      ]
+    },
+    {
+      "id": "dell-15-i5-12th",
+      "slug": "dell-15-i5-12th",
+      "name": "Dell 15 Intel Core i5 12th Gen (16GB/512GB SSD)",
+      "brand": "Dell",
+      "category": "laptops",
+      "tags": [
+        "work",
+        "business",
+        "intel",
+        "reliable"
+      ],
+      "status": "In Stock",
+      "score": 86,
+      "launchedOn": "14 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 61990,
+      "specs": {
+        "processor": "Intel Core i5-1235U 12th Gen (10 Cores, 12 Threads, Up to 4.4GHz)",
+        "display": "15.6\" FHD (1920x1080) 120Hz WVA Anti-Glare | 250 nits",
+        "camera": "720p HD Camera with Single Integrated Microphone",
+        "battery": "41Wh 3-Cell Battery | 65W AC Adapter | ExpressCharge",
+        "memory": "16GB DDR4 2666MHz | 512GB M.2 PCIe NVMe SSD"
+      },
+      "pros": [
+        "Smooth 120Hz refresh rate gives buttery UI animations in Windows 11",
+        "10-core Intel Core i5 handles spreadsheets and multi-tasking smoothly",
+        "Lift hinge design elevates keyboard for ergonomic typing and airflow"
+      ],
+      "cons": [
+        "Plastic chassis is slightly heavier than ultra-portables at 1.66kg",
+        "Standard 2666MHz DDR4 memory speed"
+      ],
+      "expertVerdict": "A sturdy, dependable workhorse backed by Dell customer support, featuring a rare 120Hz screen under ₹45,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 44990,
+          "offer": "Flat ₹1,750 instant discount on Axis & Kotak cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Dell+15+Intel+Core+i5+12th+Gen+16GB&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 45490,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Dell%2015%20Intel%20Core%20i5%2012th%20Gen%2016GB"
+        },
+        {
+          "store": "Croma",
+          "price": 46990,
+          "offer": "Complimentary antivirus license included",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Dell%2015%20Intel%20Core%20i5%2012th%20Gen%2016GB%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 45990,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Dell%2015%20Intel%20Core%20i5%2012th%20Gen%2016GB"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-book4-i5",
+      "slug": "samsung-galaxy-book4-i5",
+      "name": "Samsung Galaxy Book4 (Intel Core i5 13th Gen / 16GB/512GB)",
+      "brand": "Samsung",
+      "category": "laptops",
+      "tags": [
+        "premium",
+        "thin-light",
+        "galaxy-ecosystem",
+        "business"
+      ],
+      "status": "In Stock",
+      "score": 89,
+      "launchedOn": "28 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 78990,
+      "specs": {
+        "processor": "Intel Core i5-1335U 13th Gen (10 Cores, 12 Threads, Up to 4.6GHz)",
+        "display": "15.6\" Full HD (1920x1080) Anti-Glare Display | 300 nits",
+        "camera": "720p HD Webcam with Studio Effects & Dual Mic",
+        "battery": "54Wh Battery | 45W USB-C Compact Fast Charger",
+        "memory": "16GB LPDDR4x Memory | 512GB NVMe SSD (Expandable Dual Slot)"
+      },
+      "pros": [
+        "All-metal slim aluminum body weighing just 1.55kg",
+        "Seamless Galaxy ecosystem integration (Multi Control, Quick Share, Phone Link)",
+        "Dual SSD expansion slots for easy future storage upgrades"
+      ],
+      "cons": [
+        "60Hz refresh rate display panel",
+        "Soldered LPDDR4x RAM cannot be expanded further"
+      ],
+      "expertVerdict": "A sleek, premium aluminum ultrabook that pairs exceptionally well with Samsung Galaxy phones and tablets under ₹60,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 59990,
+          "offer": "Flat ₹4,000 instant bank discount on all major credit cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Samsung+Galaxy+Book4+Intel+Core+i5+16GB&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 60490,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Book4%20Intel%20Core%20i5%2016GB"
+        },
+        {
+          "store": "Croma",
+          "price": 61990,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Samsung%20Galaxy%20Book4%20Intel%20Core%20i5%2016GB%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 60990,
+          "offer": "Extra ₹1,500 cashback with JioPay",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Samsung%20Galaxy%20Book4%20Intel%20Core%20i5%2016GB"
+        }
+      ]
+    },
+    {
+      "id": "apple-ipad-10th-gen",
+      "slug": "apple-ipad-10th-gen",
+      "name": "Apple iPad 10th Gen 10.9\" (A14 Bionic / 64GB Wi-Fi)",
+      "brand": "Apple",
+      "category": "tablets",
+      "tags": [
+        "tablet",
+        "apple",
+        "student",
+        "entertainment"
+      ],
+      "status": "In Stock",
+      "score": 91,
+      "launchedOn": "15 Mar 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 39900,
+      "specs": {
+        "processor": "Apple A14 Bionic Chip (6-Core CPU, 4-Core GPU, 16-Core Neural Engine)",
+        "display": "10.9\" Liquid Retina Display (2360x1640) | True Tone | 500 nits",
+        "camera": "12MP Wide Back Camera | 12MP Landscape Ultra Wide Front with Center Stage",
+        "battery": "28.6Wh Li-Po Battery | Up to 10 Hours Surfing on Wi-Fi | USB-C",
+        "memory": "4GB RAM | 64GB High-Speed Storage"
+      },
+      "pros": [
+        "Modern all-screen edge-to-edge design with landscape Center Stage selfie camera",
+        "Smooth iPadOS ecosystem with unrivaled app library (GoodNotes, Procreate, Notion)",
+        "Crisp 500 nits Liquid Retina display with stereo speakers in landscape mode"
+      ],
+      "cons": [
+        "Base 64GB storage can fill up quickly with large games and 4K videos",
+        "Non-laminated display lacks anti-reflective coating"
+      ],
+      "expertVerdict": "The quintessential student and family tablet offering years of iPadOS software updates and snappy A14 Bionic speed around ₹31,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 31900,
+          "offer": "Flat ₹2,000 instant discount on HDFC & ICICI credit cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Apple+iPad+10th+Gen+10.9+inch+64GB+Wi-Fi&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 32490,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Apple%20iPad%2010th%20Gen%2010.9%20inch%2064GB%20Wi-Fi"
+        },
+        {
+          "store": "Croma",
+          "price": 33900,
+          "offer": "Special student bundle discount with Apple Pencil",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Apple%20iPad%2010th%20Gen%2010.9%20inch%2064GB%20Wi-Fi%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 32900,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Apple%20iPad%2010th%20Gen%2010.9%20inch%2064GB%20Wi-Fi"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-tab-s9-fe",
+      "slug": "samsung-galaxy-tab-s9-fe",
+      "name": "Samsung Galaxy Tab S9 FE 10.9\" (6GB/128GB with S-Pen)",
+      "brand": "Samsung",
+      "category": "tablets",
+      "tags": [
+        "tablet",
+        "s-pen",
+        "ip68",
+        "waterproof",
+        "creator"
+      ],
+      "status": "In Stock",
+      "score": 90,
+      "launchedOn": "20 Jan 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 44999,
+      "specs": {
+        "processor": "Samsung Exynos 1380 (5nm Octa-Core Up to 2.4GHz)",
+        "display": "10.9\" WUXGA+ (2304x1440) 90Hz Display | Vision Booster",
+        "camera": "8MP Rear Camera (4K 30fps) | 12MP Ultra-Wide Front Camera",
+        "battery": "8000mAh Battery | 45W Super Fast Charging 2.0",
+        "memory": "6GB RAM | 128GB Storage (MicroSD expandable up to 1TB)"
+      },
+      "pros": [
+        "Comes with full magnetic S-Pen included in the box at no extra cost",
+        "IP68 water and dust resistance on both tablet and S-Pen",
+        "Samsung DeX desktop mode turns tablet into a mini laptop with keyboard"
+      ],
+      "cons": [
+        "LCD screen instead of AMOLED found on flagship Tab S9",
+        "45W fast charger is not included in the retail box"
+      ],
+      "expertVerdict": "An unbeatable tablet for note-taking and digital drawing with bundled S-Pen, IP68 water resistance, and DeX desktop mode under ₹33,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 32999,
+          "offer": "Flat ₹3,000 instant bank discount on HDFC/SBI cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Samsung+Galaxy+Tab+S9+FE+10.9+inch+S-Pen&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 33499,
+          "offer": "₹1,500 extra off on exchange",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Tab%20S9%20FE%2010.9%20inch%20S-Pen"
+        },
+        {
+          "store": "Croma",
+          "price": 34999,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Samsung%20Galaxy%20Tab%20S9%20FE%2010.9%20inch%20S-Pen%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 33999,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Samsung%20Galaxy%20Tab%20S9%20FE%2010.9%20inch%20S-Pen"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-pad-6",
+      "slug": "xiaomi-pad-6",
+      "name": "Xiaomi Pad 6 11\" 144Hz 2.8K (8GB/256GB / Snapdragon 870)",
+      "brand": "Xiaomi",
+      "category": "tablets",
+      "tags": [
+        "tablet",
+        "144hz",
+        "snapdragon",
+        "gaming",
+        "value-king"
+      ],
+      "status": "In Stock",
+      "score": 92,
+      "launchedOn": "08 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 39999,
+      "specs": {
+        "processor": "Qualcomm Snapdragon 870 (7nm Octa-Core Up to 3.2GHz / Adreno 650)",
+        "display": "11.0\" 2.8K (2880x1800) 144Hz 7-Stage Variable | Dolby Vision | HDR10",
+        "camera": "13MP Clear Rear Camera | 8MP 105° Wide Front Camera with FocusFrame",
+        "battery": "8840mAh Massive Battery | 33W Fast Charger in box",
+        "memory": "8GB LPDDR5 RAM | 256GB UFS 3.1 High-Speed Storage"
+      },
+      "pros": [
+        "Stunning 2.8K 144Hz 10-bit display with Dolby Vision and quad speakers",
+        "Flagship-grade Snapdragon 870 delivers smooth high-framerate gaming",
+        "Sleek all-metal unibody chassis feels exceptionally premium"
+      ],
+      "cons": [
+        "No SIM card slot (Wi-Fi only)",
+        "No fingerprint scanner (relies on AI 2D face unlock or PIN)"
+      ],
+      "expertVerdict": "The reigning value champion among Android tablets in India, packing a 144Hz 2.8K display and Snapdragon 870 under ₹25,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 24999,
+          "offer": "Flat ₹2,000 instant bank discount with ICICI & Axis cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Xiaomi+Pad+6+11+inch+8GB+256GB&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 25499,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Xiaomi%20Pad%206%2011%20inch%208GB%20256GB"
+        },
+        {
+          "store": "Croma",
+          "price": 26499,
+          "offer": "Free stylus discounts in-store",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Xiaomi%20Pad%206%2011%20inch%208GB%20256GB%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 25999,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Xiaomi%20Pad%206%2011%20inch%208GB%20256GB"
+        }
+      ]
+    },
+    {
+      "id": "oneplus-pad-go",
+      "slug": "oneplus-pad-go",
+      "name": "OnePlus Pad Go 11.35\" 2.4K Display (8GB/128GB LTE 4G)",
+      "brand": "OnePlus",
+      "category": "tablets",
+      "tags": [
+        "tablet",
+        "lte",
+        "entertainment",
+        "quad-speakers"
+      ],
+      "status": "In Stock",
+      "score": 88,
+      "launchedOn": "12 Jan 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 23999,
+      "specs": {
+        "processor": "MediaTek Helio G99 (6nm Octa-Core Up to 2.2GHz)",
+        "display": "11.35\" 2.4K (2408x1720) 90Hz ReadFit Display | 7:5 Ratio | 400 nits",
+        "camera": "8MP EIS Rear Camera | 8MP Front Selfie Camera",
+        "battery": "8000mAh Battery | 33W SUPERVOOC Fast Charging",
+        "memory": "8GB LPDDR4X | 128GB UFS 2.2 (MicroSD expandable up to 1TB) | 4G LTE"
+      },
+      "pros": [
+        "Ergonomic 7:5 ReadFit screen aspect ratio offers more vertical reading area",
+        "Built-in 4G LTE SIM calling & mobile data connectivity everywhere",
+        "Omnibearing quad speakers with Dolby Atmos sound exceptionally loud and full"
+      ],
+      "cons": [
+        "Helio G99 is tuned for streaming and reading rather than heavy 3D games",
+        "No official stylus pen support"
+      ],
+      "expertVerdict": "The ideal entertainment and multimedia companion under ₹20,000 with a sharp 2.4K screen, 4G LTE SIM support, and booming quad speakers.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 19999,
+          "offer": "Flat ₹1,500 instant discount on ICICI & OneCard",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=OnePlus+Pad+Go+11.35+inch+8GB+128GB+LTE&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 20499,
+          "offer": "₹1,000 off on Axis Bank credit card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=OnePlus%20Pad%20Go%2011.35%20inch%208GB%20128GB%20LTE"
+        },
+        {
+          "store": "Croma",
+          "price": 20999,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=OnePlus%20Pad%20Go%2011.35%20inch%208GB%20128GB%20LTE%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 20499,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/OnePlus%20Pad%20Go%2011.35%20inch%208GB%20128GB%20LTE"
+        }
+      ]
+    },
+    {
+      "id": "realme-pad-2",
+      "slug": "realme-pad-2",
+      "name": "Realme Pad 2 11.5\" 2K 120Hz (6GB/128GB LTE)",
+      "brand": "Realme",
+      "category": "tablets",
+      "tags": [
+        "tablet",
+        "budget",
+        "120hz",
+        "lte"
+      ],
+      "status": "In Stock",
+      "score": 85,
+      "launchedOn": "14 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 19999,
+      "specs": {
+        "processor": "MediaTek Helio G99 (6nm Octa-Core Processor)",
+        "display": "11.5\" 2K (2000x1200) 120Hz Display | 450 nits Brightness",
+        "camera": "8MP AI Rear Camera | 5MP HD Front Camera",
+        "battery": "8360mAh Mega Battery | 33W Dart Charge",
+        "memory": "6GB RAM | 128GB Storage | 4G LTE SIM Support"
+      },
+      "pros": [
+        "Fluid 120Hz refresh rate under ₹15,000 is unmatched in this bracket",
+        "Generous 8360mAh battery easily powers 2 days of video streaming",
+        "Quad speakers with O-Reality audio enhance movie dialogues"
+      ],
+      "cons": [
+        "Cameras are basic and produce grainy photos in indoor lighting",
+        "Custom Realme UI for Pad has minor bloatware"
+      ],
+      "expertVerdict": "The best budget Android tablet under ₹15,000 with a high-refresh 120Hz 2K screen and 4G LTE connectivity.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 14999,
+          "offer": "Flat ₹1,000 instant discount with SBI cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Realme+Pad+2+11.5+inch+120Hz+LTE&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 15499,
+          "offer": "Special festive coupon applied",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Realme%20Pad%202%2011.5%20inch%20120Hz%20LTE"
+        },
+        {
+          "store": "Croma",
+          "price": 15999,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Realme%20Pad%202%2011.5%20inch%20120Hz%20LTE%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 15499,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Realme%20Pad%202%2011.5%20inch%20120Hz%20LTE"
+        }
+      ]
+    },
+    {
+      "id": "sony-bravia-55-4k-kd55x74l",
+      "slug": "sony-bravia-55-4k-kd55x74l",
+      "name": "Sony Bravia 55\" 4K Ultra HD Smart LED Google TV (KD-55X74L)",
+      "brand": "Sony",
+      "category": "smart-tv",
+      "tags": [
+        "smart-tv",
+        "sony",
+        "4k",
+        "google-tv",
+        "premium-audio"
+      ],
+      "status": "In Stock",
+      "score": 93,
+      "launchedOn": "25 Mar 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 99900,
+      "specs": {
+        "processor": "X1 4K Processor with 4K X-Reality PRO Picture Engine",
+        "display": "55\" 4K Ultra HD (3840x2160) | Live Color | Motionflow XR 100",
+        "camera": "Bravia Cam Supported (Optional Accessory)",
+        "battery": "AC 100-240V | 142W Typical Power Consumption",
+        "memory": "Google TV OS | 16GB Storage | 3x HDMI, 2x USB, Dual Band Wi-Fi"
+      },
+      "pros": [
+        "Renowned Sony X1 picture engine delivers natural skin tones and upscaled 1080p clarity",
+        "Open Baffle down-firing speakers with Dolby Audio produce punchy, clear dialogue",
+        "Clean Google TV interface with voice-controlled Google Assistant remote"
+      ],
+      "cons": [
+        "Standard 60Hz native refresh rate (no HDMI 2.1 120Hz VRR for PS5)",
+        "Subwoofer is not built-in (best paired with a soundbar for bass)"
+      ],
+      "expertVerdict": "Sony Bravia picture processing remains unmatched for movie watching and everyday TV viewing under ₹55,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 54990,
+          "offer": "Flat ₹3,000 instant discount on HDFC/ICICI cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Sony+Bravia+55+inch+4K+Ultra+HD+Google+TV+KD-55X74L&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 55990,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Sony%20Bravia%2055%20inch%204K%20Ultra%20HD%20Google%20TV%20KD-55X74L"
+        },
+        {
+          "store": "Croma",
+          "price": 56990,
+          "offer": "Free wall mount and standard table installation",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Sony%20Bravia%2055%20inch%204K%20Ultra%20HD%20Google%20TV%20KD-55X74L%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 55490,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Sony%20Bravia%2055%20inch%204K%20Ultra%20HD%20Google%20TV%20KD-55X74L"
+        }
+      ]
+    },
+    {
+      "id": "samsung-43-crystal-4k-43du7700",
+      "slug": "samsung-43-crystal-4k-43du7700",
+      "name": "Samsung 43\" Crystal 4K Vivid Pro Ultra HD Smart TV (43DU7700)",
+      "brand": "Samsung",
+      "category": "smart-tv",
+      "tags": [
+        "smart-tv",
+        "samsung",
+        "4k",
+        "tizen",
+        "value"
+      ],
+      "status": "In Stock",
+      "score": 89,
+      "launchedOn": "10 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 44900,
+      "specs": {
+        "processor": "Crystal Processor 4K with 4K Upscaling",
+        "display": "43\" 4K UHD (3840x2160) | PurColor | HDR 10+ | Motion Xcelerator",
+        "camera": "Mobile Camera Support via SmartThings",
+        "battery": "AC 220-240V | SolarCell Remote with Type-C Charging",
+        "memory": "Tizen OS | 3x HDMI, 1x USB, Bluetooth 5.2, Wi-Fi 5"
+      },
+      "pros": [
+        "Vivid Crystal 4K panel with high contrast and PurColor deep saturation",
+        "SolarCell remote charges from indoor room lighting with no disposable batteries",
+        "Built-in Samsung Knox Security protects credentials and smart home devices"
+      ],
+      "cons": [
+        "Tizen OS app store is more limited than Google Play Store",
+        "20W dual speakers benefit from an external soundbar in larger living rooms"
+      ],
+      "expertVerdict": "The most popular 43-inch 4K TV in India, combining sleek bezel-less styling and reliable Samsung warranty under ₹30,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 28990,
+          "offer": "Flat ₹2,000 instant bank discount on SBI credit cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Samsung+43+inch+Crystal+4K+Vivid+Pro+TV+43DU7700&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 29490,
+          "offer": "Extra ₹1,000 off on exchange",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Samsung%2043%20inch%20Crystal%204K%20Vivid%20Pro%20TV%2043DU7700"
+        },
+        {
+          "store": "Croma",
+          "price": 30990,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Samsung%2043%20inch%20Crystal%204K%20Vivid%20Pro%20TV%2043DU7700%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 29990,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Samsung%2043%20inch%20Crystal%204K%20Vivid%20Pro%20TV%2043DU7700"
+        }
+      ]
+    },
+    {
+      "id": "lg-55-4k-55ur7500psc",
+      "slug": "lg-55-4k-55ur7500psc",
+      "name": "LG 55\" 4K Ultra HD Smart LED TV (55UR7500PSC / α5 AI Gen6)",
+      "brand": "LG",
+      "category": "smart-tv",
+      "tags": [
+        "smart-tv",
+        "lg",
+        "4k",
+        "webos",
+        "magic-remote"
+      ],
+      "status": "In Stock",
+      "score": 90,
+      "launchedOn": "18 Jan 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 71990,
+      "specs": {
+        "processor": "α5 AI Processor 4K Gen6 with AI Brightness Control",
+        "display": "55\" 4K Ultra HD (3840x2160) | HDR10 Pro | 4K Upscaling | 60Hz",
+        "camera": "External USB Webcam Supported",
+        "battery": "AC 100-240V | AI Energy Saving Mode",
+        "memory": "webOS 23 with Quick Cards | 3x HDMI (eARC), 2x USB, Apple AirPlay 2"
+      },
+      "pros": [
+        "α5 AI Gen6 chip automatically optimizes frame brightness based on room lighting",
+        "Full Apple AirPlay 2 and HomeKit compatibility alongside Google Assistant",
+        "Game Dashboard and ALLM (Auto Low Latency Mode) for responsive console gaming"
+      ],
+      "cons": [
+        "Magic Remote may need separate purchase depending on retailer listing",
+        "IPS panel blacks look slightly grayish in pitch dark rooms"
+      ],
+      "expertVerdict": "A solid 55-inch 4K living room centerpiece offering smooth webOS navigation and AirPlay 2 streaming under ₹43,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 42990,
+          "offer": "Flat ₹2,500 instant discount on Axis and ICICI cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=LG+55+inch+4K+Ultra+HD+Smart+TV+55UR7500PSC&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 43490,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=LG%2055%20inch%204K%20Ultra%20HD%20Smart%20TV%2055UR7500PSC"
+        },
+        {
+          "store": "Croma",
+          "price": 44990,
+          "offer": "Free standard installation & demo within 48 hours",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=LG%2055%20inch%204K%20Ultra%20HD%20Smart%20TV%2055UR7500PSC%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 43990,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/LG%2055%20inch%204K%20Ultra%20HD%20Smart%20TV%2055UR7500PSC"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-43-x-series-4k",
+      "slug": "xiaomi-43-x-series-4k",
+      "name": "Xiaomi 43\" X Series 4K Ultra HD Smart Google TV",
+      "brand": "Xiaomi",
+      "category": "smart-tv",
+      "tags": [
+        "smart-tv",
+        "xiaomi",
+        "4k",
+        "dolby-vision",
+        "budget-king"
+      ],
+      "status": "In Stock",
+      "score": 88,
+      "launchedOn": "15 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 34999,
+      "specs": {
+        "processor": "Quad Core A55 Processor with Mali G52 MP2 GPU",
+        "display": "43\" 4K UHD (3840x2160) | Dolby Vision | HDR10 | Reality Flow MEMC",
+        "camera": "No Built-in Camera",
+        "battery": "AC 100-240V | 100W Rated Power",
+        "memory": "2GB RAM | 8GB Storage | Google TV with PatchWall+"
+      },
+      "pros": [
+        "Dolby Vision and HDR10 support at an entry-level price point",
+        "Powerful 30W speaker output with Dolby Audio and DTS-HD",
+        "Metallic bezel-less design looks far more premium than its price tag"
+      ],
+      "cons": [
+        "8GB internal storage leaves limited space for heavy app installs",
+        "MEMC smoothing can sometimes look unnatural on old movies"
+      ],
+      "expertVerdict": "The most feature-loaded 43-inch 4K TV under ₹25,000, packing Dolby Vision, 30W speakers, and Google TV.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 23999,
+          "offer": "Flat ₹1,500 instant bank discount on ICICI cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Xiaomi+43+inch+X+Series+4K+Ultra+HD+Google+TV&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 24499,
+          "offer": "₹1,000 off on exchange",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Xiaomi%2043%20inch%20X%20Series%204K%20Ultra%20HD%20Google%20TV"
+        },
+        {
+          "store": "Croma",
+          "price": 25499,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Xiaomi%2043%20inch%20X%20Series%204K%20Ultra%20HD%20Google%20TV%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 24999,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Xiaomi%2043%20inch%20X%20Series%204K%20Ultra%20HD%20Google%20TV"
+        }
+      ]
+    },
+    {
+      "id": "acer-32-advanced-i-hd",
+      "slug": "acer-32-advanced-i-hd",
+      "name": "Acer 32\" Advanced I Series HD Ready Smart Google TV",
+      "brand": "Acer",
+      "category": "smart-tv",
+      "tags": [
+        "smart-tv",
+        "budget",
+        "32-inch",
+        "bedroom-tv"
+      ],
+      "status": "In Stock",
+      "score": 84,
+      "launchedOn": "20 Jan 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 18999,
+      "specs": {
+        "processor": "64-Bit Quad Core Processor with Mali G31 MP2 GPU",
+        "display": "32\" HD Ready (1366x768) | 16.7 Million Colors | 178° Wide Angle",
+        "camera": "No Camera",
+        "battery": "AC 100-240V | 50W Power Consumption",
+        "memory": "1.5GB RAM | 16GB Storage | Google TV | Dual Band Wi-Fi"
+      },
+      "pros": [
+        "Google TV OS with full Chromecast built-in and Voice Remote",
+        "16GB internal storage is twice the capacity of typical 32\" TVs",
+        "Dual-band 2.4GHz/5GHz Wi-Fi ensures buffer-free YouTube and OTT streaming"
+      ],
+      "cons": [
+        "HD Ready (768p) resolution is best suited for small bedrooms, not main halls",
+        "Speakers are 16W, adequate for bedrooms but not cinematic"
+      ],
+      "expertVerdict": "An unbeatable secondary bedroom TV with Google TV OS, generous 16GB storage, and 5GHz Wi-Fi under ₹11,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 10999,
+          "offer": "Flat ₹1,000 instant discount on Axis and HDFC cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Acer+32+inch+Advanced+I+Series+HD+Google+TV&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 11499,
+          "offer": "Special pricing for Plus members",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Acer%2032%20inch%20Advanced%20I%20Series%20HD%20Google%20TV"
+        },
+        {
+          "store": "Croma",
+          "price": 12499,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Acer%2032%20inch%20Advanced%20I%20Series%20HD%20Google%20TV%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 11999,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Acer%2032%20inch%20Advanced%20I%20Series%20HD%20Google%20TV"
+        }
+      ]
+    },
+    {
+      "id": "samsung-236l-double-door",
+      "slug": "samsung-236l-double-door",
+      "name": "Samsung 236L 3-Star Inverter Frost Free Double Door Refrigerator",
+      "brand": "Samsung",
+      "category": "refrigerators",
+      "tags": [
+        "refrigerator",
+        "samsung",
+        "double-door",
+        "frost-free",
+        "inverter"
+      ],
+      "status": "In Stock",
+      "score": 91,
+      "launchedOn": "16 Mar 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 32990,
+      "specs": {
+        "processor": "Digital Inverter Compressor (50% Less Power / 20-Year Warranty)",
+        "display": "Internal Easy-View Temperature Control Dial",
+        "camera": "Not Applicable",
+        "battery": "Stabilizer Free Operation (100V - 300V) | 3-Star Energy Rating",
+        "memory": "236 Liters Capacity (Freezer 53L, Fresh Food 183L) | All-Around Cooling"
+      },
+      "pros": [
+        "Digital Inverter compressor comes with an official 20-year Samsung warranty",
+        "All-Around Cooling vents circulate cool air evenly to every shelf corner",
+        "Easy Slide Shelf pulls out smoothly to grab items stored at the very back"
+      ],
+      "cons": [
+        "Freezer does not have a separate temperature control dial",
+        "Door finish can attract oily fingerprints if handled with greasy hands"
+      ],
+      "expertVerdict": "The quintessential double-door refrigerator for families of 3 to 4, offering rock-solid 20-year compressor reliability under ₹25,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 24990,
+          "offer": "Flat ₹2,000 instant discount on HDFC/ICICI cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Samsung+236L+Double+Door+Refrigerator+RT28C3053S8&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 25490,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Samsung%20236L%20Double%20Door%20Refrigerator%20RT28C3053S8"
+        },
+        {
+          "store": "Croma",
+          "price": 26990,
+          "offer": "Free delivery and unboxing demo",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Samsung%20236L%20Double%20Door%20Refrigerator%20RT28C3053S8%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 25990,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Samsung%20236L%20Double%20Door%20Refrigerator%20RT28C3053S8"
+        }
+      ]
+    },
+    {
+      "id": "lg-185l-single-door-5star",
+      "slug": "lg-185l-single-door-5star",
+      "name": "LG 185L 5-Star Smart Inverter Single Door Refrigerator",
+      "brand": "LG",
+      "category": "refrigerators",
+      "tags": [
+        "refrigerator",
+        "lg",
+        "single-door",
+        "5-star",
+        "energy-saver"
+      ],
+      "status": "In Stock",
+      "score": 92,
+      "launchedOn": "05 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 21999,
+      "specs": {
+        "processor": "Smart Inverter Compressor with 10-Year Warranty",
+        "display": "Mechanical Rotary Thermostat Control",
+        "camera": "Not Applicable",
+        "battery": "5-Star Energy Rating (Consumes ~131 kWh/year) | Works on Home Solar",
+        "memory": "185 Liters Capacity (Freezer 16L, Fresh Food 169L) | Toughened Glass Shelves"
+      },
+      "pros": [
+        "Highest 5-Star BEE energy efficiency saves maximum electricity on monthly bills",
+        "Fastest in-class ice making produces ice cubes in roughly 108 minutes",
+        "Can connect directly to home inverter or solar backup during power outages"
+      ],
+      "cons": [
+        "Manual defrosting required once a week via the defrost push button",
+        "185L capacity is best suited for bachelors or small 2-3 member homes"
+      ],
+      "expertVerdict": "The ultimate power-saving refrigerator for small families and bachelors, sipping minimal electricity with a 5-Star rating under ₹17,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 16990,
+          "offer": "Flat ₹1,500 instant discount on SBI credit cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=LG+185L+5+Star+Inverter+Single+Door+Refrigerator+GL-D201ABEU&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 17490,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=LG%20185L%205%20Star%20Inverter%20Single%20Door%20Refrigerator%20GL-D201ABEU"
+        },
+        {
+          "store": "Croma",
+          "price": 18490,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=LG%20185L%205%20Star%20Inverter%20Single%20Door%20Refrigerator%20GL-D201ABEU%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 17990,
+          "offer": "₹500 instant UPI discount",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/LG%20185L%205%20Star%20Inverter%20Single%20Door%20Refrigerator%20GL-D201ABEU"
+        }
+      ]
+    },
+    {
+      "id": "whirlpool-240l-triple-door",
+      "slug": "whirlpool-240l-triple-door",
+      "name": "Whirlpool 240L Frost-Free Triple Door Refrigerator (Protton)",
+      "brand": "Whirlpool",
+      "category": "refrigerators",
+      "tags": [
+        "refrigerator",
+        "whirlpool",
+        "triple-door",
+        "frost-free",
+        "odor-free"
+      ],
+      "status": "In Stock",
+      "score": 89,
+      "launchedOn": "22 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.192Z",
+      "mrp": 34500,
+      "specs": {
+        "processor": "Energy Efficient Compressor with 10-Year Warranty",
+        "display": "Internal Electronic Airflow Dial",
+        "camera": "Not Applicable",
+        "battery": "Stabilizer Free Operation (160V - 300V) | Consumes Less Energy Than 60W Bulb",
+        "memory": "240 Liters (3 Separate Zones: Top Freezer, Middle Fridge, Bottom Active Fresh)"
+      },
+      "pros": [
+        "Exclusive 3-door layout prevents odor mixing between vegetables and freezer",
+        "Active Fresh Zone at the bottom holds 32L of fresh fruits & veggies",
+        "Zeolite Technology prevents excessive ripening to keep vegetables crisp longer"
+      ],
+      "cons": [
+        "Middle refrigerator door requires bending slightly to reach bottom shelf",
+        "Manual physical temperature slider instead of digital touch panel"
+      ],
+      "expertVerdict": "A brilliant 3-door invention for Indian vegetarian homes that completely eliminates food odor transfer under ₹27,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 26490,
+          "offer": "Flat ₹2,000 instant discount on Bank of Baroda & ICICI cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Whirlpool+240L+Protton+Triple+Door+Refrigerator+FP+263D&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 26990,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Whirlpool%20240L%20Protton%20Triple%20Door%20Refrigerator%20FP%20263D"
+        },
+        {
+          "store": "Croma",
+          "price": 28490,
+          "offer": "Extra ₹1,000 off on exchange",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Whirlpool%20240L%20Protton%20Triple%20Door%20Refrigerator%20FP%20263D%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 27490,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Whirlpool%20240L%20Protton%20Triple%20Door%20Refrigerator%20FP%20263D"
+        }
+      ]
+    },
+    {
+      "id": "haier-325l-bottom-mount",
+      "slug": "haier-325l-bottom-mount",
+      "name": "Haier 325L 3-Star Triple Inverter Bottom Mounted Refrigerator",
+      "brand": "Haier",
+      "category": "refrigerators",
+      "tags": [
+        "refrigerator",
+        "haier",
+        "bottom-mount",
+        "triple-inverter",
+        "convertible"
+      ],
+      "status": "In Stock",
+      "score": 90,
+      "launchedOn": "14 Jan 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 46990,
+      "specs": {
+        "processor": "Triple Inverter & Dual Fan Technology with 10-Year Warranty",
+        "display": "External Digital LED Temperature Display on Door",
+        "camera": "Not Applicable",
+        "battery": "3-Star Energy Rating | Stabilizer Free Operation",
+        "memory": "325 Liters Capacity | 14-in-1 Convertible Modes | Bottom Mounted Freezer"
+      },
+      "pros": [
+        "Bottom mounted freezer means 90% less bending to access daily vegetables and milk",
+        "14-in-1 convertible modes adjust cooling space according to family needs",
+        "Sleek external touch display on door to change temperatures without opening"
+      ],
+      "cons": [
+        "Larger dimensions require at least 65cm kitchen clearance",
+        "Bottom freezer drawers can frost up if door is left open during humid weather"
+      ],
+      "expertVerdict": "The most ergonomic refrigerator for seniors and home cooks who hate bending down for daily veggies, priced under ₹35,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 34990,
+          "offer": "Flat ₹2,500 instant discount on Axis and HDFC cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Haier+325L+Bottom+Mounted+Refrigerator+HEB-333DS-P&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 35490,
+          "offer": "No Cost EMI up to 9 months",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Haier%20325L%20Bottom%20Mounted%20Refrigerator%20HEB-333DS-P"
+        },
+        {
+          "store": "Croma",
+          "price": 36990,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Haier%20325L%20Bottom%20Mounted%20Refrigerator%20HEB-333DS-P%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 35990,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Haier%20325L%20Bottom%20Mounted%20Refrigerator%20HEB-333DS-P"
+        }
+      ]
+    },
+    {
+      "id": "lg-1-5ton-5star-ai-dual-inverter",
+      "slug": "lg-1-5ton-5star-ai-dual-inverter",
+      "name": "LG 1.5 Ton 5-Star AI DUAL Inverter Split AC",
+      "brand": "LG",
+      "category": "air-conditioners",
+      "tags": [
+        "ac",
+        "lg",
+        "5-star",
+        "dual-inverter",
+        "ai-cooling"
+      ],
+      "status": "In Stock",
+      "score": 93,
+      "launchedOn": "10 Mar 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 75990,
+      "specs": {
+        "processor": "AI DUAL Inverter Compressor with 10-Year Warranty & 5-Year PCB Warranty",
+        "display": "Hidden Magic LED Temperature Display",
+        "camera": "Not Applicable",
+        "battery": "5-Star Energy Rating (ISEER 5.2) | 100% Copper Condenser with Ocean Black Fin",
+        "memory": "6-in-1 AI Convertible Cooling | HD Filter with Anti-Virus Coating"
+      },
+      "pros": [
+        "AI Dual Inverter senses room temperature and occupancy to automatically adjust cooling capacity",
+        "Ocean Black Fin anti-corrosive coating protects condenser against coastal salt and pollution rust",
+        "Top-tier 5-Star ISEER 5.2 rating keeps monthly electricity bills significantly lower"
+      ],
+      "cons": [
+        "Standard installation charges apply (standard copper pipe kit included)",
+        "Wi-Fi Smart ThinQ features require buying the Wi-Fi specific model variant"
+      ],
+      "expertVerdict": "India’s most recommended 1.5 Ton 5-Star AC, delivering whisper-quiet cooling, anti-rust protection, and low power draw under ₹45,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 44490,
+          "offer": "Flat ₹3,000 instant discount on HDFC/ICICI cards + free delivery",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=LG+1.5+Ton+5+Star+AI+Dual+Inverter+Split+AC+TS-Q19YNZE&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 44990,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=LG%201.5%20Ton%205%20Star%20AI%20Dual%20Inverter%20Split%20AC%20TS-Q19YNZE"
+        },
+        {
+          "store": "Croma",
+          "price": 46490,
+          "offer": "Standard installation at ₹999 + GST",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=LG%201.5%20Ton%205%20Star%20AI%20Dual%20Inverter%20Split%20AC%20TS-Q19YNZE%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 45490,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/LG%201.5%20Ton%205%20Star%20AI%20Dual%20Inverter%20Split%20AC%20TS-Q19YNZE"
+        }
+      ]
+    },
+    {
+      "id": "daikin-1-5ton-3star-inverter",
+      "slug": "daikin-1-5ton-3star-inverter",
+      "name": "Daikin 1.5 Ton 3-Star Inverter Split AC (PM 2.5 Filter)",
+      "brand": "Daikin",
+      "category": "air-conditioners",
+      "tags": [
+        "ac",
+        "daikin",
+        "heavy-duty",
+        "inverter",
+        "coanda-airflow"
+      ],
+      "status": "In Stock",
+      "score": 91,
+      "launchedOn": "20 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 58400,
+      "specs": {
+        "processor": "Neo Swing Inverter Compressor (10-Year Warranty / 5-Year PCB)",
+        "display": "Triple Display (Set Temp, Room Temp & Power Consumption %)",
+        "camera": "Not Applicable",
+        "battery": "3-Star Energy Rating (ISEER 3.95) | 100% Grooved Copper Condenser",
+        "memory": "Coanda Airflow (Draft-Free Ceiling Cooling) | Built-in PM 2.5 Air Filter"
+      },
+      "pros": [
+        "Patented Coanda Airflow directs cold air up toward ceiling so it does not blast directly onto you",
+        "Built-in PM 2.5 filter traps airborne pollutants and smog particles in city rooms",
+        "Heavy-duty cooling performs reliably even during extreme 54°C summer heatwaves"
+      ],
+      "cons": [
+        "3-Star rating consumes slightly more electricity than 5-Star models over full year",
+        "Remote control does not have backlight for dark bedroom use"
+      ],
+      "expertVerdict": "Engineered for extreme Indian summers, Daikin Coanda airflow offers peaceful draft-free bedroom cooling under ₹38,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 37490,
+          "offer": "Flat ₹2,000 instant discount on SBI & Axis Bank cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Daikin+1.5+Ton+3+Star+Inverter+Split+AC+MTKL50U&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 37990,
+          "offer": "Extra ₹1,500 off on exchange of old AC",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Daikin%201.5%20Ton%203%20Star%20Inverter%20Split%20AC%20MTKL50U"
+        },
+        {
+          "store": "Croma",
+          "price": 39490,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Daikin%201.5%20Ton%203%20Star%20Inverter%20Split%20AC%20MTKL50U%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 38490,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Daikin%201.5%20Ton%203%20Star%20Inverter%20Split%20AC%20MTKL50U"
+        }
+      ]
+    },
+    {
+      "id": "lloyd-1-5ton-3star-inverter",
+      "slug": "lloyd-1-5ton-3star-inverter",
+      "name": "Lloyd 1.5 Ton 3-Star Inverter Split AC (5-in-1 Convertible)",
+      "brand": "Lloyd",
+      "category": "air-conditioners",
+      "tags": [
+        "ac",
+        "lloyd",
+        "havells",
+        "budget-ac",
+        "turbo-cool"
+      ],
+      "status": "In Stock",
+      "score": 88,
+      "launchedOn": "18 Jan 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 58990,
+      "specs": {
+        "processor": "Rotary Inverter Compressor with 10-Year Warranty",
+        "display": "Hidden Digital Temperature Display",
+        "camera": "Not Applicable",
+        "battery": "3-Star Energy Rating | Golden Fin Condenser Coils | Stabilizer Free",
+        "memory": "5-in-1 Convertible Tonnage Modes | Anti-Viral + PM 2.5 Filter"
+      },
+      "pros": [
+        "Rapid Turbo Cool mode chills living rooms to 18°C in under 45 seconds",
+        "Golden Fin corrosion protection enhances durability against moisture and rust",
+        "5-in-1 convertible modes scale cooling down to 40% power when alone in room"
+      ],
+      "cons": [
+        "Outdoor condenser unit fan is slightly louder than Daikin / LG",
+        "BEE energy efficiency is middle of the pack compared to 5-star ACs"
+      ],
+      "expertVerdict": "The undisputed budget-friendly 1.5 Ton inverter AC in India, backed by Havells after-sales support under ₹33,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 32990,
+          "offer": "Flat ₹1,750 instant discount on ICICI & Kotak cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Lloyd+1.5+Ton+3+Star+Inverter+Split+AC+GLS18I3FWAGC&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 33490,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Lloyd%201.5%20Ton%203%20Star%20Inverter%20Split%20AC%20GLS18I3FWAGC"
+        },
+        {
+          "store": "Croma",
+          "price": 34990,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Lloyd%201.5%20Ton%203%20Star%20Inverter%20Split%20AC%20GLS18I3FWAGC%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 33990,
+          "offer": "₹750 instant UPI discount",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Lloyd%201.5%20Ton%203%20Star%20Inverter%20Split%20AC%20GLS18I3FWAGC"
+        }
+      ]
+    },
+    {
+      "id": "oneplus-nord-ce4-5g",
+      "slug": "oneplus-nord-ce4-5g",
+      "name": "OnePlus Nord CE4 5G (8GB/128GB / 100W SuperVOOC)",
+      "brand": "OnePlus",
+      "category": "smartphones",
+      "tags": [
+        "5g",
+        "fast-charge",
+        "amoled",
+        "performance"
+      ],
+      "status": "In Stock",
+      "score": 89,
+      "launchedOn": "04 Apr 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 26999,
+      "specs": {
+        "processor": "Qualcomm Snapdragon 7 Gen 3 (4nm Octa-Core)",
+        "display": "6.7\" FHD+ AMOLED | 120Hz | Aqua Touch (Wet Finger Support)",
+        "camera": "50MP Sony LYT-600 with OIS | 8MP Ultra-Wide | 16MP Front",
+        "battery": "5500mAh Battery | 100W SUPERVOOC (1-100% in 28 mins)",
+        "memory": "8GB LPDDR4X | 128GB UFS 3.1 (Expandable up to 1TB via MicroSD)"
+      },
+      "pros": [
+        "Blazing fast 100W SuperVOOC charger fills massive 5500mAh battery in 28 minutes",
+        "Efficient Snapdragon 7 Gen 3 handles high-FPS BGMI and multitasking with ease",
+        "Aqua Touch display allows accurate typing even with wet fingers or in rain"
+      ],
+      "cons": [
+        "Hybrid SIM card tray forces choice between second SIM and MicroSD",
+        "Plastic back panel lacks metallic feel"
+      ],
+      "expertVerdict": "The most well-rounded 5G daily driver in the sub-₹25,000 bracket, packing 100W charging and a Sony OIS camera.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 24999,
+          "offer": "Flat ₹1,500 instant discount on ICICI/HDFC cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=OnePlus+Nord+CE4+5G+8GB+128GB&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 25499,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=OnePlus%20Nord%20CE4%205G%208GB%20128GB"
+        },
+        {
+          "store": "Croma",
+          "price": 25999,
+          "offer": "Free screen protector in-store",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=OnePlus%20Nord%20CE4%205G%208GB%20128GB%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 25499,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/OnePlus%20Nord%20CE4%205G%208GB%20128GB"
+        }
+      ]
+    },
+    {
+      "id": "motorola-edge-50-fusion",
+      "slug": "motorola-edge-50-fusion",
+      "name": "Motorola Edge 50 Fusion 5G (8GB/128GB / 144Hz Curved pOLED)",
+      "brand": "Motorola",
+      "category": "smartphones",
+      "tags": [
+        "5g",
+        "curved-display",
+        "ip68",
+        "clean-android"
+      ],
+      "status": "In Stock",
+      "score": 90,
+      "launchedOn": "22 May 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 25999,
+      "specs": {
+        "processor": "Qualcomm Snapdragon 7s Gen 2 (4nm Octa-Core)",
+        "display": "6.7\" 3D Curved 144Hz Endless Edge pOLED | 1600 nits Peak",
+        "camera": "50MP Sony LYTIA 700C with OIS | 13MP Ultra-Wide Macro | 32MP Front",
+        "battery": "5000mAh Battery | 68W TurboPower Fast Charging in box",
+        "memory": "8GB LPDDR4X | 128GB UFS 2.2 | IP68 Underwater Protection"
+      },
+      "pros": [
+        "True IP68 water and dust underwater submersion rating under ₹23,000",
+        "Gorgeous 144Hz curved pOLED display with Pantone validated colors",
+        "Ad-free clean Hello UI software based on Android 14"
+      ],
+      "cons": [
+        "Curved display is more prone to edge drops without a raised bumper case",
+        "No MicroSD expandable storage slot"
+      ],
+      "expertVerdict": "A design masterpiece with IP68 water resistance, clean software, and a stunning 144Hz curved display under ₹23,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 22999,
+          "offer": "Check partner seller listings",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Motorola+Edge+50+Fusion+5G+8GB+128GB&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 22999,
+          "offer": "Flat ₹1,000 off on ICICI and Axis Bank cards",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Motorola%20Edge%2050%20Fusion%205G%208GB%20128GB"
+        },
+        {
+          "store": "Croma",
+          "price": 23999,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Motorola%20Edge%2050%20Fusion%205G%208GB%20128GB%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 23499,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Motorola%20Edge%2050%20Fusion%205G%208GB%20128GB"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-15-128gb",
+      "slug": "apple-iphone-15-128gb",
+      "name": "Apple iPhone 15 128GB (Dynamic Island / USB-C / 48MP)",
+      "brand": "Apple",
+      "category": "smartphones",
+      "tags": [
+        "5g",
+        "apple",
+        "premium",
+        "camera-king"
+      ],
+      "status": "In Stock",
+      "score": 95,
+      "launchedOn": "15 Sep 2025",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 79900,
+      "specs": {
+        "processor": "Apple A16 Bionic Chip (6-Core CPU, 5-Core GPU, 16-Core Neural Engine)",
+        "display": "6.1\" Super Retina XDR OLED | Dynamic Island | 2000 nits Outdoor Peak",
+        "camera": "48MP Main Camera (2x Telephoto Sensor Crop) | 12MP Ultra-Wide | 12MP TrueDepth",
+        "battery": "3349mAh All-Day Battery | USB-C Universal Port | MagSafe 15W",
+        "memory": "6GB RAM | 128GB NVMe Internal Storage | IP68 (6m up to 30 mins)"
+      },
+      "pros": [
+        "Universal USB-C port allows using any modern Android or laptop charger",
+        "Dynamic Island interactive alerts and 48MP photos with next-gen portraits",
+        "Superb video recording stabilization and Dolby Vision HDR quality"
+      ],
+      "cons": [
+        "Display refresh rate is standard 60Hz instead of 120Hz ProMotion",
+        "20W charging speed is slow compared to 100W Android flagships"
+      ],
+      "expertVerdict": "The most sensible iPhone purchase for most people, featuring Dynamic Island, modern USB-C, and class-leading 48MP camera quality under ₹60,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 58999,
+          "offer": "Flat ₹4,000 instant discount on ICICI/HDFC cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Apple+iPhone+15+128GB&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 59999,
+          "offer": "Exchange bonus up to ₹3,000",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Apple%20iPhone%2015%20128GB"
+        },
+        {
+          "store": "Croma",
+          "price": 61990,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Apple%20iPhone%2015%20128GB%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 60990,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Apple%20iPhone%2015%20128GB"
+        }
+      ]
+    },
+    {
+      "id": "realme-buds-air-6-anc",
+      "slug": "realme-buds-air-6-anc",
+      "name": "Realme Buds Air 6 ANC (50dB Active Noise Cancellation / Hi-Res)",
+      "brand": "Realme",
+      "category": "audio",
+      "tags": [
+        "audio",
+        "anc",
+        "hi-res",
+        "gaming-low-latency"
+      ],
+      "status": "In Stock",
+      "score": 90,
+      "launchedOn": "25 May 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 4999,
+      "specs": {
+        "processor": "12.4mm Deep Bass Dynamic Drivers with Titanium Diaphragm",
+        "display": "Smart Wear Detection Sensor",
+        "camera": "Not Applicable",
+        "battery": "40 Hours Total Playtime | 10 Mins Fast Charge = 7 Hours Music",
+        "memory": "50dB Smart Active Noise Cancellation | LHDC 5.0 Hi-Res Audio | 55ms Latency"
+      },
+      "pros": [
+        "Industry-leading 50dB active noise cancellation silences train and office hums",
+        "Hi-Res Audio Wireless certification with LHDC 5.0 codec support",
+        "Ultra-low 55ms latency mode eliminates audio lag in gaming"
+      ],
+      "cons": [
+        "LHDC high-resolution audio requires a compatible modern Android smartphone",
+        "Glossy pebble case can accumulate hairline pocket scratches"
+      ],
+      "expertVerdict": "The undisputed champion of budget noise-cancelling earbuds, offering 50dB flagship ANC under ₹3,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 2999,
+          "offer": "Flat ₹300 instant coupon discount applied at checkout",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Realme+Buds+Air+6+ANC+TWS+Earbuds&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 3099,
+          "offer": "Special festive pricing",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Realme%20Buds%20Air%206%20ANC%20TWS%20Earbuds"
+        },
+        {
+          "store": "Croma",
+          "price": 3299,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Realme%20Buds%20Air%206%20ANC%20TWS%20Earbuds%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 3199,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Realme%20Buds%20Air%206%20ANC%20TWS%20Earbuds"
+        }
+      ]
+    },
+    {
+      "id": "sony-wf-c500",
+      "slug": "sony-wf-c500",
+      "name": "Sony WF-C500 Truly Wireless Bluetooth Earbuds",
+      "brand": "Sony",
+      "category": "audio",
+      "tags": [
+        "audio",
+        "sony",
+        "sound-quality",
+        "compact"
+      ],
+      "status": "In Stock",
+      "score": 89,
+      "launchedOn": "10 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 8990,
+      "specs": {
+        "processor": "5.8mm High-Precision Drivers with DSEE Audio Restoration",
+        "display": "Physical Tactile Click Buttons",
+        "camera": "Not Applicable",
+        "battery": "20 Hours Battery (10h Earbuds + 10h Case) | 10 Mins Fast Charge = 1 Hour",
+        "memory": "Sony Headphones Connect App with Custom EQ | IPX4 Splash Resistance"
+      },
+      "pros": [
+        "Sony DSEE technology restores high-frequency details lost in MP3 compression",
+        "Full customizable equalizer presets via Sony Headphones Connect app",
+        "Tiny ergonomic capsule design fits securely even in smaller ears"
+      ],
+      "cons": [
+        "No Active Noise Cancellation (relies on passive silicone ear-tip seal)",
+        "Charging case provides only 1 additional recharge"
+      ],
+      "expertVerdict": "The best-sounding branded wireless earbuds for audiophiles who prioritize authentic musical tuning over ANC under ₹4,500.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 4490,
+          "offer": "Flat ₹500 instant discount on all major bank cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Sony+WF-C500+Truly+Wireless+Earbuds&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 4690,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Sony%20WF-C500%20Truly%20Wireless%20Earbuds"
+        },
+        {
+          "store": "Croma",
+          "price": 4990,
+          "offer": "Extra 5% off in Croma retail stores",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Sony%20WF-C500%20Truly%20Wireless%20Earbuds%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 4790,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Sony%20WF-C500%20Truly%20Wireless%20Earbuds"
+        }
+      ]
+    },
+    {
+      "id": "noise-colorfit-pro-5",
+      "slug": "noise-colorfit-pro-5",
+      "name": "Noise ColorFit Pro 5 (1.85\" AMOLED / BT Calling / SOS)",
+      "brand": "Noise",
+      "category": "smartwatches",
+      "tags": [
+        "smartwatches",
+        "amoled",
+        "bt-calling",
+        "fitness"
+      ],
+      "status": "In Stock",
+      "score": 87,
+      "launchedOn": "18 Apr 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 6999,
+      "specs": {
+        "processor": "Single-Chip TruSync Bluetooth 5.3 SoC",
+        "display": "1.85\" AMOLED Display (390x450) | 600 nits | Always-On Display",
+        "camera": "Remote Camera Shutter Control",
+        "battery": "Up to 7 Days Typical Battery Life (2 Days with Heavy Calling)",
+        "memory": "Noise Health Suite (SpO2, 24x7 Heart Rate, Sleep Tracking, Stress & SOS)"
+      },
+      "pros": [
+        "Vibrant 1.85\" AMOLED display with punchy blacks and Always-On Watch Faces",
+        "Crystal clear Bluetooth calling with fast dial pad and favorite contacts",
+        "Emergency SOS feature calls designated guardian contact with 3 crown clicks"
+      ],
+      "cons": [
+        "No standalone GPS (relies on paired phone GPS for outdoor running maps)",
+        "Step counter can occasionally register false steps during bumpy bike rides"
+      ],
+      "expertVerdict": "A stylish everyday smartwatch with a bright AMOLED screen, seamless Bluetooth calling, and safety SOS features under ₹2,800.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 2799,
+          "offer": "Flat ₹200 coupon discount applied at checkout",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Noise+ColorFit+Pro+5+AMOLED+Smartwatch&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 2899,
+          "offer": "Buy 2 get extra 5% off",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Noise%20ColorFit%20Pro%205%20AMOLED%20Smartwatch"
+        },
+        {
+          "store": "Croma",
+          "price": 2999,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Noise%20ColorFit%20Pro%205%20AMOLED%20Smartwatch%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 2899,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Noise%20ColorFit%20Pro%205%20AMOLED%20Smartwatch"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-watch-4-44mm",
+      "slug": "samsung-galaxy-watch-4-44mm",
+      "name": "Samsung Galaxy Watch 4 Bluetooth 44mm (WearOS / BIA / ECG)",
+      "brand": "Samsung",
+      "category": "smartwatches",
+      "tags": [
+        "smartwatches",
+        "wearos",
+        "google-play",
+        "ecg",
+        "premium"
+      ],
+      "status": "In Stock",
+      "score": 92,
+      "launchedOn": "12 Jan 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 29999,
+      "specs": {
+        "processor": "Exynos W920 Dual Core 1.18GHz (5nm High-Efficiency Processor)",
+        "display": "1.4\" Super AMOLED (450x450) | Corning Gorilla Glass DX+ | Always-On",
+        "camera": "Remote Camera Controller for Galaxy Phones",
+        "battery": "361mAh Battery | Wireless Charging | Up to 40 Hours Runtime",
+        "memory": "1.5GB RAM | 16GB Storage | WearOS Powered by Samsung with Google Play Store"
+      },
+      "pros": [
+        "True smartwatch powered by WearOS: install WhatsApp, Google Maps, Spotify, and Strava",
+        "BioActive Sensor measures Body Composition (BMI, body fat %, skeletal muscle)",
+        "Reply to messages with on-screen QWERTY keyboard, voice dictation, or handwriting"
+      ],
+      "cons": [
+        "Battery needs charging once every 24 to 36 hours",
+        "Not compatible with Apple iPhones (Android only)"
+      ],
+      "expertVerdict": "The only true WearOS smartwatch with Google Play Store apps, maps, and body composition analysis under ₹10,000.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 9999,
+          "offer": "Flat ₹1,000 instant bank discount on ICICI cards",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=Samsung+Galaxy+Watch+4+Bluetooth+44mm&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 10499,
+          "offer": "5% unlimited cashback on Flipkart Axis Bank Card",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Watch%204%20Bluetooth%2044mm"
+        },
+        {
+          "store": "Croma",
+          "price": 10999,
+          "offer": "Special outlet pricing",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=Samsung%20Galaxy%20Watch%204%20Bluetooth%2044mm%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 10499,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/Samsung%20Galaxy%20Watch%204%20Bluetooth%2044mm"
+        }
+      ]
+    },
+    {
+      "id": "sandisk-ultra-128gb-microsd",
+      "slug": "sandisk-ultra-128gb-microsd",
+      "name": "SanDisk Ultra 128GB microSDXC UHS-I Card 140MB/s",
+      "brand": "SanDisk",
+      "category": "accessories",
+      "tags": [
+        "accessories",
+        "storage",
+        "microsd",
+        "cctv",
+        "mobile"
+      ],
+      "status": "In Stock",
+      "score": 91,
+      "launchedOn": "10 Feb 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 1800,
+      "specs": {
+        "processor": "SanDisk High-Speed Flash Controller",
+        "display": "Not Applicable",
+        "camera": "Rated A1 for Faster Android App Performance",
+        "battery": "Shockproof, Temperature-Proof, Waterproof and X-ray Proof",
+        "memory": "128GB Storage Capacity | Up to 140MB/s Read Speed | Class 10 UHS-I"
+      },
+      "pros": [
+        "Transfer up to 1,000 high-res photos in less than one minute at 140MB/s",
+        "A1 rating loads Android apps and mobile games significantly faster",
+        "Backed by an official 10-year limited manufacturer warranty"
+      ],
+      "cons": [
+        "Write speed is lower (~30-40MB/s), sufficient for Full HD but not 8K RAW video",
+        "SD adapter card is sold separately in select bulk packaging"
+      ],
+      "expertVerdict": "The most reliable and cost-effective microSD storage expansion for Android phones, tablets, and home security cameras under ₹900.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 899,
+          "offer": "Free Prime same-day delivery available",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=SanDisk+Ultra+128GB+microSDXC+Card+140MB%2Fs&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 949,
+          "offer": "Special combo pack discount",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=SanDisk%20Ultra%20128GB%20microSDXC%20Card%20140MB%2Fs"
+        },
+        {
+          "store": "Croma",
+          "price": 1049,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=SanDisk%20Ultra%20128GB%20microSDXC%20Card%20140MB%2Fs%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 929,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/SanDisk%20Ultra%20128GB%20microSDXC%20Card%20140MB%2Fs"
+        }
+      ]
+    },
+    {
+      "id": "tplink-archer-c6-gigabit-router",
+      "slug": "tplink-archer-c6-gigabit-router",
+      "name": "TP-Link Archer C6 AC1200 Dual Band Gigabit Wi-Fi Router",
+      "brand": "TP-Link",
+      "category": "accessories",
+      "tags": [
+        "accessories",
+        "networking",
+        "wifi-router",
+        "gigabit"
+      ],
+      "status": "In Stock",
+      "score": 89,
+      "launchedOn": "15 Mar 2026",
+      "updatedAt": "2026-11-19T07:14:42.193Z",
+      "mrp": 3999,
+      "specs": {
+        "processor": "Qualcomm High-Efficiency Network Processor",
+        "display": "LED Status Indicators for Internet, Wi-Fi, Ethernet & Power",
+        "camera": "Not Applicable",
+        "battery": "12V 1A DC External Power Adapter",
+        "memory": "AC1200 Dual-Band (867Mbps 5GHz + 300Mbps 2.4GHz) | 4 Full Gigabit LAN Ports | 4 External Antennas"
+      },
+      "pros": [
+        "Full Gigabit WAN and 4 Gigabit LAN ports unlock 100% speed on 100Mbps to 1Gbps fiber plans",
+        "MU-MIMO technology streams to multiple phones, laptops, and smart TVs simultaneously",
+        "Easily configured via TP-Link Tether smartphone app with parental controls and guest Wi-Fi"
+      ],
+      "cons": [
+        "Wi-Fi 5 (802.11ac) rather than newer Wi-Fi 6 standard",
+        "No built-in USB port for hard drive network sharing"
+      ],
+      "expertVerdict": "The gold standard budget gigabit router for Indian fiber broadband connections (JioFiber, Airtel Xstream, Excitel) under ₹2,200.",
+      "stores": [
+        {
+          "store": "Amazon",
+          "price": 2199,
+          "offer": "Flat ₹200 instant card discount applied at checkout",
+          "inStock": true,
+          "url": "https://www.amazon.in/s?k=TP-Link+Archer+C6+AC1200+Gigabit+Router&tag=teachunder-21"
+        },
+        {
+          "store": "Flipkart",
+          "price": 2299,
+          "offer": "Prepaid order discount",
+          "inStock": true,
+          "url": "https://www.flipkart.com/search?q=TP-Link%20Archer%20C6%20AC1200%20Gigabit%20Router"
+        },
+        {
+          "store": "Croma",
+          "price": 2499,
+          "offer": "Up to ₹1,500 instant discount on bank credit cards",
+          "inStock": true,
+          "url": "https://www.croma.com/searchB?q=TP-Link%20Archer%20C6%20AC1200%20Gigabit%20Router%3Arelevance"
+        },
+        {
+          "store": "JioMart",
+          "price": 2349,
+          "offer": "₹500 instant discount via UPI payment",
+          "inStock": true,
+          "url": "https://www.jiomart.com/search/TP-Link%20Archer%20C6%20AC1200%20Gigabit%20Router"
+        }
+      ]
     }
   ]
 }

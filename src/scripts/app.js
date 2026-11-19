@@ -42,7 +42,7 @@
       const stores = (card.dataset.stores || '').toLowerCase().split(',');
       const text = (card.dataset.search || '').toLowerCase();
 
-      if (state.category !== 'all' && cat !== state.category) return false;
+      if (state.category !== 'all' && cat !== state.category && !(state.category === 'ac' && cat === 'air-conditioners') && !(state.category === 'air-conditioners' && cat === 'ac')) return false;
       if (Number.isFinite(state.maxPrice) && price > state.maxPrice) return false;
       if (state.store !== 'all' && !stores.includes(state.store.toLowerCase())) return false;
       if (q && !text.includes(q)) return false;
@@ -83,24 +83,141 @@
     }
   }
 
+  const budgetSelect = document.getElementById('budget-select');
+  const priceGroup = document.querySelector('.filter-bar .filter-group:nth-child(2)');
+
+  const CATEGORY_PRICES = {
+    laptops: [
+      { val: 0, label: 'All Budgets' },
+      { val: 30000, label: 'Under ₹30,000' },
+      { val: 40000, label: 'Under ₹40,000' },
+      { val: 50000, label: 'Under ₹50,000' },
+      { val: 60000, label: 'Under ₹60,000' },
+      { val: 80000, label: 'Under ₹80,000' },
+      { val: 100000, label: 'Under ₹1,00,000' }
+    ],
+    tablets: [
+      { val: 0, label: 'All Budgets' },
+      { val: 15000, label: 'Under ₹15,000' },
+      { val: 20000, label: 'Under ₹20,000' },
+      { val: 25000, label: 'Under ₹25,000' },
+      { val: 35000, label: 'Under ₹35,000' },
+      { val: 60000, label: 'Under ₹60,000' }
+    ],
+    'smart-tv': [
+      { val: 0, label: 'All Budgets' },
+      { val: 15000, label: 'Under ₹15,000' },
+      { val: 25000, label: 'Under ₹25,000' },
+      { val: 35000, label: 'Under ₹35,000' },
+      { val: 45000, label: 'Under ₹45,000' },
+      { val: 60000, label: 'Under ₹60,000' }
+    ],
+    refrigerators: [
+      { val: 0, label: 'All Budgets' },
+      { val: 15000, label: 'Under ₹15,000' },
+      { val: 20000, label: 'Under ₹20,000' },
+      { val: 25000, label: 'Under ₹25,000' },
+      { val: 35000, label: 'Under ₹35,000' },
+      { val: 50000, label: 'Under ₹50,000' }
+    ],
+    'air-conditioners': [
+      { val: 0, label: 'All Budgets' },
+      { val: 30000, label: 'Under ₹30,000' },
+      { val: 35000, label: 'Under ₹35,000' },
+      { val: 40000, label: 'Under ₹40,000' },
+      { val: 45000, label: 'Under ₹45,000' },
+      { val: 55000, label: 'Under ₹55,000' }
+    ],
+    smartphones: [
+      { val: 0, label: 'All Budgets' },
+      { val: 10000, label: 'Under ₹10,000' },
+      { val: 15000, label: 'Under ₹15,000' },
+      { val: 20000, label: 'Under ₹20,000' },
+      { val: 30000, label: 'Under ₹30,000' },
+      { val: 50000, label: 'Under ₹50,000' },
+      { val: 70000, label: 'Under ₹70,000' }
+    ],
+    audio: [
+      { val: 0, label: 'All Budgets' },
+      { val: 1000, label: 'Under ₹1,000' },
+      { val: 1500, label: 'Under ₹1,500' },
+      { val: 2500, label: 'Under ₹2,500' },
+      { val: 3500, label: 'Under ₹3,500' },
+      { val: 5000, label: 'Under ₹5,000' }
+    ],
+    smartwatches: [
+      { val: 0, label: 'All Budgets' },
+      { val: 1500, label: 'Under ₹1,500' },
+      { val: 2500, label: 'Under ₹2,500' },
+      { val: 4000, label: 'Under ₹4,000' },
+      { val: 7000, label: 'Under ₹7,000' },
+      { val: 12000, label: 'Under ₹12,000' }
+    ],
+    accessories: [
+      { val: 0, label: 'All Budgets' },
+      { val: 500, label: 'Under ₹500' },
+      { val: 1000, label: 'Under ₹1,000' },
+      { val: 1500, label: 'Under ₹1,500' },
+      { val: 2500, label: 'Under ₹2,500' }
+    ],
+    all: [
+      { val: 0, label: 'All Budgets' },
+      { val: 1000, label: 'Under ₹1,000' },
+      { val: 5000, label: 'Under ₹5,000' },
+      { val: 10000, label: 'Under ₹10,000' },
+      { val: 20000, label: 'Under ₹20,000' },
+      { val: 40000, label: 'Under ₹40,000' },
+      { val: 70000, label: 'Under ₹70,000' }
+    ]
+  };
+
+  function updatePriceOptions(catKey) {
+    const list = CATEGORY_PRICES[catKey] || CATEGORY_PRICES.all;
+    if (priceGroup) {
+      priceGroup.innerHTML = list.map((b) => `<button type="button" class="chip-btn ${b.val === 0 ? 'active' : ''}" data-filter-price="${b.val}">${escapeHtml(b.label)}</button>`).join('');
+      bindPriceButtons();
+    }
+    if (budgetSelect) {
+      budgetSelect.innerHTML = list.map((b) => `<option value="${b.val}" ${b.val === 0 ? 'selected' : ''}>${escapeHtml(b.label)}</option>`).join('');
+    }
+    state.maxPrice = Infinity;
+  }
+
+  function bindPriceButtons() {
+    document.querySelectorAll('[data-filter-price]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('[data-filter-price]').forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        const p = Number(btn.dataset.filterPrice);
+        state.maxPrice = p > 0 ? p : Infinity;
+        if (budgetSelect) budgetSelect.value = String(p);
+        applyFilters();
+      });
+    });
+  }
+
   document.querySelectorAll('[data-filter-cat]').forEach((btn) => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('[data-filter-cat]').forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
       state.category = btn.dataset.filterCat;
+      updatePriceOptions(state.category);
       applyFilters();
     });
   });
 
-  document.querySelectorAll('[data-filter-price]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('[data-filter-price]').forEach((b) => b.classList.remove('active'));
-      btn.classList.add('active');
-      const p = Number(btn.dataset.filterPrice);
+  bindPriceButtons();
+
+  if (budgetSelect) {
+    budgetSelect.addEventListener('change', (e) => {
+      const p = Number(e.target.value);
       state.maxPrice = p > 0 ? p : Infinity;
+      document.querySelectorAll('[data-filter-price]').forEach((b) => {
+        b.classList.toggle('active', Number(b.dataset.filterPrice) === (p > 0 ? p : 0));
+      });
       applyFilters();
     });
-  });
+  }
 
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {

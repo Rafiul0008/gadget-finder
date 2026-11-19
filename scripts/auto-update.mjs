@@ -134,9 +134,9 @@ async function structureWithGemini(rawDeal) {
     `Store: ${rawDeal.store}`,
     `Price INR: ${rawDeal.price}`,
     `Details: ${rawDeal.desc}`,
-    'Only return electronics (smartphones, laptops, audio, smartwatches, accessories). If NOT an electronics/tech gadget, return {"skip": true}.',
+    'Only return electronics & appliances (smartphones, laptops, tablets, smart-tv, refrigerators, air-conditioners, audio, smartwatches, accessories). If NOT in these categories, return {"skip": true}.',
     'Otherwise return JSON strictly matching:',
-    '{"skip":false,"name":"Clean product name","brand":"Brand","category":"smartphones|laptops|audio|smartwatches|accessories","mrp":number,"score":65-92,"specs":{"processor":"...","display":"...","camera":"...","battery":"...","memory":"..."},"pros":["...","..."],"cons":["...","..."],"expertVerdict":"1 sentence honest summary","offer":"Short bank/discount summary"}'
+    '{"skip":false,"name":"Clean product name","brand":"Brand","category":"smartphones|laptops|tablets|smart-tv|refrigerators|air-conditioners|audio|smartwatches|accessories","mrp":number,"score":65-92,"specs":{"processor":"...","display":"...","camera":"...","battery":"...","memory":"..."},"pros":["...","..."],"cons":["...","..."],"expertVerdict":"1 sentence honest summary","offer":"Short bank/discount summary"}'
   ].join('\n');
 
   for (const model of models) {
@@ -197,8 +197,9 @@ async function main() {
     if (!slug || existingBySlug.has(slug)) continue;
 
     const q = encodeURIComponent(ai.name);
+    const tagParam = config.affiliates?.amazonTag ? `&tag=${encodeURIComponent(config.affiliates.amazonTag)}` : '';
     const defaultStores = [
-      { store: 'Amazon', price: deal.price, offer: ai.offer || 'Check Amazon bank offers', inStock: true, url: `https://www.amazon.in/s?k=${q}` },
+      { store: 'Amazon', price: deal.price, offer: ai.offer || 'Check Amazon bank offers', inStock: true, url: `https://www.amazon.in/s?k=${q}${tagParam}` },
       { store: 'Flipkart', price: deal.price, offer: 'Check Flipkart Axis/UPI offers', inStock: true, url: `https://www.flipkart.com/search?q=${q}` },
       { store: 'Croma', price: deal.price, offer: 'Check Croma store deals', inStock: true, url: `https://www.croma.com/searchB?q=${q}%3Arelevance` },
       { store: 'JioMart', price: deal.price, offer: 'Check JioMart wallet cashback', inStock: true, url: `https://www.jiomart.com/search/${q}` }
@@ -207,12 +208,15 @@ async function main() {
       ? defaultStores
       : [{ store: deal.store, price: deal.price, offer: ai.offer || deal.offer, inStock: true, url: deal.link }];
 
+    const validCategories = ['smartphones', 'laptops', 'tablets', 'smart-tv', 'refrigerators', 'air-conditioners', 'audio', 'smartwatches', 'accessories'];
+    const category = validCategories.includes(ai.category) ? ai.category : 'accessories';
+
     const product = {
       id: slug,
       slug,
       name: ai.name,
       brand: ai.brand || ai.name.split(' ')[0],
-      category: ['smartphones', 'laptops', 'audio', 'smartwatches', 'accessories'].includes(ai.category) ? ai.category : 'accessories',
+      category,
       tags: ['deal', deal.price <= 1000 ? 'under-1000' : deal.price <= 10000 ? 'under-10000' : 'featured'],
       status: 'In Stock',
       score: Math.min(95, Math.max(60, Number(ai.score) || 78)),
