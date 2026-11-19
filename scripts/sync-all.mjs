@@ -17,6 +17,7 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const steps = [
   { name: 'Scan newly launched phones & refresh prices', cmd: 'node', args: ['scripts/scrape-phones.mjs', '--discover', '--refresh-prices', '--limit', '80'], optional: true },
   { name: 'Fetch missing phone images', cmd: 'node', args: ['scripts/fetch-images.mjs'], optional: true },
+  { name: 'Fetch product category images', cmd: 'node', args: ['scripts/fetch-product-images.mjs'], optional: true },
   { name: 'Sync live deals & discounts', cmd: 'node', args: ['scripts/auto-update.mjs'], optional: true },
   { name: 'Fetch top 5 daily trending gadget news & images', cmd: 'node', args: ['scripts/fetch-daily-news.mjs'], optional: true },
   { name: 'Rebuild static site into dist/', cmd: 'node', args: ['scripts/build.mjs'], optional: false },
