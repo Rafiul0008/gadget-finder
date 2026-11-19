@@ -176,7 +176,9 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
     ? config.monetag.verificationMeta
     : '';
   const monetagScript = config.monetag?.enabled
-    ? `<script>(function(s){s.dataset.zone='${esc(config.monetag.zoneId || '12288311')}',s.src='${esc(config.monetag.zoneScriptUrl || 'https://n6wxm.com/vignette.min.js')}'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>`
+    ? (config.monetag.zoneScriptUrl && config.monetag.zoneScriptUrl.includes('tag.min.js')
+      ? `<script src="${esc(config.monetag.zoneScriptUrl)}" data-zone="${esc(config.monetag.zoneId || '312427')}" async data-cfasync="false"></script>`
+      : `<script>(function(s){s.dataset.zone='${esc(config.monetag.zoneId || '12288311')}',s.src='${esc(config.monetag.zoneScriptUrl || 'https://n6wxm.com/vignette.min.js')}'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>`)
     : '';
   const gaScript = config.analytics?.gaMeasurementId
     ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(config.analytics.gaMeasurementId)}"></script>
