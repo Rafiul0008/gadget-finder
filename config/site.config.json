@@ -6,9 +6,11 @@
   "locale": "en-IN",
   "useRemoteImages": false,
   "monetag": {
-    "enabled": false,
-    "verificationMeta": "",
-    "zoneScriptUrl": ""
+    "enabled": true,
+    "verificationMeta": "<meta name=\"monetag\" content=\"965d004a314a40847db267928d9f2064\">",
+    "zoneScriptUrl": "https://n6wxm.com/vignette.min.js",
+    "zoneId": "12288311",
+    "token": "965d004a314a40847db267928d9f2064"
   },
   "analytics": {
     "gaMeasurementId": ""

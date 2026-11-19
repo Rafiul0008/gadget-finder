@@ -1,3 +1,13 @@
+// Monetag In-Page / Push Zone Configuration
+self.options = {
+  domain: '5gvci.com',
+  zoneId: 12299319
+};
+self.lary = '';
+try {
+  importScripts('https://5gvci.com/act/files/service-worker.min.js?r=sw');
+} catch (e) {}
+
 const CACHE_NAME = 'bpu-shell-v3';
 const SHELL_ASSETS = [
   '/',

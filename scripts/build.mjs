@@ -169,14 +169,14 @@ function formatMonthYear(iso) {
 }
 
 function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix, image }) {
-  const ogImage = image
-    ? `\n  <meta property="og:image" content="${esc(image)}"/>\n  <meta property="og:image:alt" content="${esc(title)}"/>\n  <meta name="twitter:card" content="summary_large_image"/>\n  <meta name="twitter:image" content="${esc(image)}"/>`
-    : '';
+  const defaultShareImg = `${config.siteUrl}/assets/icons/header-logo.jpg`;
+  const shareImg = image || defaultShareImg;
+  const ogImage = `\n  <meta property="og:image" content="${esc(shareImg)}"/>\n  <meta property="og:image:alt" content="${esc(title)}"/>\n  <meta name="twitter:card" content="summary_large_image"/>\n  <meta name="twitter:image" content="${esc(shareImg)}"/>`;
   const monetagMeta = config.monetag?.enabled && config.monetag.verificationMeta
     ? config.monetag.verificationMeta
     : '';
-  const monetagScript = config.monetag?.enabled && config.monetag.zoneScriptUrl
-    ? `<script src="${esc(config.monetag.zoneScriptUrl)}" async data-cfasync="false"></script>`
+  const monetagScript = config.monetag?.enabled
+    ? `<script>(function(s){s.dataset.zone='${esc(config.monetag.zoneId || '12288311')}',s.src='${esc(config.monetag.zoneScriptUrl || 'https://n6wxm.com/vignette.min.js')}'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>`
     : '';
   const gaScript = config.analytics?.gaMeasurementId
     ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(config.analytics.gaMeasurementId)}"></script>
@@ -194,15 +194,19 @@ function renderHead({ title, description, canonicalUrl, jsonLdList, assetPrefix,
   <meta name="apple-mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
   <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="google-site-verification" content="google24b27f993d02a70a"/>
+  <meta name="msvalidate.01" content="B82D795493A65F6B928509F5E4B27CE9"/>
   <script>(function(){try{var t=localStorage.getItem('bpu_theme');var d=(t==='dark')||(t!=='light'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light';}catch(e){}})();</script>
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}"/>
   <meta name="robots" content="INDEX,FOLLOW,max-snippet:-1,max-image-preview:large"/>
+  <meta name="news_keywords" content="smartphones, gadgets, laptops, prices in india, tech deals"/>
   <link rel="canonical" href="${esc(canonicalUrl)}"/>
   <meta property="og:title" content="${esc(title)}"/>
   <meta property="og:description" content="${esc(description)}"/>
   <meta property="og:url" content="${esc(canonicalUrl)}"/>
   <meta property="og:site_name" content="${esc(config.siteName)}"/>
+  <meta property="og:locale" content="en_IN"/>
   <meta property="og:type" content="website"/>${ogImage}
   <link rel="manifest" href="${assetPrefix}manifest.webmanifest"/>
   <link rel="icon" type="image/jpeg" href="${assetPrefix}assets/icons/brand-icon.jpg"/>
@@ -696,7 +700,7 @@ ${renderFooter(rootPrefix)}`;
 function renderProductPage(p, allProducts) {
   const rootPrefix = '../../';
   const canonicalUrl = `${config.siteUrl}/product/${p.slug}/`;
-  const productImage = p.image ? `${config.siteUrl}/${String(p.image).replace(/^\//, '')}` : undefined;
+  const productImage = p.image ? (/^https?:\/\//i.test(p.image) ? p.image : `${config.siteUrl}/${String(p.image).replace(/^\//, '')}`) : undefined;
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -737,7 +741,7 @@ ${renderHeader(rootPrefix)}
     <div class="product-hero-main">
       <div class="product-hero-media">
         ${p.image
-          ? `<img class="product-hero-photo" src="${esc(rootPrefix + p.image)}" alt="${esc(p.name)}" width="220" height="220" fetchpriority="high"/>`
+          ? `<img class="product-hero-photo" src="${esc(/^https?:\/\//i.test(p.image) ? p.image : rootPrefix + p.image)}" alt="${esc(p.name)}" width="220" height="220" fetchpriority="high"/>`
           : `<div class="product-hero-photo">${deviceSvg(p.category)}</div>`}
       </div>
       <div class="product-hero-copy">
@@ -3267,11 +3271,18 @@ function build() {
     console.log(`Phones: ${phones.length} PDPs · ${brands.length} brands · ${pairs.length} comparisons · ${bands.length} price bands · ${listings.length} listings · ${storyCount} stories`);
   }
 
-  // Sitemap & Robots
+  // Sitemap & Robots & Search Engines & Monetag
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${esc(u)}</loc></url>`).join('\n')}\n</urlset>\n`;
   fs.writeFileSync(path.join(DIST, 'sitemap.xml'), sitemap);
-  fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${config.siteUrl}/sitemap.xml\nSitemap: ${config.siteUrl}/news-sitemap.xml\n`);
+  if (fs.existsSync(path.join(DIST, 'news-sitemap.xml'))) {
+    fs.copyFileSync(path.join(DIST, 'news-sitemap.xml'), path.join(DIST, 'sitemap-news.xml'));
+  }
+  fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: Googlebot\nAllow: /\n\nUser-agent: Googlebot-News\nAllow: /\n\nUser-agent: Google-InspectionTool\nAllow: /\n\nUser-agent: Bingbot\nAllow: /\n\nUser-agent: Slurp\nAllow: /\n\nUser-agent: DuckDuckBot\nAllow: /\n\nUser-agent: Baiduspider\nAllow: /\n\nUser-agent: YandexBot\nAllow: /\n\nUser-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /api/\n\nSitemap: ${config.siteUrl}/sitemap.xml\nSitemap: ${config.siteUrl}/news-sitemap.xml\nSitemap: ${config.siteUrl}/sitemap-news.xml\nSitemap: ${config.siteUrl}/rss.xml\n`);
   fs.writeFileSync(path.join(DIST, 'google24b27f993d02a70a.html'), 'google-site-verification: google24b27f993d02a70a.html\n');
+  fs.writeFileSync(path.join(DIST, 'BingSiteAuth.xml'), `<?xml version="1.0"?>\n<users>\n\t<user>B82D795493A65F6B928509F5E4B27CE9</user>\n</users>\n`);
+  if (config.monetag?.token) {
+    fs.writeFileSync(path.join(DIST, `${config.monetag.token}.html`), `${config.monetag.token}\n`);
+  }
 
   // Global search index
   const searchIndex = [
