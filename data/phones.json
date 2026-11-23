@@ -1,7 +1,7 @@
 {
   "source": "https://gadgets.beebom.com (factual specs/price data)",
-  "generatedAt": "2026-11-23T11:30:01.621Z",
-  "count": 2528,
+  "generatedAt": "2026-11-23T23:03:20.363Z",
+  "count": 2531,
   "brands": [
     "ASUS",
     "Acer",
@@ -3425,7 +3425,7 @@
           "url": "https://www.flipkart.com/ai-nova-2-ultra-5g-green-128-gb/p/itm9db3f3ad8ba85?pid=MOBHHUFDZFG4CKDG&marketplace=FLIPKART&lid=LSTMOBHHUFDZFG4CKDGGCWUDQ&q=ai+nova+2+ultra+5g&fm=organic&pageUID=1776405316898"
         }
       ],
-      "score": 76,
+      "score": 74,
       "rating": 4.2,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -3989,14 +3989,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:27.913Z",
+      "scrapedAt": "2026-11-23T23:02:45.565Z",
       "image": {
         "file": "assets/phones/ai-plus-nova-2-ultra-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 791825,
         "source": "https://cdn.beebom.com/mobile/ai-plus-nova-2-ultra-5g-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:02.643Z"
+        "fetchedAt": "2026-11-23T23:03:21.305Z"
       }
     },
     {
@@ -6314,7 +6314,7 @@
           "url": "https://www.flipkart.com/ai-pulse-2-fe-black-64-gb/p/itm8310c24b71215?pid=MOBHQZVXATCFM5FK&marketplace=FLIPKART&lid=LSTMOBHQZVXATCFM5FKKIV8QZ&pageUID=1791353838417"
         }
       ],
-      "score": 48,
+      "score": 51,
       "rating": 4.2,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -6835,14 +6835,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:18.770Z",
+      "scrapedAt": "2026-11-23T23:02:37.025Z",
       "image": {
         "file": "assets/phones/ai-plus-pulse-2-fe.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1233808,
         "source": "https://cdn.beebom.com/mobile/ai-plus-pulse-2-fe-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:02.912Z"
+        "fetchedAt": "2026-11-23T23:03:21.587Z"
       }
     },
     {
@@ -50698,7 +50698,7 @@
           "url": "https://www.flipkart.com/boltt-evo-arctic-white-64-gb/p/itmf046d663a1fd7?pid=MOBHPP59BYSJ98M8&marketplace=FLIPKART&lid=LSTMOBHPP59BYSJ98M8RWYHGQ&pageUID=1788243466487"
         }
       ],
-      "score": 87,
+      "score": 91,
       "rating": 4.1,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -51263,14 +51263,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:23.772Z",
+      "scrapedAt": "2026-11-23T23:02:41.334Z",
       "image": {
         "file": "assets/phones/boltt-evo.png",
         "width": 1000,
         "height": 1000,
         "bytes": 693903,
         "source": "https://cdn.beebom.com/mobile/boltt-evo-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:03.756Z"
+        "fetchedAt": "2026-11-23T23:03:21.850Z"
       }
     },
     {
@@ -80593,14 +80593,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:10.358Z",
+      "scrapedAt": "2026-11-23T23:02:28.490Z",
       "image": {
         "file": "assets/phones/hmd-pulse-2-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1258554,
         "source": "https://cdn.beebom.com/mobile/hmd-pulse-2-pro-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:05.593Z"
+        "fetchedAt": "2026-11-23T23:03:22.120Z"
       }
     },
     {
@@ -103983,6 +103983,1998 @@
       }
     },
     {
+      "slug": "honor-700",
+      "url": "https://gadgets.beebom.com/mobile/honor-700",
+      "name": "Honor 700",
+      "brand": "Honor",
+      "price": {
+        "currency": "¥",
+        "amount": 3999,
+        "text": "¥3999"
+      },
+      "stores": [],
+      "score": null,
+      "rating": null,
+      "marketStatus": "Not Released in India",
+      "highlights": {
+        "Processor": "Snapdragon 8s Gen 4",
+        "Display": "6.57 inches",
+        "Battery": "9000mAh",
+        "Rear Camera": "200MP",
+        "Front Camera": "50MP",
+        "RAM/Storage": "12GB/256GB"
+      },
+      "gallery": [
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700.png",
+          "alt": "Honor 700",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700-pink-mist-front-and-back.png",
+          "alt": "Honor 700 Pink Mist Front and Back",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700-cool-white-front-and-back.png",
+          "alt": "Honor 700 Cool White Front and Back",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700-blue-hues-front-and-back.png",
+          "alt": "Honor 700 Blue Hues Front and Back",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700-pink-mist-back-and-side.png",
+          "alt": "Honor 700 Pink Mist Back and Side",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700-clear-sky-back.png",
+          "alt": "Honor 700 Clear Sky Back",
+          "category": "Design"
+        }
+      ],
+      "specs": {
+        "General": [
+          {
+            "label": "Box Contents",
+            "value": "Phone, 80W Charger, Type-C Cable, SIM Ejector Tool, Case"
+          },
+          {
+            "label": "Availability",
+            "value": "November 27, 2026"
+          },
+          {
+            "label": "Launch Price",
+            "value": "¥3999"
+          }
+        ],
+        "Display": [
+          {
+            "label": "Type",
+            "value": "AMOLED, 120 Hz Refresh Rate, LTPO, HDR, Anti Reflection Coating",
+            "children": [
+              {
+                "label": "Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Refresh Rate",
+                "value": "120Hz"
+              },
+              {
+                "label": "Playback Quality",
+                "value": "HDR"
+              },
+              {
+                "label": "LTPO Support",
+                "value": "No"
+              },
+              {
+                "label": "LTPS Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Anti Reflection Coating",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "label": "Size",
+            "value": "6.57 inches, 106.2 cm², 95.3% Screen To Body Ratio",
+            "children": [
+              {
+                "label": "Display Size",
+                "value": "6.57 inches"
+              },
+              {
+                "label": "Area",
+                "value": "106.2 cm²"
+              },
+              {
+                "label": "Screen to Body Ratio",
+                "value": "95.3%"
+              },
+              {
+                "label": "Display Form Factor",
+                "value": "Flat Display"
+              }
+            ]
+          },
+          {
+            "label": "Resolution",
+            "value": "1.5K, 1264 x 2728 pixels, (458 ppi), 10-bit 1.07 Billion Colours, 100% DCI-P3, 8000 nits(Peak Brightness), 1800 nits(High Brightness), Honor Oasis Eye Protection",
+            "children": [
+              {
+                "label": "Display Resolution",
+                "value": "1.5K"
+              },
+              {
+                "label": "Resolution Width",
+                "value": "1264pixels"
+              },
+              {
+                "label": "Resolution Height",
+                "value": "2728pixels"
+              },
+              {
+                "label": "Pixel Density",
+                "value": "458ppi"
+              },
+              {
+                "label": "Colour Gamut",
+                "value": "DCI-P3"
+              },
+              {
+                "label": "Color Gamut Range",
+                "value": "100%"
+              },
+              {
+                "label": "Display Bit Rate",
+                "value": "10-bit"
+              },
+              {
+                "label": "Colour Depth",
+                "value": "1.07 Billion Colours"
+              },
+              {
+                "label": "Eye Protection",
+                "value": "Honor Oasis Eye Protection"
+              },
+              {
+                "label": "High Brightness",
+                "value": "1800nits"
+              },
+              {
+                "label": "Peak Brightness",
+                "value": "8000nits"
+              }
+            ]
+          },
+          {
+            "label": "Cover Type",
+            "value": "AMOLED",
+            "children": [
+              {
+                "label": "Cover Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Cover Display LTPO Support",
+                "value": "No"
+              },
+              {
+                "label": "Cover Display LTPS Support",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "label": "Cover Size",
+            "value": "1.59 inches",
+            "children": [
+              {
+                "label": "Cover Display Size",
+                "value": "1.59"
+              }
+            ]
+          }
+        ],
+        "Body": [
+          {
+            "label": "Dimensions",
+            "value": "156 x 74.7 x 7.96 mm"
+          },
+          {
+            "label": "Weight",
+            "value": "211 grams"
+          },
+          {
+            "label": "Front",
+            "value": "Glass"
+          },
+          {
+            "label": "Back",
+            "value": "Glass"
+          },
+          {
+            "label": "Side",
+            "value": "Metal Frame"
+          },
+          {
+            "label": "Ports",
+            "value": "USB Type-C 2.0, Infrared Port, OTG"
+          },
+          {
+            "label": "IP Rating",
+            "value": "IP68/IP69/IP69K (Dust and Water Resistant)"
+          },
+          {
+            "label": "Speaker",
+            "value": "Stereo Speakers, HONOR Sound"
+          }
+        ],
+        "Processor": [
+          {
+            "label": "Chipset",
+            "value": "Qualcomm Snapdragon 8s Gen 4 (4 nm)",
+            "children": [
+              {
+                "label": "Chipset Manufacturer",
+                "value": "Qualcomm"
+              },
+              {
+                "label": "Chipset",
+                "value": "Snapdragon 8s Gen 4"
+              },
+              {
+                "label": "Fabrication Size",
+                "value": "4 nm"
+              },
+              {
+                "label": "Co-Processor",
+                "value": "Honor C3 chip"
+              }
+            ]
+          },
+          {
+            "label": "CPU",
+            "value": "Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720), Vapor Chamber Cooling",
+            "children": [
+              {
+                "label": "Number of Cores",
+                "value": "Octa-core"
+              },
+              {
+                "label": "Clock Speed",
+                "value": "1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720"
+              },
+              {
+                "label": "Cooling System",
+                "value": "Vapor Chamber Cooling"
+              }
+            ]
+          },
+          {
+            "label": "GPU",
+            "value": "Adreno 825"
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 17, MagicOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "6 year(s) of Software and Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Assistant, AI Color Adjustment, AI Documents, AI Eye-Protection Display, AI noise reduction calls, AI Notes, AI Photography Suite, AI Smart Charging, AI Studio, AI Subtitles, AI Translation, AI Ultra Clarity, AI Wallpapers, Glory AI"
+          }
+        ],
+        "Main Camera": [
+          {
+            "label": "Main Camera",
+            "value": "200 MP, f/1.9, 24mm (Wide-angle), 1/1.56\", OIS, PDAF",
+            "children": [
+              {
+                "label": "Main Camera Megapixel",
+                "value": "200MP"
+              },
+              {
+                "label": "Main Camera Lens Type",
+                "value": "Wide-angle"
+              },
+              {
+                "label": "Main Camera Aperture",
+                "value": "f/1.9"
+              },
+              {
+                "label": "Main Camera Focal Length",
+                "value": "24 mm"
+              },
+              {
+                "label": "Main Camera Sensor Size",
+                "value": "1/1.56\""
+              },
+              {
+                "label": "Main Camera Camera Features",
+                "value": "OIS, PDAF"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #2",
+            "value": "12 MP, f/2.2, 16mm (Ultra-wide), 112°, Auto Focus, PDAF",
+            "children": [
+              {
+                "label": "Main Camera #2 Megapixel",
+                "value": "12MP"
+              },
+              {
+                "label": "Main Camera #2 Lens Type",
+                "value": "Ultra-wide"
+              },
+              {
+                "label": "Main Camera #2 Aperture",
+                "value": "f/2.2"
+              },
+              {
+                "label": "Main Camera #2 Focal Length",
+                "value": "16 mm"
+              },
+              {
+                "label": "Main Camera #2 Field of View",
+                "value": "112°"
+              },
+              {
+                "label": "Main Camera #2 Camera Features",
+                "value": "Auto Focus, PDAF"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #3",
+            "value": "50 MP, 80mm (Periscope), 3.5x Optical Zoom, PDAF",
+            "children": [
+              {
+                "label": "Main Camera #3 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Main Camera #3 Lens Type",
+                "value": "Periscope"
+              },
+              {
+                "label": "Main Camera #3 Focal Length",
+                "value": "80 mm"
+              },
+              {
+                "label": "Main Camera #3 Camera Features",
+                "value": "3.5x Optical Zoom, PDAF"
+              },
+              {
+                "label": "Main Camera #3 Stabilization",
+                "value": "OIS"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Capture smiles, Color Spectrum Sensor, Continuous Shooting, Documents Mode, Dynamic Photos, Film Camera Mode, Filter, HDR, LED-Flash, Night mode, panorama, Portrait mode, Professional Mode, Super Macro, Supermoon, Timer, Voice-activated Photography, Watermark",
+            "children": [
+              {
+                "label": "Camera Stabilization",
+                "value": "Hybrid Stabilization"
+              },
+              {
+                "label": "Optical Zoom Support",
+                "value": "3.5X"
+              },
+              {
+                "label": "Auto Focus Type",
+                "value": "PDAF"
+              },
+              {
+                "label": "Dynamic Video Recording Support",
+                "value": "HDR recording"
+              },
+              {
+                "label": "Slow Motion Recording",
+                "value": "120 fps slomo"
+              },
+              {
+                "label": "Max Zoom Supported",
+                "value": ">100x"
+              },
+              {
+                "label": "Features",
+                "value": "Capture smiles, Color Spectrum Sensor, Continuous Shooting, Documents Mode, Dynamic Photos, Film Camera Mode, Filter, HDR, LED-Flash, Night mode, panorama, Portrait mode, Professional Mode, Super Macro, Supermoon, Timer, Voice-activated Photography, Watermark"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "4K@30/60fps, 1080p@30/60fps, EIS, OIS, Time-lapse Video",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080p@30fps, 1080p@60fps, 4K@30fps, 4K@60fps"
+              },
+              {
+                "label": "Log Video Recording Support",
+                "value": "No"
+              },
+              {
+                "label": "Video Features",
+                "value": "EIS, OIS, Time-lapse Video"
+              }
+            ]
+          }
+        ],
+        "Selfie Camera": [
+          {
+            "label": "Front Camera",
+            "value": "50 MP, f/2.0, 21mm (Wide), 0.61 µm, 1/2.88\"",
+            "children": [
+              {
+                "label": "Front Camera #1 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Front Camera #1 Lens Type",
+                "value": "Wide"
+              },
+              {
+                "label": "Front Camera #1 Aperture",
+                "value": "f/2.0"
+              },
+              {
+                "label": "Front Camera #1 Focal Length",
+                "value": "21 mm"
+              },
+              {
+                "label": "Front Camera #1 Sensor Size",
+                "value": "1/2.88\""
+              },
+              {
+                "label": "Front Camera #1 Pixel Size",
+                "value": "0.61 µm"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Auto Smile Capture, Dynamic Photos, Filters, Gesture Selfie, HDR Photos, Night mode, Portrait Mode, Selfie Photo Mirror, Timer, Voice-activated Shooting, Watermark",
+            "children": [
+              {
+                "label": "Auto Focus Type",
+                "value": "Fixed Focus"
+              },
+              {
+                "label": "Features",
+                "value": "Auto Smile Capture, Dynamic Photos, Filters, Gesture Selfie, HDR Photos, Night mode, Portrait Mode, Selfie Photo Mirror, Timer, Voice-activated Shooting, Watermark"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "gyro-EIS, Multi-View Video Recording",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080@30fps, 1080@60fps, 4k@30fps"
+              },
+              {
+                "label": "HDR Recording Support",
+                "value": "SDR recording"
+              },
+              {
+                "label": "Video Features",
+                "value": "gyro-EIS, Multi-View Video Recording"
+              }
+            ]
+          }
+        ],
+        "Battery": [
+          {
+            "label": "Capacity",
+            "value": "9000 mAh, Lithium Polymer (Non-removable)",
+            "children": [
+              {
+                "label": "Battery Capacity",
+                "value": "9000mAh"
+              },
+              {
+                "label": "Battery Type",
+                "value": "Lithium Polymer"
+              }
+            ]
+          },
+          {
+            "label": "Charging",
+            "value": "80W (wired), Wireless Charging Supported, Reverse Wireless Charging Supported, 27W (reverse wired), SuperCharge",
+            "children": [
+              {
+                "label": "Charging Speed Wired",
+                "value": "80W"
+              },
+              {
+                "label": "Wireless Charging Support",
+                "value": "No"
+              },
+              {
+                "label": "Reverse Wireless Charging Support",
+                "value": "No"
+              },
+              {
+                "label": "Reverse Wired Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Reverse Wired",
+                "value": "27W"
+              },
+              {
+                "label": "Charging Standards Supported",
+                "value": "SuperCharge"
+              },
+              {
+                "label": "Bypass Charging Support",
+                "value": "No"
+              }
+            ]
+          }
+        ],
+        "Memory": [
+          {
+            "label": "Storage",
+            "value": "256GB",
+            "children": [
+              {
+                "label": "Storage Size",
+                "value": "256GB"
+              }
+            ]
+          },
+          {
+            "label": "RAM",
+            "value": "12GB, LPDDR5X",
+            "children": [
+              {
+                "label": "RAM Size",
+                "value": "12GB"
+              },
+              {
+                "label": "RAM Type",
+                "value": "LPDDR5X"
+              }
+            ]
+          }
+        ],
+        "Network": [
+          {
+            "label": "SIM",
+            "value": "Dual nano-SIM (nano-SIM, dual stand-by)"
+          },
+          {
+            "label": "Technology",
+            "value": "5G, GSM, LTE FDD, LTE TD, WCDMA"
+          },
+          {
+            "label": "2G Bands",
+            "value": "1800, 1900, 800, 900 (4 bands)"
+          },
+          {
+            "label": "3G Bands",
+            "value": "800, 850, 900, 1700, 1900, 2100 (6 bands)"
+          },
+          {
+            "label": "4G Bands",
+            "value": "LTE"
+          },
+          {
+            "label": "5G Bands",
+            "value": "SA/NSA"
+          },
+          {
+            "label": "Speed",
+            "value": "5G, GSM, LTE, WCDMA"
+          }
+        ],
+        "Connectivity": [
+          {
+            "label": "WLAN",
+            "value": "Wi-Fi 7 802.11 a/b/g/n/ac/ax/be, Hotspot, Wi-Fi Direct, Dual Band",
+            "children": [
+              {
+                "label": "Wi-Fi Version",
+                "value": "WiFi 7"
+              },
+              {
+                "label": "Wi-Fi Standards",
+                "value": "Wi-Fi 7 802.11 a/b/g/n/ac/ax/be"
+              },
+              {
+                "label": "Wi-Fi Features",
+                "value": "Hotspot, Wi-Fi Direct"
+              }
+            ]
+          },
+          {
+            "label": "Bluetooth",
+            "value": "6, AAC, aptX, aptX Adaptive, aptX HD, aptX Lossless, ASHA, BLE, LC3, LDAC, LE, LHDC 3.0, LHDC 4.0, LHDC 5.0, SBC",
+            "children": [
+              {
+                "label": "Bluetooth Version",
+                "value": "6"
+              },
+              {
+                "label": "Bluetooth Codecs",
+                "value": "AAC, aptX, aptX Adaptive, aptX HD, aptX Lossless, ASHA, BLE, LC3, LDAC, LE, LHDC 3.0, LHDC 4.0, LHDC 5.0, SBC"
+              }
+            ]
+          },
+          {
+            "label": "Positioning",
+            "value": "A-GNSS, Beidou (B1I+B1C+B2a+B2b), GALILEO (E1+E5a+E5b), GLONASS (G1), GPS (L1+L5), NavIC (L1+L5), QZSS (L1+L5)"
+          },
+          {
+            "label": "NFC",
+            "value": "Supported"
+          }
+        ],
+        "Features": [
+          {
+            "label": "Fingerprint Scanner",
+            "value": "Optical (under display)"
+          },
+          {
+            "label": "Sensors",
+            "value": "Accelerometer, Ambient Light Sensor, Compass, Gravity Sensor, Gyroscope Sensor, Infrared Sensor, Proximity Sensor",
+            "children": [
+              {
+                "label": "Sensors on Board",
+                "value": "Accelerometer, Ambient Light Sensor, Compass, Gravity Sensor, Gyroscope Sensor, Infrared Sensor, Proximity Sensor"
+              }
+            ]
+          },
+          {
+            "label": "Additional Features",
+            "value": "Ordinary Motor"
+          }
+        ]
+      },
+      "scrapedAt": "2026-11-23T23:03:02.603Z",
+      "image": {
+        "file": "assets/phones/honor-700.png",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 853945,
+        "source": "https://cdn.beebom.com/mobile/honor-700-pink-mist-front-and-back.png",
+        "fetchedAt": "2026-11-23T23:03:22.387Z"
+      }
+    },
+    {
+      "slug": "honor-700-pro",
+      "url": "https://gadgets.beebom.com/mobile/honor-700-pro",
+      "name": "Honor 700 Pro",
+      "brand": "Honor",
+      "price": {
+        "currency": "¥",
+        "amount": 4599,
+        "text": "¥4599"
+      },
+      "stores": [],
+      "score": null,
+      "rating": null,
+      "marketStatus": "Not Released in India",
+      "highlights": {
+        "Processor": "Snapdragon 8 Gen 5",
+        "Display": "6.57 inches",
+        "Battery": "9000mAh",
+        "Rear Camera": "200MP",
+        "Front Camera": "50MP",
+        "RAM/Storage": "12GB/256GB"
+      },
+      "gallery": [
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700-pro-front-and-back3.png",
+          "alt": "Honor 700 Pro",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700-pro-front-and-back2.png",
+          "alt": "Honor 700 Pro Pink Mist Front and Back",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700-pro-front-and-back4.png",
+          "alt": "Honor 700 Pro Blue Hues Front and Back",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700-pro-front-and-back1.png",
+          "alt": "Honor 700 Pro Clear Sky Front and Back",
+          "category": "Design"
+        }
+      ],
+      "specs": {
+        "General": [
+          {
+            "label": "Box Contents",
+            "value": "Phone, 80W Charger, USB Type-C Cable, SIM Ejector Tool"
+          },
+          {
+            "label": "Availability",
+            "value": "November 27, 2026"
+          },
+          {
+            "label": "Launch Price",
+            "value": "¥4599"
+          }
+        ],
+        "Display": [
+          {
+            "label": "Type",
+            "value": "AMOLED, 120 Hz Refresh Rate, LTPO, HDR, Anti Reflection Coating",
+            "children": [
+              {
+                "label": "Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Refresh Rate",
+                "value": "120Hz"
+              },
+              {
+                "label": "Playback Quality",
+                "value": "HDR"
+              },
+              {
+                "label": "LTPO Support",
+                "value": "No"
+              },
+              {
+                "label": "LTPS Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Anti Reflection Coating",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "label": "Size",
+            "value": "6.57 inches, 106.2 cm², 95.3% Screen To Body Ratio",
+            "children": [
+              {
+                "label": "Display Size",
+                "value": "6.57 inches"
+              },
+              {
+                "label": "Area",
+                "value": "106.2 cm²"
+              },
+              {
+                "label": "Screen to Body Ratio",
+                "value": "95.3%"
+              },
+              {
+                "label": "Display Form Factor",
+                "value": "Flat Display"
+              }
+            ]
+          },
+          {
+            "label": "Resolution",
+            "value": "1.5K, 1264 x 2728 pixels, (458 ppi), 10-bit 1.07 Billion Colours, 100% DCI-P3, 8000 nits(Peak Brightness), 1800 nits(High Brightness), Honor Oasis Eye Protection",
+            "children": [
+              {
+                "label": "Display Resolution",
+                "value": "1.5K"
+              },
+              {
+                "label": "Resolution Width",
+                "value": "1264pixels"
+              },
+              {
+                "label": "Resolution Height",
+                "value": "2728pixels"
+              },
+              {
+                "label": "Pixel Density",
+                "value": "458ppi"
+              },
+              {
+                "label": "Colour Gamut",
+                "value": "DCI-P3"
+              },
+              {
+                "label": "Color Gamut Range",
+                "value": "100%"
+              },
+              {
+                "label": "Display Bit Rate",
+                "value": "10-bit"
+              },
+              {
+                "label": "Colour Depth",
+                "value": "1.07 Billion Colours"
+              },
+              {
+                "label": "Eye Protection",
+                "value": "Honor Oasis Eye Protection"
+              },
+              {
+                "label": "High Brightness",
+                "value": "1800nits"
+              },
+              {
+                "label": "Peak Brightness",
+                "value": "8000nits"
+              }
+            ]
+          },
+          {
+            "label": "Cover Type",
+            "value": "AMOLED",
+            "children": [
+              {
+                "label": "Cover Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Cover Display LTPO Support",
+                "value": "No"
+              },
+              {
+                "label": "Cover Display LTPS Support",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "label": "Cover Size",
+            "value": "1.59 inches",
+            "children": [
+              {
+                "label": "Cover Display Size",
+                "value": "1.59"
+              }
+            ]
+          }
+        ],
+        "Body": [
+          {
+            "label": "Dimensions",
+            "value": "156 x 74.7 x 7.96 mm"
+          },
+          {
+            "label": "Weight",
+            "value": "213 grams"
+          },
+          {
+            "label": "Front",
+            "value": "Glass"
+          },
+          {
+            "label": "Back",
+            "value": "Glass"
+          },
+          {
+            "label": "Side",
+            "value": "Metal Frame"
+          },
+          {
+            "label": "Ports",
+            "value": "USB Type-C 2.0, OTG"
+          },
+          {
+            "label": "IP Rating",
+            "value": "IP68/IP69/IP69K (Dust and Water Resistant)"
+          },
+          {
+            "label": "Speaker",
+            "value": "Stereo Speakers, HONOR Sound"
+          }
+        ],
+        "Processor": [
+          {
+            "label": "Chipset",
+            "value": "Qualcomm Snapdragon 8 Gen 5 (3 nm)",
+            "children": [
+              {
+                "label": "Chipset Manufacturer",
+                "value": "Qualcomm"
+              },
+              {
+                "label": "Chipset",
+                "value": "Snapdragon 8 Gen 5"
+              },
+              {
+                "label": "Fabrication Size",
+                "value": "3 nm"
+              },
+              {
+                "label": "Co-Processor",
+                "value": "Honor C3 chip"
+              }
+            ]
+          },
+          {
+            "label": "CPU",
+            "value": "Octa-core (2x3.8 GHz Oryon V3 Phoenix L + 6x3.32 GHz Oryon V3 Phoenix M), Vapor Chamber Cooling",
+            "children": [
+              {
+                "label": "Number of Cores",
+                "value": "Octa-core"
+              },
+              {
+                "label": "Clock Speed",
+                "value": "2x3.8 GHz Oryon V3 Phoenix L + 6x3.32 GHz Oryon V3 Phoenix M"
+              },
+              {
+                "label": "Cooling System",
+                "value": "Vapor Chamber Cooling"
+              }
+            ]
+          },
+          {
+            "label": "GPU",
+            "value": "Adreno 829"
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 17, MagicOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "6 year(s) of Software and Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Assistant, AI Color Adjustment, AI Documents, AI Eye-Protection Display, AI noise reduction calls, AI Notes, AI Photography Suite, AI Smart Charging, AI Studio, AI Subtitles, AI Translation, AI Ultra Clarity, AI Wallpapers, Glory AI"
+          }
+        ],
+        "Main Camera": [
+          {
+            "label": "Main Camera",
+            "value": "200 MP, f/1.9, 24mm (Wide-angle), 1/1.56\", OIS, PDAF",
+            "children": [
+              {
+                "label": "Main Camera Megapixel",
+                "value": "200MP"
+              },
+              {
+                "label": "Main Camera Lens Type",
+                "value": "Wide-angle"
+              },
+              {
+                "label": "Main Camera Aperture",
+                "value": "f/1.9"
+              },
+              {
+                "label": "Main Camera Focal Length",
+                "value": "24 mm"
+              },
+              {
+                "label": "Main Camera Sensor Size",
+                "value": "1/1.56\""
+              },
+              {
+                "label": "Main Camera Camera Features",
+                "value": "OIS, PDAF"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #2",
+            "value": "12 MP, f/2.2, 16mm (Ultra-wide), 112°, PDAF",
+            "children": [
+              {
+                "label": "Main Camera #2 Megapixel",
+                "value": "12MP"
+              },
+              {
+                "label": "Main Camera #2 Lens Type",
+                "value": "Ultra-wide"
+              },
+              {
+                "label": "Main Camera #2 Aperture",
+                "value": "f/2.2"
+              },
+              {
+                "label": "Main Camera #2 Focal Length",
+                "value": "16 mm"
+              },
+              {
+                "label": "Main Camera #2 Field of View",
+                "value": "112°"
+              },
+              {
+                "label": "Main Camera #2 Camera Features",
+                "value": "PDAF"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #3",
+            "value": "50 MP, 80mm (Periscope), 3.5x Optical Zoom, PDAF",
+            "children": [
+              {
+                "label": "Main Camera #3 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Main Camera #3 Lens Type",
+                "value": "Periscope"
+              },
+              {
+                "label": "Main Camera #3 Focal Length",
+                "value": "80 mm"
+              },
+              {
+                "label": "Main Camera #3 Camera Features",
+                "value": "3.5x Optical Zoom, PDAF"
+              },
+              {
+                "label": "Main Camera #3 Stabilization",
+                "value": "OIS"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Capture smiles, Continuous Shooting, Documents Mode, Dynamic Photos, Film Camera Mode, Filter, HDR, Night mode, panorama, Portrait mode, Professional Mode, Super Macro, Supermoon, Timer, Voice-activated Photography, Watermark",
+            "children": [
+              {
+                "label": "Camera Stabilization",
+                "value": "Hybrid Stabilization"
+              },
+              {
+                "label": "Optical Zoom Support",
+                "value": "3.5X"
+              },
+              {
+                "label": "Auto Focus Type",
+                "value": "PDAF"
+              },
+              {
+                "label": "Dynamic Video Recording Support",
+                "value": "HDR recording"
+              },
+              {
+                "label": "Slow Motion Recording",
+                "value": "120 fps slomo"
+              },
+              {
+                "label": "Max Zoom Supported",
+                "value": ">100x"
+              },
+              {
+                "label": "Features",
+                "value": "Capture smiles, Continuous Shooting, Documents Mode, Dynamic Photos, Film Camera Mode, Filter, HDR, Night mode, panorama, Portrait mode, Professional Mode, Super Macro, Supermoon, Timer, Voice-activated Photography, Watermark"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "4K@30/60fps, 1080p@30/60fps, gyro-EIS, OIS, Time-lapse Video",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080p@30fps, 1080p@60fps, 4K@30fps, 4K@60fps"
+              },
+              {
+                "label": "Log Video Recording Support",
+                "value": "No"
+              },
+              {
+                "label": "Video Features",
+                "value": "gyro-EIS, OIS, Time-lapse Video"
+              }
+            ]
+          }
+        ],
+        "Selfie Camera": [
+          {
+            "label": "Front Camera",
+            "value": "50 MP, f/2.0, 21mm (Wide), 0.61 µm, 1/2.88\"",
+            "children": [
+              {
+                "label": "Front Camera #1 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Front Camera #1 Lens Type",
+                "value": "Wide"
+              },
+              {
+                "label": "Front Camera #1 Aperture",
+                "value": "f/2.0"
+              },
+              {
+                "label": "Front Camera #1 Focal Length",
+                "value": "21 mm"
+              },
+              {
+                "label": "Front Camera #1 Sensor Size",
+                "value": "1/2.88\""
+              },
+              {
+                "label": "Front Camera #1 Pixel Size",
+                "value": "0.61 µm"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Auto Smile Capture, Dynamic Photos, Fill Light, Filters, Gesture control, HdR, Live Photos, Night mode, Portrait Mode, Selfie Photo Mirror, Timer, Ultra-HD Mode, Voice-activated Shooting, Watermark",
+            "children": [
+              {
+                "label": "Auto Focus Type",
+                "value": "Fixed Focus"
+              },
+              {
+                "label": "Features",
+                "value": "Auto Smile Capture, Dynamic Photos, Fill Light, Filters, Gesture control, HdR, Live Photos, Night mode, Portrait Mode, Selfie Photo Mirror, Timer, Ultra-HD Mode, Voice-activated Shooting, Watermark"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "gyro-EIS",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080@30fps, 1080@60fps, 4k@30fps"
+              },
+              {
+                "label": "HDR Recording Support",
+                "value": "SDR recording"
+              },
+              {
+                "label": "Video Features",
+                "value": "gyro-EIS"
+              }
+            ]
+          }
+        ],
+        "Battery": [
+          {
+            "label": "Capacity",
+            "value": "9000 mAh, Lithium Polymer (Non-removable)",
+            "children": [
+              {
+                "label": "Battery Capacity",
+                "value": "9000mAh"
+              },
+              {
+                "label": "Battery Type",
+                "value": "Lithium Polymer"
+              }
+            ]
+          },
+          {
+            "label": "Charging",
+            "value": "80W (wired), 50W (wireless), Reverse Wireless Charging Supported, 27W (reverse wired), SuperCharge",
+            "children": [
+              {
+                "label": "Charging Speed Wired",
+                "value": "80W"
+              },
+              {
+                "label": "Wireless Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Wireless",
+                "value": "50W"
+              },
+              {
+                "label": "Reverse Wireless Charging Support",
+                "value": "No"
+              },
+              {
+                "label": "Reverse Wired Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Reverse Wired",
+                "value": "27W"
+              },
+              {
+                "label": "Charging Standards Supported",
+                "value": "SuperCharge"
+              },
+              {
+                "label": "Bypass Charging Support",
+                "value": "No"
+              }
+            ]
+          }
+        ],
+        "Memory": [
+          {
+            "label": "Storage",
+            "value": "256GB",
+            "children": [
+              {
+                "label": "Storage Size",
+                "value": "256GB"
+              }
+            ]
+          },
+          {
+            "label": "RAM",
+            "value": "12GB, LPDDR5X",
+            "children": [
+              {
+                "label": "RAM Size",
+                "value": "12GB"
+              },
+              {
+                "label": "RAM Type",
+                "value": "LPDDR5X"
+              }
+            ]
+          }
+        ],
+        "Network": [
+          {
+            "label": "SIM",
+            "value": "Dual nano-SIM (nano-SIM, dual stand-by)"
+          },
+          {
+            "label": "Technology",
+            "value": "5G, GSM, HSPA, LTE FDD, LTE TD"
+          },
+          {
+            "label": "2G Bands",
+            "value": "1800, 1900, 850, 900 (4 bands)"
+          },
+          {
+            "label": "3G Bands",
+            "value": "850, 900, 1900, 2100 (4 bands)"
+          },
+          {
+            "label": "4G Bands",
+            "value": "1, 3, 7, 8, 20, 28, 38, 40, 41 (9 bands)"
+          },
+          {
+            "label": "5G Bands",
+            "value": "3, 40 (2 bands)"
+          },
+          {
+            "label": "Speed",
+            "value": "5G, GSM, HSPA, LTE"
+          }
+        ],
+        "Connectivity": [
+          {
+            "label": "WLAN",
+            "value": "Wi-Fi 7 802.11 a/b/g/n/ac/ax/be, Hotspot, Wi-Fi Direct, Dual Band",
+            "children": [
+              {
+                "label": "Wi-Fi Version",
+                "value": "WiFi 7"
+              },
+              {
+                "label": "Wi-Fi Standards",
+                "value": "Wi-Fi 7 802.11 a/b/g/n/ac/ax/be"
+              },
+              {
+                "label": "Wi-Fi Features",
+                "value": "Hotspot, Wi-Fi Direct"
+              }
+            ]
+          },
+          {
+            "label": "Bluetooth",
+            "value": "6, AAC, aptX, aptX Adaptive, aptX HD, aptX Lossless, ASHA, BLE, LC3, LDAC, LE, LHDC 3.0, LHDC 4.0, LHDC 5.0, SBC",
+            "children": [
+              {
+                "label": "Bluetooth Version",
+                "value": "6"
+              },
+              {
+                "label": "Bluetooth Codecs",
+                "value": "AAC, aptX, aptX Adaptive, aptX HD, aptX Lossless, ASHA, BLE, LC3, LDAC, LE, LHDC 3.0, LHDC 4.0, LHDC 5.0, SBC"
+              }
+            ]
+          },
+          {
+            "label": "Positioning",
+            "value": "A-GNSS, Beidou (B1I+B1C+B2a+B2b), GALILEO (E1+E5a+E5b), GLONASS (G1), GPS (L1+L5), NavIC (L1+L5), QZSS (L1+L5)"
+          },
+          {
+            "label": "NFC",
+            "value": "Supported"
+          }
+        ],
+        "Features": [
+          {
+            "label": "Fingerprint Scanner",
+            "value": "Optical (under display)"
+          },
+          {
+            "label": "Sensors",
+            "value": "Accelerometer, Ambient Light Sensor, Compass, Gravity Sensor, Gyroscope, Infrared Sensor, Proximity Sensor",
+            "children": [
+              {
+                "label": "Sensors on Board",
+                "value": "Accelerometer, Ambient Light Sensor, Compass, Gravity Sensor, Gyroscope, Infrared Sensor, Proximity Sensor"
+              }
+            ]
+          },
+          {
+            "label": "Additional Features",
+            "value": "Ordinary Motor"
+          }
+        ]
+      },
+      "scrapedAt": "2026-11-23T23:03:00.871Z",
+      "image": {
+        "file": "assets/phones/honor-700-pro.png",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 679366,
+        "source": "https://cdn.beebom.com/mobile/honor-700-pro-front-and-back3.png",
+        "fetchedAt": "2026-11-23T23:03:22.654Z"
+      }
+    },
+    {
+      "slug": "honor-700s",
+      "url": "https://gadgets.beebom.com/mobile/honor-700s",
+      "name": "Honor 700s",
+      "brand": "Honor",
+      "price": {
+        "currency": "¥",
+        "amount": 3599,
+        "text": "¥3599"
+      },
+      "stores": [],
+      "score": null,
+      "rating": null,
+      "marketStatus": "Not Released in India",
+      "highlights": {
+        "Processor": "Snapdragon 7 Gen 4",
+        "Display": "6.57 inches",
+        "Battery": "9000mAh",
+        "Rear Camera": "200MP",
+        "Front Camera": "50MP",
+        "RAM/Storage": "12GB/256GB"
+      },
+      "gallery": [
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700s-front-and-back1.png",
+          "alt": "Honor 700s",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700s-front-and-back2.png",
+          "alt": "Honor 700s Pink Mist Front and Back",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700s-front-and-back3.png",
+          "alt": "Honor 700s Blue Hues Front and Back",
+          "category": "Design"
+        },
+        {
+          "url": "https://cdn.beebom.com/mobile/honor-700s-front-and-back4.png",
+          "alt": "Honor 700s Clear Sky Front and Back",
+          "category": "Design"
+        }
+      ],
+      "specs": {
+        "General": [
+          {
+            "label": "Box Contents",
+            "value": "Phone, 80W Charger, USB Type-C Cable, SIM Ejector Tool"
+          },
+          {
+            "label": "Availability",
+            "value": "November 27, 2026"
+          },
+          {
+            "label": "Launch Price",
+            "value": "¥3599"
+          }
+        ],
+        "Display": [
+          {
+            "label": "Type",
+            "value": "AMOLED, 120 Hz Refresh Rate, LTPO, HDR, Anti Reflection Coating",
+            "children": [
+              {
+                "label": "Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Refresh Rate",
+                "value": "120Hz"
+              },
+              {
+                "label": "Playback Quality",
+                "value": "HDR"
+              },
+              {
+                "label": "LTPO Support",
+                "value": "No"
+              },
+              {
+                "label": "LTPS Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Anti Reflection Coating",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "label": "Size",
+            "value": "6.57 inches, 106.2 cm², 95.3% Screen To Body Ratio",
+            "children": [
+              {
+                "label": "Display Size",
+                "value": "6.57 inches"
+              },
+              {
+                "label": "Area",
+                "value": "106.2 cm²"
+              },
+              {
+                "label": "Screen to Body Ratio",
+                "value": "95.3%"
+              },
+              {
+                "label": "Display Form Factor",
+                "value": "Flat Display"
+              }
+            ]
+          },
+          {
+            "label": "Resolution",
+            "value": "1.5K, 1264 x 2728 pixels, (458 ppi), 10-bit 1.07 Billion Colours, 100% DCI-P3, 8000 nits(Peak Brightness), 1800 nits(High Brightness), Honor Oasis Eye Protection",
+            "children": [
+              {
+                "label": "Display Resolution",
+                "value": "1.5K"
+              },
+              {
+                "label": "Resolution Width",
+                "value": "1264pixels"
+              },
+              {
+                "label": "Resolution Height",
+                "value": "2728pixels"
+              },
+              {
+                "label": "Pixel Density",
+                "value": "458ppi"
+              },
+              {
+                "label": "Colour Gamut",
+                "value": "DCI-P3"
+              },
+              {
+                "label": "Color Gamut Range",
+                "value": "100%"
+              },
+              {
+                "label": "Display Bit Rate",
+                "value": "10-bit"
+              },
+              {
+                "label": "Colour Depth",
+                "value": "1.07 Billion Colours"
+              },
+              {
+                "label": "Eye Protection",
+                "value": "Honor Oasis Eye Protection"
+              },
+              {
+                "label": "High Brightness",
+                "value": "1800nits"
+              },
+              {
+                "label": "Peak Brightness",
+                "value": "8000nits"
+              }
+            ]
+          },
+          {
+            "label": "Cover Type",
+            "value": "AMOLED",
+            "children": [
+              {
+                "label": "Cover Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Cover Display LTPO Support",
+                "value": "No"
+              },
+              {
+                "label": "Cover Display LTPS Support",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "label": "Cover Size",
+            "value": "1.59 inches",
+            "children": [
+              {
+                "label": "Cover Display Size",
+                "value": "1.59"
+              }
+            ]
+          }
+        ],
+        "Body": [
+          {
+            "label": "Dimensions",
+            "value": "156 x 74.7 x 7.96 mm"
+          },
+          {
+            "label": "Weight",
+            "value": "208 grams"
+          },
+          {
+            "label": "Front",
+            "value": "Glass"
+          },
+          {
+            "label": "Back",
+            "value": "Glass"
+          },
+          {
+            "label": "Side",
+            "value": "Metal Frame"
+          },
+          {
+            "label": "Ports",
+            "value": "USB Type-C 2.0, OTG"
+          },
+          {
+            "label": "IP Rating",
+            "value": "IP68/IP69/IP69K (Dust and Water Resistant)"
+          },
+          {
+            "label": "Speaker",
+            "value": "Stereo Speakers, HONOR Sound"
+          }
+        ],
+        "Processor": [
+          {
+            "label": "Chipset",
+            "value": "Qualcomm Snapdragon 7 Gen 4 (4 nm)",
+            "children": [
+              {
+                "label": "Chipset Manufacturer",
+                "value": "Qualcomm"
+              },
+              {
+                "label": "Chipset",
+                "value": "Snapdragon 7 Gen 4"
+              },
+              {
+                "label": "Fabrication Size",
+                "value": "4 nm"
+              },
+              {
+                "label": "Co-Processor",
+                "value": "Honor C3 chip"
+              }
+            ]
+          },
+          {
+            "label": "CPU",
+            "value": "Octa-core (1x2.8 GHz Cortex-720 & 4x2.4 GHz Cortex-720 & 3x1.8 GHz Cortex-520), Vapor Chamber Cooling",
+            "children": [
+              {
+                "label": "Number of Cores",
+                "value": "Octa-core"
+              },
+              {
+                "label": "Clock Speed",
+                "value": "1x2.8 GHz Cortex-720 & 4x2.4 GHz Cortex-720 & 3x1.8 GHz Cortex-520"
+              },
+              {
+                "label": "Cooling System",
+                "value": "Vapor Chamber Cooling"
+              }
+            ]
+          },
+          {
+            "label": "GPU",
+            "value": "Adreno 722"
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 17, MagicOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "6 year(s) of Software and Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Assistant, AI Color Adjustment, AI Studio, AI Wallpapers, Glory AI"
+          }
+        ],
+        "Main Camera": [
+          {
+            "label": "Main Camera",
+            "value": "200 MP, f/1.9, 24mm (Wide-angle), 0.56 µm, 1/1.4\", OIS",
+            "children": [
+              {
+                "label": "Main Camera Megapixel",
+                "value": "200MP"
+              },
+              {
+                "label": "Main Camera Lens Type",
+                "value": "Wide-angle"
+              },
+              {
+                "label": "Main Camera Aperture",
+                "value": "f/1.9"
+              },
+              {
+                "label": "Main Camera Focal Length",
+                "value": "24 mm"
+              },
+              {
+                "label": "Main Camera Sensor Size",
+                "value": "1/1.4\""
+              },
+              {
+                "label": "Main Camera Pixel Size",
+                "value": "0.56 µm"
+              },
+              {
+                "label": "Main Camera Camera Features",
+                "value": "OIS"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #2",
+            "value": "12 MP, f/2.2, 16mm (Ultra-wide), 112°, PDAF",
+            "children": [
+              {
+                "label": "Main Camera #2 Megapixel",
+                "value": "12MP"
+              },
+              {
+                "label": "Main Camera #2 Lens Type",
+                "value": "Ultra-wide"
+              },
+              {
+                "label": "Main Camera #2 Aperture",
+                "value": "f/2.2"
+              },
+              {
+                "label": "Main Camera #2 Focal Length",
+                "value": "16 mm"
+              },
+              {
+                "label": "Main Camera #2 Field of View",
+                "value": "112°"
+              },
+              {
+                "label": "Main Camera #2 Camera Features",
+                "value": "PDAF"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Capture smiles, Continuous Shooting, Documents Mode, Dynamic Photos, Film Camera Mode, Filter, HDR, Night mode, panorama, Portrait mode, Professional Mode, Super Macro, Supermoon, Timer, Voice-activated Photography, Watermark",
+            "children": [
+              {
+                "label": "Camera Stabilization",
+                "value": "Hybrid Stabilization"
+              },
+              {
+                "label": "Auto Focus Type",
+                "value": "PDAF"
+              },
+              {
+                "label": "Dynamic Video Recording Support",
+                "value": "HDR recording"
+              },
+              {
+                "label": "Slow Motion Recording",
+                "value": "120 fps slomo"
+              },
+              {
+                "label": "Max Zoom Supported",
+                "value": "2-10X"
+              },
+              {
+                "label": "Features",
+                "value": "Capture smiles, Continuous Shooting, Documents Mode, Dynamic Photos, Film Camera Mode, Filter, HDR, Night mode, panorama, Portrait mode, Professional Mode, Super Macro, Supermoon, Timer, Voice-activated Photography, Watermark"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "4K@30/60fps, 1080p@30/60fps, gyro-EIS, OIS, Time-lapse Video",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080p@30fps, 1080p@60fps, 4K@30fps, 4K@60fps"
+              },
+              {
+                "label": "Log Video Recording Support",
+                "value": "No"
+              },
+              {
+                "label": "Video Features",
+                "value": "gyro-EIS, OIS, Time-lapse Video"
+              }
+            ]
+          }
+        ],
+        "Selfie Camera": [
+          {
+            "label": "Front Camera",
+            "value": "50 MP, f/2.0, 21mm (Wide), 0.61 µm, 1/2.88\"",
+            "children": [
+              {
+                "label": "Front Camera #1 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Front Camera #1 Lens Type",
+                "value": "Wide"
+              },
+              {
+                "label": "Front Camera #1 Aperture",
+                "value": "f/2.0"
+              },
+              {
+                "label": "Front Camera #1 Focal Length",
+                "value": "21 mm"
+              },
+              {
+                "label": "Front Camera #1 Sensor Size",
+                "value": "1/2.88\""
+              },
+              {
+                "label": "Front Camera #1 Pixel Size",
+                "value": "0.61 µm"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Auto Smile Capture, Dynamic Photos, Fill Light, Filters, Gesture control, HdR, Live Photos, Night mode, Portrait Mode, Selfie Photo Mirror, Timer, Ultra-HD Mode, Voice-activated Shooting, Watermark",
+            "children": [
+              {
+                "label": "Auto Focus Type",
+                "value": "Fixed Focus"
+              },
+              {
+                "label": "Features",
+                "value": "Auto Smile Capture, Dynamic Photos, Fill Light, Filters, Gesture control, HdR, Live Photos, Night mode, Portrait Mode, Selfie Photo Mirror, Timer, Ultra-HD Mode, Voice-activated Shooting, Watermark"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "gyro-EIS",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080@30fps, 1080@60fps, 4k@30fps"
+              },
+              {
+                "label": "HDR Recording Support",
+                "value": "SDR recording"
+              },
+              {
+                "label": "Video Features",
+                "value": "gyro-EIS"
+              }
+            ]
+          }
+        ],
+        "Battery": [
+          {
+            "label": "Capacity",
+            "value": "9000 mAh, Lithium Polymer (Non-removable)",
+            "children": [
+              {
+                "label": "Battery Capacity",
+                "value": "9000mAh"
+              },
+              {
+                "label": "Battery Type",
+                "value": "Lithium Polymer"
+              }
+            ]
+          },
+          {
+            "label": "Charging",
+            "value": "80W (wired), Wireless Charging Supported, Reverse Wireless Charging Supported, 27W (reverse wired), SuperCharge",
+            "children": [
+              {
+                "label": "Charging Speed Wired",
+                "value": "80W"
+              },
+              {
+                "label": "Wireless Charging Support",
+                "value": "No"
+              },
+              {
+                "label": "Reverse Wireless Charging Support",
+                "value": "No"
+              },
+              {
+                "label": "Reverse Wired Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Reverse Wired",
+                "value": "27W"
+              },
+              {
+                "label": "Charging Standards Supported",
+                "value": "SuperCharge"
+              },
+              {
+                "label": "Bypass Charging Support",
+                "value": "No"
+              }
+            ]
+          }
+        ],
+        "Memory": [
+          {
+            "label": "Storage",
+            "value": "256GB",
+            "children": [
+              {
+                "label": "Storage Size",
+                "value": "256GB"
+              }
+            ]
+          },
+          {
+            "label": "RAM",
+            "value": "12GB, LPDDR5X",
+            "children": [
+              {
+                "label": "RAM Size",
+                "value": "12GB"
+              },
+              {
+                "label": "RAM Type",
+                "value": "LPDDR5X"
+              }
+            ]
+          }
+        ],
+        "Network": [
+          {
+            "label": "SIM",
+            "value": "Dual nano-SIM (nano-SIM, dual stand-by)"
+          },
+          {
+            "label": "Technology",
+            "value": "5G, GSM, HSPA, LTE FDD, LTE TD"
+          },
+          {
+            "label": "2G Bands",
+            "value": "1800, 1900, 850, 900 (4 bands)"
+          },
+          {
+            "label": "3G Bands",
+            "value": "850, 900, 1900, 2100 (4 bands)"
+          },
+          {
+            "label": "4G Bands",
+            "value": "1, 3, 7, 8, 20, 28, 38, 40, 41 (9 bands)"
+          },
+          {
+            "label": "5G Bands",
+            "value": "3, 40 (2 bands)"
+          },
+          {
+            "label": "Speed",
+            "value": "5G, GSM, HSPA, LTE"
+          }
+        ],
+        "Connectivity": [
+          {
+            "label": "WLAN",
+            "value": "Wi-Fi 6 802.11 a/b/g/n/ac/ax, Hotspot, Dual Band",
+            "children": [
+              {
+                "label": "Wi-Fi Version",
+                "value": "WiFi 6"
+              },
+              {
+                "label": "Wi-Fi Standards",
+                "value": "Wi-Fi 6 802.11 a/b/g/n/ac/ax"
+              },
+              {
+                "label": "Wi-Fi Features",
+                "value": "Hotspot"
+              }
+            ]
+          },
+          {
+            "label": "Bluetooth",
+            "value": "5.4, aptX, aptX Adaptive, aptX HD, aptX Lossless, ASHA, BLE, LC3, LDAC, LE, LHDC 3.0, LHDC 4.0, LHDC 5.0, SBC",
+            "children": [
+              {
+                "label": "Bluetooth Version",
+                "value": "5.4"
+              },
+              {
+                "label": "Bluetooth Codecs",
+                "value": "aptX, aptX Adaptive, aptX HD, aptX Lossless, ASHA, BLE, LC3, LDAC, LE, LHDC 3.0, LHDC 4.0, LHDC 5.0, SBC"
+              }
+            ]
+          },
+          {
+            "label": "Positioning",
+            "value": "A-GNSS, Beidou (B1I+B1C+B2a+B2b), GALILEO (E1+E5a+E5b), GLONASS (G1), GPS (L1+L5), NavIC (L1+L5), QZSS (L1+L5)"
+          },
+          {
+            "label": "NFC",
+            "value": "Supported"
+          }
+        ],
+        "Features": [
+          {
+            "label": "Fingerprint Scanner",
+            "value": "Optical (under display)"
+          },
+          {
+            "label": "Sensors",
+            "value": "Accelerometer, Ambient Light Sensor, Compass, Gravity Sensor, Gyroscope, Infrared Sensor, Proximity Sensor",
+            "children": [
+              {
+                "label": "Sensors on Board",
+                "value": "Accelerometer, Ambient Light Sensor, Compass, Gravity Sensor, Gyroscope, Infrared Sensor, Proximity Sensor"
+              }
+            ]
+          },
+          {
+            "label": "Additional Features",
+            "value": "Ordinary Motor"
+          }
+        ]
+      },
+      "scrapedAt": "2026-11-23T23:03:01.709Z",
+      "image": {
+        "file": "assets/phones/honor-700s.png",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 618672,
+        "source": "https://cdn.beebom.com/mobile/honor-700s-front-and-back1.png",
+        "fetchedAt": "2026-11-23T23:03:22.916Z"
+      }
+    },
+    {
       "slug": "honor-80-gt",
       "url": "https://gadgets.beebom.com/mobile/honor-80-gt",
       "name": "Honor 80 GT",
@@ -112830,6 +114822,7 @@
         "amount": 84999,
         "text": "₹84,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": "Rumored",
@@ -113028,14 +115021,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T13:52:34.271Z",
+      "scrapedAt": "2026-11-23T23:03:18.678Z",
       "image": {
         "file": "assets/phones/honor-magic-9-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 591476,
         "source": "https://cdn.beebom.com/mobile/honor-magic-9-pro-front-back.png",
-        "fetchedAt": "2026-11-14T13:53:36.586Z"
+        "fetchedAt": "2026-11-23T23:03:24.557Z"
       }
     },
     {
@@ -177484,14 +179477,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:50.716Z",
+      "scrapedAt": "2026-11-23T23:03:11.046Z",
       "image": {
         "file": "assets/phones/honor-x8e.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1264765,
         "source": "https://cdn.beebom.com/mobile/honor-x8e-front-and-back1.png",
-        "fetchedAt": "2026-11-23T11:30:05.866Z"
+        "fetchedAt": "2026-11-23T23:03:24.833Z"
       }
     },
     {
@@ -228120,14 +230113,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:43.954Z",
+      "scrapedAt": "2026-11-23T23:03:04.286Z",
       "image": {
         "file": "assets/phones/huawei-osta-o1-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 614177,
         "source": "https://cdn.beebom.com/mobile/huawei-osta-o1-pro-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:06.394Z"
+        "fetchedAt": "2026-11-23T23:03:25.101Z"
       }
     },
     {
@@ -250479,7 +252472,7 @@
           "url": "https://www.flipkart.com/infinix-gt-50-pro-red-blaze-256-gb/p/itmc00f21c0de886?pid=MOBHRQEFQKW6FQGN&marketplace=FLIPKART&lid=LSTMOBHRQEFQKW6FQGNFH8OAK&pageUID=1793343586298"
         }
       ],
-      "score": 67,
+      "score": 70,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -251161,14 +253154,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:12.876Z",
+      "scrapedAt": "2026-11-23T23:02:31.083Z",
       "image": {
         "file": "assets/phones/infinix-gt-50-pro-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1065114,
         "source": "https://cdn.beebom.com/mobile/infinix-gt-50-pro-5g-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:09.231Z"
+        "fetchedAt": "2026-11-23T23:03:25.361Z"
       }
     },
     {
@@ -293863,7 +295856,7 @@
           "url": "https://www.flipkart.com/infinix-smart-20-hd-night-pulse-64-gb/p/itm31f788c5cac5d?pid=MOBHRGJFNBJZZE8P&marketplace=FLIPKART&lid=LSTMOBHRGJFNBJZZE8PGRXZCO&pageUID=1791368308608"
         }
       ],
-      "score": 61,
+      "score": 65,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -294405,14 +296398,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:16.333Z",
+      "scrapedAt": "2026-11-23T23:02:34.502Z",
       "image": {
         "file": "assets/phones/infinix-smart-20-hd.png",
         "width": 1000,
         "height": 1000,
         "bytes": 805313,
         "source": "https://cdn.beebom.com/mobile/infinix-smart-20-hd-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:09.499Z"
+        "fetchedAt": "2026-11-23T23:03:25.630Z"
       }
     },
     {
@@ -312995,14 +314988,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:05.276Z",
+      "scrapedAt": "2026-11-23T23:02:23.399Z",
       "image": {
         "file": "assets/phones/iqoo-16.png",
         "width": 1000,
         "height": 1000,
         "bytes": 887038,
         "source": "https://cdn.beebom.com/mobile/iqoo-16-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:09.766Z"
+        "fetchedAt": "2026-11-23T23:03:25.893Z"
       }
     },
     {
@@ -343096,14 +345089,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:31.333Z",
+      "scrapedAt": "2026-11-23T23:02:49.000Z",
       "image": {
         "file": "assets/phones/iqoo-z11xa-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 553545,
         "source": "https://cdn.beebom.com/mobile/iqoo-z11xa-5g-titan-black-front-and-back.png",
-        "fetchedAt": "2026-11-23T11:30:10.880Z"
+        "fetchedAt": "2026-11-23T23:03:27.528Z"
       }
     },
     {
@@ -356633,9 +358626,10 @@
       "brand": "ITEL",
       "price": {
         "currency": "₹",
-        "amount": 8999,
-        "text": "₹8,999"
+        "amount": 9999,
+        "text": "₹9,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": null,
@@ -357139,14 +359133,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T13:52:36.628Z",
+      "scrapedAt": "2026-11-23T23:03:20.344Z",
       "image": {
         "file": "assets/phones/itel-a200-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 454923,
         "source": "https://cdn.beebom.com/mobile/itel-a200-plus-front-and-back3.png",
-        "fetchedAt": "2026-11-14T13:54:34.358Z"
+        "fetchedAt": "2026-11-23T23:03:27.791Z"
       }
     },
     {
@@ -383247,7 +385241,7 @@
           "url": "https://www.amazon.in/dp/B0HJ2PR3FN?ref_=QAHzEditorial_en_IN_9&pf_rd_r=YNRE1SMQHPCNHSZ9CN89&pf_rd_p=46ade3e9-bdaf-4f03-9e4e-29fce7eae66a&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-11&pf_rd_t=&pf_rd_i=1389401031&th=1"
         }
       ],
-      "score": 73,
+      "score": 78,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -383749,14 +385743,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:25.425Z",
+      "scrapedAt": "2026-11-23T23:02:43.040Z",
       "image": {
         "file": "assets/phones/itel-zeno-300.png",
         "width": 1000,
         "height": 1000,
         "bytes": 653968,
         "source": "https://cdn.beebom.com/mobile/itel-zeno-300-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:11.408Z"
+        "fetchedAt": "2026-11-23T23:03:28.626Z"
       }
     },
     {
@@ -405438,7 +407432,7 @@
           "url": "https://www.flipkart.com/lava-bold-n4-lite-ghost-silver-32-gb/p/itmac2d7518525cc?pid=MOBHQT2BKFJ6WSVH&marketplace=FLIPKART&lid=LSTMOBHQT2BKFJ6WSVHITMCUE&pageUID=1791788687182"
         }
       ],
-      "score": 69,
+      "score": 73,
       "rating": 3.9,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -405919,14 +407913,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-20T19:24:38.407Z",
+      "scrapedAt": "2026-11-23T23:02:43.881Z",
       "image": {
         "file": "assets/phones/lava-bold-n4-lite.png",
         "width": 1000,
         "height": 1000,
         "bytes": 400138,
         "source": "https://cdn.beebom.com/mobile/lava-bold-n4-lite-front-and-back3.png",
-        "fetchedAt": "2026-11-20T19:25:27.032Z"
+        "fetchedAt": "2026-11-23T23:03:29.463Z"
       }
     },
     {
@@ -411344,14 +413338,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:02.773Z",
+      "scrapedAt": "2026-11-23T23:02:21.739Z",
       "image": {
         "file": "assets/phones/lava-shark-3-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 822075,
         "source": "https://cdn.beebom.com/mobile/lava-shark-3-5g-back.png",
-        "fetchedAt": "2026-11-23T11:30:11.790Z"
+        "fetchedAt": "2026-11-23T23:03:29.847Z"
       }
     },
     {
@@ -413890,7 +415884,7 @@
           "url": "https://www.flipkart.com/lava-virat-curve-5g-ellora-slate-128-gb/p/itm19c98d835e5ea?pid=MOBHQT22GWZJWH6W&marketplace=FLIPKART&lid=LSTMOBHQT22GWZJWH6WA78BUQ&pageUID=1790573735035"
         }
       ],
-      "score": 78,
+      "score": 79,
       "rating": 4.3,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -414421,14 +416415,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:57.501Z",
+      "scrapedAt": "2026-11-23T23:03:15.279Z",
       "image": {
         "file": "assets/phones/lava-virat-curve-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 919984,
         "source": "https://cdn.beebom.com/mobile/lava-virat-curve-5g-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:12.055Z"
+        "fetchedAt": "2026-11-23T23:03:30.108Z"
       }
     },
     {
@@ -414982,14 +416976,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:24.597Z",
+      "scrapedAt": "2026-11-23T23:02:42.197Z",
       "image": {
         "file": "assets/phones/lava-virat-v1.png",
         "width": 1000,
         "height": 1000,
         "bytes": 598435,
         "source": "https://cdn.beebom.com/mobile/lava-virat-v1-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:12.316Z"
+        "fetchedAt": "2026-11-23T23:03:30.376Z"
       }
     },
     {
@@ -495502,14 +497496,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:28:58.532Z",
+      "scrapedAt": "2026-11-23T23:02:16.716Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-fusion.png",
         "width": 1000,
         "height": 1000,
         "bytes": 908318,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-fusion-front-and-back1.png",
-        "fetchedAt": "2026-11-23T11:30:12.584Z"
+        "fetchedAt": "2026-11-23T23:03:30.637Z"
       }
     },
     {
@@ -496811,14 +498805,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:41.443Z",
+      "scrapedAt": "2026-11-23T23:02:58.478Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 645489,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-max-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:12.849Z"
+        "fetchedAt": "2026-11-23T23:03:30.900Z"
       }
     },
     {
@@ -497137,14 +499131,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:01.927Z",
+      "scrapedAt": "2026-11-23T23:02:20.899Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-neo.png",
         "width": 1000,
         "height": 1000,
         "bytes": 642290,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-neo-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:13.116Z"
+        "fetchedAt": "2026-11-23T23:03:31.163Z"
       }
     },
     {
@@ -497726,8 +499720,8 @@
       "brand": "Motorola",
       "price": {
         "currency": "₹",
-        "amount": 39999,
-        "text": "₹39,999"
+        "amount": 39920,
+        "text": "₹39,920"
       },
       "stores": [
         {
@@ -497741,13 +499735,13 @@
         {
           "store": "Amazon",
           "key": "amazon-india",
-          "price": 41559,
-          "priceText": "₹41,559",
+          "price": 39920,
+          "priceText": "₹39,920",
           "inStock": true,
-          "url": "https://www.amazon.in/Motorola-Pantone-Storage-Dimensity-Extreme/dp/B0GZ355B8X/ref=sr_1_8?crid=3NBU01IXX8JBG&dib=eyJ2IjoiMSJ9.VA9xWNRXMJ5fvrraPGZDmux16mXBa-2xuzbyV09Ol7SD8Tqev0Oejz1suyNPW17Ondqgo_DJp7Kq3xUlmuLjxCBTUlgJRQJyAITs-MSuFU9kgRxML9uUSOb2gZrxZ42qYB3_1NynlgnRDiM0Ro6soQhY73tocqADRLDesf3BWIMbnKHD2JY3tfnS959Iqjdk1qR-zMD2JAAxvuopFUPUEOVDg993sgeAJbiohI2BfwY.WmzgOA_INRipNXUzkRYF18cftmnOzoKTyZ0GUuCeGdQ&dib_tag=se&keywords=motorola+edge+70+pro&qid=1787831492&sprefix=Motorola+Edge+70+Pro%2Caps%2C366&sr=8-8"
+          "url": "https://www.amazon.in/Motorola-Satin-Luxe-Dimensity-Processor-Smartphone/dp/B0GZGSZ3S9/ref=sr_1_2?crid=3NBU01IXX8JBG&dib=eyJ2IjoiMSJ9.VA9xWNRXMJ5fvrraPGZDmux16mXBa-2xuzbyV09Ol7SD8Tqev0Oejz1suyNPW17Ondqgo_DJp7Kq3xUlmuLjxCBTUlgJRQJyAITs-MSuFU9kgRxML9uUSOb2gZrxZ42qYB3_1NynlgnRDiM0Ro6soQhY73tocqADRLDesf3BWIMbnKHD2JY3tfnS959Iqjdk1qR-zMD2JAAxvuopFUPUEOVDg993sgeAJbiohI2BfwY.WmzgOA_INRipNXUzkRYF18cftmnOzoKTyZ0GUuCeGdQ&dib_tag=se&keywords=motorola+edge+70+pro&qid=1787831492&sprefix=Motorola+Edge+70+Pro%2Caps%2C366&sr=8-2"
         }
       ],
-      "score": 89,
+      "score": 91,
       "rating": 4.2,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -498421,14 +500415,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:33.831Z",
+      "scrapedAt": "2026-11-23T23:02:51.601Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 695656,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-pro-front-back-1 (1).png",
-        "fetchedAt": "2026-11-23T11:30:13.378Z"
+        "fetchedAt": "2026-11-23T23:03:31.431Z"
       }
     },
     {
@@ -498451,7 +500445,7 @@
           "url": "https://www.flipkart.com/motorola-edge-70-pro/p/itm70caeee0ca941?pid=MOBHHXQRQJX8USUW&ocmpid=BrandAd_Motorola_Edge70ProPlus_Google_Search_India_Sale_ProdSpec_Paid&gad_source=1&gad_campaignid=23878450735&gbraid=0AAAAAohTLnK4AeOp5X5MNSC3hR7A4ynPU&gclid=Cj0KCQjwlqTRBhCBARIsANrkrxhxGbxC1aHQinxzqOo2UxYq99zT5MuezToU2P3og4Sp-FouZb_sgAkaAlygEALw_wcB"
         }
       ],
-      "score": 95,
+      "score": 94,
       "rating": 4.3,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -499158,14 +501152,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:37.226Z",
+      "scrapedAt": "2026-11-23T23:02:56.743Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-pro-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 847002,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-pro-plus-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:13.643Z"
+        "fetchedAt": "2026-11-23T23:03:31.710Z"
       }
     },
     {
@@ -517365,14 +519359,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:09.532Z",
+      "scrapedAt": "2026-11-23T23:02:27.669Z",
       "image": {
         "file": "assets/phones/motorola-razr-70.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1028285,
         "source": "https://cdn.beebom.com/mobile/motorola-razr-70-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:14.484Z"
+        "fetchedAt": "2026-11-23T23:03:31.970Z"
       }
     },
     {
@@ -518044,14 +520038,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:06.123Z",
+      "scrapedAt": "2026-11-23T23:02:24.237Z",
       "image": {
         "file": "assets/phones/motorola-razr-70-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 804653,
         "source": "https://cdn.beebom.com/mobile/motorola-razr-70-plus-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:16.390Z"
+        "fetchedAt": "2026-11-23T23:03:32.233Z"
       }
     },
     {
@@ -518718,14 +520712,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:08.685Z",
+      "scrapedAt": "2026-11-23T23:02:26.792Z",
       "image": {
         "file": "assets/phones/motorola-razr-70-ultra.png",
         "width": 1000,
         "height": 1000,
         "bytes": 970115,
         "source": "https://cdn.beebom.com/mobile/motorola-razr-70-ultra-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:16.679Z"
+        "fetchedAt": "2026-11-23T23:03:32.496Z"
       }
     },
     {
@@ -522012,14 +524006,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:39.754Z",
+      "scrapedAt": "2026-11-23T23:02:57.610Z",
       "image": {
         "file": "assets/phones/motorola-signature.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1018178,
         "source": "https://cdn.beebom.com/mobile/motorola-signature-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:16.944Z"
+        "fetchedAt": "2026-11-23T23:03:32.758Z"
       }
     },
     {
@@ -522694,14 +524688,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:03.621Z",
+      "scrapedAt": "2026-11-23T23:02:17.565Z",
       "image": {
         "file": "assets/phones/motorola-signature-27.png",
         "width": 1000,
         "height": 1000,
         "bytes": 698723,
         "source": "https://cdn.beebom.com/mobile/motorola-signature-27-front-and-back1.png",
-        "fetchedAt": "2026-11-23T11:30:17.210Z"
+        "fetchedAt": "2026-11-23T23:03:33.017Z"
       }
     },
     {
@@ -554452,7 +556446,7 @@
           "url": "https://www.amazon.in/Nthing-Phne-Pro-128-Gray/dp/B0DZTN5L7Y/ref=sr_1_7?crid=1GC0KZ9OORM1H&dib=eyJ2IjoiMSJ9.xPMcvwY3UBJq868QxVIETOspGda8MB0BaptbfKDYK2SOcCVov8OnCsRJFt5OeTWGHD0vGM_BHwJbdxZu3PBuc2mYAaSElQEleD8QBBhPNlxqbCZaWT66W0VStDNtPzsaW2nrkqJZUOMFqgQjDU1GZ2FjlDSUMV7gcGotVCsDUOZuq6b7jSYe-S4g9K_OFgCqS5ZAaFY9Sf41q4F61mNgwR7I8cqQBvW7flrOmMirauM.5pgRQgunPj2uPgYnmpGBYyaHN_sWdL7Zba6-IIFWcxA&dib_tag=se&keywords=nothing+phone+3a+pro&qid=1747731532&sprefix=Nothing+Phone+%283a%29+Pro%2Caps%2C539&sr=8-7"
         }
       ],
-      "score": 75,
+      "score": 76,
       "rating": 4.5,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -555107,14 +557101,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:28:57.805Z",
+      "scrapedAt": "2026-11-23T23:02:15.837Z",
       "image": {
         "file": "assets/phones/nothing-phone-3a-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 659346,
         "source": "https://cdn.beebom.com/mobile/nothing-phone-3a-pro-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:18.048Z"
+        "fetchedAt": "2026-11-23T23:03:34.649Z"
       }
     },
     {
@@ -556622,7 +558616,7 @@
           "url": "https://www.amazon.in/Nothing-Phone-Blue-8GB-128GB/dp/B0H8XQ49B8?th=1"
         }
       ],
-      "score": 65,
+      "score": 68,
       "rating": 4.4,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -557314,14 +559308,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:59.906Z",
+      "scrapedAt": "2026-11-23T23:03:17.839Z",
       "image": {
         "file": "assets/phones/nothing-phone-4b.png",
         "width": 1000,
         "height": 1000,
         "bytes": 669266,
         "source": "https://cdn.beebom.com/mobile/nothing-phone-4b-front-back-side-1.png",
-        "fetchedAt": "2026-11-23T11:30:18.310Z"
+        "fetchedAt": "2026-11-23T23:03:34.915Z"
       }
     },
     {
@@ -567056,10 +569050,10 @@
         {
           "store": "Flipkart",
           "key": "flipkart",
-          "price": 69000,
-          "priceText": "₹69,000",
+          "price": 61980,
+          "priceText": "₹61,980",
           "inStock": true,
-          "url": "https://www.flipkart.com/oneplus-15r-5g-mint-breeze-512-gb/p/itmc1c624041ba6c?pid=MOBHGUTYAHHWHW5Z&lid=LSTMOBHGUTYAHHWHW5ZJFVP9B&marketplace=FLIPKART&q=oneplus+15r&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=organic&iid=dc6e98cc-e7b5-4b76-95b0-8235ea508156.MOBHGUTYAHHWHW5Z.SEARCH&ppt=pp&ppn=pp&ssid=py0plevwg00000001766385362006&qH=333e4621f8154708"
+          "url": "https://www.flipkart.com/oneplus-15r-5g-charcoal-black-256-gb/p/itmc1c624041ba6c?pid=MOBHGUTYBWQS4QXS&lid=LSTMOBHGUTYBWQS4QXS06TIS0&marketplace=FLIPKART&q=oneplus+15r&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=dc6e98cc-e7b5-4b76-95b0-8235ea508156.MOBHGUTYBWQS4QXS.SEARCH&ppt=pp&ppn=pp&ssid=py0plevwg00000001766385362006&qH=333e4621f8154708"
         },
         {
           "store": "Amazon",
@@ -567070,7 +569064,7 @@
           "url": "https://www.amazon.in/dp/B0FZSWZZW2?ref_=QAHzEditorial_en_IN_1&pf_rd_r=2576113FC49941D5AA7F&pf_rd_p=97843956-1fb5-4119-9819-f52940412403&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-3_CW&pf_rd_t=&pf_rd_i=1389401031&th=1"
         }
       ],
-      "score": 87,
+      "score": 88,
       "rating": 4.6,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -567748,14 +569742,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:42.269Z",
+      "scrapedAt": "2026-11-23T23:02:59.200Z",
       "image": {
         "file": "assets/phones/oneplus-15r.png",
         "width": 1000,
         "height": 1000,
         "bytes": 549589,
         "source": "https://cdn.beebom.com/mobile/oneplus-15r-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:18.573Z"
+        "fetchedAt": "2026-11-23T23:03:35.173Z"
       }
     },
     {
@@ -582748,14 +584742,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:52.396Z",
+      "scrapedAt": "2026-11-23T23:03:12.697Z",
       "image": {
         "file": "assets/phones/oneplus-ace-7.png",
         "width": 1000,
         "height": 920,
         "bytes": 860174,
         "source": "https://cdn.beebom.com/mobile/oneplus-ace-7-front-back-Silver-1.png",
-        "fetchedAt": "2026-11-23T11:30:18.835Z"
+        "fetchedAt": "2026-11-23T23:03:35.431Z"
       }
     },
     {
@@ -583366,14 +585360,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:51.579Z",
+      "scrapedAt": "2026-11-23T23:03:11.854Z",
       "image": {
         "file": "assets/phones/oneplus-ace-7-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 984467,
         "source": "https://cdn.beebom.com/mobile/oneplus-ace-7-pro-front-and-back2.png",
-        "fetchedAt": "2026-11-23T11:30:19.106Z"
+        "fetchedAt": "2026-11-23T23:03:35.694Z"
       }
     },
     {
@@ -588958,8 +590952,8 @@
         {
           "store": "Flipkart",
           "key": "flipkart",
-          "price": 47108,
-          "priceText": "₹47,108",
+          "price": 47077,
+          "priceText": "₹47,077",
           "inStock": true,
           "url": "https://www.flipkart.com/oneplus-nord-6-fresh-mint-256-gb/p/itmc49f71cdc4080?pid=MOBHMBW2KKBSFG9R&lid=LSTMOBHMBW2KKBSFG9RF62IZH&marketplace=FLIPKART&q=oneplus+nord+6+5g&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&fm=organic&iid=ed0b8c3f-567c-4241-8046-a46d81f7c3dd.MOBHMBW2KKBSFG9R.SEARCH&ppt=None&ppn=None&ssid=kk7gfuylhc0000001776144512513&qH=f6642e6989e11333&ov_redirect=true"
         }
@@ -589658,14 +591652,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:36.353Z",
+      "scrapedAt": "2026-11-23T23:02:54.144Z",
       "image": {
         "file": "assets/phones/oneplus-nord-6.png",
         "width": 1000,
         "height": 1000,
         "bytes": 663837,
         "source": "https://cdn.beebom.com/mobile/oneplus-nord-6-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:19.641Z"
+        "fetchedAt": "2026-11-23T23:03:35.957Z"
       }
     },
     {
@@ -595212,14 +597206,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:34.655Z",
+      "scrapedAt": "2026-11-23T23:02:52.459Z",
       "image": {
         "file": "assets/phones/oneplus-nord-ce-6.png",
         "width": 1000,
         "height": 1000,
         "bytes": 636272,
         "source": "https://cdn.beebom.com/mobile/oneplus-nord-ce-6-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:19.905Z"
+        "fetchedAt": "2026-11-23T23:03:36.214Z"
       }
     },
     {
@@ -601803,14 +603797,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:49.039Z",
+      "scrapedAt": "2026-11-23T23:03:09.348Z",
       "image": {
         "file": "assets/phones/oneplus-turbo-6vs.png",
         "width": 1000,
         "height": 1000,
         "bytes": 949878,
         "source": "https://cdn.beebom.com/mobile/oneplus-turbo-6vs-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:20.170Z"
+        "fetchedAt": "2026-11-23T23:03:36.474Z"
       }
     },
     {
@@ -657997,14 +659991,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:19.595Z",
+      "scrapedAt": "2026-11-23T23:02:37.893Z",
       "image": {
         "file": "assets/phones/oppo-f35.png",
         "width": 1000,
         "height": 1000,
         "bytes": 766399,
         "source": "https://cdn.beebom.com/mobile/oppo-f35-front-and-back-2.png",
-        "fetchedAt": "2026-11-23T11:30:21.052Z"
+        "fetchedAt": "2026-11-23T23:03:38.180Z"
       }
     },
     {
@@ -658035,7 +660029,7 @@
           "url": "https://www.amazon.in/OPPO-Sunrise-8000mAh-SUPERVOOC-Dimensity/dp/B0HJTXRH6W/ref=sr_1_5?crid=32MLTOCHHZOLC&dib=eyJ2IjoiMSJ9.OWAInUAbHcuPuRp57XAz2vfw0jwmgS2UMaIDmVZZsSfJb0m2U-GI9Y_sEB5Pl50Pc6xDMNEBhQ0qFD8GKeNsOasRsc4Cgz_KAJrqa9Q3UdYjY1K2U7NOaDIB4uv34dsHBXJ7A0ogJF9_mv466RyNglvKDh0JIkdOu5AYC8mirvNvIxS8sCfi9j1LbzNFrV4Rr6lCyp-A5BWb_vhRRhttX3izKh5PF-g6aROhAv72Znu3aqjWmkWCKPtny2MY7aJyzu2JQr2vByEY1L68zQ1xnsGOkPF4eyMSapfOs-ts4Fw.3hPr2Ht8f65ioU-wv0O5XZlyX2YIx8sgl_kD4JrRgqE&dib_tag=se&keywords=oppo%2Bf35&qid=1791796487&s=electronics&sprefix=oppo%2Bf35%2Celectronics%2C450&sr=1-5&th=1"
         }
       ],
-      "score": 90,
+      "score": 88,
       "rating": 4.3,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -658701,14 +660695,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:20.418Z",
+      "scrapedAt": "2026-11-23T23:02:38.764Z",
       "image": {
         "file": "assets/phones/oppo-f35-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 862103,
         "source": "https://cdn.beebom.com/mobile/oppo-f35-pro-front-and-back-view_3.png",
-        "fetchedAt": "2026-11-23T11:30:22.862Z"
+        "fetchedAt": "2026-11-23T23:03:38.448Z"
       }
     },
     {
@@ -662571,7 +664565,7 @@
           "url": "https://www.amazon.in/OPPO-Smartphone-Hasselblad-Dimensity-6-59-inch/dp/B0HMVXLVZT/ref=sr_1_1_sspa?crid=1P67ON45XY1Z5&dib=eyJ2IjoiMSJ9.wUYjYQ8cw9wnrsFSb03nUamJ5LOT5msrStjrp3f2xeL5ImIgPaJAEzX6VX2EjDQaiKaYnDuD-VvN7unACjLoW86BUQZ95fYXXIRPhNSzJqZrgV-97NFeCVqUWP3fI-N--zq-9W-UQ6kaOUY6f5mHkw7eZnFEcEnT44GXBWemsfFaDg7HS12F8-Mp8KnoJ2dPzHV6MtU7ApjTEIQrOuTHZewZBUMgCWFM_snkML33xz0.jDxhL9WAgLB9Xf52_oacfcqH29pOVJF1sHDi6PVq5lo&dib_tag=se&keywords=oppo%2Bfind%2Bx10&qid=1793252268&sprefix=Oppo%2BFind%2BX10%2Caps%2C278&sr=8-1-spons&aref=5A4up9xVD6&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
         }
       ],
-      "score": 85,
+      "score": 89,
       "rating": 4.7,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -662679,15 +664673,684 @@
           "category": "Benchmarks"
         }
       ],
-      "specs": {},
-      "scrapedAt": "2026-11-23T11:29:13.764Z",
+      "specs": {
+        "General": [
+          {
+            "label": "Box Contents",
+            "value": "Phone, 80W Charger, Type-C Cable, SIM Ejector Tool, Case"
+          },
+          {
+            "label": "Availability",
+            "value": "October 29, 2026"
+          },
+          {
+            "label": "Launch Price",
+            "value": "₹1,39,999"
+          }
+        ],
+        "Display": [
+          {
+            "label": "Type",
+            "value": "ProXDR AMOLED, 144 Hz Refresh Rate, LTPO, Dolby Vision, 1000 Hz Touch Sampling Rate, Anti Reflection Coating",
+            "children": [
+              {
+                "label": "Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Display Engine",
+                "value": "ProXDR"
+              },
+              {
+                "label": "Refresh Rate",
+                "value": "144Hz"
+              },
+              {
+                "label": "Playback Quality",
+                "value": "Dolby Vision"
+              },
+              {
+                "label": "LTPO Support",
+                "value": "Yes"
+              },
+              {
+                "label": "LTPS Support",
+                "value": "No"
+              },
+              {
+                "label": "Touch Sampling Rate",
+                "value": "1000Hz"
+              },
+              {
+                "label": "Anti Reflection Coating",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "label": "Size",
+            "value": "6.59 inches, 106.2 cm², 96% Screen To Body Ratio",
+            "children": [
+              {
+                "label": "Display Size",
+                "value": "6.59 inches"
+              },
+              {
+                "label": "Area",
+                "value": "106.2 cm²"
+              },
+              {
+                "label": "Screen to Body Ratio",
+                "value": "96%"
+              },
+              {
+                "label": "Display Form Factor",
+                "value": "Flat Display"
+              }
+            ]
+          },
+          {
+            "label": "Resolution",
+            "value": "1.5K, 1272 x 2768 pixels, 20:9 (462 ppi), 10-bit 1.07 Billion Colours, 95% BT.2020, 3600 nits(Peak Brightness), 2000 nits(High Brightness), 800 nits(Typical Brightness), TUV Rheinland certification",
+            "children": [
+              {
+                "label": "Display Resolution",
+                "value": "1.5K"
+              },
+              {
+                "label": "Resolution Width",
+                "value": "1272pixels"
+              },
+              {
+                "label": "Resolution Height",
+                "value": "2768pixels"
+              },
+              {
+                "label": "Aspect Ratio",
+                "value": "20:9"
+              },
+              {
+                "label": "Pixel Density",
+                "value": "462ppi"
+              },
+              {
+                "label": "Colour Gamut",
+                "value": "BT.2020"
+              },
+              {
+                "label": "Color Gamut Range",
+                "value": "95%"
+              },
+              {
+                "label": "Display Bit Rate",
+                "value": "10-bit"
+              },
+              {
+                "label": "Colour Depth",
+                "value": "1.07 Billion Colours"
+              },
+              {
+                "label": "Eye Protection",
+                "value": "TUV Rheinland certification"
+              },
+              {
+                "label": "Typical Brightness",
+                "value": "800nits"
+              },
+              {
+                "label": "High Brightness",
+                "value": "2000nits"
+              },
+              {
+                "label": "Peak Brightness",
+                "value": "3600nits"
+              }
+            ]
+          }
+        ],
+        "Body": [
+          {
+            "label": "Dimensions",
+            "value": "156.5 x 74.3 x 8.4 mm"
+          },
+          {
+            "label": "Weight",
+            "value": "216 grams"
+          },
+          {
+            "label": "Front",
+            "value": "Crystal Guard"
+          },
+          {
+            "label": "Back",
+            "value": "Glass"
+          },
+          {
+            "label": "Side",
+            "value": "Metal Frame"
+          },
+          {
+            "label": "Build Quality",
+            "value": "SGS 5-Star Drop Resistance"
+          },
+          {
+            "label": "Ports",
+            "value": "USB Type-C 3.2 Gen 1, OTG"
+          },
+          {
+            "label": "IP Rating",
+            "value": "IP66/68/69 (Dust and Water Resistant)"
+          },
+          {
+            "label": "Speaker",
+            "value": "Stereo Speakers"
+          }
+        ],
+        "Processor": [
+          {
+            "label": "Chipset",
+            "value": "MediaTek Dimensity 9600M (3 nm)",
+            "children": [
+              {
+                "label": "Chipset Manufacturer",
+                "value": "MediaTek"
+              },
+              {
+                "label": "Chipset",
+                "value": "Dimensity 9600M"
+              },
+              {
+                "label": "Fabrication Size",
+                "value": "3 nm"
+              }
+            ]
+          },
+          {
+            "label": "CPU",
+            "value": "Octa-core (1x4.21 GHz & 3x3.5 GHz & 4x2.7 GHz), 3D Cryo-velocity Cooling System",
+            "children": [
+              {
+                "label": "Number of Cores",
+                "value": "Octa-core"
+              },
+              {
+                "label": "Clock Speed",
+                "value": "1x4.21 GHz & 3x3.5 GHz & 4x2.7 GHz"
+              },
+              {
+                "label": "Cooling System",
+                "value": "3D Cryo-velocity Cooling System"
+              }
+            ]
+          },
+          {
+            "label": "GPU",
+            "value": "Mali-G1-Ultra MC12"
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 17, ColorOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "5 year(s) of Software updates and 6 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Fluid Cloud, AI LinkBoost, AI Mind Pilot, AI Notes, AI Photo Agent, AI Photo Editing, AI Tap, Oppo AI"
+          }
+        ],
+        "Main Camera": [
+          {
+            "label": "Main Camera",
+            "value": "200 MP, Samsung ISOCELL S5KHPE, f/1.6, 23mm (Wide-angle), 85°, 0.56 µm, 1/1.4\", OIS",
+            "children": [
+              {
+                "label": "Main Camera Megapixel",
+                "value": "200MP"
+              },
+              {
+                "label": "Main Camera Camera Sensor",
+                "value": "Samsung ISOCELL S5KHPE"
+              },
+              {
+                "label": "Main Camera Lens Type",
+                "value": "Wide-angle"
+              },
+              {
+                "label": "Main Camera Aperture",
+                "value": "f/1.6"
+              },
+              {
+                "label": "Main Camera Focal Length",
+                "value": "23 mm"
+              },
+              {
+                "label": "Main Camera Field of View",
+                "value": "85°"
+              },
+              {
+                "label": "Main Camera Sensor Size",
+                "value": "1/1.4\""
+              },
+              {
+                "label": "Main Camera Pixel Size",
+                "value": "0.56 µm"
+              },
+              {
+                "label": "Main Camera Camera Features",
+                "value": "OIS"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #2",
+            "value": "50 MP, SAMSUNG ISOCELL JN5, f/2.0, 15mm (Ultra-wide), 120°, 0.64 µm, 1/2.75\", Auto Focus",
+            "children": [
+              {
+                "label": "Main Camera #2 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Main Camera #2 Camera Sensor",
+                "value": "SAMSUNG ISOCELL JN5"
+              },
+              {
+                "label": "Main Camera #2 Lens Type",
+                "value": "Ultra-wide"
+              },
+              {
+                "label": "Main Camera #2 Aperture",
+                "value": "f/2.0"
+              },
+              {
+                "label": "Main Camera #2 Focal Length",
+                "value": "15 mm"
+              },
+              {
+                "label": "Main Camera #2 Field of View",
+                "value": "120°"
+              },
+              {
+                "label": "Main Camera #2 Sensor Size",
+                "value": "1/2.75\""
+              },
+              {
+                "label": "Main Camera #2 Pixel Size",
+                "value": "0.64 µm"
+              },
+              {
+                "label": "Main Camera #2 Camera Features",
+                "value": "Auto Focus"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #3",
+            "value": "200 MP, Samsung ISOCELL HP5, f/2.6, 65mm (Telephoto), 36°, 0.5 µm, 1/1.56\", OIS",
+            "children": [
+              {
+                "label": "Main Camera #3 Megapixel",
+                "value": "200MP"
+              },
+              {
+                "label": "Main Camera #3 Camera Sensor",
+                "value": "Samsung ISOCELL HP5"
+              },
+              {
+                "label": "Main Camera #3 Lens Type",
+                "value": "Telephoto"
+              },
+              {
+                "label": "Main Camera #3 Aperture",
+                "value": "f/2.6"
+              },
+              {
+                "label": "Main Camera #3 Focal Length",
+                "value": "65 mm"
+              },
+              {
+                "label": "Main Camera #3 Field of View",
+                "value": "36°"
+              },
+              {
+                "label": "Main Camera #3 Sensor Size",
+                "value": "1/1.56\""
+              },
+              {
+                "label": "Main Camera #3 Pixel Size",
+                "value": "0.5 µm"
+              },
+              {
+                "label": "Main Camera #3 Camera Features",
+                "value": "OIS"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Digital zoom, Hasselblad Camera Lenses, Hasselblad Xpan Mode, Long Exposure, Night mode, Optical Zoom, Panoramic, Portrait mode, Pro mode, QR Scanning, RAW, Time Lapse, Underwater Photography",
+            "children": [
+              {
+                "label": "Camera Stabilization",
+                "value": "Hybrid Stabilization"
+              },
+              {
+                "label": "Optical Zoom Support",
+                "value": "2.8X"
+              },
+              {
+                "label": "Auto Focus Type",
+                "value": "Laser Auto Focus"
+              },
+              {
+                "label": "Dynamic Video Recording Support",
+                "value": "Dolby Vision Recording"
+              },
+              {
+                "label": "Dedicated Imaging Chip",
+                "value": "Oppo Lumo Imaging System"
+              },
+              {
+                "label": "Lens Enhancements",
+                "value": "Hasselblad"
+              },
+              {
+                "label": "Slow Motion Recording",
+                "value": "480 fps slomo"
+              },
+              {
+                "label": "Max Zoom Supported",
+                "value": ">100x"
+              },
+              {
+                "label": "Features",
+                "value": "Digital zoom, Hasselblad Camera Lenses, Hasselblad Xpan Mode, Long Exposure, Night mode, Optical Zoom, Panoramic, Portrait mode, Pro mode, QR Scanning, RAW, Time Lapse, Underwater Photography"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/120fps, 720p@30fps, 10-bit video, Dolby Vision, EIS, HDR, Log Video, Pro Video Mode, Time-lapse Video",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080p@120fps, 1080p@30fps, 1080p@60fps, 4K@120fps, 4K@30fps, 4K@60fps, 720p@30fps, 8K@30fps"
+              },
+              {
+                "label": "Log Video Recording Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Video Features",
+                "value": "10-bit video, Dolby Vision, EIS, HDR, Log Video, Pro Video Mode, Time-lapse Video"
+              }
+            ]
+          }
+        ],
+        "Selfie Camera": [
+          {
+            "label": "Front Camera",
+            "value": "50 MP, SAMSUNG ISOCELL JN5, f/2.0, 18mm (Wide), 100°, 0.64 µm, 1/2.75\", Auto Focus",
+            "children": [
+              {
+                "label": "Front Camera #1 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Front Camera #1 Camera Sensor",
+                "value": "SAMSUNG ISOCELL JN5"
+              },
+              {
+                "label": "Front Camera #1 Lens Type",
+                "value": "Wide"
+              },
+              {
+                "label": "Front Camera #1 Aperture",
+                "value": "f/2.0"
+              },
+              {
+                "label": "Front Camera #1 Focal Length",
+                "value": "18 mm"
+              },
+              {
+                "label": "Front Camera #1 Field of View",
+                "value": "100°"
+              },
+              {
+                "label": "Front Camera #1 Sensor Size",
+                "value": "1/2.75\""
+              },
+              {
+                "label": "Front Camera #1 Pixel Size",
+                "value": "0.64 µm"
+              },
+              {
+                "label": "Front Camera #1 Camera Features",
+                "value": "Auto Focus"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Auto Focus, HASSELBLAD HI-RES, Night mode, Panoramic, Portrait Mode, Pro Mode, Stickers, Time Lapse",
+            "children": [
+              {
+                "label": "Auto Focus Type",
+                "value": "PDAF"
+              },
+              {
+                "label": "Features",
+                "value": "Auto Focus, HASSELBLAD HI-RES, Night mode, Panoramic, Portrait Mode, Pro Mode, Stickers, Time Lapse"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "Digital Zoom, EIS, HDR, Professional Video Shooting, Time Lapse",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080@30fps, 1080@60fps, 4k@30fps, 4k@60fps, 720p@30fps"
+              },
+              {
+                "label": "HDR Recording Support",
+                "value": "HDR recording"
+              },
+              {
+                "label": "Video Features",
+                "value": "Digital Zoom, EIS, HDR, Professional Video Shooting, Time Lapse"
+              }
+            ]
+          }
+        ],
+        "Battery": [
+          {
+            "label": "Capacity",
+            "value": "8000 mAh, Silicon Carbon (Non-removable)",
+            "children": [
+              {
+                "label": "Battery Capacity",
+                "value": "8000mAh"
+              },
+              {
+                "label": "Battery Type",
+                "value": "Silicon Carbon"
+              }
+            ]
+          },
+          {
+            "label": "Charging",
+            "value": "80W (wired), 50W (wireless), 10W (reverse wireless), Reverse Wired Charging Supported, AirVOOC, PD, PPS, SUPERVOOC, UFCS, 50% in 35min (wired) (advertised)",
+            "children": [
+              {
+                "label": "Charging Speed Wired",
+                "value": "80W"
+              },
+              {
+                "label": "Wireless Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Wireless",
+                "value": "50W"
+              },
+              {
+                "label": "Reverse Wireless Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Reverse Wireless",
+                "value": "10W"
+              },
+              {
+                "label": "Reverse Wired Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Standards Supported",
+                "value": "AirVOOC, PD, PPS, SUPERVOOC, UFCS"
+              },
+              {
+                "label": "Bypass Charging Support",
+                "value": "No"
+              }
+            ]
+          }
+        ],
+        "Memory": [
+          {
+            "label": "Storage",
+            "value": "256GB, UFS 4.1",
+            "children": [
+              {
+                "label": "Storage Size",
+                "value": "256GB"
+              },
+              {
+                "label": "Storage Type",
+                "value": "UFS 4.1"
+              }
+            ]
+          },
+          {
+            "label": "RAM",
+            "value": "12GB, LPDDR5X",
+            "children": [
+              {
+                "label": "RAM Size",
+                "value": "12GB"
+              },
+              {
+                "label": "RAM Type",
+                "value": "LPDDR5X"
+              }
+            ]
+          }
+        ],
+        "Network": [
+          {
+            "label": "SIM",
+            "value": "Dual nano-SIM (nano-SIM, dual stand-by)"
+          },
+          {
+            "label": "Technology",
+            "value": "5G, GSM, LTE, WCDMA"
+          },
+          {
+            "label": "2G Bands",
+            "value": "1800, 1900, 850, 900 (4 bands)"
+          },
+          {
+            "label": "3G Bands",
+            "value": "1, 2, 4, 5, 6, 8, 19 (7 bands)"
+          },
+          {
+            "label": "4G Bands",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 42, 48, 66 (24 bands)"
+          },
+          {
+            "label": "5G Bands",
+            "value": "1, 2, 3, 5, 7, 8, 12, 18, 20, 25, 26, 28, 38, 40, 41, 48, 66, 75, 77, 78, 79 (21 bands)"
+          },
+          {
+            "label": "Speed",
+            "value": "5G, GSM, LTE, WCDMA"
+          }
+        ],
+        "Connectivity": [
+          {
+            "label": "WLAN",
+            "value": "Wi-Fi 7 802.11 a/b/g/n/ac/ax/be, Wi-Fi Direct, Dual Band, Tri Band",
+            "children": [
+              {
+                "label": "Wi-Fi Version",
+                "value": "WiFi 7"
+              },
+              {
+                "label": "Wi-Fi Standards",
+                "value": "Wi-Fi 7 802.11 a/b/g/n/ac/ax/be"
+              },
+              {
+                "label": "Wi-Fi Features",
+                "value": "Wi-Fi Direct"
+              }
+            ]
+          },
+          {
+            "label": "Bluetooth",
+            "value": "6.2, AAC, aptX, aptX HD, BLE, LDAC, LHDC 5.0, SBC",
+            "children": [
+              {
+                "label": "Bluetooth Version",
+                "value": "6.2"
+              },
+              {
+                "label": "Bluetooth Codecs",
+                "value": "AAC, aptX, aptX HD, BLE, LDAC, LHDC 5.0, SBC"
+              }
+            ]
+          },
+          {
+            "label": "Positioning",
+            "value": "A-GNSS, Beidou (B1I+B1C+B2a+B2b), GALILEO (E1+E5a+E5b), GLONASS (G1), GPS (L1+L5), NavIC (L5), QZSS (L1+L5)"
+          },
+          {
+            "label": "NFC",
+            "value": "Supported"
+          }
+        ],
+        "Features": [
+          {
+            "label": "Fingerprint Scanner",
+            "value": "Ultrasonic (under display)"
+          },
+          {
+            "label": "Sensors",
+            "value": "Accelerometer, Ambient Light Sensor, Color Temperature Sensor, Electronic Compass, Gyroscope, Hall Sensor, IR Blaster, Laser Sensor, Proximity Sensor, Spectral sensor",
+            "children": [
+              {
+                "label": "Sensors on Board",
+                "value": "Accelerometer, Ambient Light Sensor, Color Temperature Sensor, Electronic Compass, Gyroscope, Hall Sensor, IR Blaster, Laser Sensor, Proximity Sensor, Spectral sensor"
+              }
+            ]
+          },
+          {
+            "label": "Additional Features",
+            "value": "X-axis Linear Motor"
+          }
+        ]
+      },
+      "scrapedAt": "2026-11-23T23:02:31.976Z",
       "image": {
         "file": "assets/phones/oppo-find-x10.png",
         "width": 1000,
         "height": 1000,
         "bytes": 850461,
         "source": "https://cdn.beebom.com/mobile/oppo-find-x10-front-and-back-1.png",
-        "fetchedAt": "2026-11-23T11:30:23.132Z"
+        "fetchedAt": "2026-11-23T23:03:39.357Z"
       }
     },
     {
@@ -662954,7 +665617,7 @@
           "url": "https://www.amazon.in/OPPO-Hasselblad-Dimensity-6-78-inch-SUPERVOOC/dp/B0HMW8CM2Q/ref=sr_1_1_sspa?crid=2L72RAGJWBD2H&dib=eyJ2IjoiMSJ9.r6VxzeAnwRwG4Fbki-W8arY7kCB4PHSTH8TwTu9bKX35ImIgPaJAEzX6VX2EjDQaTxZ3skalitrIkElPWW0rcvy_-Mjyz8lyu3kCHse4gtB_x8mzdXnKTKa0DnRoBh_XWKiPbpJmiJ-kVS3daq1djowgOzNjMv5wByxokG_NyZ9R1128Rrp8Z4fEXjGhran8gdRytJYNDZpXI1OgZPMR1Kr1K5f3j4NviMAuSWluyC4.AA8kvRxV7Sk6Ml3gUgw9mUVUxCwIHgY-EIZYUnxf3Kk&dib_tag=se&keywords=oppo+find+x10+pro+max&qid=1793253013&sprefix=Oppo+Find+X10+Pro+Max%2Caps%2C271&sr=8-1-spons&aref=rruJC7ef2m&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
         }
       ],
-      "score": 95,
+      "score": 94,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -663077,15 +665740,684 @@
           "category": "Videos"
         }
       ],
-      "specs": {},
-      "scrapedAt": "2026-11-23T11:29:14.602Z",
+      "specs": {
+        "General": [
+          {
+            "label": "Box Contents",
+            "value": "Phone, 80W Charger, Type-C Cable, SIM Ejector Tool, Case"
+          },
+          {
+            "label": "Availability",
+            "value": "October 29, 2026"
+          },
+          {
+            "label": "Launch Price",
+            "value": "₹1,99,999"
+          }
+        ],
+        "Display": [
+          {
+            "label": "Type",
+            "value": "ProXDR AMOLED, 144 Hz Refresh Rate, LTPO, Dolby Vision, 1000 Hz Touch Sampling Rate, Anti Reflection Coating",
+            "children": [
+              {
+                "label": "Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Display Engine",
+                "value": "ProXDR"
+              },
+              {
+                "label": "Refresh Rate",
+                "value": "144Hz"
+              },
+              {
+                "label": "Playback Quality",
+                "value": "Dolby Vision"
+              },
+              {
+                "label": "LTPO Support",
+                "value": "Yes"
+              },
+              {
+                "label": "LTPS Support",
+                "value": "No"
+              },
+              {
+                "label": "Touch Sampling Rate",
+                "value": "1000Hz"
+              },
+              {
+                "label": "Display Enhancements",
+                "value": "Adaptive Colour Tone"
+              },
+              {
+                "label": "Anti Reflection Coating",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "label": "Size",
+            "value": "6.78 inches, 112.4 cm², 95.5% Screen To Body Ratio",
+            "children": [
+              {
+                "label": "Display Size",
+                "value": "6.78 inches"
+              },
+              {
+                "label": "Area",
+                "value": "112.4 cm²"
+              },
+              {
+                "label": "Screen to Body Ratio",
+                "value": "95.5%"
+              },
+              {
+                "label": "Display Form Factor",
+                "value": "Flat Display"
+              }
+            ]
+          },
+          {
+            "label": "Resolution",
+            "value": "1.5K, 1272 x 2772 pixels, 20:9 (450 ppi), 10-bit 1.07 Billion Colours, 95% BT.2020, 3600 nits(Peak Brightness), 2000 nits(High Brightness), 800 nits(Typical Brightness), TUV Rheinland certification",
+            "children": [
+              {
+                "label": "Display Resolution",
+                "value": "1.5K"
+              },
+              {
+                "label": "Resolution Width",
+                "value": "1272pixels"
+              },
+              {
+                "label": "Resolution Height",
+                "value": "2772pixels"
+              },
+              {
+                "label": "Aspect Ratio",
+                "value": "20:9"
+              },
+              {
+                "label": "Pixel Density",
+                "value": "450ppi"
+              },
+              {
+                "label": "Colour Gamut",
+                "value": "BT.2020"
+              },
+              {
+                "label": "Color Gamut Range",
+                "value": "95%"
+              },
+              {
+                "label": "Display Bit Rate",
+                "value": "10-bit"
+              },
+              {
+                "label": "Colour Depth",
+                "value": "1.07 Billion Colours"
+              },
+              {
+                "label": "Eye Protection",
+                "value": "TUV Rheinland certification"
+              },
+              {
+                "label": "Typical Brightness",
+                "value": "800nits"
+              },
+              {
+                "label": "High Brightness",
+                "value": "2000nits"
+              },
+              {
+                "label": "Peak Brightness",
+                "value": "3600nits"
+              }
+            ]
+          }
+        ],
+        "Body": [
+          {
+            "label": "Dimensions",
+            "value": "161.3 x 76.6 x 8.4 mm"
+          },
+          {
+            "label": "Weight",
+            "value": "233 grams"
+          },
+          {
+            "label": "Front",
+            "value": "Crystal Guard"
+          },
+          {
+            "label": "Back",
+            "value": "Glass"
+          },
+          {
+            "label": "Side",
+            "value": "Aluminium Frame"
+          },
+          {
+            "label": "Build Quality",
+            "value": "SGS 5-Star Drop Resistance"
+          },
+          {
+            "label": "Ports",
+            "value": "USB Type-C 3.2 Gen 1, OTG"
+          },
+          {
+            "label": "IP Rating",
+            "value": "IP66/68/69 (Dust and Water Resistant)"
+          },
+          {
+            "label": "Speaker",
+            "value": "Stereo Speakers, OReality Audio"
+          }
+        ],
+        "Processor": [
+          {
+            "label": "Chipset",
+            "value": "MediaTek Dimensity 9600 Pro (2 nm)",
+            "children": [
+              {
+                "label": "Chipset Manufacturer",
+                "value": "MediaTek"
+              },
+              {
+                "label": "Chipset",
+                "value": "Dimensity 9600 Pro"
+              },
+              {
+                "label": "Fabrication Size",
+                "value": "2 nm"
+              }
+            ]
+          },
+          {
+            "label": "CPU",
+            "value": "Octa-core (2x4.55 GHz & 3x4.35 GHz & 3x3.1 GHz), 3D Cryo-velocity Cooling System",
+            "children": [
+              {
+                "label": "Number of Cores",
+                "value": "Octa-core"
+              },
+              {
+                "label": "Clock Speed",
+                "value": "2x4.55 GHz & 3x4.35 GHz & 3x3.1 GHz"
+              },
+              {
+                "label": "Cooling System",
+                "value": "3D Cryo-velocity Cooling System"
+              }
+            ]
+          },
+          {
+            "label": "GPU",
+            "value": "Mali-G2-Ultra-NX"
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 17, ColorOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "5 year(s) of Software updates and 6 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Fluid Cloud, AI LinkBoost, AI Mind Pilot, AI Notes, AI Photo Agent, AI Photo Editing, AI Tap, Oppo AI"
+          }
+        ],
+        "Main Camera": [
+          {
+            "label": "Main Camera",
+            "value": "200 MP, Samsung ISOCELL HPC, f/1.5, 24mm (Wide-angle), 84°, 0.6 µm, 1/1.3\", OIS",
+            "children": [
+              {
+                "label": "Main Camera Megapixel",
+                "value": "200MP"
+              },
+              {
+                "label": "Main Camera Camera Sensor",
+                "value": "Samsung ISOCELL HPC"
+              },
+              {
+                "label": "Main Camera Lens Type",
+                "value": "Wide-angle"
+              },
+              {
+                "label": "Main Camera Aperture",
+                "value": "f/1.5"
+              },
+              {
+                "label": "Main Camera Focal Length",
+                "value": "24 mm"
+              },
+              {
+                "label": "Main Camera Field of View",
+                "value": "84°"
+              },
+              {
+                "label": "Main Camera Sensor Size",
+                "value": "1/1.3\""
+              },
+              {
+                "label": "Main Camera Pixel Size",
+                "value": "0.6 µm"
+              },
+              {
+                "label": "Main Camera Camera Features",
+                "value": "OIS"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #2",
+            "value": "200 MP, Samsung ISOCELL HP5, f/2.2, 13mm (Ultra-wide), 124°, 0.5 µm, 1/1.56\", Auto Focus",
+            "children": [
+              {
+                "label": "Main Camera #2 Megapixel",
+                "value": "200MP"
+              },
+              {
+                "label": "Main Camera #2 Camera Sensor",
+                "value": "Samsung ISOCELL HP5"
+              },
+              {
+                "label": "Main Camera #2 Lens Type",
+                "value": "Ultra-wide"
+              },
+              {
+                "label": "Main Camera #2 Aperture",
+                "value": "f/2.2"
+              },
+              {
+                "label": "Main Camera #2 Focal Length",
+                "value": "13 mm"
+              },
+              {
+                "label": "Main Camera #2 Field of View",
+                "value": "124°"
+              },
+              {
+                "label": "Main Camera #2 Sensor Size",
+                "value": "1/1.56\""
+              },
+              {
+                "label": "Main Camera #2 Pixel Size",
+                "value": "0.5 µm"
+              },
+              {
+                "label": "Main Camera #2 Camera Features",
+                "value": "Auto Focus"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #3",
+            "value": "200 MP, Samsung ISOCELL HP5, f/2.1, 70mm (Telephoto), 34°, 0.5 µm, 1/1.56\", OIS",
+            "children": [
+              {
+                "label": "Main Camera #3 Megapixel",
+                "value": "200MP"
+              },
+              {
+                "label": "Main Camera #3 Camera Sensor",
+                "value": "Samsung ISOCELL HP5"
+              },
+              {
+                "label": "Main Camera #3 Lens Type",
+                "value": "Telephoto"
+              },
+              {
+                "label": "Main Camera #3 Aperture",
+                "value": "f/2.1"
+              },
+              {
+                "label": "Main Camera #3 Focal Length",
+                "value": "70 mm"
+              },
+              {
+                "label": "Main Camera #3 Field of View",
+                "value": "34°"
+              },
+              {
+                "label": "Main Camera #3 Sensor Size",
+                "value": "1/1.56\""
+              },
+              {
+                "label": "Main Camera #3 Pixel Size",
+                "value": "0.5 µm"
+              },
+              {
+                "label": "Main Camera #3 Camera Features",
+                "value": "OIS"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Digital zoom, EIS, Hasselblad Camera Lenses, Hasselblad Xpan Mode, Long Exposure, Night mode, OIS, Optical Zoom, Panoramic, Portrait mode, Pro mode, RAW, Time Lapse, Underwater Photography",
+            "children": [
+              {
+                "label": "Camera Stabilization",
+                "value": "Hybrid Stabilization"
+              },
+              {
+                "label": "Optical Zoom Support",
+                "value": "3X"
+              },
+              {
+                "label": "Auto Focus Type",
+                "value": "Laser Auto Focus"
+              },
+              {
+                "label": "Dynamic Video Recording Support",
+                "value": "Dolby Vision Recording"
+              },
+              {
+                "label": "Lens Enhancements",
+                "value": "Hasselblad"
+              },
+              {
+                "label": "Slow Motion Recording",
+                "value": "240 fps slomo"
+              },
+              {
+                "label": "Max Zoom Supported",
+                "value": ">100x"
+              },
+              {
+                "label": "Features",
+                "value": "Digital zoom, EIS, Hasselblad Camera Lenses, Hasselblad Xpan Mode, Long Exposure, Night mode, OIS, Optical Zoom, Panoramic, Portrait mode, Pro mode, RAW, Time Lapse, Underwater Photography"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "4K@30/60/120fps, 1080p@30/60/120fps, 720p@30fps, 10-bit video, Dolby Vision, EIS, HDR, Pro Video Mode, Time-lapse Video",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080p@120fps, 1080p@30fps, 1080p@60fps, 4K@120fps, 4K@30fps, 4K@60fps, 720p@30fps, 8K"
+              },
+              {
+                "label": "Log Video Recording Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Video Features",
+                "value": "10-bit video, Dolby Vision, EIS, HDR, Pro Video Mode, Time-lapse Video"
+              }
+            ]
+          }
+        ],
+        "Selfie Camera": [
+          {
+            "label": "Front Camera",
+            "value": "50 MP, SAMSUNG ISOCELL JN5, f/2.0, 18mm (Wide), 100°, 0.64 µm, 1/2.75\", Auto Focus",
+            "children": [
+              {
+                "label": "Front Camera #1 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Front Camera #1 Camera Sensor",
+                "value": "SAMSUNG ISOCELL JN5"
+              },
+              {
+                "label": "Front Camera #1 Lens Type",
+                "value": "Wide"
+              },
+              {
+                "label": "Front Camera #1 Aperture",
+                "value": "f/2.0"
+              },
+              {
+                "label": "Front Camera #1 Focal Length",
+                "value": "18 mm"
+              },
+              {
+                "label": "Front Camera #1 Field of View",
+                "value": "100°"
+              },
+              {
+                "label": "Front Camera #1 Sensor Size",
+                "value": "1/2.75\""
+              },
+              {
+                "label": "Front Camera #1 Pixel Size",
+                "value": "0.64 µm"
+              },
+              {
+                "label": "Front Camera #1 Camera Features",
+                "value": "Auto Focus"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Auto Focus, HASSELBLAD HI-RES, Night mode, Panoramic, Portrait Mode, Pro Mode, Time Lapse",
+            "children": [
+              {
+                "label": "Auto Focus Type",
+                "value": "PDAF"
+              },
+              {
+                "label": "Features",
+                "value": "Auto Focus, HASSELBLAD HI-RES, Night mode, Panoramic, Portrait Mode, Pro Mode, Time Lapse"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "Dual Video, EIS, HDR, Professional Video Shooting, Time Lapse",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080@30fps, 1080@60fps, 4k@30fps, 4k@60fps, 720p@30fps"
+              },
+              {
+                "label": "HDR Recording Support",
+                "value": "HDR recording"
+              },
+              {
+                "label": "Video Features",
+                "value": "Dual Video, EIS, HDR, Professional Video Shooting, Time Lapse"
+              }
+            ]
+          }
+        ],
+        "Battery": [
+          {
+            "label": "Capacity",
+            "value": "8000 mAh, Silicon Carbon (Non-removable)",
+            "children": [
+              {
+                "label": "Battery Capacity",
+                "value": "8000mAh"
+              },
+              {
+                "label": "Battery Type",
+                "value": "Silicon Carbon"
+              }
+            ]
+          },
+          {
+            "label": "Charging",
+            "value": "80W (wired), 50W (wireless), 10W (reverse wireless), Reverse Wired Charging Supported, AirVOOC, PD, PPS, SUPERVOOC, UFCS",
+            "children": [
+              {
+                "label": "Charging Speed Wired",
+                "value": "80W"
+              },
+              {
+                "label": "Wireless Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Wireless",
+                "value": "50W"
+              },
+              {
+                "label": "Reverse Wireless Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Reverse Wireless",
+                "value": "10W"
+              },
+              {
+                "label": "Reverse Wired Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Standards Supported",
+                "value": "AirVOOC, PD, PPS, SUPERVOOC, UFCS"
+              },
+              {
+                "label": "Bypass Charging Support",
+                "value": "Yes"
+              }
+            ]
+          }
+        ],
+        "Memory": [
+          {
+            "label": "Storage",
+            "value": "512GB, UFS 4.1",
+            "children": [
+              {
+                "label": "Storage Size",
+                "value": "512GB"
+              },
+              {
+                "label": "Storage Type",
+                "value": "UFS 4.1"
+              }
+            ]
+          },
+          {
+            "label": "RAM",
+            "value": "12GB, LPDDR5X",
+            "children": [
+              {
+                "label": "RAM Size",
+                "value": "12GB"
+              },
+              {
+                "label": "RAM Type",
+                "value": "LPDDR5X"
+              }
+            ]
+          }
+        ],
+        "Network": [
+          {
+            "label": "SIM",
+            "value": "Dual nano-SIM (nano-SIM, dual stand-by)"
+          },
+          {
+            "label": "Technology",
+            "value": "5G, GSM, LTE FDD, LTE TD, WCDMA"
+          },
+          {
+            "label": "2G Bands",
+            "value": "1800, 1900, 850, 900 (4 bands)"
+          },
+          {
+            "label": "3G Bands",
+            "value": "1, 2, 4, 5, 6, 8, 19 (7 bands)"
+          },
+          {
+            "label": "4G Bands",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 42, 48, 66 (24 bands)"
+          },
+          {
+            "label": "5G Bands",
+            "value": "1, 2, 3, 5, 7, 8, 12, 18, 20, 25, 26, 28, 38, 40, 41, 48, 66, 71, 75, 77, 78, 79 (22 bands)"
+          },
+          {
+            "label": "Speed",
+            "value": "5G, GSM, LTE, WCDMA"
+          }
+        ],
+        "Connectivity": [
+          {
+            "label": "WLAN",
+            "value": "Wi-Fi 7 802.11 a/b/g/n/ac/ax/be, Wi-Fi Direct, Tri Band",
+            "children": [
+              {
+                "label": "Wi-Fi Version",
+                "value": "WiFi 7"
+              },
+              {
+                "label": "Wi-Fi Standards",
+                "value": "Wi-Fi 7 802.11 a/b/g/n/ac/ax/be"
+              },
+              {
+                "label": "Wi-Fi Features",
+                "value": "Wi-Fi Direct"
+              }
+            ]
+          },
+          {
+            "label": "Bluetooth",
+            "value": "6.2, AAC, aptX, aptX HD, BLE, LDAC, LHDC 5.0, SBC",
+            "children": [
+              {
+                "label": "Bluetooth Version",
+                "value": "6.2"
+              },
+              {
+                "label": "Bluetooth Codecs",
+                "value": "AAC, aptX, aptX HD, BLE, LDAC, LHDC 5.0, SBC"
+              }
+            ]
+          },
+          {
+            "label": "Positioning",
+            "value": "A-GNSS, Beidou (B1I+B1C+B2a+B2b), GALILEO (E1+E5a+E5b), GLONASS (G1), GPS (L1+L5), NavIC (L5), QZSS (L1+L5)"
+          },
+          {
+            "label": "NFC",
+            "value": "Supported"
+          }
+        ],
+        "Features": [
+          {
+            "label": "Fingerprint Scanner",
+            "value": "Ultrasonic (under display)"
+          },
+          {
+            "label": "Sensors",
+            "value": "Accelerometer, Ambient Light Sensor, Color Temperature Sensor, Electronic Compass, Gyroscope, Hall Sensor, IR Blaster, Laser Sensor, Proximity Sensor, Spectral sensor",
+            "children": [
+              {
+                "label": "Sensors on Board",
+                "value": "Accelerometer, Ambient Light Sensor, Color Temperature Sensor, Electronic Compass, Gyroscope, Hall Sensor, IR Blaster, Laser Sensor, Proximity Sensor, Spectral sensor"
+              }
+            ]
+          },
+          {
+            "label": "Additional Features",
+            "value": "Bionic Haptic Motor"
+          }
+        ]
+      },
+      "scrapedAt": "2026-11-23T23:02:32.822Z",
       "image": {
         "file": "assets/phones/oppo-find-x10-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 639418,
         "source": "https://cdn.beebom.com/mobile/oppo-find-x10-pro-max-front-and-back3.png",
-        "fetchedAt": "2026-11-23T11:30:23.397Z"
+        "fetchedAt": "2026-11-23T23:03:39.627Z"
       }
     },
     {
@@ -686856,7 +690188,7 @@
           "url": "https://www.amazon.in/OPPO-K14-Plus-Star-White/dp/B0HLVH3G45"
         }
       ],
-      "score": 86,
+      "score": 88,
       "rating": 4.4,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -687504,14 +690836,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:56.662Z",
+      "scrapedAt": "2026-11-23T23:03:14.438Z",
       "image": {
         "file": "assets/phones/oppo-k14-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 597553,
         "source": "https://cdn.beebom.com/mobile/oppo-k14-plus-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:24.284Z"
+        "fetchedAt": "2026-11-23T23:03:39.884Z"
       }
     },
     {
@@ -694559,14 +697891,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:45.671Z",
+      "scrapedAt": "2026-11-23T23:03:05.988Z",
       "image": {
         "file": "assets/phones/oppo-reno-17.png",
         "width": 1000,
         "height": 1000,
         "bytes": 755681,
         "source": "https://cdn.beebom.com/mobile/oppo-reno-17-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:25.134Z"
+        "fetchedAt": "2026-11-23T23:03:40.146Z"
       }
     },
     {
@@ -695194,14 +698526,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:44.798Z",
+      "scrapedAt": "2026-11-23T23:03:05.136Z",
       "image": {
         "file": "assets/phones/oppo-reno-17-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 670508,
         "source": "https://cdn.beebom.com/mobile/oppo-reno-17-pro-front-back-1.png",
-        "fetchedAt": "2026-11-23T11:30:26.375Z"
+        "fetchedAt": "2026-11-23T23:03:42.861Z"
       }
     },
     {
@@ -705077,14 +708409,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:28:56.117Z",
+      "scrapedAt": "2026-11-23T23:02:14.168Z",
       "image": {
         "file": "assets/phones/oppo-reno15.png",
         "width": 1000,
         "height": 1000,
         "bytes": 903432,
         "source": "https://cdn.beebom.com/mobile/oppo-reno15-front-and-back2.png",
-        "fetchedAt": "2026-11-23T11:30:26.640Z"
+        "fetchedAt": "2026-11-23T23:03:43.751Z"
       }
     },
     {
@@ -712447,14 +715779,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:06.979Z",
+      "scrapedAt": "2026-11-23T23:02:25.082Z",
       "image": {
         "file": "assets/phones/oppo-reno16-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 714491,
         "source": "https://cdn.beebom.com/mobile/oppo-reno16-pro-front-back-1.png",
-        "fetchedAt": "2026-11-23T11:30:27.529Z"
+        "fetchedAt": "2026-11-23T23:03:44.010Z"
       }
     },
     {
@@ -756592,8 +759924,8 @@
       "brand": "POCO",
       "price": {
         "currency": "₹",
-        "amount": 18340,
-        "text": "₹18,340"
+        "amount": 18339,
+        "text": "₹18,339"
       },
       "stores": [
         {
@@ -756607,13 +759939,13 @@
         {
           "store": "Amazon",
           "key": "amazon-india",
-          "price": 18340,
-          "priceText": "₹18,340",
+          "price": 18339,
+          "priceText": "₹18,339",
           "inStock": true,
           "url": "https://www.amazon.in/POCO-M8x-Blue-128-RAM/dp/B0HHFFL5KG/ref=sr_1_1?dib=eyJ2IjoiMSJ9.yr9427rzBD7hKf_wqcsQ4C3CUucFya7kshwTQU-uQObovKLhte8YoA3F8MOI0KQL41T92cujuLSHNCtICNrqyfZ20ICN6R0w7mHUnzWPLeo-__JjOHE9X_bHbXDBsb6D-tABtpl6OyVSaa1XPAzUWCyqJ_zTxC-FAiD_f_lVxk8iDacTJTGonWoYUFdfCb7FxTy6pVJOapzaZy2fSrktxiezBQMpSJJ9Xc2JGXR7QfKRAdEGIyvOfdPHwh6VXOYut3Rpp3Ft0p4Exhzx0aEaxf6Z8q3G-H9W8mMX8sQbGaY.wpYNDJlb3rCoSl3iSz9P8O6el90hy_K3BDiSa-bJWAg&dib_tag=se&keywords=Poco+M8x+5G&qid=1791785664&s=electronics&sr=1-1"
         }
       ],
-      "score": 72,
+      "score": 73,
       "rating": 3.7,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -757197,14 +760529,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:28.781Z",
+      "scrapedAt": "2026-11-23T23:02:46.386Z",
       "image": {
         "file": "assets/phones/poco-m8x-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 744731,
         "source": "https://cdn.beebom.com/mobile/poco-m8x-5g-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:27.793Z"
+        "fetchedAt": "2026-11-23T23:03:44.272Z"
       }
     },
     {
@@ -765062,7 +768394,7 @@
           "url": "https://www.amazon.in/POCO-Pro-Yellow-8GB-256GB/dp/B0F1331BB5/ref=sr_1_3?crid=2VNS5DEZXVPG3&dib=eyJ2IjoiMSJ9.NICewt2MyeXesRm9xqOwAZe7bq24Iqbw6OROYpvLUENVueRz4mUvFKobnZbT1utIZVXQlWoPMsh1g_AmY7TL0vLsYYgZbB1V6X0cyuzEFtzH3t0ZEA5qiKOfOy4ay_E5ieX8Gw_LT9hS9McNO2RSv4c354Q5GsteSqfyugTKviW7dcFx6itv_5LI4w4w3sO8WD7U5NlA8NyWhDvc7guagtmFo8Jq_dLH37CT6_EA847ltVUKFUvhNMTbkvH4XI7y-O0zegobBVy4yG24Bn2SY2LCLGtNnATPn2Dhgy1KcZY.WirwqsR7iGWxDXJG47AuJGNuGooA_NffQtd1zUqaM8Y&dib_tag=se&keywords=POCO+X7+Pro+5G&qid=1747991500&s=electronics&sprefix=poco+x7+pro+5g%2Celectronics%2C237&sr=1-3"
         }
       ],
-      "score": 93,
+      "score": 95,
       "rating": 4.3,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -765711,14 +769043,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:59.057Z",
+      "scrapedAt": "2026-11-23T23:03:16.969Z",
       "image": {
         "file": "assets/phones/poco-x7-pro-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1115498,
         "source": "https://cdn.beebom.com/mobile/poco-x7-pro-5g/poco-x7-pro-5g-front-and-back-1.png",
-        "fetchedAt": "2026-11-23T11:30:28.075Z"
+        "fetchedAt": "2026-11-23T23:03:44.538Z"
       }
     },
     {
@@ -765728,8 +769060,8 @@
       "brand": "POCO",
       "price": {
         "currency": "₹",
-        "amount": 27699,
-        "text": "₹27,699"
+        "amount": 27599,
+        "text": "₹27,599"
       },
       "stores": [
         {
@@ -765743,13 +769075,13 @@
         {
           "store": "Amazon",
           "key": "amazon-india",
-          "price": 27699,
-          "priceText": "₹27,699",
+          "price": 27599,
+          "priceText": "₹27,599",
           "inStock": true,
           "url": "https://www.amazon.in/POCO-Fiery-Orange-128-RAM/dp/B0HK3LNBTP/ref=sr_1_1?crid=34QTBGPLWPNMP&dib=eyJ2IjoiMSJ9.7IsZgFBQtCa6lQIRi2QvRCktDys1kR7DjGztbFxaLbytKnxwIejntlQEDWo69VXcDrmXM4s5f6jSGvO2Bf3pqtbEhewL7fx7xt_g0wCRwlP97mU9tKaCqxQH1fgc_KeJ8AB96weBdnW2lmey0en91J7tUjXs5gvdAwdE8oGsW2653euk5_uMvH-DUZppR6Sq0Z9hALQ_f-Lw72wAryCyakeqHmQp4t532FgGglpdfr0.TH0A-GH70N_Zq10UTh-fc-KnnLbTKa2RBH23lYW1ITY&dib_tag=se&keywords=poco+x8&qid=1795003792&sprefix=Poco+X8%2Caps%2C311&sr=8-1"
         }
       ],
-      "score": 94,
+      "score": 92,
       "rating": 4.3,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -766385,14 +769717,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:30.488Z",
+      "scrapedAt": "2026-11-23T23:02:48.104Z",
       "image": {
         "file": "assets/phones/poco-x8.png",
         "width": 1000,
         "height": 1000,
         "bytes": 757357,
         "source": "https://cdn.beebom.com/mobile/poco-x8-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:28.341Z"
+        "fetchedAt": "2026-11-23T23:03:44.801Z"
       }
     },
     {
@@ -767089,14 +770421,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:33.009Z",
+      "scrapedAt": "2026-11-23T23:02:50.757Z",
       "image": {
         "file": "assets/phones/poco-x8-power-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1040719,
         "source": "https://cdn.beebom.com/mobile/poco-x8-power-5g-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:30.154Z"
+        "fetchedAt": "2026-11-23T23:03:45.080Z"
       }
     },
     {
@@ -767812,7 +771144,7 @@
           "url": "https://www.flipkart.com/poco-x8-pro-max-white-256-gb/p/itm38fa4fd504c3f?pid=MOBHMGG5YF569YNY&marketplace=FLIPKART&lid=LSTMOBHMGG5YF569YNYPQLFPD&q=poco+x8+pro+max+5g&fm=organic&pageUID=1780036839970"
         }
       ],
-      "score": 93,
+      "score": 95,
       "rating": 4.5,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -768464,14 +771796,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:38.900Z",
+      "scrapedAt": "2026-11-23T23:02:54.993Z",
       "image": {
         "file": "assets/phones/poco-x8-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 518593,
         "source": "https://cdn.beebom.com/mobile/poco-x8-pro-max-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:31.998Z"
+        "fetchedAt": "2026-11-23T23:03:45.342Z"
       }
     },
     {
@@ -822090,14 +825422,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:07.837Z",
+      "scrapedAt": "2026-11-23T23:02:25.958Z",
       "image": {
         "file": "assets/phones/realme-c81.png",
         "width": 1000,
         "height": 1000,
         "bytes": 947279,
         "source": "https://cdn.beebom.com/mobile/realme-c81-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:33.842Z"
+        "fetchedAt": "2026-11-23T23:03:45.606Z"
       }
     },
     {
@@ -828854,14 +832186,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:11.208Z",
+      "scrapedAt": "2026-11-23T23:02:29.349Z",
       "image": {
         "file": "assets/phones/realme-gt-8.png",
         "width": 1000,
         "height": 1000,
         "bytes": 410197,
         "source": "https://cdn.beebom.com/mobile/realme-gt-8-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:35.554Z"
+        "fetchedAt": "2026-11-23T23:03:45.868Z"
       }
     },
     {
@@ -840610,8 +843942,8 @@
       "brand": "Realme",
       "price": {
         "currency": "₹",
-        "amount": 19907,
-        "text": "₹19,907"
+        "amount": 19633,
+        "text": "₹19,633"
       },
       "stores": [
         {
@@ -840625,13 +843957,13 @@
         {
           "store": "Flipkart",
           "key": "flipkart",
-          "price": 19907,
-          "priceText": "₹19,907",
+          "price": 19633,
+          "priceText": "₹19,633",
           "inStock": true,
           "url": "https://www.flipkart.com/realme-narzo-100x-5g-flash-orange-128-gb/p/itm66836fc8ecc5e?pid=MOBHPJHZHH5ZUAYS&marketplace=FLIPKART&lid=LSTMOBHPJHZHH5ZUAYSN405ZW&fm=eyJ3dHAiOiJwcm9kdWN0Q2FyZExpc3QiLCJwcnB0Ijoic3AiLCJtaWQiOiJQUk9EVUNUIn0&pageUID=1785836301948"
         }
       ],
-      "score": 77,
+      "score": 80,
       "rating": 4.2,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -841172,14 +844504,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:27.079Z",
+      "scrapedAt": "2026-11-23T23:02:44.713Z",
       "image": {
         "file": "assets/phones/realme-narzo-100x-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1304435,
         "source": "https://cdn.beebom.com/mobile/realme-narzo-100x-5g-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:37.597Z"
+        "fetchedAt": "2026-11-23T23:03:46.153Z"
       }
     },
     {
@@ -872255,7 +875587,7 @@
           "url": "https://www.amazon.in/realme-P4s-Titanium-Gray-128GB/dp/B0HJWXB5K8?th=1"
         }
       ],
-      "score": 86,
+      "score": 88,
       "rating": 4.4,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -872883,14 +876215,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:35.515Z",
+      "scrapedAt": "2026-11-23T23:02:53.272Z",
       "image": {
         "file": "assets/phones/realme-p4s-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 880725,
         "source": "https://cdn.beebom.com/mobile/realme-p4s-5g-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:37.863Z"
+        "fetchedAt": "2026-11-23T23:03:46.428Z"
       }
     },
     {
@@ -873470,14 +876802,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:21.287Z",
+      "scrapedAt": "2026-11-23T23:02:39.629Z",
       "image": {
         "file": "assets/phones/realme-p4s-lite.png",
         "width": 1000,
         "height": 1000,
         "bytes": 734630,
         "source": "https://cdn.beebom.com/mobile/realme-p4s-lite-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:38.128Z"
+        "fetchedAt": "2026-11-23T23:03:46.689Z"
       }
     },
     {
@@ -890534,14 +893866,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:47.324Z",
+      "scrapedAt": "2026-11-23T23:03:07.695Z",
       "image": {
         "file": "assets/phones/redmagic-12-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 689739,
         "source": "https://cdn.beebom.com/mobile/redmagic-12-pro-front-back-side.png",
-        "fetchedAt": "2026-11-23T11:30:38.397Z"
+        "fetchedAt": "2026-11-23T23:03:46.950Z"
       }
     },
     {
@@ -944419,14 +947751,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:48.206Z",
+      "scrapedAt": "2026-11-23T23:03:08.529Z",
       "image": {
         "file": "assets/phones/redmi-m100-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 761575,
         "source": "https://cdn.beebom.com/mobile/redmi-m100-pro-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:38.669Z"
+        "fetchedAt": "2026-11-23T23:03:47.212Z"
       }
     },
     {
@@ -969536,14 +972868,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:38.057Z",
+      "scrapedAt": "2026-11-23T23:02:55.912Z",
       "image": {
         "file": "assets/phones/redmi-note-17-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 405979,
         "source": "https://cdn.beebom.com/mobile/redmi-note-17-pro-max-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:38.934Z"
+        "fetchedAt": "2026-11-23T23:03:47.472Z"
       }
     },
     {
@@ -978408,14 +981740,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:43.119Z",
+      "scrapedAt": "2026-11-23T23:03:03.438Z",
       "image": {
         "file": "assets/phones/redmi-r80-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1033106,
         "source": "https://cdn.beebom.com/mobile/redmi-r80-5g-black-front-and-back.png",
-        "fetchedAt": "2026-11-23T11:30:39.268Z"
+        "fetchedAt": "2026-11-23T23:03:47.746Z"
       }
     },
     {
@@ -991362,7 +994694,7 @@
           "url": "https://www.flipkart.com/samsung-galaxy-a08-lte-dark-blue-64-gb/p/itma6392fda80eee?pid=MOBHQZZHXY4H9JNQ&marketplace=FLIPKART&lid=LSTMOBHQZZHXY4H9JNQLYJB31&q=samsung+galaxy+a08+4g&fm=organic&pageUID=1793165312455"
         }
       ],
-      "score": 54,
+      "score": 55,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -991898,14 +995230,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:12.028Z",
+      "scrapedAt": "2026-11-23T23:02:30.225Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-a08.png",
         "width": 1000,
         "height": 1000,
         "bytes": 366500,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-a08-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:39.534Z"
+        "fetchedAt": "2026-11-23T23:03:48.004Z"
       }
     },
     {
@@ -1030133,7 +1033465,7 @@
           "url": "https://www.flipkart.com/samsung-galaxy-f08-dark-blue-64-gb/p/itme0e389f41fa86?pid=MOBHR32YUHEQZWSZ&lid=LSTMOBHR32YUHEQZWSZXNNXXK&marketplace=FLIPKART&q=samsung+galaxy+f08+5g&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_18_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_18_na_na_na&fm=organic&iid=6d4e7083-eafe-45f0-bc91-d3b244479af1.MOBHR32YUHEQZWSZ.SEARCH&ppt=None&ppn=None&ssid=qbpsxq9exs0000001791437527230&qH=f75eaa47d3c478a3&ov_redirect=true&affExtParam2=TZO20261008110214lu1hZetjmz&affExtParam1=B2227"
         }
       ],
-      "score": 57,
+      "score": 58,
       "rating": 4.3,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1030663,14 +1033995,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:22.129Z",
+      "scrapedAt": "2026-11-23T23:02:40.495Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-f08.png",
         "width": 1000,
         "height": 1000,
         "bytes": 950233,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-f08-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:39.796Z"
+        "fetchedAt": "2026-11-23T23:03:48.270Z"
       }
     },
     {
@@ -1040492,7 +1043824,7 @@
           "url": "https://www.flipkart.com/samsung-galaxy-f70-5g-bold-black-128-gb/p/itmcc1028703e31e?pid=MOBHRV4XEHTNRHHT&marketplace=FLIPKART&lid=LSTMOBHRV4XEHTNRHHTQYQGDP&q=Samsung+Galaxy+F70+5G&fm=organic&pageUID=1792560623098"
         }
       ],
-      "score": 64,
+      "score": 65,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1041087,14 +1044419,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:15.457Z",
+      "scrapedAt": "2026-11-23T23:02:33.673Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-f70.png",
         "width": 1000,
         "height": 1000,
         "bytes": 808843,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-f70-front-back-2.png",
-        "fetchedAt": "2026-11-23T11:30:40.062Z"
+        "fetchedAt": "2026-11-23T23:03:49.113Z"
       }
     },
     {
@@ -1116906,14 +1120238,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:49.884Z",
+      "scrapedAt": "2026-11-23T23:03:10.215Z",
       "image": {
         "file": "assets/phones/samsung-w27.png",
         "width": 1000,
         "height": 1000,
         "bytes": 876099,
         "source": "https://cdn.beebom.com/mobile/samsung-w27-front-and-back-2.png",
-        "fetchedAt": "2026-11-23T11:30:43.259Z"
+        "fetchedAt": "2026-11-23T23:03:50.934Z"
       }
     },
     {
@@ -1177142,9 +1180474,19 @@
         "amount": 29999,
         "text": "₹29,999"
       },
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 29999,
+          "priceText": "₹29,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/tecno-pova-8-5g-16-bit-white-128-gb/p/itm575d24d0ce5fc?pid=MOBHNR66ZZRFCWSY&marketplace=FLIPKART&lid=LSTMOBHNR66ZZRFCWSY4NBPYA&pageUID=1781763457670"
+        }
+      ],
       "score": 75,
       "rating": 4.4,
-      "marketStatus": null,
+      "marketStatus": "Upcoming",
       "highlights": {
         "Processor": "Dimensity 7100",
         "Display": "6.76 inches",
@@ -1177704,14 +1181046,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T13:52:35.939Z",
+      "scrapedAt": "2026-11-23T23:03:19.515Z",
       "image": {
         "file": "assets/phones/tecno-pova-8.png",
         "width": 1000,
         "height": 1000,
         "bytes": 741727,
         "source": "https://cdn.beebom.com/mobile/tecno-pova-8-front-back.png",
-        "fetchedAt": "2026-11-14T13:56:07.914Z"
+        "fetchedAt": "2026-11-23T23:03:51.199Z"
       }
     },
     {
@@ -1214173,7 +1217515,7 @@
           "url": "https://www.amazon.in/vivo-Stellar-Storage-Additional-Exchange/dp/B0HK17FHHH/ref=sr_1_2?crid=3PI44RPD6CPK1&dib=eyJ2IjoiMSJ9.wjJrhVJAjThI86YyuME_GUb-oB4vlMMYbTLzA4MM48wjkKA4S5sjj7chi9TqPNnlaV5mpU0ZF5yJk5HMwfthBQx5tzROtSy0__JBHfTfwr9aok20KMuUrLcXPg4uL3ji5mCYT3iuqlZAHZl2aoGRJJO5I2mUmwaxlm579tLiw6zl1U3kbNKR3iXxp5GmgVepwbpECTEuqJHG04S7mi7lgo8c2ifxI9_Yj9oEifQZlllQudRvqs12y8m6eSzBhSnK2rfIaB6aqiaIN52leictO2OhLeDrkVcryIUhF_KMPLc.YR2LQMfB2sKNSwtpAJ5rjTcJ7GgANuRw8asYEZPp70E&dib_tag=se&keywords=Vivo+S2+FE&qid=1792560067&s=electronics&sprefix=vivo+s2+fe%2Celectronics%2C288&sr=1-2"
         }
       ],
-      "score": 76,
+      "score": 79,
       "rating": 4.2,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1214745,14 +1218087,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:17.146Z",
+      "scrapedAt": "2026-11-23T23:02:35.314Z",
       "image": {
         "file": "assets/phones/vivo-s2-fe.png",
         "width": 1000,
         "height": 1000,
         "bytes": 630222,
         "source": "https://cdn.beebom.com/mobile/vivo-s2-fe-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:43.526Z"
+        "fetchedAt": "2026-11-23T23:03:51.460Z"
       }
     },
     {
@@ -1232074,7 +1235416,7 @@
           "url": "https://www.amazon.in/vivo-T4x-5G-Glacial-128GB/dp/B0FV98G8VT/ref=sr_1_3?crid=3U068U3LLAMI&dib=eyJ2IjoiMSJ9.VCry64cHZfQL2FRz74M5wxrRfvp2dd3-Y2TkvOcMbH2wxw3Vu2m-ecutP2v5dYHQbirf8Dmiq53QvprRw7R1qfFnnq3r8BwN7wKzsbFmRqaNGsgOzrVNXAJIXKh67hxi21w7KFvaR-E8ySHXeXYEQWv7LIY1180KvbFaHiyFBDbHuYOTIiWk5ri7wDBQ4UvE5TodMgFOPOrqLQekPxjBR4ZkwL96qc7hnT48OrEHdrE.WPATLkV_yXHdCxi6uvP1FsCjIr5IcGAhpehzwych6VM&dib_tag=se&keywords=vivo+t4x+5g+mobile&qid=1769065095&sprefix=vivo+T4x+5G+%2Caps%2C417&sr=8-3"
         }
       ],
-      "score": 72,
+      "score": 71,
       "rating": 4.4,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1232610,14 +1235952,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:28:55.278Z",
+      "scrapedAt": "2026-11-23T23:02:13.322Z",
       "image": {
         "file": "assets/phones/vivo-t4x-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 604227,
         "source": "https://cdn.beebom.com/mobile/vivo-t4x-front-and-back-6.png",
-        "fetchedAt": "2026-11-23T11:30:43.788Z"
+        "fetchedAt": "2026-11-23T23:03:53.132Z"
       }
     },
     {
@@ -1233183,7 +1236525,7 @@
           "url": "https://www.flipkart.com/vivo-t5-5g-royal-bronze-128-gb/p/itm8fa150d1fa2d2?pid=MOBHQC8D6EURCBKD&marketplace=FLIPKART&lid=LSTMOBHQC8D6EURCBKDVGX4VE&pageUID=1788936503911"
         }
       ],
-      "score": 82,
+      "score": 84,
       "rating": 4.5,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1233806,14 +1237148,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:55.789Z",
+      "scrapedAt": "2026-11-23T23:03:13.529Z",
       "image": {
         "file": "assets/phones/vivo-t5-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 555831,
         "source": "https://cdn.beebom.com/mobile/vivo-t5-5g-front-back-1.png",
-        "fetchedAt": "2026-11-23T11:30:44.049Z"
+        "fetchedAt": "2026-11-23T23:03:53.389Z"
       }
     },
     {
@@ -1233836,7 +1237178,7 @@
           "url": "https://www.flipkart.com/vivo-t5-lite-44w-5g-twilight-shadow-64-gb/p/itm5420c578ec2df?pid=MOBHQSFF6MZK4YNP&marketplace=FLIPKART&lid=LSTMOBHQSFF6MZK4YNPMLMOKI&fm=organic&pageUID=1791445453985"
         }
       ],
-      "score": 70,
+      "score": 71,
       "rating": 4.3,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1234430,14 +1237772,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-22T00:48:47.052Z",
+      "scrapedAt": "2026-11-23T23:02:47.247Z",
       "image": {
         "file": "assets/phones/vivo-t5-lite-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 608811,
         "source": "https://cdn.beebom.com/mobile/vivo-t5-lite-5g-front-back-1.png",
-        "fetchedAt": "2026-11-22T00:50:32.147Z"
+        "fetchedAt": "2026-11-23T23:03:54.236Z"
       }
     },
     {
@@ -1235602,7 +1238944,7 @@
           "price": 27999,
           "priceText": "₹27,999",
           "inStock": true,
-          "url": "https://www.flipkart.com/vivo-t5x-5g-satin-silver-128-gb/p/itm7da8aa253e72b?pid=MOBHQC8ZUXZ4YM5F&marketplace=FLIPKART&lid=LSTMOBHQC8ZUXZ4YM5FJA0BYF&q=vivo+t5x+5g&fm=search-autosuggest&pageUID=1791964907796"
+          "url": "https://www.flipkart.com/vivo-t5x-5g-cosmic-green-128-gb/p/itm7da8aa253e72b?pid=MOBHQC8ZMRCP62TS&marketplace=FLIPKART&lid=LSTMOBHQC8ZMRCP62TSTXXKV0&q=vivo+t5x+5g&fm=search-autosuggest&pageUID=1791964905451"
         },
         {
           "store": "Amazon",
@@ -1235613,7 +1238955,7 @@
           "url": "https://www.amazon.in/vivo-Dimensity-7400-Turbo-Processor-Smartphone/dp/B0GTTRRGC1/ref=sr_1_2?crid=17M10XD5Q792N&dib=eyJ2IjoiMSJ9.cagpuPJgXfJoEJU4jncENecvqjv2sSFiY51zyJlFQd64DLh_XWrrc7wA-mRFedqijBmqJwcDyYGBamp_zUdWbmKADzWV8-3Lr_CqqoZmxKaro1Q2Cqgjor2MvIrtWFfUM8lzkIVxKs4eyXv1DwUDvGw1Rxb7N49iPfnNARNH0hIBFMx9TXVg22FYJ1krrt5AoNegXUxLg70ME3-z8j2WNzdHrFe-lZDoE-ayh6lO1aE.d3Rr9RCQYX_Tbo3CWfS33XoChQH17BvrRVMiaZS4OK4&dib_tag=se&keywords=vivo%2Bt5x%2B5g&qid=1778479867&sprefix=Vivo%2BT5x%2B5G%2Caps%2C413&sr=8-2&th=1"
         }
       ],
-      "score": 77,
+      "score": 76,
       "rating": 4.4,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1236199,14 +1239541,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:32.191Z",
+      "scrapedAt": "2026-11-23T23:02:49.873Z",
       "image": {
         "file": "assets/phones/vivo-t5x.png",
         "width": 1000,
         "height": 1000,
         "bytes": 672428,
         "source": "https://cdn.beebom.com/mobile/vivo-t5x-back-front.png",
-        "fetchedAt": "2026-11-23T11:30:44.310Z"
+        "fetchedAt": "2026-11-23T23:03:54.498Z"
       }
     },
     {
@@ -1262352,7 +1265694,7 @@
           "url": "https://www.amazon.in/vivo-Sunrise-Storage-Additional-Exchange/dp/B0HJCXYKCT/ref=sr_1_1?crid=ZWGHFG43WBQ8&dib=eyJ2IjoiMSJ9.-naupBcfl7__jI-tv3lmQTzAA1AfdLyhxbkgEr78sbNKbIreBQk5v4cFxLy9WZnIeuZN_QniEhqT8XwlmNpnExwmyoIaOPmNyiVEHEDcfhE1Erm-2KSNmOQTTNXcvIpr8AI-mkWoiZ1RJG5yUEJ30tKBSd6Wf-7AnbsGdIvCGTY8wU9EZkphPSNTxWdyOLeVMIBNcwMiCEqbQeiBH5Vrotki_9EgL8jdKG5K4gMDEHHbTODF4Q0P0Ljb3t2giu0-vptLawxhATmWwpfKTrxAkjaD4gTJjs9WKraCbRJN32k._zR8DI3Bp3kuzD2Z-8GzLDCJ-I6krfYZT4wv2MmKViI&dib_tag=se&keywords=Vivo%2BV80&qid=1791871216&s=electronics&sprefix=vivo%2Bv80%2Celectronics%2C391&sr=1-1&th=1"
         }
       ],
-      "score": 81,
+      "score": 84,
       "rating": 4.5,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1263067,14 +1266409,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:28:56.969Z",
+      "scrapedAt": "2026-11-23T23:02:14.999Z",
       "image": {
         "file": "assets/phones/vivo-v80.png",
         "width": 1000,
         "height": 1000,
         "bytes": 935108,
         "source": "https://cdn.beebom.com/mobile/vivo-v80-front-back-2.png",
-        "fetchedAt": "2026-11-23T11:30:44.576Z"
+        "fetchedAt": "2026-11-23T23:03:54.758Z"
       }
     },
     {
@@ -1267358,7 +1270700,7 @@
           "url": "https://www.amazon.in/vivo-Nebula-Storage-Additional-Exchange/dp/B0HK436NMV/ref=sr_1_1?crid=2ZEI5BD5F55V1&dib=eyJ2IjoiMSJ9.F2gcsLEW8g5yFAMcISTfhVZxB7ZzOCS1_S7io0n4mMIBRE6RMr4PnRg3BoCa2S8UrrjCaWyqsI3SS7X8oslE3tQ5QHckoifx3328ICs5-0GyRSDVydxNPYkJ3LwlH4iGF4KW6f9rZzFLy5SyuQ-25JzJoLjNcCrReaq7zJj4-SlRiI_xYcukz5PkWbyelqcfXY92Rit5WGs1KP1pOXOw-XG5hqutGl2zR7ywiHgyah7Z9ctKp3lcKCgWngHIFu-nq1sCplSwdmEpSlXAPrIkOH5J-C8bGElQt7nw3zfy_aA.fycfl_uiluUcifTgGCBM3_a2TpYuiMHUiM7WfmM43aE&dib_tag=se&keywords=Vivo%2BX%2BFold%2B6&qid=1791870854&s=electronics&sprefix=vivo%2Bx%2Bfold%2B6%2Celectronics%2C278&sr=1-1&th=1"
         }
       ],
-      "score": 75,
+      "score": 81,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1267401,15 +1270743,788 @@
           "category": "Videos"
         }
       ],
-      "specs": {},
-      "scrapedAt": "2026-11-23T11:29:17.964Z",
+      "specs": {
+        "General": [
+          {
+            "label": "Box Contents",
+            "value": "Phone, 80W Charger, Type-C Cable, SIM Ejector Tool, Case"
+          },
+          {
+            "label": "Availability",
+            "value": "October 13, 2026"
+          },
+          {
+            "label": "Launch Price",
+            "value": "₹2,19,999"
+          }
+        ],
+        "Display": [
+          {
+            "label": "Type",
+            "value": "M14 AMOLED, 120 Hz Refresh Rate, LTPO, Dolby Vision, 300 Hz Touch Sampling Rate, Anti Reflection Coating",
+            "children": [
+              {
+                "label": "Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Display Engine",
+                "value": "M14"
+              },
+              {
+                "label": "Refresh Rate",
+                "value": "120Hz"
+              },
+              {
+                "label": "Playback Quality",
+                "value": "Dolby Vision"
+              },
+              {
+                "label": "LTPO Support",
+                "value": "Yes"
+              },
+              {
+                "label": "LTPS Support",
+                "value": "No"
+              },
+              {
+                "label": "Touch Sampling Rate",
+                "value": "300Hz"
+              },
+              {
+                "label": "Anti Reflection Coating",
+                "value": "No"
+              }
+            ]
+          },
+          {
+            "label": "Size",
+            "value": "8.02 inches Foldable Display, 206.8 cm², 90.7% Screen To Body Ratio",
+            "children": [
+              {
+                "label": "Display Size",
+                "value": "8.02 inches"
+              },
+              {
+                "label": "Area",
+                "value": "206.8 cm²"
+              },
+              {
+                "label": "Screen to Body Ratio",
+                "value": "90.7%"
+              },
+              {
+                "label": "Display Form Factor",
+                "value": "Foldable Display"
+              }
+            ]
+          },
+          {
+            "label": "Resolution",
+            "value": "2K, 2312 x 2504 pixels, 4:3.69 (424 ppi), 10-bit 1.07 Billion Colours, 100% DCI-P3, 5000 nits(Peak Brightness), 1516 nits(High Brightness), 748 nits(Typical Brightness), TUV Rheinland certification, 8000000:1 Contrast Ratio",
+            "children": [
+              {
+                "label": "Display Resolution",
+                "value": "2K"
+              },
+              {
+                "label": "Resolution Width",
+                "value": "2312pixels"
+              },
+              {
+                "label": "Resolution Height",
+                "value": "2504pixels"
+              },
+              {
+                "label": "Aspect Ratio",
+                "value": "4:3.69"
+              },
+              {
+                "label": "Pixel Density",
+                "value": "424ppi"
+              },
+              {
+                "label": "Contrast Ratio",
+                "value": "8,000,000:1"
+              },
+              {
+                "label": "Colour Gamut",
+                "value": "DCI-P3"
+              },
+              {
+                "label": "Color Gamut Range",
+                "value": "100%"
+              },
+              {
+                "label": "Display Bit Rate",
+                "value": "10-bit"
+              },
+              {
+                "label": "Colour Depth",
+                "value": "1.07 Billion Colours"
+              },
+              {
+                "label": "Eye Protection",
+                "value": "TUV Rheinland certification"
+              },
+              {
+                "label": "Typical Brightness",
+                "value": "748nits"
+              },
+              {
+                "label": "High Brightness",
+                "value": "1516nits"
+              },
+              {
+                "label": "Peak Brightness",
+                "value": "5000nits"
+              }
+            ]
+          },
+          {
+            "label": "Cover Type",
+            "value": "AMOLED, 120 Hz",
+            "children": [
+              {
+                "label": "Cover Display Type",
+                "value": "AMOLED"
+              },
+              {
+                "label": "Cover Display Refresh Rate",
+                "value": "120Hz"
+              },
+              {
+                "label": "Cover Display Playback Quality",
+                "value": "Dolby Vision"
+              },
+              {
+                "label": "Cover Display LTPO Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Cover Display LTPS Support",
+                "value": "No"
+              },
+              {
+                "label": "Cover Display Colour Depth",
+                "value": "1.07 Billion Colours"
+              }
+            ]
+          },
+          {
+            "label": "Cover Size",
+            "value": "6.51 inches",
+            "children": [
+              {
+                "label": "Cover Display Size",
+                "value": "6.51"
+              }
+            ]
+          },
+          {
+            "label": "Cover Resolution",
+            "value": "1120 x 2528 pixels, 20.31:9 (424 ppi)",
+            "children": [
+              {
+                "label": "Cover Display Resolution",
+                "value": "1.5K"
+              },
+              {
+                "label": "Cover Display Resolution Width",
+                "value": "1120"
+              },
+              {
+                "label": "Cover Display Resolution Height",
+                "value": "2528"
+              },
+              {
+                "label": "Cover Display Aspect Ratio",
+                "value": "20.31:9"
+              },
+              {
+                "label": "Cover Display Pixel Density",
+                "value": "424"
+              },
+              {
+                "label": "Cover Display Display Bit Rate",
+                "value": "10-bit"
+              },
+              {
+                "label": "Cover Display Peak Brightness",
+                "value": "5000"
+              }
+            ]
+          }
+        ],
+        "Body": [
+          {
+            "label": "Dimensions",
+            "value": "157.16 x 145.66 x 4.4 mm"
+          },
+          {
+            "label": "Folded Dimensions",
+            "value": "157.16 x 74.26 x 9.4 mm"
+          },
+          {
+            "label": "Weight",
+            "value": "228 grams"
+          },
+          {
+            "label": "Front",
+            "value": "Ultra Thin Glass"
+          },
+          {
+            "label": "Folded Front",
+            "value": "Armor Glass"
+          },
+          {
+            "label": "Back",
+            "value": "Fiberglass"
+          },
+          {
+            "label": "Side",
+            "value": "Metal Frame, Carbon Fiber Hinge"
+          },
+          {
+            "label": "Build Quality",
+            "value": "Armor Glass"
+          },
+          {
+            "label": "Ports",
+            "value": "USB Type-C 3.2, OTG"
+          },
+          {
+            "label": "IP Rating",
+            "value": "IP5X/IPX8/IPX9 (Dust and Water Resistance)"
+          },
+          {
+            "label": "Speaker",
+            "value": "Stereo Speakers, Dolby Atmos"
+          }
+        ],
+        "Processor": [
+          {
+            "label": "Chipset",
+            "value": "MediaTek Dimensity 9500 Super Edition (3 nm)",
+            "children": [
+              {
+                "label": "Chipset Manufacturer",
+                "value": "MediaTek"
+              },
+              {
+                "label": "Chipset",
+                "value": "Dimensity 9500 Super Edition"
+              },
+              {
+                "label": "Fabrication Size",
+                "value": "3 nm"
+              }
+            ]
+          },
+          {
+            "label": "CPU",
+            "value": "Octa-core (1x4.21 GHz C1-Ultra & 3x3.5 GHz C1-Premium & 4x2.7 GHz C1-Pro), Vapor Chamber Cooling",
+            "children": [
+              {
+                "label": "Number of Cores",
+                "value": "Octa-core"
+              },
+              {
+                "label": "Clock Speed",
+                "value": "1x4.21 GHz C1-Ultra & 3x3.5 GHz C1-Premium & 4x2.7 GHz C1-Pro"
+              },
+              {
+                "label": "Cooling System",
+                "value": "Vapor Chamber Cooling"
+              }
+            ]
+          },
+          {
+            "label": "GPU",
+            "value": "Mali-G1-Ultra MC12"
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, Origin OS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "5 year(s) of Software updates and 7 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Captions, AI Creative Camera, AI Cross-App Drag, AI Meeting Assistant, AI Productivity, AI Recorder, Ai Recorder inights, AI Snap Mode, AI SuperLink, Jovi"
+          }
+        ],
+        "Main Camera": [
+          {
+            "label": "Main Camera",
+            "value": "200 MP, Samsung ISOCELL HPB, f/1.68, 23mm (Wide-angle), 0.56 µm, 1/1.4\", Auto Focus, OIS, PDAF",
+            "children": [
+              {
+                "label": "Main Camera Megapixel",
+                "value": "200MP"
+              },
+              {
+                "label": "Main Camera Camera Sensor",
+                "value": "Samsung ISOCELL HPB"
+              },
+              {
+                "label": "Main Camera Lens Type",
+                "value": "Wide-angle"
+              },
+              {
+                "label": "Main Camera Aperture",
+                "value": "f/1.68"
+              },
+              {
+                "label": "Main Camera Focal Length",
+                "value": "23 mm"
+              },
+              {
+                "label": "Main Camera Sensor Size",
+                "value": "1/1.4\""
+              },
+              {
+                "label": "Main Camera Pixel Size",
+                "value": "0.56 µm"
+              },
+              {
+                "label": "Main Camera Camera Features",
+                "value": "Auto Focus, OIS, PDAF"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #2",
+            "value": "50 MP, Samsung S5KJN1, f/2.05, 16mm (Ultra-wide), 119°, 0.64 µm, 1/2.76\", Auto Focus, PDAF",
+            "children": [
+              {
+                "label": "Main Camera #2 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Main Camera #2 Camera Sensor",
+                "value": "Samsung S5KJN1"
+              },
+              {
+                "label": "Main Camera #2 Lens Type",
+                "value": "Ultra-wide"
+              },
+              {
+                "label": "Main Camera #2 Aperture",
+                "value": "f/2.05"
+              },
+              {
+                "label": "Main Camera #2 Focal Length",
+                "value": "16 mm"
+              },
+              {
+                "label": "Main Camera #2 Field of View",
+                "value": "119°"
+              },
+              {
+                "label": "Main Camera #2 Sensor Size",
+                "value": "1/2.76\""
+              },
+              {
+                "label": "Main Camera #2 Pixel Size",
+                "value": "0.64 µm"
+              },
+              {
+                "label": "Main Camera #2 Camera Features",
+                "value": "Auto Focus, PDAF"
+              }
+            ]
+          },
+          {
+            "label": "Main Camera #3",
+            "value": "50 MP, Sony LYT-602, f/2.57, 70mm (Telephoto), 0.8 µm, 1/1.95\", 3x Optical Zoom, Auto Focus, OIS, PDAF",
+            "children": [
+              {
+                "label": "Main Camera #3 Megapixel",
+                "value": "50MP"
+              },
+              {
+                "label": "Main Camera #3 Camera Sensor",
+                "value": "Sony LYT-602"
+              },
+              {
+                "label": "Main Camera #3 Lens Type",
+                "value": "Telephoto"
+              },
+              {
+                "label": "Main Camera #3 Aperture",
+                "value": "f/2.57"
+              },
+              {
+                "label": "Main Camera #3 Focal Length",
+                "value": "70 mm"
+              },
+              {
+                "label": "Main Camera #3 Sensor Size",
+                "value": "1/1.95\""
+              },
+              {
+                "label": "Main Camera #3 Pixel Size",
+                "value": "0.8 µm"
+              },
+              {
+                "label": "Main Camera #3 Camera Features",
+                "value": "3x Optical Zoom, Auto Focus, OIS, PDAF"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Color Spectrum Sensor, Digital zoom, Documents Mode, Dual LED Flash, Food, Landscape, Laser Auto Focus, Night mode, panorama, Portrait mode, Professional, Time Lapse, Zeiss optics, Zeiss T* lens coating",
+            "children": [
+              {
+                "label": "Camera Stabilization",
+                "value": "Hybrid Stabilization"
+              },
+              {
+                "label": "Optical Zoom Support",
+                "value": "3X"
+              },
+              {
+                "label": "Auto Focus Type",
+                "value": "Laser Auto Focus"
+              },
+              {
+                "label": "Dynamic Video Recording Support",
+                "value": "SDR recording"
+              },
+              {
+                "label": "Dedicated Imaging Chip",
+                "value": "Vivo V3+ Imaging Chip"
+              },
+              {
+                "label": "Lens Enhancements",
+                "value": "ZEISS"
+              },
+              {
+                "label": "Slow Motion Recording",
+                "value": "120 fps slomo"
+              },
+              {
+                "label": "Max Zoom Supported",
+                "value": "50-100X"
+              },
+              {
+                "label": "Features",
+                "value": "Color Spectrum Sensor, Digital zoom, Documents Mode, Dual LED Flash, Food, Landscape, Laser Auto Focus, Night mode, panorama, Portrait mode, Professional, Time Lapse, Zeiss optics, Zeiss T* lens coating"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "8K@30fps, 4K@30/60fps, 1080p@30/60fps, gyro-EIS, Time-lapse Video, Video Portrait",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080p@30fps, 1080p@60fps, 4K@30fps, 4K@60fps, 8K@30fps"
+              },
+              {
+                "label": "Log Video Recording Support",
+                "value": "No"
+              },
+              {
+                "label": "Video Features",
+                "value": "gyro-EIS, Time-lapse Video, Video Portrait"
+              }
+            ]
+          }
+        ],
+        "Selfie Camera": [
+          {
+            "label": "Front Camera",
+            "value": "20 MP, OmniVision OV32D, f/2.4, 21mm (Wide), 0.61 µm, 1/3.6\"",
+            "children": [
+              {
+                "label": "Front Camera #1 Megapixel",
+                "value": "20MP"
+              },
+              {
+                "label": "Front Camera #1 Camera Sensor",
+                "value": "OmniVision OV32D"
+              },
+              {
+                "label": "Front Camera #1 Lens Type",
+                "value": "Wide"
+              },
+              {
+                "label": "Front Camera #1 Aperture",
+                "value": "f/2.4"
+              },
+              {
+                "label": "Front Camera #1 Focal Length",
+                "value": "21 mm"
+              },
+              {
+                "label": "Front Camera #1 Sensor Size",
+                "value": "1/3.6\""
+              },
+              {
+                "label": "Front Camera #1 Pixel Size",
+                "value": "0.61 µm"
+              }
+            ]
+          },
+          {
+            "label": "Features",
+            "value": "Digital Zoom, Night mode, Portrait Mode",
+            "children": [
+              {
+                "label": "Auto Focus Type",
+                "value": "Fixed Focus"
+              },
+              {
+                "label": "Features",
+                "value": "Digital Zoom, Night mode, Portrait Mode"
+              }
+            ]
+          },
+          {
+            "label": "Video",
+            "value": "Digital Zoom, EIS, Portrait Video",
+            "children": [
+              {
+                "label": "Video Recording",
+                "value": "1080@30fps"
+              },
+              {
+                "label": "HDR Recording Support",
+                "value": "SDR recording"
+              },
+              {
+                "label": "Video Features",
+                "value": "Digital Zoom, EIS, Portrait Video"
+              }
+            ]
+          },
+          {
+            "label": "Cover Camera",
+            "value": "20 MP, f/2.4, 21mm (Wide), 0.61 µm",
+            "children": [
+              {
+                "label": "Cover Camera Megapixel",
+                "value": "20MP"
+              },
+              {
+                "label": "Cover Camera Lens Type",
+                "value": "Wide"
+              },
+              {
+                "label": "Cover Camera Aperture",
+                "value": "f/2.4"
+              },
+              {
+                "label": "Cover Camera Focal Length",
+                "value": "21 mm"
+              },
+              {
+                "label": "Cover Camera Pixel Size",
+                "value": "0.61 µm"
+              }
+            ]
+          },
+          {
+            "label": "Cover Features",
+            "value": "Fixed Focus, HDR"
+          },
+          {
+            "label": "Cover Video",
+            "value": "1080p@30fps"
+          }
+        ],
+        "Battery": [
+          {
+            "label": "Capacity",
+            "value": "6900 mAh, Silicon Carbon (Non-removable)",
+            "children": [
+              {
+                "label": "Battery Capacity",
+                "value": "6900mAh"
+              },
+              {
+                "label": "Battery Type",
+                "value": "Silicon Carbon"
+              }
+            ]
+          },
+          {
+            "label": "Charging",
+            "value": "80W (wired), 40W (wireless), Reverse Wireless Charging Supported, 5W (reverse wired), FlashCharge",
+            "children": [
+              {
+                "label": "Charging Speed Wired",
+                "value": "80W"
+              },
+              {
+                "label": "Wireless Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Wireless",
+                "value": "40W"
+              },
+              {
+                "label": "Reverse Wireless Charging Support",
+                "value": "No"
+              },
+              {
+                "label": "Reverse Wired Charging Support",
+                "value": "Yes"
+              },
+              {
+                "label": "Charging Speed Reverse Wired",
+                "value": "5W"
+              },
+              {
+                "label": "Charging Standards Supported",
+                "value": "FlashCharge"
+              },
+              {
+                "label": "Bypass Charging Support",
+                "value": "No"
+              }
+            ]
+          }
+        ],
+        "Memory": [
+          {
+            "label": "Storage",
+            "value": "512GB, UFS 4.1",
+            "children": [
+              {
+                "label": "Storage Size",
+                "value": "512GB"
+              },
+              {
+                "label": "Storage Type",
+                "value": "UFS 4.1"
+              }
+            ]
+          },
+          {
+            "label": "RAM",
+            "value": "12GB, LPDDR5X Ultra",
+            "children": [
+              {
+                "label": "RAM Size",
+                "value": "12GB"
+              },
+              {
+                "label": "RAM Type",
+                "value": "LPDDR5X Ultra"
+              }
+            ]
+          }
+        ],
+        "Network": [
+          {
+            "label": "SIM",
+            "value": "Dual nano-SIM (nano-SIM, dual stand-by)"
+          },
+          {
+            "label": "Technology",
+            "value": "5G, GSM, LTE FDD, LTE TD, WCDMA"
+          },
+          {
+            "label": "2G Bands",
+            "value": "1800, 1900, 850, 900 (4 bands)"
+          },
+          {
+            "label": "3G Bands",
+            "value": "1, 2, 4, 5, 6, 8, 19 (7 bands)"
+          },
+          {
+            "label": "4G Bands",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 25, 26, 28, 32, 34, 38, 39, 40, 41, 42, 43, 48, 66 (25 bands)"
+          },
+          {
+            "label": "5G Bands",
+            "value": "1, 2, 3, 5, 7, 8, 12, 18, 20, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 75, 77, 78, 79 (22 bands)"
+          },
+          {
+            "label": "Speed",
+            "value": "5G, GSM, LTE, WCDMA"
+          }
+        ],
+        "Connectivity": [
+          {
+            "label": "WLAN",
+            "value": "Wi-Fi 6 802.11 a/b/g/n/ac/ax, Hotspot, Dual Band",
+            "children": [
+              {
+                "label": "Wi-Fi Version",
+                "value": "WiFi 6"
+              },
+              {
+                "label": "Wi-Fi Standards",
+                "value": "Wi-Fi 6 802.11 a/b/g/n/ac/ax"
+              },
+              {
+                "label": "Wi-Fi Features",
+                "value": "Hotspot"
+              }
+            ]
+          },
+          {
+            "label": "Bluetooth",
+            "value": "6, AAC, aptX, aptX HD, LDAC, LHDC 5.0, SBC",
+            "children": [
+              {
+                "label": "Bluetooth Version",
+                "value": "6"
+              },
+              {
+                "label": "Bluetooth Codecs",
+                "value": "AAC, aptX, aptX HD, LDAC, LHDC 5.0, SBC"
+              }
+            ]
+          },
+          {
+            "label": "Positioning",
+            "value": "AGPS, Beidou, Galileo, Glonass, GPS, Navic, QZSS"
+          },
+          {
+            "label": "NFC",
+            "value": "Supported"
+          }
+        ],
+        "Features": [
+          {
+            "label": "Fingerprint Scanner",
+            "value": "Side Mounted"
+          },
+          {
+            "label": "Sensors",
+            "value": "Accelerometer, Ambient Light Sensor, Barometer Sensor, Color Temperature Sensor, Electronic Compass, Flicker Sensor, Gyroscope, Hall Sensor, Infrared Sensor, Laser Sensor, Proximity Sensor",
+            "children": [
+              {
+                "label": "Sensors on Board",
+                "value": "Accelerometer, Ambient Light Sensor, Barometer Sensor, Color Temperature Sensor, Electronic Compass, Flicker Sensor, Gyroscope, Hall Sensor, Infrared Sensor, Laser Sensor, Proximity Sensor"
+              }
+            ]
+          },
+          {
+            "label": "Additional Features",
+            "value": "X-axis Linear Motor"
+          }
+        ]
+      },
+      "scrapedAt": "2026-11-23T23:02:36.163Z",
       "image": {
         "file": "assets/phones/vivo-x-fold-6.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1630004,
         "source": "https://cdn.beebom.com/mobile/vivo-x-fold-6-back-1.png",
-        "fetchedAt": "2026-11-23T11:30:49.100Z"
+        "fetchedAt": "2026-11-23T23:03:58.544Z"
       }
     },
     {
@@ -1272124,7 +1276239,7 @@
           "url": "https://www.amazon.in/Natural-Storage-Additional-Exchange-Offers/dp/B07WHQB1Z4"
         }
       ],
-      "score": 83,
+      "score": 78,
       "rating": 4.6,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1272757,14 +1276872,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:58.336Z",
+      "scrapedAt": "2026-11-23T23:03:16.112Z",
       "image": {
         "file": "assets/phones/vivo-x200.png",
         "width": 1000,
         "height": 1000,
         "bytes": 815942,
         "source": "https://cdn.beebom.com/mobile/vivo-x200/vivo-x200-camera-front-back-design-night-black-.png",
-        "fetchedAt": "2026-11-23T11:30:49.362Z"
+        "fetchedAt": "2026-11-23T23:03:59.427Z"
       }
     },
     {
@@ -1276152,7 +1280267,7 @@
           "url": "https://www.flipkart.com/vivo-x200t-seaside-lilac-256-gb/p/itm1b8452d68859b?pid=MOBHJK5M62ZH9FAM&marketplace=FLIPKART&lid=LSTMOBHJK5M62ZH9FAMR92PUT&pageUID=1770097446061"
         }
       ],
-      "score": 94,
+      "score": 88,
       "rating": 4.6,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1276825,14 +1280940,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:40.599Z",
+      "scrapedAt": "2026-11-23T23:03:00.042Z",
       "image": {
         "file": "assets/phones/vivo-x200t.png",
         "width": 1000,
         "height": 1000,
         "bytes": 624155,
         "source": "https://cdn.beebom.com/mobile/vivo-x200t-light-purple-front-and-back.png",
-        "fetchedAt": "2026-11-23T11:30:51.181Z"
+        "fetchedAt": "2026-11-23T23:03:59.689Z"
       }
     },
     {
@@ -1284757,14 +1288872,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:28:59.392Z",
+      "scrapedAt": "2026-11-23T23:02:18.396Z",
       "image": {
         "file": "assets/phones/vivo-x500.png",
         "width": 1000,
         "height": 1000,
         "bytes": 584798,
         "source": "https://cdn.beebom.com/mobile/vivo-X500-front-back-1.png",
-        "fetchedAt": "2026-11-23T11:30:51.448Z"
+        "fetchedAt": "2026-11-23T23:04:00.530Z"
       }
     },
     {
@@ -1285443,14 +1289558,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:00.240Z",
+      "scrapedAt": "2026-11-23T23:02:19.226Z",
       "image": {
         "file": "assets/phones/vivo-x500-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 795074,
         "source": "https://cdn.beebom.com/mobile/vivo-x500-pro-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:52.335Z"
+        "fetchedAt": "2026-11-23T23:04:00.789Z"
       }
     },
     {
@@ -1286129,14 +1290244,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:01.086Z",
+      "scrapedAt": "2026-11-23T23:02:20.056Z",
       "image": {
         "file": "assets/phones/vivo-x500-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 564810,
         "source": "https://cdn.beebom.com/mobile/vivo-x500-pro-max-front-back-side.png",
-        "fetchedAt": "2026-11-23T11:30:54.144Z"
+        "fetchedAt": "2026-11-23T23:04:01.047Z"
       }
     },
     {
@@ -1361574,14 +1365689,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:46.498Z",
+      "scrapedAt": "2026-11-23T23:03:06.819Z",
       "image": {
         "file": "assets/phones/vivo-y6k.png",
         "width": 1000,
         "height": 1000,
         "bytes": 754821,
         "source": "https://cdn.beebom.com/mobile/vivo-y6k-front-back.png",
-        "fetchedAt": "2026-11-23T11:30:54.419Z"
+        "fetchedAt": "2026-11-23T23:04:01.894Z"
       }
     },
     {
@@ -1402947,14 +1407062,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-23T11:29:04.439Z",
+      "scrapedAt": "2026-11-23T23:02:22.568Z",
       "image": {
         "file": "assets/phones/xiaomi-18-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1017937,
         "source": "https://cdn.beebom.com/mobile/xiaomi-18-pro-transparent-edition-front-and-back.png",
-        "fetchedAt": "2026-11-23T11:30:54.687Z"
+        "fetchedAt": "2026-11-23T23:04:02.157Z"
       }
     },
     {
@@ -1447100,8 +1451215,8 @@
     }
   ],
   "imageStats": {
-    "generatedAt": "2026-11-23T11:30:54.687Z",
-    "count": 2528,
+    "generatedAt": "2026-11-23T23:04:02.157Z",
+    "count": 2531,
     "minWidth": 497,
     "maxWidth": 2000
   }
