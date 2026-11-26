@@ -1,6 +1,6 @@
 {
   "source": "https://gadgets.beebom.com (factual specs/price data)",
-  "generatedAt": "2026-11-25T16:27:54.501Z",
+  "generatedAt": "2026-11-26T01:19:52.010Z",
   "count": 2533,
   "brands": [
     "ASUS",
@@ -3989,14 +3989,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:04.754Z",
+      "scrapedAt": "2026-11-26T01:18:58.602Z",
       "image": {
         "file": "assets/phones/ai-plus-nova-2-ultra-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 791825,
         "source": "https://cdn.beebom.com/mobile/ai-plus-nova-2-ultra-5g-front-back.png",
-        "fetchedAt": "2026-11-25T16:27:55.493Z"
+        "fetchedAt": "2026-11-26T01:19:52.939Z"
       }
     },
     {
@@ -6835,14 +6835,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:52.121Z",
+      "scrapedAt": "2026-11-26T01:18:48.703Z",
       "image": {
         "file": "assets/phones/ai-plus-pulse-2-fe.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1233808,
         "source": "https://cdn.beebom.com/mobile/ai-plus-pulse-2-fe-front-back.png",
-        "fetchedAt": "2026-11-25T16:27:56.492Z"
+        "fetchedAt": "2026-11-26T01:19:53.968Z"
       }
     },
     {
@@ -50962,20 +50962,6 @@
             "value": "Mali-G57 MP1"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, Android Go"
-          },
-          {
-            "label": "Software Updates",
-            "value": "3 year(s) of Software updates and 4 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Camera, AI Night Mode, AI Portrait, AI Translate, Circle to Search with Google, Google Gemini"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -51056,6 +51042,20 @@
                 "value": "Slow Motion"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, Android Go"
+          },
+          {
+            "label": "Software Updates",
+            "value": "3 year(s) of Software updates and 4 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Camera, AI Night Mode, AI Portrait, AI Translate, Circle to Search with Google, Google Gemini"
           }
         ],
         "Selfie Camera": [
@@ -51263,14 +51263,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:58.526Z",
+      "scrapedAt": "2026-11-26T01:18:51.197Z",
       "image": {
         "file": "assets/phones/boltt-evo.png",
         "width": 1000,
         "height": 1000,
         "bytes": 693903,
         "source": "https://cdn.beebom.com/mobile/boltt-evo-front-back.png",
-        "fetchedAt": "2026-11-25T16:27:57.477Z"
+        "fetchedAt": "2026-11-26T01:19:54.980Z"
       }
     },
     {
@@ -80611,14 +80611,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:38.280Z",
+      "scrapedAt": "2026-11-26T01:18:31.720Z",
       "image": {
         "file": "assets/phones/hmd-pulse-2-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1258554,
         "source": "https://cdn.beebom.com/mobile/hmd-pulse-2-pro-front-back.png",
-        "fetchedAt": "2026-11-25T16:27:59.778Z"
+        "fetchedAt": "2026-11-26T01:19:55.988Z"
       }
     },
     {
@@ -83773,9 +83773,19 @@
         "amount": 11499,
         "text": "₹11,499"
       },
-      "score": 55,
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 14999,
+          "priceText": "₹14,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/hmd-vibe2-5g-cosmic-lavender-128-gb/p/itm71c3ae6df2a26?pid=MOBHN6XYGKZEYC64&marketplace=FLIPKART&lid=LSTMOBHN6XYGKZEYC6485EX8Y&pageUID=1779775661686"
+        }
+      ],
+      "score": 58,
       "rating": 4.5,
-      "marketStatus": null,
+      "marketStatus": "Upcoming",
       "highlights": {
         "Processor": "T8200",
         "Display": "6.75 inches",
@@ -83980,20 +83990,6 @@
             "value": "Mali-G57 MC2"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, HMD Android"
-          },
-          {
-            "label": "Software Updates",
-            "value": "2 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Camera"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -84054,6 +84050,20 @@
                 "value": "No"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, HMD Android"
+          },
+          {
+            "label": "Software Updates",
+            "value": "2 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Camera"
           }
         ],
         "Selfie Camera": [
@@ -84261,14 +84271,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T13:52:56.500Z",
+      "scrapedAt": "2026-11-26T01:19:46.850Z",
       "image": {
         "file": "assets/phones/hmd-vibe-2.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1249273,
         "source": "https://cdn.beebom.com/mobile/hmd-vibe-2-front-back.png",
-        "fetchedAt": "2026-11-14T13:53:31.254Z"
+        "fetchedAt": "2026-11-26T01:19:58.271Z"
       }
     },
     {
@@ -104668,14 +104678,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:32.282Z",
+      "scrapedAt": "2026-11-26T01:19:24.819Z",
       "image": {
         "file": "assets/phones/honor-700.png",
         "width": 1000,
         "height": 1000,
         "bytes": 853945,
         "source": "https://cdn.beebom.com/mobile/honor-700-pink-mist-front-and-back.png",
-        "fetchedAt": "2026-11-25T16:28:01.987Z"
+        "fetchedAt": "2026-11-26T01:19:58.818Z"
       }
     },
     {
@@ -104949,20 +104959,6 @@
             "value": "Adreno 829"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 17, MagicOS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "6 year(s) of Software and Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Assistant, AI Color Adjustment, AI Documents, AI Eye-Protection Display, AI noise reduction calls, AI Notes, AI Photography Suite, AI Smart Charging, AI Studio, AI Subtitles, AI Translation, AI Ultra Clarity, AI Wallpapers, Glory AI"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -105101,6 +105097,20 @@
                 "value": "gyro-EIS, OIS, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 17, MagicOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "6 year(s) of Software and Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Assistant, AI Color Adjustment, AI Documents, AI Eye-Protection Display, AI noise reduction calls, AI Notes, AI Photography Suite, AI Smart Charging, AI Studio, AI Subtitles, AI Translation, AI Ultra Clarity, AI Wallpapers, Glory AI"
           }
         ],
         "Selfie Camera": [
@@ -105340,14 +105350,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:29.762Z",
+      "scrapedAt": "2026-11-26T01:19:22.396Z",
       "image": {
         "file": "assets/phones/honor-700-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 679366,
         "source": "https://cdn.beebom.com/mobile/honor-700-pro-front-and-back3.png",
-        "fetchedAt": "2026-11-25T16:28:02.250Z"
+        "fetchedAt": "2026-11-26T01:19:59.862Z"
       }
     },
     {
@@ -105982,14 +105992,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:31.029Z",
+      "scrapedAt": "2026-11-26T01:19:23.594Z",
       "image": {
         "file": "assets/phones/honor-700s.png",
         "width": 1000,
         "height": 1000,
         "bytes": 618672,
         "source": "https://cdn.beebom.com/mobile/honor-700s-front-and-back1.png",
-        "fetchedAt": "2026-11-25T16:28:03.236Z"
+        "fetchedAt": "2026-11-26T01:20:00.867Z"
       }
     },
     {
@@ -179495,14 +179505,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:43.106Z",
+      "scrapedAt": "2026-11-26T01:19:36.759Z",
       "image": {
         "file": "assets/phones/honor-x8e.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1264765,
         "source": "https://cdn.beebom.com/mobile/honor-x8e-front-and-back1.png",
-        "fetchedAt": "2026-11-25T16:28:03.506Z"
+        "fetchedAt": "2026-11-26T01:20:01.935Z"
       }
     },
     {
@@ -199333,16 +199343,6 @@
             "value": "Maleoon 920"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "HarmonyOS, HarmonyOS"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Dynamic Shot, AI Photography Suite, AI Voice Changer Detection, AI-assisted composition"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -199481,6 +199481,16 @@
                 "value": "gyro-EIS, Log Video, Macro Video Recording, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "HarmonyOS, HarmonyOS"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Dynamic Shot, AI Photography Suite, AI Voice Changer Detection, AI-assisted composition"
           }
         ],
         "Selfie Camera": [
@@ -199696,14 +199706,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:28.550Z",
+      "scrapedAt": "2026-11-26T01:19:21.254Z",
       "image": {
         "file": "assets/phones/huawei-mate-90-air.png",
         "width": 1000,
         "height": 1000,
         "bytes": 708274,
         "source": "https://cdn.beebom.com/mobile/huawei-mate-90-air-rose-gold-front-and-back-2.png",
-        "fetchedAt": "2026-11-25T16:28:03.795Z"
+        "fetchedAt": "2026-11-26T01:20:04.189Z"
       }
     },
     {
@@ -205275,14 +205285,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:27.362Z",
+      "scrapedAt": "2026-11-26T01:19:20.067Z",
       "image": {
         "file": "assets/phones/huawei-mate-x8.png",
         "width": 1000,
         "height": 1000,
         "bytes": 919638,
         "source": "https://cdn.beebom.com/mobile/huawei-mate-x8-back3.png",
-        "fetchedAt": "2026-11-25T16:28:04.815Z"
+        "fetchedAt": "2026-11-26T01:20:15.366Z"
       }
     },
     {
@@ -231185,20 +231195,6 @@
             "value": "Maleoon 935F"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "HarmonyOS, HarmonyOS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "1 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Assistant, AI posture recommendation, AI Powered anti-script fraud, AI Smart Shot, AI Two-Way Call Noise Reduction, AI Voice Changer Detection, Xiao Yi"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -231295,6 +231291,20 @@
                 "value": "Log Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "HarmonyOS, HarmonyOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "1 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Assistant, AI posture recommendation, AI Powered anti-script fraud, AI Smart Shot, AI Two-Way Call Noise Reduction, AI Voice Changer Detection, Xiao Yi"
           }
         ],
         "Selfie Camera": [
@@ -231510,14 +231520,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:34.270Z",
+      "scrapedAt": "2026-11-26T01:19:27.216Z",
       "image": {
         "file": "assets/phones/huawei-osta-o1-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 614177,
         "source": "https://cdn.beebom.com/mobile/huawei-osta-o1-pro-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:05.812Z"
+        "fetchedAt": "2026-11-26T01:20:16.486Z"
       }
     },
     {
@@ -254551,14 +254561,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:43.229Z",
+      "scrapedAt": "2026-11-26T01:18:40.292Z",
       "image": {
         "file": "assets/phones/infinix-gt-50-pro-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1065114,
         "source": "https://cdn.beebom.com/mobile/infinix-gt-50-pro-5g-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:06.074Z"
+        "fetchedAt": "2026-11-26T01:20:17.535Z"
       }
     },
     {
@@ -290889,9 +290899,19 @@
         "amount": 35999,
         "text": "₹35,999"
       },
-      "score": 87,
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 35999,
+          "priceText": "₹35,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/infinix-note-60-pro/p/itm7681d00923b3c?pid=MOBHHVE2RRGGD6H5&ocmpid=BrandAd_Infinix_Note60Pro_Google_Search_Product&gad_source=1&gad_campaignid=23732217752&gbraid=0AAAAADLGCTeaFufeXp7gcDg2uZRJJH_7G&gclid=Cj0KCQjw-pHPBhCdARIsAHXYWP8IuKEvY2gefQg15oncB1JYQ0xXsfx7j6QMDOd9zR_fzuPz0KB9M-waAoMjEALw_wcB"
+        }
+      ],
+      "score": 81,
       "rating": 4.4,
-      "marketStatus": null,
+      "marketStatus": "Upcoming",
       "highlights": {
         "Processor": "Snapdragon 7s Gen 4",
         "Display": "6.78 inches",
@@ -291158,20 +291178,6 @@
             "value": "Adreno A810"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, XOS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "3 year(s) of Software updates and 5 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Assistant, AI Camera, AI Eraser, AI Extender, AI Flare Remover, AI HD Enhancement, AI Reflection Remover, AI Shadow Remover, AI Studio, AI Writing, Folax, Recording Summary"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -291288,6 +291294,20 @@
                 "value": "Dual Video, Slow Motion, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, XOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "3 year(s) of Software updates and 5 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Assistant, AI Camera, AI Eraser, AI Extender, AI Flare Remover, AI HD Enhancement, AI Reflection Remover, AI Shadow Remover, AI Studio, AI Writing, Folax, Recording Summary"
           }
         ],
         "Selfie Camera": [
@@ -291539,14 +291559,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T14:41:51.253Z",
+      "scrapedAt": "2026-11-26T01:18:19.551Z",
       "image": {
         "file": "assets/phones/infinix-note-60-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1047496,
         "source": "https://cdn.beebom.com/mobile/infinix-note-60-pro-back-front (2).png",
-        "fetchedAt": "2026-11-14T16:10:01.481Z"
+        "fetchedAt": "2026-11-26T01:20:19.727Z"
       }
     },
     {
@@ -297480,20 +297500,6 @@
             "value": "Mali-G57 MP1"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 15, XOS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "1 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Camera"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -297564,6 +297570,20 @@
                 "value": "Dual Video, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 15, XOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "1 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Camera"
           }
         ],
         "Selfie Camera": [
@@ -297795,14 +297815,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:48.316Z",
+      "scrapedAt": "2026-11-26T01:18:45.265Z",
       "image": {
         "file": "assets/phones/infinix-smart-20-hd.png",
         "width": 1000,
         "height": 1000,
         "bytes": 805313,
         "source": "https://cdn.beebom.com/mobile/infinix-smart-20-hd-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:06.336Z"
+        "fetchedAt": "2026-11-26T01:20:20.739Z"
       }
     },
     {
@@ -316385,14 +316405,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:30.928Z",
+      "scrapedAt": "2026-11-26T01:18:24.362Z",
       "image": {
         "file": "assets/phones/iqoo-16.png",
         "width": 1000,
         "height": 1000,
         "bytes": 887038,
         "source": "https://cdn.beebom.com/mobile/iqoo-16-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:06.598Z"
+        "fetchedAt": "2026-11-26T01:20:21.008Z"
       }
     },
     {
@@ -346486,14 +346506,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:09.759Z",
+      "scrapedAt": "2026-11-26T01:19:02.360Z",
       "image": {
         "file": "assets/phones/iqoo-z11xa-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 553545,
         "source": "https://cdn.beebom.com/mobile/iqoo-z11xa-5g-titan-black-front-and-back.png",
-        "fetchedAt": "2026-11-25T16:28:07.591Z"
+        "fetchedAt": "2026-11-26T01:20:22.052Z"
       }
     },
     {
@@ -386864,20 +386884,6 @@
             "value": "Mali-G57 MP1"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, Android Go"
-          },
-          {
-            "label": "Software Updates",
-            "value": "1 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Camera"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -386928,6 +386934,20 @@
                 "value": "No"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, Android Go"
+          },
+          {
+            "label": "Software Updates",
+            "value": "1 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Camera"
           }
         ],
         "Selfie Camera": [
@@ -387151,14 +387171,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:00.986Z",
+      "scrapedAt": "2026-11-26T01:18:53.573Z",
       "image": {
         "file": "assets/phones/itel-zeno-300.png",
         "width": 1000,
         "height": 1000,
         "bytes": 653968,
         "source": "https://cdn.beebom.com/mobile/itel-zeno-300-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:09.639Z"
+        "fetchedAt": "2026-11-26T01:20:23.067Z"
       }
     },
     {
@@ -409321,14 +409341,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:02.240Z",
+      "scrapedAt": "2026-11-26T01:18:54.827Z",
       "image": {
         "file": "assets/phones/lava-bold-n4-lite.png",
         "width": 1000,
         "height": 1000,
         "bytes": 400138,
         "source": "https://cdn.beebom.com/mobile/lava-bold-n4-lite-front-and-back3.png",
-        "fetchedAt": "2026-11-25T16:28:09.913Z"
+        "fetchedAt": "2026-11-26T01:20:24.127Z"
       }
     },
     {
@@ -414746,14 +414766,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:28.565Z",
+      "scrapedAt": "2026-11-26T01:18:21.968Z",
       "image": {
         "file": "assets/phones/lava-shark-3-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 822075,
         "source": "https://cdn.beebom.com/mobile/lava-shark-3-5g-back.png",
-        "fetchedAt": "2026-11-25T16:28:10.320Z"
+        "fetchedAt": "2026-11-26T01:20:24.531Z"
       }
     },
     {
@@ -417823,14 +417843,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:46.944Z",
+      "scrapedAt": "2026-11-26T01:19:39.273Z",
       "image": {
         "file": "assets/phones/lava-virat-curve-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 919984,
         "source": "https://cdn.beebom.com/mobile/lava-virat-curve-5g-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:10.594Z"
+        "fetchedAt": "2026-11-26T01:20:25.657Z"
       }
     },
     {
@@ -418085,20 +418105,6 @@
             "value": "PowerVR GE8322"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android Go 15, Lava Android"
-          },
-          {
-            "label": "Software Updates",
-            "value": "2 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Camera"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -418165,6 +418171,20 @@
                 "value": "Slow Motion, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android Go 15, Lava Android"
+          },
+          {
+            "label": "Software Updates",
+            "value": "2 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Camera"
           }
         ],
         "Selfie Camera": [
@@ -418384,14 +418404,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:59.667Z",
+      "scrapedAt": "2026-11-26T01:18:52.399Z",
       "image": {
         "file": "assets/phones/lava-virat-v1.png",
         "width": 1000,
         "height": 1000,
         "bytes": 598435,
         "source": "https://cdn.beebom.com/mobile/lava-virat-v1-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:12.592Z"
+        "fetchedAt": "2026-11-26T01:20:27.667Z"
       }
     },
     {
@@ -478834,6 +478854,7 @@
         "amount": 20999,
         "text": "₹20,999"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": null,
@@ -479061,20 +479082,6 @@
             "value": "Mali-G57 MC2"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, Motorola MyUx"
-          },
-          {
-            "label": "Software Updates",
-            "value": "3 year(s) of Software updates and 4 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "Circle to Search with Google, Google Gemini"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -479175,6 +479182,20 @@
                 "value": "Dual Video, Slow Motion, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, Motorola MyUx"
+          },
+          {
+            "label": "Software Updates",
+            "value": "3 year(s) of Software updates and 4 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "Circle to Search with Google, Google Gemini"
           }
         ],
         "Selfie Camera": [
@@ -479398,14 +479419,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T13:52:55.783Z",
+      "scrapedAt": "2026-11-26T01:19:45.601Z",
       "image": {
         "file": "assets/phones/moto-g87.png",
         "width": 1000,
         "height": 1000,
         "bytes": 709284,
         "source": "https://cdn.beebom.com/mobile/moto-g87-front-back.png",
-        "fetchedAt": "2026-11-14T13:54:59.559Z"
+        "fetchedAt": "2026-11-26T01:20:29.683Z"
       }
     },
     {
@@ -498248,8 +498269,8 @@
       "brand": "Motorola",
       "price": {
         "currency": "₹",
-        "amount": 29833,
-        "text": "₹29,833"
+        "amount": 29821,
+        "text": "₹29,821"
       },
       "stores": [
         {
@@ -498263,8 +498284,8 @@
         {
           "store": "Amazon",
           "key": "amazon-india",
-          "price": 29833,
-          "priceText": "₹29,833",
+          "price": 29821,
+          "priceText": "₹29,821",
           "inStock": true,
           "url": "https://www.amazon.in/Motorola-Pantone-Silhouette-Snapdragon-TurboPower/dp/B0GRMVNTDN/ref=sr_1_10?crid=24K1AJPFUXD0I&dib=eyJ2IjoiMSJ9.zFBZwVKQkqvqXSUyBj8X3Z7yvO-a0CAC1deyRU2lrxdcnv2qJXRGAjcKVa8KGnyZVvkoRK_Ork6mJH5nESy65s1b7v1YdT4-aIEEz0LU5jDX88pdMcC7rqnV-QtbZFgic165hW8rEjC7qv4rewWvnXEjKa_gefXRk0pXQ5zmG0WyTlR-wmAoFf0a3_vtTEELSXPS0IQhH73h35zQRfP8TuI5Hjga9lTn6w9PLfVJrUw.dPiF8LomB0KKLCy4MCjOL9PVJlrMH5sowSkUvA7VvHI&dib_tag=se&keywords=motorola+edge+70+fusion&qid=1773294071&sprefix=motorola+edge+70+fusion%2Caps%2C399&sr=8-10"
         }
@@ -498925,14 +498946,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:22.554Z",
+      "scrapedAt": "2026-11-26T01:18:18.286Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-fusion.png",
         "width": 1000,
         "height": 1000,
         "bytes": 908318,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-fusion-front-and-back1.png",
-        "fetchedAt": "2026-11-25T16:28:12.876Z"
+        "fetchedAt": "2026-11-26T01:20:32.031Z"
       }
     },
     {
@@ -500234,14 +500255,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:23.570Z",
+      "scrapedAt": "2026-11-26T01:19:16.241Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 645489,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-max-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:13.147Z"
+        "fetchedAt": "2026-11-26T01:20:32.287Z"
       }
     },
     {
@@ -500852,14 +500873,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:40.742Z",
+      "scrapedAt": "2026-11-26T01:18:37.867Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-neo.png",
         "width": 1000,
         "height": 1000,
         "bytes": 642290,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-neo-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:13.418Z"
+        "fetchedAt": "2026-11-26T01:20:32.675Z"
       }
     },
     {
@@ -501441,8 +501462,8 @@
       "brand": "Motorola",
       "price": {
         "currency": "₹",
-        "amount": 39415,
-        "text": "₹39,415"
+        "amount": 38999,
+        "text": "₹38,999"
       },
       "stores": [
         {
@@ -501456,8 +501477,8 @@
         {
           "store": "Amazon",
           "key": "amazon-india",
-          "price": 39415,
-          "priceText": "₹39,415",
+          "price": 38999,
+          "priceText": "₹38,999",
           "inStock": true,
           "url": "https://www.amazon.in/Motorola-Satin-Luxe-Dimensity-Processor-Smartphone/dp/B0GZGSZ3S9/ref=sr_1_2?crid=3NBU01IXX8JBG&dib=eyJ2IjoiMSJ9.VA9xWNRXMJ5fvrraPGZDmux16mXBa-2xuzbyV09Ol7SD8Tqev0Oejz1suyNPW17Ondqgo_DJp7Kq3xUlmuLjxCBTUlgJRQJyAITs-MSuFU9kgRxML9uUSOb2gZrxZ42qYB3_1NynlgnRDiM0Ro6soQhY73tocqADRLDesf3BWIMbnKHD2JY3tfnS959Iqjdk1qR-zMD2JAAxvuopFUPUEOVDg993sgeAJbiohI2BfwY.WmzgOA_INRipNXUzkRYF18cftmnOzoKTyZ0GUuCeGdQ&dib_tag=se&keywords=motorola+edge+70+pro&qid=1787831492&sprefix=Motorola+Edge+70+Pro%2Caps%2C366&sr=8-2"
         }
@@ -501761,20 +501782,6 @@
             "value": "Mali-G720 MC8"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, Motorola Hello UI"
-          },
-          {
-            "label": "Software Updates",
-            "value": "3 year(s) of Software updates and 5 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI HDR, AI Magic Editor, AI Sky, Google Gemini, Magic Eraser, moto AI, Portrait Blur/Unblur, Portrait Light"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -501903,6 +501910,20 @@
                 "value": "Dual Video, HDR10+, Macro Video Recording, Slow Motion, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, Motorola Hello UI"
+          },
+          {
+            "label": "Software Updates",
+            "value": "3 year(s) of Software updates and 5 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI HDR, AI Magic Editor, AI Sky, Google Gemini, Magic Eraser, moto AI, Portrait Blur/Unblur, Portrait Light"
           }
         ],
         "Selfie Camera": [
@@ -502136,14 +502157,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:13.506Z",
+      "scrapedAt": "2026-11-26T01:19:06.130Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 695656,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-pro-front-back-1 (1).png",
-        "fetchedAt": "2026-11-25T16:28:13.689Z"
+        "fetchedAt": "2026-11-26T01:20:32.940Z"
       }
     },
     {
@@ -502873,14 +502894,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:21.015Z",
+      "scrapedAt": "2026-11-26T01:19:13.696Z",
       "image": {
         "file": "assets/phones/motorola-edge-70-pro-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 847002,
         "source": "https://cdn.beebom.com/mobile/motorola-edge-70-pro-plus-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:13.966Z"
+        "fetchedAt": "2026-11-26T01:20:33.204Z"
       }
     },
     {
@@ -521080,14 +521101,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:37.062Z",
+      "scrapedAt": "2026-11-26T01:18:30.514Z",
       "image": {
         "file": "assets/phones/motorola-razr-70.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1028285,
         "source": "https://cdn.beebom.com/mobile/motorola-razr-70-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:14.236Z"
+        "fetchedAt": "2026-11-26T01:20:35.474Z"
       }
     },
     {
@@ -521759,14 +521780,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:32.166Z",
+      "scrapedAt": "2026-11-26T01:18:25.609Z",
       "image": {
         "file": "assets/phones/motorola-razr-70-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 804653,
         "source": "https://cdn.beebom.com/mobile/motorola-razr-70-plus-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:16.455Z"
+        "fetchedAt": "2026-11-26T01:20:35.732Z"
       }
     },
     {
@@ -522433,14 +522454,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:35.815Z",
+      "scrapedAt": "2026-11-26T01:18:29.295Z",
       "image": {
         "file": "assets/phones/motorola-razr-70-ultra.png",
         "width": 1000,
         "height": 1000,
         "bytes": 970115,
         "source": "https://cdn.beebom.com/mobile/motorola-razr-70-ultra-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:16.716Z"
+        "fetchedAt": "2026-11-26T01:20:36.747Z"
       }
     },
     {
@@ -525727,14 +525748,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:22.288Z",
+      "scrapedAt": "2026-11-26T01:19:14.957Z",
       "image": {
         "file": "assets/phones/motorola-signature.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1018178,
         "source": "https://cdn.beebom.com/mobile/motorola-signature-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:16.979Z"
+        "fetchedAt": "2026-11-26T01:20:37.029Z"
       }
     },
     {
@@ -526409,14 +526430,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:23.693Z",
+      "scrapedAt": "2026-11-26T01:18:20.792Z",
       "image": {
         "file": "assets/phones/motorola-signature-27.png",
         "width": 1000,
         "height": 1000,
         "bytes": 698723,
         "source": "https://cdn.beebom.com/mobile/motorola-signature-27-front-and-back1.png",
-        "fetchedAt": "2026-11-25T16:28:17.251Z"
+        "fetchedAt": "2026-11-26T01:20:37.308Z"
       }
     },
     {
@@ -558405,20 +558426,6 @@
             "value": "Adreno 810"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 15, Nothing OS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "3 year(s) of Software updates and 6 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "Essential Key, Nothing Essential Space"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -558593,6 +558600,20 @@
                 "value": "gyro-EIS, Night Video Recording, Slow Motion, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 15, Nothing OS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "3 year(s) of Software updates and 6 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "Essential Key, Nothing Essential Space"
           }
         ],
         "Selfie Camera": [
@@ -558822,14 +558843,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:20.015Z",
+      "scrapedAt": "2026-11-26T01:18:17.041Z",
       "image": {
         "file": "assets/phones/nothing-phone-3a-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 659346,
         "source": "https://cdn.beebom.com/mobile/nothing-phone-3a-pro-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:17.510Z"
+        "fetchedAt": "2026-11-26T01:20:38.358Z"
       }
     },
     {
@@ -560644,20 +560665,6 @@
             "value": "Adreno 810"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, Nothing OS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "3 year(s) of Software updates and 6 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Camera, Essential Apps, Essential Key, Essential Search, Essential Voice, Nothing Essential Space"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -560786,6 +560793,20 @@
                 "value": "120fps Slo-mo, gyro-EIS, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, Nothing OS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "3 year(s) of Software updates and 6 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Camera, Essential Apps, Essential Key, Essential Search, Essential Voice, Nothing Essential Space"
           }
         ],
         "Selfie Camera": [
@@ -561029,14 +561050,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:50.748Z",
+      "scrapedAt": "2026-11-26T01:19:44.390Z",
       "image": {
         "file": "assets/phones/nothing-phone-4b.png",
         "width": 1000,
         "height": 1000,
         "bytes": 669266,
         "source": "https://cdn.beebom.com/mobile/nothing-phone-4b-front-back-side-1.png",
-        "fetchedAt": "2026-11-25T16:28:17.778Z"
+        "fetchedAt": "2026-11-26T01:20:39.361Z"
       }
     },
     {
@@ -571078,20 +571099,6 @@
             "value": "Adreno 829"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, OxygenOS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "4 year(s) of Software updates and 6 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Perfect Shot, AI Performance, AI Portrait Glow, AI Scan, AI Smart Link, AI VoiceScribe, OnePlus AI"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -571220,6 +571227,20 @@
                 "value": "Cinematic mode, Dual Video, gyro-EIS, OIS, Slow Motion, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, OxygenOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "4 year(s) of Software updates and 6 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Perfect Shot, AI Performance, AI Portrait Glow, AI Scan, AI Smart Link, AI VoiceScribe, OnePlus AI"
           }
         ],
         "Selfie Camera": [
@@ -571463,14 +571484,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:24.824Z",
+      "scrapedAt": "2026-11-26T01:19:17.556Z",
       "image": {
         "file": "assets/phones/oneplus-15r.png",
         "width": 1000,
         "height": 1000,
         "bytes": 549589,
         "source": "https://cdn.beebom.com/mobile/oneplus-15r-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:18.039Z"
+        "fetchedAt": "2026-11-26T01:20:39.618Z"
       }
     },
     {
@@ -592658,8 +592679,8 @@
       "brand": "OnePlus",
       "price": {
         "currency": "₹",
-        "amount": 46999,
-        "text": "₹46,999"
+        "amount": 46546,
+        "text": "₹46,546"
       },
       "stores": [
         {
@@ -592673,8 +592694,8 @@
         {
           "store": "Flipkart",
           "key": "flipkart",
-          "price": 47018,
-          "priceText": "₹47,018",
+          "price": 46546,
+          "priceText": "₹46,546",
           "inStock": true,
           "url": "https://www.flipkart.com/oneplus-nord-6-fresh-mint-256-gb/p/itmc49f71cdc4080?pid=MOBHMBW2KKBSFG9R&lid=LSTMOBHMBW2KKBSFG9RF62IZH&marketplace=FLIPKART&q=oneplus+nord+6+5g&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&fm=organic&iid=ed0b8c3f-567c-4241-8046-a46d81f7c3dd.MOBHMBW2KKBSFG9R.SEARCH&ppt=None&ppn=None&ssid=kk7gfuylhc0000001776144512513&qH=f6642e6989e11333&ov_redirect=true"
         }
@@ -593373,14 +593394,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:17.198Z",
+      "scrapedAt": "2026-11-26T01:19:09.890Z",
       "image": {
         "file": "assets/phones/oneplus-nord-6.png",
         "width": 1000,
         "height": 1000,
         "bytes": 663837,
         "source": "https://cdn.beebom.com/mobile/oneplus-nord-6-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:19.027Z"
+        "fetchedAt": "2026-11-26T01:20:39.874Z"
       }
     },
     {
@@ -598258,8 +598279,8 @@
       "brand": "OnePlus",
       "price": {
         "currency": "₹",
-        "amount": 36895,
-        "text": "₹36,895"
+        "amount": 36878,
+        "text": "₹36,878"
       },
       "stores": [
         {
@@ -598273,8 +598294,8 @@
         {
           "store": "Flipkart",
           "key": "flipkart",
-          "price": 36895,
-          "priceText": "₹36,895",
+          "price": 36878,
+          "priceText": "₹36,878",
           "inStock": true,
           "url": "https://www.flipkart.com/oneplus-nord-ce6-lunar-pearl-128-gb/p/itmd7b224b18cb05?pid=MOBHN82GBZSGMDE4&lid=LSTMOBHN82GBZSGMDE4GLLHQ3&marketplace=FLIPKART&q=oneplus+nord+ce6+5g&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_2_16_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_2_16_na_na_ps&fm=search-autosuggest&iid=fe1350e9-b229-4ffa-a92e-d878c99bd555.MOBHN82GBZSGMDE4.SEARCH&ppt=sp&ppn=sp&ssid=8f9ps6bylc0000001791957716050&qH=9d4b36279c830d79&ov_redirect=true"
         }
@@ -598538,20 +598559,6 @@
             "value": "Adreno 810"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, OxygenOS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "2 year(s) of Software updates and 4 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Detail Boost, AI Elimination, AI Eraser, AI Mind Space, AI Perfect Shot, AI Portrait Glow, AI Reflection Eraser, AI Unblur, AI VoiceScribe, AI Writing, Google Gemini"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -598680,6 +598687,20 @@
                 "value": "Cinematic mode, Dual Video, EIS, OIS, Slow Motion, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, OxygenOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "2 year(s) of Software updates and 4 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Detail Boost, AI Elimination, AI Eraser, AI Mind Space, AI Perfect Shot, AI Portrait Glow, AI Reflection Eraser, AI Unblur, AI VoiceScribe, AI Writing, Google Gemini"
           }
         ],
         "Selfie Camera": [
@@ -598927,14 +598948,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:14.777Z",
+      "scrapedAt": "2026-11-26T01:19:07.398Z",
       "image": {
         "file": "assets/phones/oneplus-nord-ce-6.png",
         "width": 1000,
         "height": 1000,
         "bytes": 636272,
         "source": "https://cdn.beebom.com/mobile/oneplus-nord-ce-6-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:19.288Z"
+        "fetchedAt": "2026-11-26T01:20:40.861Z"
       }
     },
     {
@@ -605518,14 +605539,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:41.146Z",
+      "scrapedAt": "2026-11-26T01:19:34.357Z",
       "image": {
         "file": "assets/phones/oneplus-turbo-6vs.png",
         "width": 1000,
         "height": 1000,
         "bytes": 949878,
         "source": "https://cdn.beebom.com/mobile/oneplus-turbo-6vs-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:19.549Z"
+        "fetchedAt": "2026-11-26T01:20:42.075Z"
       }
     },
     {
@@ -661712,14 +661733,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:53.435Z",
+      "scrapedAt": "2026-11-26T01:18:49.963Z",
       "image": {
         "file": "assets/phones/oppo-f35.png",
         "width": 1000,
         "height": 1000,
         "bytes": 766399,
         "source": "https://cdn.beebom.com/mobile/oppo-f35-front-and-back-2.png",
-        "fetchedAt": "2026-11-25T16:28:21.516Z"
+        "fetchedAt": "2026-11-26T01:20:43.135Z"
       }
     },
     {
@@ -667064,14 +667085,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:44.705Z",
+      "scrapedAt": "2026-11-26T01:18:41.590Z",
       "image": {
         "file": "assets/phones/oppo-find-x10.png",
         "width": 1000,
         "height": 1000,
         "bytes": 850461,
         "source": "https://cdn.beebom.com/mobile/oppo-find-x10-front-and-back-1.png",
-        "fetchedAt": "2026-11-25T16:28:25.931Z"
+        "fetchedAt": "2026-11-26T01:20:44.126Z"
       }
     },
     {
@@ -668131,14 +668152,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:45.981Z",
+      "scrapedAt": "2026-11-26T01:18:42.908Z",
       "image": {
         "file": "assets/phones/oppo-find-x10-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 639418,
         "source": "https://cdn.beebom.com/mobile/oppo-find-x10-pro-max-front-and-back3.png",
-        "fetchedAt": "2026-11-25T16:28:26.193Z"
+        "fetchedAt": "2026-11-26T01:20:45.159Z"
       }
     },
     {
@@ -692557,14 +692578,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:45.669Z",
+      "scrapedAt": "2026-11-26T01:19:08.654Z",
       "image": {
         "file": "assets/phones/oppo-k14-plus.png",
         "width": 1000,
         "height": 1000,
         "bytes": 597553,
         "source": "https://cdn.beebom.com/mobile/oppo-k14-plus-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:26.455Z"
+        "fetchedAt": "2026-11-26T01:20:45.487Z"
       }
     },
     {
@@ -699612,14 +699633,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:36.669Z",
+      "scrapedAt": "2026-11-26T01:19:29.545Z",
       "image": {
         "file": "assets/phones/oppo-reno-17.png",
         "width": 1000,
         "height": 1000,
         "bytes": 755681,
         "source": "https://cdn.beebom.com/mobile/oppo-reno-17-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:27.451Z"
+        "fetchedAt": "2026-11-26T01:20:47.541Z"
       }
     },
     {
@@ -700247,14 +700268,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:35.477Z",
+      "scrapedAt": "2026-11-26T01:19:28.366Z",
       "image": {
         "file": "assets/phones/oppo-reno-17-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 670508,
         "source": "https://cdn.beebom.com/mobile/oppo-reno-17-pro-front-back-1.png",
-        "fetchedAt": "2026-11-25T16:28:32.393Z"
+        "fetchedAt": "2026-11-26T01:20:53.776Z"
       }
     },
     {
@@ -709691,20 +709712,6 @@
             "value": "Adreno 722"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, ColorOS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "5 year(s) of Software updates and 6 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Call Summary, AI Camera, AI Eraser, AI HyperBoost, AI LinkBoost, AI Mind Space, AI Motion, AI Portrait, AI Portrait Glow, AI Recorder, AI Translate, AI VoiceScribe, Call Translator"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -709883,6 +709890,20 @@
                 "value": "Cinematic mode, Dual Video, EIS, HDR, OIS, Slow Motion, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, ColorOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "5 year(s) of Software updates and 6 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Call Summary, AI Camera, AI Eraser, AI HyperBoost, AI LinkBoost, AI Mind Space, AI Motion, AI Portrait, AI Portrait Glow, AI Recorder, AI Translate, AI VoiceScribe, Call Translator"
           }
         ],
         "Selfie Camera": [
@@ -710130,14 +710151,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:21.310Z",
+      "scrapedAt": "2026-11-26T01:19:43.140Z",
       "image": {
         "file": "assets/phones/oppo-reno15.png",
         "width": 1000,
         "height": 1000,
         "bytes": 903432,
         "source": "https://cdn.beebom.com/mobile/oppo-reno15-front-and-back2.png",
-        "fetchedAt": "2026-11-25T16:28:33.384Z"
+        "fetchedAt": "2026-11-26T01:20:54.771Z"
       }
     },
     {
@@ -717518,14 +717539,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:33.328Z",
+      "scrapedAt": "2026-11-26T01:18:26.833Z",
       "image": {
         "file": "assets/phones/oppo-reno16-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 714491,
         "source": "https://cdn.beebom.com/mobile/oppo-reno16-pro-front-back-1.png",
-        "fetchedAt": "2026-11-25T16:28:33.646Z"
+        "fetchedAt": "2026-11-26T01:20:55.848Z"
       }
     },
     {
@@ -737540,9 +737561,19 @@
         "amount": 12999,
         "text": "₹12,999"
       },
-      "score": 77,
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 12999,
+          "priceText": "₹12,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/poco-c81-sunset-gold-64-gb/p/itmd046653de9427?pid=MOBHMYWRFE7GZVJF&marketplace=FLIPKART&lid=LSTMOBHMYWRFE7GZVJFEI8O3R&pageUID=1777267852561"
+        }
+      ],
+      "score": 75,
       "rating": 3.7,
-      "marketStatus": null,
+      "marketStatus": "Upcoming",
       "highlights": {
         "Processor": "T7250",
         "Display": "6.9 inches",
@@ -738054,14 +738085,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T14:40:58.137Z",
+      "scrapedAt": "2026-11-26T01:19:49.485Z",
       "image": {
         "file": "assets/phones/poco-c81.png",
         "width": 1000,
         "height": 1000,
         "bytes": 620584,
         "source": "https://cdn.beebom.com/mobile/poco-c81-front-back.png",
-        "fetchedAt": "2026-11-14T16:21:14.646Z"
+        "fetchedAt": "2026-11-26T01:20:56.130Z"
       }
     },
     {
@@ -738629,9 +738660,19 @@
         "amount": 9999,
         "text": "₹9,999"
       },
-      "score": 70,
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 11999,
+          "priceText": "₹11,999",
+          "inStock": true,
+          "url": "https://www.flipkart.com/poco-c81x-crystal-black-64-gb/p/itmcc7b133522987?pid=MOBHMYWRXCQBZ7D2&lid=LSTMOBHMYWRXCQBZ7D2WUWSH4&marketplace=FLIPKART&q=POCO+C81x&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=73f8f42e-d0d1-474e-99ff-b39ed12c0725.MOBHMYWRXCQBZ7D2.SEARCH&ppt=None&ppn=None&ssid=j0cqoyts400000001777268954153&qH=918cfac53c9b16d2&ov_redirect=true"
+        }
+      ],
+      "score": 68,
       "rating": 3.9,
-      "marketStatus": null,
+      "marketStatus": "Upcoming",
       "highlights": {
         "Processor": "T7250",
         "Display": "6.88 inches",
@@ -739138,14 +739179,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T14:40:58.735Z",
+      "scrapedAt": "2026-11-26T01:19:50.727Z",
       "image": {
         "file": "assets/phones/poco-c81x.png",
         "width": 1000,
         "height": 1000,
         "bytes": 772334,
         "source": "https://cdn.beebom.com/mobile/poco-c81x-front-back.png",
-        "fetchedAt": "2026-11-14T16:21:15.275Z"
+        "fetchedAt": "2026-11-26T01:20:56.410Z"
       }
     },
     {
@@ -761096,9 +761137,10 @@
       "brand": "POCO",
       "price": {
         "currency": "₹",
-        "amount": 23990,
-        "text": "₹23,990"
+        "amount": 23399,
+        "text": "₹23,399"
       },
+      "stores": [],
       "score": null,
       "rating": null,
       "marketStatus": null,
@@ -761647,14 +761689,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T13:52:58.656Z",
+      "scrapedAt": "2026-11-26T01:19:48.044Z",
       "image": {
         "file": "assets/phones/poco-m8s-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 822782,
         "source": "https://cdn.beebom.com/mobile/poco-m8s-5g-front-and-back2.png",
-        "fetchedAt": "2026-11-14T13:55:30.398Z"
+        "fetchedAt": "2026-11-26T01:20:58.650Z"
       }
     },
     {
@@ -762269,14 +762311,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:05.999Z",
+      "scrapedAt": "2026-11-26T01:18:59.839Z",
       "image": {
         "file": "assets/phones/poco-m8x-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 744731,
         "source": "https://cdn.beebom.com/mobile/poco-m8x-5g-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:34.893Z"
+        "fetchedAt": "2026-11-26T01:20:58.908Z"
       }
     },
     {
@@ -770783,14 +770825,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:49.496Z",
+      "scrapedAt": "2026-11-26T01:19:41.874Z",
       "image": {
         "file": "assets/phones/poco-x7-pro-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1115498,
         "source": "https://cdn.beebom.com/mobile/poco-x7-pro-5g/poco-x7-pro-5g-front-and-back-1.png",
-        "fetchedAt": "2026-11-25T16:28:35.880Z"
+        "fetchedAt": "2026-11-26T01:20:59.189Z"
       }
     },
     {
@@ -770800,8 +770842,8 @@
       "brand": "POCO",
       "price": {
         "currency": "₹",
-        "amount": 27499,
-        "text": "₹27,499"
+        "amount": 27449,
+        "text": "₹27,449"
       },
       "stores": [
         {
@@ -770815,8 +770857,8 @@
         {
           "store": "Amazon",
           "key": "amazon-india",
-          "price": 27499,
-          "priceText": "₹27,499",
+          "price": 27449,
+          "priceText": "₹27,449",
           "inStock": true,
           "url": "https://www.amazon.in/POCO-Fiery-Orange-128-RAM/dp/B0HK3LNBTP/ref=sr_1_1?crid=34QTBGPLWPNMP&dib=eyJ2IjoiMSJ9.7IsZgFBQtCa6lQIRi2QvRCktDys1kR7DjGztbFxaLbytKnxwIejntlQEDWo69VXcDrmXM4s5f6jSGvO2Bf3pqtbEhewL7fx7xt_g0wCRwlP97mU9tKaCqxQH1fgc_KeJ8AB96weBdnW2lmey0en91J7tUjXs5gvdAwdE8oGsW2653euk5_uMvH-DUZppR6Sq0Z9hALQ_f-Lw72wAryCyakeqHmQp4t532FgGglpdfr0.TH0A-GH70N_Zq10UTh-fc-KnnLbTKa2RBH23lYW1ITY&dib_tag=se&keywords=poco+x8&qid=1795003792&sprefix=Poco+X8%2Caps%2C311&sr=8-1"
         }
@@ -771457,14 +771499,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:08.503Z",
+      "scrapedAt": "2026-11-26T01:19:01.133Z",
       "image": {
         "file": "assets/phones/poco-x8.png",
         "width": 1000,
         "height": 1000,
         "bytes": 757357,
         "source": "https://cdn.beebom.com/mobile/poco-x8-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:36.140Z"
+        "fetchedAt": "2026-11-26T01:21:00.188Z"
       }
     },
     {
@@ -771474,8 +771516,8 @@
       "brand": "POCO",
       "price": {
         "currency": "₹",
-        "amount": 33899,
-        "text": "₹33,899"
+        "amount": 33749,
+        "text": "₹33,749"
       },
       "stores": [
         {
@@ -771489,8 +771531,8 @@
         {
           "store": "Amazon",
           "key": "amazon-india",
-          "price": 33899,
-          "priceText": "₹33,899",
+          "price": 33749,
+          "priceText": "₹33,749",
           "inStock": true,
           "url": "https://www.amazon.in/POCO-Power-Black-128-RAM/dp/B0HK3RV9LT/ref=sr_1_2?crid=42BL5WKCS1BP&dib=eyJ2IjoiMSJ9.hZ7MDHeqy5mofr2nRwD1iVwMUrUcT_Cs9TA3VfRLx3v9yhST9kcs9rD4zbYdZPydQzBV-6EZ0eDh3ZqY6nYLJNwbP1ZKjL0MxP_vHE9tsWbzd7wq20K1nBImy6S5Ge5xpOZfHIqUiDFa7iAq9zb2WAS8GQ-YY8Em0RyRs8kaOcLK1xqRdYz18io6MhamWNiTlALRFAiYiILTlaEah9mWGZ5nByQbtjSlyJJ4t7Jw8Jg.qTN9yHhe4lv6c-JX7jMYG3VZXHHKeCFsI-B4iQyVey0&dib_tag=se&keywords=poco+x8+power+5g&qid=1795070116&sprefix=Poco+X8+Power+5G%2Caps%2C249&sr=8-2"
         }
@@ -772161,14 +772203,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:12.213Z",
+      "scrapedAt": "2026-11-26T01:19:04.826Z",
       "image": {
         "file": "assets/phones/poco-x8-power-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1040719,
         "source": "https://cdn.beebom.com/mobile/poco-x8-power-5g-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:36.400Z"
+        "fetchedAt": "2026-11-26T01:21:00.540Z"
       }
     },
     {
@@ -773151,20 +773193,6 @@
             "value": "Immortalis-G925"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, Poco HyperOS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "4 year(s) of Software updates and 6 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Beauty, AI Cutout, AI Dynamic Wallpapers, AI Image Enhancements, AI Image Expansion, AI Interpreter, AI Magic Eraser Pro, AI Reflection Remover, AI Search, AI Sky Replacement, AI Speech Recognition, AI Writing, Circle to Search with Google, Google Gemini, Xiaomi AI Creativity Assistant"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -773293,6 +773321,20 @@
                 "value": "Dual Video, gyro-EIS, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, Poco HyperOS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "4 year(s) of Software updates and 6 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Beauty, AI Cutout, AI Dynamic Wallpapers, AI Image Enhancements, AI Image Expansion, AI Interpreter, AI Magic Eraser Pro, AI Reflection Remover, AI Search, AI Sky Replacement, AI Speech Recognition, AI Writing, Circle to Search with Google, Google Gemini, Xiaomi AI Creativity Assistant"
           }
         ],
         "Selfie Camera": [
@@ -773536,14 +773578,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:18.482Z",
+      "scrapedAt": "2026-11-26T01:19:11.240Z",
       "image": {
         "file": "assets/phones/poco-x8-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 518593,
         "source": "https://cdn.beebom.com/mobile/poco-x8-pro-max-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:36.686Z"
+        "fetchedAt": "2026-11-26T01:21:01.522Z"
       }
     },
     {
@@ -827190,14 +827232,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:34.566Z",
+      "scrapedAt": "2026-11-26T01:18:28.084Z",
       "image": {
         "file": "assets/phones/realme-c81.png",
         "width": 1000,
         "height": 1000,
         "bytes": 947279,
         "source": "https://cdn.beebom.com/mobile/realme-c81-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:37.259Z"
+        "fetchedAt": "2026-11-26T01:21:02.565Z"
       }
     },
     {
@@ -827771,9 +827813,27 @@
         "amount": 15499,
         "text": "₹15,499,"
       },
-      "score": 63,
+      "stores": [
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 19898,
+          "priceText": "₹19,898",
+          "inStock": true,
+          "url": "https://www.flipkart.com/realme-c85-5g-parrot-purple-128-0-gb/p/itm460d45ea3b896?pid=MOBHHKPETGD7W2XZ&lid=LSTMOBHHKPETGD7W2XZ33GHZD&marketplace=FLIPKART&q=realme+c85&sattr%5B%5D=color&sattr%5B%5D=ram&st=color"
+        },
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 20999,
+          "priceText": "₹20,999",
+          "inStock": false,
+          "url": "https://www.amazon.in/realme-Smartphone-6-8inch-MediaTek-Dimensity/dp/B0G2BBG2G9/ref=sr_1_1?crid=32I0GT0HIZAE3&dib=eyJ2IjoiMSJ9.xCrUcAmBwLAjzCDkIZFUDpERNIcyu1bHlBss3xjT4XjvNI5o8IP5D8qOHoqqHuQUCPsM8e4svVPIS8nKMAZZmrk_o8E6OhEmZ-ZU8fsBkpcn2BkPui4DdLrw9mYi44uiDi6SHTXrbHtRZhrH3Rz5cifK5KiH8FVMZA3ir7Lpg5hYYdnPJjnKxEAoxitAGiIyfe0cOqZSueWB4ayOiFXN3A_QuKGnt-WhTwlNHx8XOkY.S0Kusx3SSfgC2nTarD0w2vzYFf2zsahAm-A_p7hT8ok&dib_tag=se&keywords=realme%2Bc85%2B5g&qid=1767859209&sprefix=Realme%2BC85%2Caps%2C415&sr=8-1&th=1"
+        }
+      ],
+      "score": 75,
       "rating": 4.3,
-      "marketStatus": null,
+      "marketStatus": "Upcoming",
       "highlights": {
         "Processor": "Dimensity 6300",
         "Display": "6.8 inches",
@@ -827948,7 +828008,7 @@
           },
           {
             "label": "Ports",
-            "value": "USB Type-C, OTG, USB Type-C (bottom)"
+            "value": "USB Type-C, OTG"
           },
           {
             "label": "IP Rating",
@@ -828056,7 +828116,7 @@
           },
           {
             "label": "Features",
-            "value": "Cinematic Mode, Dual View, HDR, HIGH-RES, panorama, Portrait mode, Pro mode, Slow Motion, Street Photography, TILT-SHIFT, Time Lapse, Underwater Photography",
+            "value": "HDR, HIGH-RES, panorama, Portrait mode, Pro mode, Street Photography, TILT-SHIFT, Underwater Photography",
             "children": [
               {
                 "label": "Auto Focus Type",
@@ -828076,7 +828136,7 @@
               },
               {
                 "label": "Features",
-                "value": "Cinematic Mode, Dual View, HDR, HIGH-RES, panorama, Portrait mode, Pro mode, Slow Motion, Street Photography, TILT-SHIFT, Time Lapse, Underwater Photography"
+                "value": "HDR, HIGH-RES, panorama, Portrait mode, Pro mode, Street Photography, TILT-SHIFT, Underwater Photography"
               }
             ]
           },
@@ -828136,7 +828196,7 @@
           },
           {
             "label": "Features",
-            "value": "Dual--view Video, Face unlock, Night mode, panorama, Portrait Mode, Screen flash, Time Lapse",
+            "value": "Face unlock, Night mode, panorama, Portrait Mode, Screen flash",
             "children": [
               {
                 "label": "Auto Focus Type",
@@ -828144,13 +828204,13 @@
               },
               {
                 "label": "Features",
-                "value": "Dual--view Video, Face unlock, Night mode, panorama, Portrait Mode, Screen flash, Time Lapse"
+                "value": "Face unlock, Night mode, panorama, Portrait Mode, Screen flash"
               }
             ]
           },
           {
             "label": "Video",
-            "value": "Time Lapse",
+            "value": "Dual Video, Time Lapse",
             "children": [
               {
                 "label": "Video Recording",
@@ -828162,7 +828222,7 @@
               },
               {
                 "label": "Video Features",
-                "value": "Time Lapse"
+                "value": "Dual Video, Time Lapse"
               }
             ]
           }
@@ -828340,14 +828400,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T14:43:08.460Z",
+      "scrapedAt": "2026-11-26T01:18:57.362Z",
       "image": {
         "file": "assets/phones/realme-c85.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1019471,
         "source": "https://cdn.beebom.com/mobile/realme-c85-front-back.png",
-        "fetchedAt": "2026-11-14T16:23:28.198Z"
+        "fetchedAt": "2026-11-26T01:21:04.907Z"
       }
     },
     {
@@ -833954,14 +834014,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:39.513Z",
+      "scrapedAt": "2026-11-26T01:18:33.001Z",
       "image": {
         "file": "assets/phones/realme-gt-8.png",
         "width": 1000,
         "height": 1000,
         "bytes": 410197,
         "source": "https://cdn.beebom.com/mobile/realme-gt-8-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:38.252Z"
+        "fetchedAt": "2026-11-26T01:21:05.926Z"
       }
     },
     {
@@ -846272,14 +846332,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:03.485Z",
+      "scrapedAt": "2026-11-26T01:18:56.115Z",
       "image": {
         "file": "assets/phones/realme-narzo-100x-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1304435,
         "source": "https://cdn.beebom.com/mobile/realme-narzo-100x-5g-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:38.514Z"
+        "fetchedAt": "2026-11-26T01:21:06.225Z"
       }
     },
     {
@@ -895634,14 +895694,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:39.063Z",
+      "scrapedAt": "2026-11-26T01:19:31.990Z",
       "image": {
         "file": "assets/phones/redmagic-12-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 689739,
         "source": "https://cdn.beebom.com/mobile/redmagic-12-pro-front-back-side.png",
-        "fetchedAt": "2026-11-25T16:28:40.028Z"
+        "fetchedAt": "2026-11-26T01:21:07.235Z"
       }
     },
     {
@@ -925356,12 +925416,30 @@
       "brand": "Redmi",
       "price": {
         "currency": "₹",
-        "amount": 12199,
-        "text": "₹12,199"
+        "amount": 12230,
+        "text": "₹12,230"
       },
-      "score": 64,
+      "stores": [
+        {
+          "store": "Amazon",
+          "key": "amazon-india",
+          "price": 12230,
+          "priceText": "₹12,230",
+          "inStock": true,
+          "url": "https://www.amazon.in/Storage-17-48cm-Display-5300mAh-Battery/dp/B0GVFQD1JK/ref=sr_1_5?dib=eyJ2IjoiMSJ9.egcn0-rHIA7ZH4ZZJ8Pv96bBY7fnVYkJTugKddZY9Nb2NOucXihtFfN92zmC6_ZK4uZZaUqsyAWhSJMSEM9cwBqPeKWuS-hn6yGM9W6MD1l_j_7Y7fQKJzNr8jkmbx5j0fJTQxHycWU8eZdJ-jXZw5vTTFrnSBffjBM_w5J9qgNHCaxb5rYzFHOFWte-2xkR_HxVI18h0Pneu0HbiHBTEHY_oy1tfF5Qkwloof4plgI.d8jXsS3MJamxL8entI5vySQdxNZRGDwdgGbCPo3jVaM&dib_tag=se&keywords=redmi%2Ba7&qid=1777015369&sr=8-5&th=1"
+        },
+        {
+          "store": "Flipkart",
+          "key": "flipkart",
+          "price": 12995,
+          "priceText": "₹12,995",
+          "inStock": true,
+          "url": "https://www.flipkart.com/redmi-a7-blue-64-gb/p/itmc397667ca4200?pid=MOBHMYVZRCGCFBKE&lid=LSTMOBHMYVZRCGCFBKEP5NNQZ&marketplace=FLIPKART&sattr%5B%5D=color&pageUID=1777015471651"
+        }
+      ],
+      "score": 65,
       "rating": null,
-      "marketStatus": null,
+      "marketStatus": "Upcoming",
       "highlights": {
         "Processor": "T7250",
         "Display": "6.88 inches",
@@ -925461,7 +925539,7 @@
           },
           {
             "label": "Resolution",
-            "value": "HD+, 720 x 1640 pixels, 20:9 (260 ppi), 8-bit 16.7 Million Colours, 600 nits(Peak Brightness), TUV Rheinland certification",
+            "value": "HD+, 720 x 1640 pixels, 20:9 (260 ppi), 8-bit 16.7 Million Colours, 600 nits(Peak Brightness), 450 nits(Typical Brightness), TUV Rheinland certification, 1500:1 Contrast Ratio",
             "children": [
               {
                 "label": "Display Resolution",
@@ -925484,6 +925562,10 @@
                 "value": "260ppi"
               },
               {
+                "label": "Contrast Ratio",
+                "value": "1500:1"
+              },
+              {
                 "label": "Display Bit Rate",
                 "value": "8-bit"
               },
@@ -925494,6 +925576,10 @@
               {
                 "label": "Eye Protection",
                 "value": "TUV Rheinland certification"
+              },
+              {
+                "label": "Typical Brightness",
+                "value": "450nits"
               },
               {
                 "label": "Peak Brightness",
@@ -925524,12 +925610,8 @@
             "value": "Plastic Frame"
           },
           {
-            "label": "Build Quality",
-            "value": "Plastic Material"
-          },
-          {
             "label": "Ports",
-            "value": "USB Type-C, 3.5mm Headphone Jack"
+            "value": "USB Type-C 2.0, 3.5mm Headphone Jack, OTG"
           },
           {
             "label": "IP Rating",
@@ -925595,7 +925677,7 @@
         "Main Camera": [
           {
             "label": "Main Camera",
-            "value": "13 MP, f/2.2, (Wide-angle)",
+            "value": "13 MP, f/2.2, (Wide-angle), 82.3°, 1.12 µm, 1/3.06\"",
             "children": [
               {
                 "label": "Main Camera Megapixel",
@@ -925608,12 +925690,24 @@
               {
                 "label": "Main Camera Aperture",
                 "value": "f/2.2"
+              },
+              {
+                "label": "Main Camera Field of View",
+                "value": "82.3°"
+              },
+              {
+                "label": "Main Camera Sensor Size",
+                "value": "1/3.06\""
+              },
+              {
+                "label": "Main Camera Pixel Size",
+                "value": "1.12 µm"
               }
             ]
           },
           {
             "label": "Features",
-            "value": "HDR, LED-Flash",
+            "value": "Continuous Shooting, Filter, HDR, LED-Flash, Night, Portrait mode, Timer, Voice shutter, Watermark",
             "children": [
               {
                 "label": "Auto Focus Type",
@@ -925624,22 +925718,30 @@
                 "value": "SDR recording"
               },
               {
+                "label": "Max Zoom Supported",
+                "value": "2-10X"
+              },
+              {
                 "label": "Features",
-                "value": "HDR, LED-Flash"
+                "value": "Continuous Shooting, Filter, HDR, LED-Flash, Night, Portrait mode, Timer, Voice shutter, Watermark"
               }
             ]
           },
           {
             "label": "Video",
-            "value": "1080p@30fps",
+            "value": "1080p@30fps, 720p@30fps, Time-lapse Video",
             "children": [
               {
                 "label": "Video Recording",
-                "value": "1080p@30fps"
+                "value": "1080p@30fps, 720p@30fps"
               },
               {
                 "label": "Log Video Recording Support",
                 "value": "No"
+              },
+              {
+                "label": "Video Features",
+                "value": "Time-lapse Video"
               }
             ]
           }
@@ -925647,7 +925749,7 @@
         "Selfie Camera": [
           {
             "label": "Front Camera",
-            "value": "8 MP, f/2.0, (Wide)",
+            "value": "8 MP, f/2.0, (Wide), 1.12 µm, 1/4\"",
             "children": [
               {
                 "label": "Front Camera #1 Megapixel",
@@ -925660,12 +925762,20 @@
               {
                 "label": "Front Camera #1 Aperture",
                 "value": "f/2.0"
+              },
+              {
+                "label": "Front Camera #1 Sensor Size",
+                "value": "1/4\""
+              },
+              {
+                "label": "Front Camera #1 Pixel Size",
+                "value": "1.12 µm"
               }
             ]
           },
           {
             "label": "Features",
-            "value": "Face unlock, Fixed Focus, HDR Photos",
+            "value": "Beauty Mode, Face unlock, Filters, HDR Photos, Portrait Mode, Screen flash, Timer, Voice Shutter",
             "children": [
               {
                 "label": "Auto Focus Type",
@@ -925673,17 +925783,17 @@
               },
               {
                 "label": "Features",
-                "value": "Face unlock, Fixed Focus, HDR Photos"
+                "value": "Beauty Mode, Face unlock, Filters, HDR Photos, Portrait Mode, Screen flash, Timer, Voice Shutter"
               }
             ]
           },
           {
             "label": "Video",
-            "value": "1080p@30 fps",
+            "value": "Time Lapse",
             "children": [
               {
                 "label": "Video Recording",
-                "value": "1080@30fps"
+                "value": "1080@30fps, 720p@30fps"
               },
               {
                 "label": "HDR Recording Support",
@@ -925691,7 +925801,7 @@
               },
               {
                 "label": "Video Features",
-                "value": "1080p@30 fps"
+                "value": "Time Lapse"
               }
             ]
           }
@@ -925745,7 +925855,7 @@
         "Memory": [
           {
             "label": "Card Slot",
-            "value": "microSDXC (dedicated slot)"
+            "value": "MicroSD (Up to 2 TB)"
           },
           {
             "label": "Storage",
@@ -925805,7 +925915,7 @@
         "Connectivity": [
           {
             "label": "WLAN",
-            "value": "Wi-Fi 5 802.11 a/b/g/n/ac, Dual Band",
+            "value": "Wi-Fi 5 802.11 a/b/g/n/ac, Hotspot, Dual Band",
             "children": [
               {
                 "label": "Wi-Fi Version",
@@ -925814,6 +925924,10 @@
               {
                 "label": "Wi-Fi Standards",
                 "value": "Wi-Fi 5 802.11 a/b/g/n/ac"
+              },
+              {
+                "label": "Wi-Fi Features",
+                "value": "Hotspot"
               }
             ]
           },
@@ -925861,14 +925975,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-14T14:40:59.348Z",
+      "scrapedAt": "2026-11-26T01:19:51.994Z",
       "image": {
         "file": "assets/phones/redmi-a7.png",
         "width": 1000,
         "height": 1000,
         "bytes": 677737,
         "source": "https://cdn.beebom.com/mobile/redmi-a7-front-back.png",
-        "fetchedAt": "2026-11-14T16:26:10.841Z"
+        "fetchedAt": "2026-11-26T01:21:09.359Z"
       }
     },
     {
@@ -949519,14 +949633,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:40.259Z",
+      "scrapedAt": "2026-11-26T01:19:33.139Z",
       "image": {
         "file": "assets/phones/redmi-m100-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 761575,
         "source": "https://cdn.beebom.com/mobile/redmi-m100-pro-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:41.014Z"
+        "fetchedAt": "2026-11-26T01:21:10.466Z"
       }
     },
     {
@@ -973937,8 +974051,8 @@
       "brand": "Redmi",
       "price": {
         "currency": "₹",
-        "amount": 49298,
-        "text": "₹49,298"
+        "amount": 49297,
+        "text": "₹49,297"
       },
       "stores": [
         {
@@ -973952,8 +974066,8 @@
         {
           "store": "Flipkart",
           "key": "flipkart",
-          "price": 49298,
-          "priceText": "₹49,298",
+          "price": 49297,
+          "priceText": "₹49,297",
           "inStock": true,
           "url": "https://www.flipkart.com/redmi-note-17-pro-max-5g-stealth-black-256-gb/p/itm68bf0869eb4ab?pid=MOBHRGHCGFEUD9JJ&marketplace=FLIPKART&lid=LSTMOBHRGHCGFEUD9JJWQVT73&pageUID=1793099959890"
         }
@@ -974636,14 +974750,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:19.767Z",
+      "scrapedAt": "2026-11-26T01:19:12.462Z",
       "image": {
         "file": "assets/phones/redmi-note-17-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 405979,
         "source": "https://cdn.beebom.com/mobile/redmi-note-17-pro-max-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:41.280Z"
+        "fetchedAt": "2026-11-26T01:21:10.786Z"
       }
     },
     {
@@ -983255,16 +983369,6 @@
             "value": "Mali-G57 MC2"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, Xiaomi HyperOS 3"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Camera"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -983315,6 +983419,16 @@
                 "value": "No"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, Xiaomi HyperOS 3"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Camera"
           }
         ],
         "Selfie Camera": [
@@ -983508,14 +983622,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:33.542Z",
+      "scrapedAt": "2026-11-26T01:19:26.029Z",
       "image": {
         "file": "assets/phones/redmi-r80-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1033106,
         "source": "https://cdn.beebom.com/mobile/redmi-r80-5g-black-front-and-back.png",
-        "fetchedAt": "2026-11-25T16:28:43.652Z"
+        "fetchedAt": "2026-11-26T01:21:11.817Z"
       }
     },
     {
@@ -996669,20 +996783,6 @@
             "value": "Mali-G57 MC2"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 17, One UI"
-          },
-          {
-            "label": "Software Updates",
-            "value": "6 year(s) of Software and Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "Circle to Search with Google"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -996775,6 +996875,20 @@
                 "value": "Slow Motion"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 17, One UI"
+          },
+          {
+            "label": "Software Updates",
+            "value": "6 year(s) of Software and Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "Circle to Search with Google"
           }
         ],
         "Selfie Camera": [
@@ -996998,14 +997112,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:41.946Z",
+      "scrapedAt": "2026-11-26T01:18:39.023Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-a08.png",
         "width": 1000,
         "height": 1000,
         "bytes": 366500,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-a08-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:43.921Z"
+        "fetchedAt": "2026-11-26T01:21:12.074Z"
       }
     },
     {
@@ -1046205,14 +1046319,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:47.229Z",
+      "scrapedAt": "2026-11-26T01:18:44.083Z",
       "image": {
         "file": "assets/phones/samsung-galaxy-f70.png",
         "width": 1000,
         "height": 1000,
         "bytes": 808843,
         "source": "https://cdn.beebom.com/mobile/samsung-galaxy-f70-front-back-2.png",
-        "fetchedAt": "2026-11-25T16:28:46.428Z"
+        "fetchedAt": "2026-11-26T01:21:13.086Z"
       }
     },
     {
@@ -1121543,20 +1121657,6 @@
             "value": "Adreno 840"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 17, One UI"
-          },
-          {
-            "label": "Software Updates",
-            "value": "7 year(s) of Software and Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Image Editing, AI Image Signal Processor, AI Photo Editing, Galaxy AI, Google Gemini, Photo assist"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -1121735,6 +1121835,20 @@
                 "value": "10-bit HDR, gyro-EIS, HDR10+, OIS, Slow Motion"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 17, One UI"
+          },
+          {
+            "label": "Software Updates",
+            "value": "7 year(s) of Software and Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Image Editing, AI Image Signal Processor, AI Photo Editing, Galaxy AI, Google Gemini, Photo assist"
           }
         ],
         "Selfie Camera": [
@@ -1122024,14 +1122138,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:41.874Z",
+      "scrapedAt": "2026-11-26T01:19:35.573Z",
       "image": {
         "file": "assets/phones/samsung-w27.png",
         "width": 1000,
         "height": 1000,
         "bytes": 876099,
         "source": "https://cdn.beebom.com/mobile/samsung-w27-front-and-back-2.png",
-        "fetchedAt": "2026-11-25T16:28:46.689Z"
+        "fetchedAt": "2026-11-26T01:21:14.210Z"
       }
     },
     {
@@ -1219873,14 +1219987,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:49.529Z",
+      "scrapedAt": "2026-11-26T01:18:46.526Z",
       "image": {
         "file": "assets/phones/vivo-s2-fe.png",
         "width": 1000,
         "height": 1000,
         "bytes": 630222,
         "source": "https://cdn.beebom.com/mobile/vivo-s2-fe-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:46.957Z"
+        "fetchedAt": "2026-11-26T01:21:14.489Z"
       }
     },
     {
@@ -1237738,14 +1237852,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:17.448Z",
+      "scrapedAt": "2026-11-26T01:18:14.429Z",
       "image": {
         "file": "assets/phones/vivo-t4x-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 604227,
         "source": "https://cdn.beebom.com/mobile/vivo-t4x-front-and-back-6.png",
-        "fetchedAt": "2026-11-25T16:28:47.240Z"
+        "fetchedAt": "2026-11-26T01:21:14.829Z"
       }
     },
     {
@@ -1238589,20 +1238703,6 @@
             "value": "Mali-G625 MC2"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 16, Origin OS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "3 year(s) of Software updates and 5 year(s) of Security updates"
-          },
-          {
-            "label": "AI Features",
-            "value": "AI Captions, AI Creation, AI Eraser 2.0, AI Transcript Assist, AI UHD, Circle to Search, Vivo DocMaster"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -1238719,6 +1238819,20 @@
                 "value": "gyro-EIS, OIS, Time-lapse Video"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 16, Origin OS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "3 year(s) of Software updates and 5 year(s) of Security updates"
+          },
+          {
+            "label": "AI Features",
+            "value": "AI Captions, AI Creation, AI Eraser 2.0, AI Transcript Assist, AI UHD, Circle to Search, Vivo DocMaster"
           }
         ],
         "Selfie Camera": [
@@ -1238942,14 +1239056,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:44.350Z",
+      "scrapedAt": "2026-11-26T01:19:38.023Z",
       "image": {
         "file": "assets/phones/vivo-t5-5g.png",
         "width": 1000,
         "height": 1000,
         "bytes": 555831,
         "source": "https://cdn.beebom.com/mobile/vivo-t5-5g-front-back-1.png",
-        "fetchedAt": "2026-11-25T16:28:47.511Z"
+        "fetchedAt": "2026-11-26T01:21:15.090Z"
       }
     },
     {
@@ -1241317,14 +1241431,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:11.005Z",
+      "scrapedAt": "2026-11-26T01:19:03.571Z",
       "image": {
         "file": "assets/phones/vivo-t5x.png",
         "width": 1000,
         "height": 1000,
         "bytes": 672428,
         "source": "https://cdn.beebom.com/mobile/vivo-t5x-back-front.png",
-        "fetchedAt": "2026-11-25T16:28:48.769Z"
+        "fetchedAt": "2026-11-26T01:21:16.073Z"
       }
     },
     {
@@ -1268185,14 +1268299,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:18.742Z",
+      "scrapedAt": "2026-11-26T01:18:15.751Z",
       "image": {
         "file": "assets/phones/vivo-v80.png",
         "width": 1000,
         "height": 1000,
         "bytes": 935108,
         "source": "https://cdn.beebom.com/mobile/vivo-v80-front-back-2.png",
-        "fetchedAt": "2026-11-25T16:28:49.038Z"
+        "fetchedAt": "2026-11-26T01:21:16.352Z"
       }
     },
     {
@@ -1273293,14 +1273407,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:50.866Z",
+      "scrapedAt": "2026-11-26T01:18:47.490Z",
       "image": {
         "file": "assets/phones/vivo-x-fold-6.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1630004,
         "source": "https://cdn.beebom.com/mobile/vivo-x-fold-6-back-1.png",
-        "fetchedAt": "2026-11-25T16:28:56.328Z"
+        "fetchedAt": "2026-11-26T01:21:20.451Z"
       }
     },
     {
@@ -1278648,14 +1278762,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:48.181Z",
+      "scrapedAt": "2026-11-26T01:19:40.565Z",
       "image": {
         "file": "assets/phones/vivo-x200.png",
         "width": 1000,
         "height": 1000,
         "bytes": 815942,
         "source": "https://cdn.beebom.com/mobile/vivo-x200/vivo-x200-camera-front-back-design-night-black-.png",
-        "fetchedAt": "2026-11-25T16:28:56.588Z"
+        "fetchedAt": "2026-11-26T01:21:22.659Z"
       }
     },
     {
@@ -1282716,14 +1282830,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:26.152Z",
+      "scrapedAt": "2026-11-26T01:19:18.839Z",
       "image": {
         "file": "assets/phones/vivo-x200t.png",
         "width": 1000,
         "height": 1000,
         "bytes": 624155,
         "source": "https://cdn.beebom.com/mobile/vivo-x200t-light-purple-front-and-back.png",
-        "fetchedAt": "2026-11-25T16:28:56.871Z"
+        "fetchedAt": "2026-11-26T01:21:22.926Z"
       }
     },
     {
@@ -1289983,11 +1290097,11 @@
       "brand": "Vivo",
       "price": {
         "currency": "₹",
-        "amount": 78999,
-        "text": "₹78,999"
+        "amount": 119999,
+        "text": "₹1,19,999"
       },
       "stores": [],
-      "score": null,
+      "score": 81,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1290018,7 +1290132,7 @@
           },
           {
             "label": "Launch Price",
-            "value": "₹78,999"
+            "value": "₹1,19,999"
           }
         ],
         "Display": [
@@ -1290213,16 +1290327,6 @@
             "value": "Mali-G1-Ultra MC12"
           }
         ],
-        "Operating System": [
-          {
-            "label": "Operating System",
-            "value": "Android 17, Origin OS"
-          },
-          {
-            "label": "Software Updates",
-            "value": "5 year(s) of Software updates and 7 year(s) of Security updates"
-          }
-        ],
         "Main Camera": [
           {
             "label": "Main Camera",
@@ -1290397,6 +1290501,16 @@
                 "value": "10-bit Log, gyro-EIS, HDR, Slow Motion"
               }
             ]
+          }
+        ],
+        "Operating System": [
+          {
+            "label": "Operating System",
+            "value": "Android 17, Origin OS"
+          },
+          {
+            "label": "Software Updates",
+            "value": "5 year(s) of Software updates and 7 year(s) of Security updates"
           }
         ],
         "Selfie Camera": [
@@ -1290648,14 +1290762,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:24.924Z",
+      "scrapedAt": "2026-11-26T01:18:34.194Z",
       "image": {
         "file": "assets/phones/vivo-x500.png",
         "width": 1000,
         "height": 1000,
         "bytes": 584798,
         "source": "https://cdn.beebom.com/mobile/vivo-X500-front-back-1.png",
-        "fetchedAt": "2026-11-25T16:28:58.904Z"
+        "fetchedAt": "2026-11-26T01:21:24.988Z"
       }
     },
     {
@@ -1290665,11 +1290779,11 @@
       "brand": "Vivo",
       "price": {
         "currency": "₹",
-        "amount": 92999,
-        "text": "₹92,999"
+        "amount": 149999,
+        "text": "₹1,49,999"
       },
       "stores": [],
-      "score": null,
+      "score": 88,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1290700,7 +1290814,7 @@
           },
           {
             "label": "Launch Price",
-            "value": "₹92,999"
+            "value": "₹1,49,999"
           }
         ],
         "Display": [
@@ -1291334,14 +1291448,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:26.106Z",
+      "scrapedAt": "2026-11-26T01:18:35.508Z",
       "image": {
         "file": "assets/phones/vivo-x500-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 795074,
         "source": "https://cdn.beebom.com/mobile/vivo-x500-pro-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:59.165Z"
+        "fetchedAt": "2026-11-26T01:21:25.254Z"
       }
     },
     {
@@ -1291351,11 +1291465,11 @@
       "brand": "Vivo",
       "price": {
         "currency": "₹",
-        "amount": 99999,
-        "text": "₹99,999"
+        "amount": 164999,
+        "text": "₹1,64,999"
       },
       "stores": [],
-      "score": null,
+      "score": 90,
       "rating": null,
       "marketStatus": "Upcoming",
       "highlights": {
@@ -1291386,7 +1291500,7 @@
           },
           {
             "label": "Launch Price",
-            "value": "₹99,999"
+            "value": "₹1,64,999"
           }
         ],
         "Display": [
@@ -1292020,14 +1292134,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:27.354Z",
+      "scrapedAt": "2026-11-26T01:18:36.672Z",
       "image": {
         "file": "assets/phones/vivo-x500-pro-max.png",
         "width": 1000,
         "height": 1000,
         "bytes": 564810,
         "source": "https://cdn.beebom.com/mobile/vivo-x500-pro-max-front-back-side.png",
-        "fetchedAt": "2026-11-25T16:28:59.443Z"
+        "fetchedAt": "2026-11-26T01:21:25.638Z"
       }
     },
     {
@@ -1367465,14 +1367579,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:27:37.907Z",
+      "scrapedAt": "2026-11-26T01:19:30.734Z",
       "image": {
         "file": "assets/phones/vivo-y6k.png",
         "width": 1000,
         "height": 1000,
         "bytes": 754821,
         "source": "https://cdn.beebom.com/mobile/vivo-y6k-front-back.png",
-        "fetchedAt": "2026-11-25T16:28:59.723Z"
+        "fetchedAt": "2026-11-26T01:21:26.645Z"
       }
     },
     {
@@ -1408839,14 +1408953,14 @@
           }
         ]
       },
-      "scrapedAt": "2026-11-25T16:26:29.739Z",
+      "scrapedAt": "2026-11-26T01:18:23.157Z",
       "image": {
         "file": "assets/phones/xiaomi-18-pro.png",
         "width": 1000,
         "height": 1000,
         "bytes": 1017937,
         "source": "https://cdn.beebom.com/mobile/xiaomi-18-pro-transparent-edition-front-and-back.png",
-        "fetchedAt": "2026-11-25T16:29:02.904Z"
+        "fetchedAt": "2026-11-26T01:21:26.904Z"
       }
     },
     {
@@ -1452992,7 +1453106,7 @@
     }
   ],
   "imageStats": {
-    "generatedAt": "2026-11-25T16:29:02.904Z",
+    "generatedAt": "2026-11-26T01:21:26.904Z",
     "count": 2533,
     "minWidth": 497,
     "maxWidth": 2000
